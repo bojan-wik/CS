@@ -1,0 +1,94 @@
+{
+  "main": {
+    "id": "4c18f0e0aa13dfc7",
+    "type": "split",
+    "children": [
+      {
+        "id": "98f40ea7619a5968",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Boilerplate code.md",
+            "mode": "preview"
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "32050b5ab414feff",
+    "type": "split",
+    "children": [
+      {
+        "id": "b50c166dd8300ad4",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "02cec92ffef052a1",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "746c637f4ec3862b",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 233
+  },
+  "right": {
+    "id": "9f89890f9111ea07",
+    "type": "split",
+    "children": [
+      {
+        "id": "da801cfaa90b48f0",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "879a811b4c0799f5",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Boilerplate code.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "98f40ea7619a5968",
+  "lastOpenFiles": [
+    "Boilerplate code.md",
+    "Project Lombok.md"
+  ]
+}
