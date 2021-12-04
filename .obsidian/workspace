@@ -9,8 +9,8 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Boilerplate code.md",
-            "mode": "preview"
+            "file": "test1.md",
+            "mode": "source"
           }
         }
       }
@@ -68,7 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Boilerplate code.md",
+                "file": "test1.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -88,8 +88,8 @@
   },
   "active": "98f40ea7619a5968",
   "lastOpenFiles": [
+    "test1.md",
     "Boilerplate code.md",
-    "Project Lombok.md",
-    "test.md"
+    "Project Lombok.md"
   ]
 }
