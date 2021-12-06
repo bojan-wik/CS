@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Allure report.md",
+            "file": "Method Chaining.md",
             "mode": "source"
           }
         }
@@ -68,7 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Allure report.md",
+                "file": "Method Chaining.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -88,6 +88,7 @@
   },
   "active": "98f40ea7619a5968",
   "lastOpenFiles": [
+    "Method Chaining.md",
     "Allure report.md",
     "Enum in Java.md",
     "Boilerplate code.md",
