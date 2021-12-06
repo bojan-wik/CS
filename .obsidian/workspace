@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Enum in Java.md",
+            "file": "Allure report.md",
             "mode": "source"
           }
         }
@@ -68,7 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Enum in Java.md",
+                "file": "Allure report.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -88,9 +88,10 @@
   },
   "active": "98f40ea7619a5968",
   "lastOpenFiles": [
+    "Allure report.md",
     "Enum in Java.md",
     "Boilerplate code.md",
-    "Project Lombok.md",
-    "test.md"
+    "test.md",
+    "Project Lombok.md"
   ]
 }
