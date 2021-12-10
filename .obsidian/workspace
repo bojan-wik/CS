@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Method Chaining.md",
+            "file": "0. Markdown Cheat Sheet.md",
             "mode": "source"
           }
         }
@@ -68,7 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Method Chaining.md",
+                "file": "0. Markdown Cheat Sheet.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -88,9 +88,10 @@
   },
   "active": "98f40ea7619a5968",
   "lastOpenFiles": [
+    "0. Markdown Cheat Sheet.md",
+    "0. Do obczajenia.md",
     "Method Chaining.md",
     "Allure report.md",
-    "test.md",
     "Boilerplate code.md",
     "Project Lombok.md",
     "Enum in Java.md"
