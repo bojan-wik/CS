@@ -8,6 +8,10 @@ Dobrze zaimplementowane Test Data Factory pozwala na generowanie i optymalne zar
 
 ## Implementacja:
 1. Stworzenie klasy do modelowania danych, których potrzebujemy w teście
+2. Stworzenie  [[builder class]]
+3. Stworzenie [[factory class]] do konsumowania danych
+4. Zmodyfikowanie klasy, aby generowała dynamiczne dane
+5. Użycie [[factory class]] w teście
 
 ---
 http://www.eliasnogueira.com/test-data-factory-why-and-how-to-use/
