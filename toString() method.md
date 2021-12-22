@@ -1,4 +1,5 @@
 # toString() method
+#java 
 
 Metoda toString() jest użyteczna w momencie, kiedy chcemy przedstawić jakiś obiekt jako String.
 

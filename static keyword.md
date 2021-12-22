@@ -1,4 +1,5 @@
 # static keyword
+#java 
 
 Keyword *static* to [[non-access modifier]] w Javie, którego możemy używać dla:
 1. [[variable]]
