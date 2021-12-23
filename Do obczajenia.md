@@ -7,10 +7,6 @@
 * https://www.faesel.com/blog/why-every-developer-needs-to-use-obsidian
 * https://github.com/eliasnogueira/selenium-java-lean-test-architecture 
 
-### InteliJJ debugging
-* https://www.youtube.com/watch?v=HBlKsk5npWY
-* https://www.youtube.com/watch?v=59RC8gVPlvk
-
 ## IT-related
 * [The Art of Code - Dylan Beattie](https://www.youtube.com/watch?v=6avJHaC3C2U)
 
