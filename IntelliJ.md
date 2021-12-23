@@ -1,5 +1,8 @@
 # IntelliJ
 
+Zakomentowanie/odkomentowanie bloku kodu
+>crtl + shift + /
+
 Wyszukiwanie we wszystkich plikach w projekcie
 >ctrl + shift + f
 
