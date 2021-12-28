@@ -32,9 +32,12 @@ W przypadku kiedy w bieżącej linii kodu mam więcej niż jedno wywołanie meto
 
 ![[Pasted image 20211228151252.png]]
 
+**Evaluate expression** - dzięki tej opcji mogę dokonywać ewaluacji valuesów, których nie ma w kodzie źródłowym
+
+![[Pasted image 20211228152713.png]]
 
 ---
-https://www.youtube.com/watch?v=59RC8gVPlvk (14:00)
+https://www.youtube.com/watch?v=59RC8gVPlvk (33:00)
 https://www.youtube.com/watch?v=HBlKsk5npWY
 
 1. Breakpoints
