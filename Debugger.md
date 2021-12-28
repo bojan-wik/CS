@@ -1,7 +1,5 @@
 # Debugger
 
-https://www.youtube.com/watch?v=59RC8gVPlvk (14:00)
-
 W czym może pomóc debugowanie?
 * znajdowanie i naprawianie bugów
 * analiza kodu - jak chcę zrozumieć jakiś fragment kodu, mogę analizować go w głowie, albo odpalić debuggera i zobaczyć linijka po linijce jak działa
@@ -30,6 +28,13 @@ W przypadku kiedy w bieżącej linii kodu mam więcej niż jedno wywołanie meto
 
 **Run to Cursor** - jak nie chce mi się ustawiać breakpoints to mogę kliknąć na linii na której ma się zatrzymać egzekucja kodu i kliknąć opcję Run to Cursor.
 
+**Quick evaluate** - można dokonać ewaluacji pewnych działań w locie. Wciskam klawisz alt i klikam na część kodu, którą chcę zewaluować
+
+![[Pasted image 20211228151252.png]]
+
+
+---
+https://www.youtube.com/watch?v=59RC8gVPlvk (14:00)
 https://www.youtube.com/watch?v=HBlKsk5npWY
 
 1. Breakpoints
