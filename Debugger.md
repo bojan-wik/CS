@@ -38,6 +38,7 @@ W przypadku kiedy w bieżącej linii kodu mam więcej niż jedno wywołanie meto
 
 ---
 https://www.youtube.com/watch?v=59RC8gVPlvk (33:00)
+https://blog.jetbrains.com/idea/2020/05/debugger-basics-in-intellij-idea/
 https://www.youtube.com/watch?v=HBlKsk5npWY
 
 1. Breakpoints
