@@ -1,5 +1,7 @@
 # Debugger
 
+https://www.youtube.com/watch?v=59RC8gVPlvk (14:00)
+
 W czym może pomóc debugowanie?
 * znajdowanie i naprawianie bugów
 * analiza kodu - jak chcę zrozumieć jakiś fragment kodu, mogę analizować go w głowie, albo odpalić debuggera i zobaczyć linijka po linijce jak działa
@@ -12,6 +14,11 @@ Pause Program - pauzuje działanie aplikacji w konkretnym momencie
 Wątki (*Threads*), które w danym momencie są uruchomione:
 ![[Pasted image 20211223180229.png]]
 
----
-https://www.youtube.com/watch?v=59RC8gVPlvk (14:00)
 https://www.youtube.com/watch?v=HBlKsk5npWY
+
+1. Breakpoints
+2. Watch & Variables
+3. The debugging process
+4. Evaluate expression
+5. Changing values during runtime
+6. Common pitfals
