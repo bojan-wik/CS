@@ -20,6 +20,16 @@ Call Stack jest złożony ze [[Stack Frames]]. Jedno wywołanie metody =  jeden 
 
 ![[Pasted image 20211228123601.png]]
 
+**Step Over** - egzekucja bieżącej linii kodu i przejście do następnej, bez wchodzenia wewnątrz wywołania metody, jeżeli takie jest obecne w bieżącej linii kodu
+
+**Step Into** - odwrotność Step Over - jeżeli w bieżącej linii kodu jest wywołanie jakiejś metody, to debugger zabierze nas wewnątrz tej metody. Defaultowo debugger nie zabiera nas wewn. metod wbudowanych, tylko do customowych, stworzonych przez nas. Jeżeli chcemy koniecznie wejść wewn. metody wbudowanej musimy użyć **Forced Step Into**
+
+W przypadku kiedy w bieżącej linii kodu mam więcej niż jedno wywołanie metody, wszystkie wywołania są podświetlane i mogę wybrać, które chcę (np. klikając myszką)
+
+![[Pasted image 20211228131805.png]]
+
+**Run to Cursor** - jak nie chce mi się ustawiać breakpoints to mogę kliknąć na linii na której ma się zatrzymać egzekucja kodu i kliknąć opcję Run to Cursor.
+
 https://www.youtube.com/watch?v=HBlKsk5npWY
 
 1. Breakpoints
