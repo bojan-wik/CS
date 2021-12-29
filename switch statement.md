@@ -45,6 +45,13 @@ public class BasicCalculator {
 }
 ```
 
+## switch vs if-else
+
+1. Jakie wyrażenie jest testowane?
+* if-else może testować m.in. zakresy wartości, warunki logiczne
+* switch może testować tylko pojedyncze integery, enumerated values, String objects
+2. Switch jest lepszy w przypadku multi-way branching
+
 ---
 https://www.geeksforgeeks.org/switch-statement-in-java/
 https://www.geeksforgeeks.org/switch-vs-else/
