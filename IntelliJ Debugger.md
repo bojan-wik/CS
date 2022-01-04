@@ -36,9 +36,24 @@ W przypadku kiedy w bieżącej linii kodu mam więcej niż jedno wywołanie meto
 
 ![[Pasted image 20211228152713.png]]
 
+**Watches** - istnieje też możliwość dodania valuesów globalnych, których nie ma w kodzie źródłowym (W dialogu Evaluate expression mogę dodawać tylko zmienne lokalne). Robi się to za pomocą dodawania tzw. Watches
+
+![[Pasted image 20220104140828.png]]
+
+**Zmienianie wartości 'w locie'**
+
+![[Pasted image 20220104141237.png]]
+
+**Breakpoint condition** - istnieje możliwość ustalenia warunku w jakim breakpoint ma zadziałać, czyli jeśli:
+* warunek jest spełniony - breakpoint zadziała i działanie aplikacji jest wstrzymywane
+* warunek nie jest spełniony - breakpoint nie zadziała i tym samym nie zatrzyma działania aplikacji
+
+Prawy klik na breakpoincie
+![[Pasted image 20220104142130.png]]
+W tym przypadku breakpoint zadziała w momencie kiedy zmienna read jest różna od 10
+
 ---
-https://www.youtube.com/watch?v=59RC8gVPlvk (33:00)
-https://blog.jetbrains.com/idea/2020/05/debugger-basics-in-intellij-idea/
+https://www.youtube.com/watch?v=59RC8gVPlvk
 https://www.youtube.com/watch?v=HBlKsk5npWY
 
 1. Breakpoints
