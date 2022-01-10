@@ -12,6 +12,5 @@
 * https://code.energy/learn-to-code/?v=9b7d173b068d
 
 ## Other
-* [Mose ft. Janax Pacha - Ibiza Sunset (Live Set @ Es Vedra)](https://www.youtube.com/watch?v=G1Xayi4eHiY)
 * [https://przekroj.pl/nauka/fizyk-stworzyl-nowa-teorie-zycia-natalie-wolchover-quanta-magazine](https://przekroj.pl/nauka/fizyk-stworzyl-nowa-teorie-zycia-natalie-wolchover-quanta-magazine)
 * https://medium.com/@elephant.journal/the-most-breathtaking-description-of-death-i-have-ever-heard-3f4173b3d989
