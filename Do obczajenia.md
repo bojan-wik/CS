@@ -8,7 +8,6 @@
 
 ## IT-related
 * [The Art of Code - Dylan Beattie](https://www.youtube.com/watch?v=6avJHaC3C2U)
-* https://medium.com/positiveslope/10-forecasts-for-the-near-future-of-tech-61e73b51647c
 
 ## Other
 * [https://przekroj.pl/nauka/fizyk-stworzyl-nowa-teorie-zycia-natalie-wolchover-quanta-magazine](https://przekroj.pl/nauka/fizyk-stworzyl-nowa-teorie-zycia-natalie-wolchover-quanta-magazine)
