@@ -14,3 +14,4 @@
 * https://medium.com/@elephant.journal/the-most-breathtaking-description-of-death-i-have-ever-heard-3f4173b3d989
 * https://lubimyczytac.pl/ksiazka/4874650/poza-schematem-sekrety-ludzi-sukcesu
 * https://lubimyczytac.pl/ksiazka/293994/droga-rzadziej-przemierzana-nowa-psychologia-milosci-wartosci-tradycyjnych-i-rozwoju-duchowego
+* https://lubimyczytac.pl/ksiazka/27402/cztery-umowy-droga-do-wolnosci-osobistej
