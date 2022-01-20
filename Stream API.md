@@ -18,8 +18,31 @@ można podzielić na 3 etapy:
 3. Zastosowanie *operacji kończącej* (np. [[forEach()]], [[count()]], [[collect()]], [[reduce()]])
 
 ## Zastosowanie
+na przykładzie zadania:
+> Policz ile w danej liście jest imion zaczynających się od litery 'A'
 
+Mając taką listę
+```Java
+static List<String> namesList = Arrays.asList("Wiktor", "Adam", "Robert", "Aleks", "Arab");
+```
 
+Rozwiązanie bez użycia stream
+```Java
+int countNamesStartingWithA = 0;
+        for (int i = 0; i < namesList.size(); i += 1) {
+            String name = namesList.get(i);
+            if (name.startsWith("A")) {
+                countNamesStartingWithA += 1;
+            }
+        }
+        System.out.println(countNamesStartingWithA);
+```
+
+Rozwiązanie z użyciem stream
+```Java
+long countNamesStartingWithA = namesList.stream().filter(name -> name.startsWith("A")).count();
+```
 ---
-https://geek.justjoin.it/zastosowanie-stream-api-z-java-8-przyklady
-https://www.geeksforgeeks.org/stream-in-java/
+* https://github.com/bojan-wik/SeleniumWithJavaCourse/tree/master/src/Chapter14_JavaStreams
+* https://geek.justjoin.it/zastosowanie-stream-api-z-java-8-przyklady
+* https://www.geeksforgeeks.org/stream-in-java/
