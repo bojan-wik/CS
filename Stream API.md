@@ -1,12 +1,11 @@
 # Stream API
 #java 
 
-## Overview:
 * feature wprowadzony wraz z Java 8
 * upraszcza kod
 * wykorzystuje/wspiera założenia [[Functional programming]]
 
-## Main features:
+## Główne założenia:
 
 * Streamy same w sobie nie są [[data structure]] - nie przechowują danych. Przyjmują tylko jako input różne typy kolekcji danych np. [[Collections]], [[Arrays]] itp.
 * Taki przyjęty przez stream input stanowi jego sekwencję elementów na których potem można wykonywać różne operacje, które potem można pipelinować, żeby otrzymać oczekiwany efekt
