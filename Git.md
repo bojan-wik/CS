@@ -1,6 +1,6 @@
 # Git
 
-## Wstępna konfiguracja
+## Konfiguracja
 
 Otwarcie config file (global)
 ```
@@ -17,6 +17,13 @@ Ustawienie jak Git powinien traktować *end of lines* (dla Windows)
 git config --global core.autocrlf true
 ```
 Jest to ważne w przypadku, kiedy nad tym samym kodem pracują ludzie w innych systemach operacyjnych. Windows i MacOS/Linux traktują EOL inaczej, a to ustawienie sprawia, że te różnice są niwelowane
+
+## Workflow
+
+folder z projektem na dysku lokalnym <-> projekt w repozytorium online
+
+dysk lokalny -> staging area -> commit -> repozytorium
+
 
 ## Komendy
 
