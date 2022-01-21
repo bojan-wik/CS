@@ -20,7 +20,12 @@ Jest to ważne w przypadku, kiedy nad tym samym kodem pracują ludzie w innych s
 
 ## Workflow
 
-folder z projektem na dysku lokalnym <-> projekt w repozytorium online
+![[Pasted image 20220121145455.png]]
+
+1. working directory - folder z projektem na dysku lokalnym
+2. staging area - etap pośredni, trafiają tam zmodyfikowane pliki, które proponujemy do najbliższego commita
+3. local repository - folder .git wewnątrz working directory
+4. remote repository - projekt w repozytorium online np. GitHub, BitBucket itp.
 
 dysk lokalny -> staging area -> commit -> repozytorium
 
@@ -45,3 +50,5 @@ git pull origin develop
 ---
 * https://confluence.atlassian.com/bitbucketserver/basic-git-commands-776639767.htm
 * https://www.theserverside.com/blog/Coffee-Talk-Java-News-Stories-and-Opinions/How-to-set-Notepad-as-the-default-Git-editor-for-commits-instead-of-Vim
+* https://www.youtube.com/watch?v=8JJ101D3knE
+* https://support.atlassian.com/bitbucket-cloud/docs/configure-your-dvcs-username-for-commits/
