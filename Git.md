@@ -14,6 +14,7 @@ Ustawienie Notepad++ jako defaultowego edytora
 ```
 git config --global core.editor "'C:/Program Files/Notepad++/notepad++.exe' -multiInst -notabbar -nosession -noPlugin"
 ```
+> https://www.theserverside.com/blog/Coffee-Talk-Java-News-Stories-and-Opinions/How-to-set-Notepad-as-the-default-Git-editor-for-commits-instead-of-Vim
 
 Ustawienie jak Git powinien traktować *end of lines* (dla Windows)
 ```
@@ -56,6 +57,9 @@ Zaciągnięcie najświeższych zmian z brancha 'develop'
 git pull origin develop
 ```
 
+Cheatsheet
+> https://confluence.atlassian.com/bitbucketserver/basic-git-commands-776639767.html
+
 ## 3. Commiting best practices
 1. Commity powinny być 'w sam raz' - nie za małe, nie za duże tzn. nie ma sensu commitować każdej zmiany, ale też nie ma sensu robić np. tylko jednego commita z wszystkimi zmianami
 2. Commity powinny być czymś na wzór checkpointów w grach - ważnych momentów, do których można wrócić
@@ -66,6 +70,4 @@ itd.
 4. Pisanie sensownych commit messages, które odzwierciedlają sedno zmian
 
 ---
-* https://confluence.atlassian.com/bitbucketserver/basic-git-commands-776639767.htm
 * https://www.youtube.com/watch?v=8JJ101D3knE (30:30)
-* https://www.theserverside.com/blog/Coffee-Talk-Java-News-Stories-and-Opinions/How-to-set-Notepad-as-the-default-Git-editor-for-commits-instead-of-Vim
