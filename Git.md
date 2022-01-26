@@ -7,6 +7,9 @@ Otwarcie config file (global)
 git config --global -e
 ```
 
+Ustawienie username i email - mogą być global albo repository-specific
+> https://support.atlassian.com/bitbucket-cloud/docs/configure-your-dvcs-username-for-commits/
+
 Ustawienie Notepad++ jako defaultowego edytora
 ```
 git config --global core.editor "'C:/Program Files/Notepad++/notepad++.exe' -multiInst -notabbar -nosession -noPlugin"
@@ -66,4 +69,3 @@ itd.
 * https://confluence.atlassian.com/bitbucketserver/basic-git-commands-776639767.htm
 * https://www.youtube.com/watch?v=8JJ101D3knE (30:30)
 * https://www.theserverside.com/blog/Coffee-Talk-Java-News-Stories-and-Opinions/How-to-set-Notepad-as-the-default-Git-editor-for-commits-instead-of-Vim
-* https://support.atlassian.com/bitbucket-cloud/docs/configure-your-dvcs-username-for-commits/
