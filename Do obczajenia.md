@@ -13,3 +13,4 @@
 * [https://przekroj.pl/nauka/fizyk-stworzyl-nowa-teorie-zycia-natalie-wolchover-quanta-magazine](https://przekroj.pl/nauka/fizyk-stworzyl-nowa-teorie-zycia-natalie-wolchover-quanta-magazine)
 * https://medium.com/@elephant.journal/the-most-breathtaking-description-of-death-i-have-ever-heard-3f4173b3d989
 * https://www.youtube.com/watch?v=4uPqQM7FOH8 
+* https://www.superprezenty.pl/voucher-do-teatru-ludowego-dla-dwojga--krakow-teatr-ludowy#leave-a-rating
