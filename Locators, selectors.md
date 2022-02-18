@@ -92,4 +92,5 @@ Takie przechodzenie do tyłu jest możliwe tylko z xPath, nie jest możliwe z CS
 ends with nie działało mi z xpath, tylko z css selector
 
 ---
-https://www.red-gate.com/simple-talk/wp-content/uploads/imported/1269-Locators_table_1_0_2.pdf?file=4937
+* https://www.red-gate.com/simple-talk/wp-content/uploads/imported/1269-Locators_table_1_0_2.pdf?file=4937
+* https://exadel.com/news/how-to-choose-selectors-for-automation-to-make-your-life-a-whole-lot-easier
