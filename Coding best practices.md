@@ -17,9 +17,8 @@ Tylko jeden typ powinien być używany w całym projekcie. Nie powinno się ich 
 isValidUser, isOpen, isClosed
 ```
 
-Constant - nazwy zmiennych tego typu powinny:
-* być zawsze pisane dużymi literami
-* być np.
+**Constant** - nazwy zmiennych tego typu powinny:
+* być zawsze pisane dużymi literami z podkreślnikami np.
 ```
 CONNECTION_LIMIT, POOL_SIZE, BATCH_SIZE
 ```
