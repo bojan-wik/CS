@@ -1,4 +1,5 @@
 # IntelliJ Debugger
+#tools
 
 W czym może pomóc debugowanie?
 * znajdowanie i naprawianie bugów

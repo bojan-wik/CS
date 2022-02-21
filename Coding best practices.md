@@ -1,24 +1,39 @@
 # Coding best practices
+#programming 
 
-## Naming conventions
+## Konwencje nazewnictwa
 
-**Casing types:**
-* snake_case
-* camelCase
-* PascalCase
-* kebab-case
+1. **Klasa** - nazwa zaczynająca się od dużej litery np.
+```
+Account, Storage, RequestBody, Response
+```
 
-Tylko jeden typ powinien być używany w całym projekcie. Nie powinno się ich mieszać
+2. **Funkcja**
+* nazwa zaczynająca się od małej litery
+* z reguły zaczynająca się od czasownika np.
+```
+getData(), sendData(), fetchUser()
+```
 
-**Boolean** - nazwy zmiennych tego typu powinny:
-* formułować pytanie
+3. **Boolean**
+* nazwa powinna formułować pytanie
 * zaczynać się od "is" np.
 ```
 isValidUser, isOpen, isClosed
 ```
 
-**Constant** - nazwy zmiennych tego typu powinny:
-* być zawsze pisane dużymi literami z podkreślnikami np.
+**Constant** - nazwa powinna być pisana dużymi literami z podkreślnikami np.
 ```
 CONNECTION_LIMIT, POOL_SIZE, BATCH_SIZE
 ```
+
+## Sposoby zapisu:
+* snake_case
+* camelCase
+* PascalCase
+* kebab-case
+
+Tylko jeden sposób powinien być używany w całym projekcie. Nie powinno się ich mieszać
+
+---
+https://medium.com/@Bigscal-Technologies/a-guide-to-achieve-clean-code-and-best-coding-practices-6b3f0eaa7fa4
