@@ -59,4 +59,4 @@ no i do tego dochodzą czasami specyfine pytania z technologii z CV kandydata cz
 
 ### II. Info od Adama
 ![[Pasted image 20220309142509.png]]
-Zadanie z rekurencji -> 
+Zadanie z rekurencji -> [[Recursion]]
