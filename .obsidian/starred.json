@@ -3,17 +3,17 @@
     {
       "type": "file",
       "title": "0. Do obczajenia",
-      "path": "Do obczajenia.md"
+      "path": "_Do obczajenia.md"
     },
     {
       "type": "file",
       "title": "0. Markdown Cheat Sheet",
-      "path": "Markdown Cheat Sheet.md"
+      "path": "_Markdown Cheat Sheet.md"
     },
     {
       "type": "file",
       "title": "Test developer - rozmowa tech.",
-      "path": "Test developer - rozmowa tech..md"
+      "path": ".Test developer - rozmowa tech..md"
     }
   ]
 }

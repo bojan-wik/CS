@@ -1,7 +1,7 @@
 # Recursion
 #programming #java 
 
-Rekursję/rekurencję można wyjaśnić na przykładzie zadania na znalezienie silni (factorial) jakiejś liczby.
+==Rekursję/rekurencję można wyjaśnić na przykładzie zadania na znalezienie silni== (factorial) jakiejś liczby.
 
 Silnia liczby n, oznaczanej jako n!, to wartość iloczynu wszystkich liczb naturalnych od 1 do n.
 np.
@@ -34,7 +34,7 @@ public static int getFactorial(int n) {
     }
 ```
 
-**Rekursja** zachodzi w momencie, kiedy metoda wywołuje samą siebie. Wtedy jest to metoda rekursywna/rekurencyjna. Z reguły składa się z dwóch części:
+==**Rekursja** zachodzi w momencie, kiedy metoda wywołuje samą siebie.== Wtedy jest to metoda rekursywna/rekurencyjna. Z reguły składa się z dwóch części:
 1. Warunek kończący - gdy warunek kończący jest spełniony, metoda przestaje wywoływać samą siebie i zaczyna przekazywać wartości 'w górę'. Kiedy nie ma warunku kończącego zachodzi nieskończona pętla, w której metoda będzie wywoływała się do momentu otrzymania [[StackOverflowError]]
 2. Logika, której wymaga sytuacja oraz wywołanie rekursji, ale z inną wartością wejściową
 
@@ -50,3 +50,10 @@ public static int getFactorial(int n) {
         }
     }
 ```
+
+==Przypomina to trochę film 'Incepcja'.== Przykładowo Leonardo diCaprio ma do osiągnięcia jakiś konkretny cel (warunek kończący) np. zdobyć kod do sejfu.
+* Zanurza się na pierwszy poziom snu, ale tam nie znajduje tego, czego szuka, więc musi zejść niżej
+* Schodzi w dół na coraz niższe poziomy snów, aż dociera do poziomu, w którym znajduje kod do sejfu (osiąga warunek kończący) - wtedy przestaje już schodzić niżej
+* Wraca na górę z kodem do sejfu (przekazuje wartość w górę) przez wszystkie poziomy snu, które wcześniej pokonał
+
+**TODO**: wrzucić fotkę z moich notatek w zeszycie
