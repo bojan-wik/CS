@@ -14,9 +14,9 @@ wyjątek stanowi silnia liczby 0, która wynosi 1
 
 #### Rozwiązanie na znalezienie silni bez użycia rekursji
 ```java
-public static int getFactorial(int number) {
+public static int getFactorial(int n) {
         int factorial = 1;
-        for (int i = 1; i <= number; i++) {
+        for (int i = 1; i <= n; i++) {
             factorial = factorial * i;
         }
         return factorial;
@@ -25,11 +25,11 @@ public static int getFactorial(int number) {
 
 #### Rozwiązanie na znalezienie silni z użyciem rekursji
 ```java
-public static int getFactorialRecursively(int number) {
-        if (number <= 1) {
+public static int getFactorial(int n) {
+        if (n <= 1) {
             return 1;
         } else {
-            return number * getFactorialRecursively(number - 1);
+            return n * getFactorial(n - 1);
         }
     }
 ```
@@ -40,13 +40,13 @@ public static int getFactorialRecursively(int number) {
 
 czyli
 ```java
-public static int getFactorialRecursively(int number) {
+public static int getFactorial(int n) {
 		// warunek kończący - gdy osiągniemy liczbę 1
-        if (number <= 1) {
+        if (n <= 1) {
             return 1;
 		// jeżeli liczba nie jest równa 1, to mnożymy aktualną liczbę przez wynik kolejnego rekursywnego wywołania metody
         } else {
-            return number * getFactorialRecursively(number - 1);
+            return n * getFactorial(n - 1);
         }
     }
 ```
