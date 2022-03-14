@@ -14,6 +14,4 @@ OOP to najpowszechniejszy obecnie paradygmat programowania.
 3. [[Polymorphism]]
 4. [[Abstraction]]
 
-Załóżmy, że mamy klasę 'AutoOsobowe' i tworzymy listę aut.
-
 
