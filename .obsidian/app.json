@@ -1,5 +1,6 @@
 {
   "fileSortOrder": "alphabetical",
   "communityThemeSortOrder": "download",
-  "attachmentFolderPath": "attachments"
+  "attachmentFolderPath": "attachments",
+  "promptDelete": false
 }

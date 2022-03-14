@@ -14,4 +14,7 @@ OOP to najpowszechniejszy obecnie paradygmat programowania.
 3. [[Polymorphism]]
 4. [[Abstraction]]
 
+### Inheritance
+Mechanizm, dzięki któremu jedna klasa może dziedziczyć cechy ([[fields]] and [[methods]]) innej klasy.
 
+W Javie nie występuje [[multiple inheritance]]. Pojedyńcza klasa może dziedziczyć tylko po jednej klasie.
