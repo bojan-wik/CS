@@ -1,9 +1,14 @@
 # ExpectedConditions
 #selenium 
 
-##### elementToBeClickable
+##### attributeContains
+Czy webelement->***atrybut zawiera konkretny string*** np.
+```java
+webDriverWait.until(ExpectedConditions.attributeContains(By.xpath(SECTION_TAG_PREVIEW_CONTENT_XPATH), "style", "rgb(109, 139, 184)"));
+```
 
-Czy webelement jest 'klikalny'/aktywny tj.: ==obecny w DOM + enabled== np.
+##### elementToBeClickable
+Czy webelement jest 'klikalny'/aktywny tj.: ***obecny w DOM + enabled*** np.
 ```java
 log.info("Verify that the 'Create' button became active");
 webDriverWait.until(ExpectedConditions.elementToBeClickable(buttonCreate));
@@ -20,8 +25,7 @@ webDriverWait.until(ExpectedConditions.not(ExpectedConditions.elementToBeClickab
 ```
 
 ##### visibilityOfElementLocated
-
-Czy webelement jest: ==obecny w DOM + widoczny na stronie== np.
+Czy webelement jest: ***obecny w DOM + widoczny na stronie*** np.
 ```java
 webDriverWait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath(WINDOW_COLOR_SELECTION_XPATH)));
 ```
