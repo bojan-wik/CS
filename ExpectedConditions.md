@@ -3,7 +3,7 @@
 
 ##### elementToBeClickable
 
-Przydatny w sytuacjach, w których jakiś element ma być 'klikalny'/aktywny tj. widoczny w DOMie + enabled
+Czy webelement jest 'klikalny'/aktywny tj.: ==obecny w DOM + enabled== np.
 ```java
 log.info("Verify that the 'Create' button became active");
 webDriverWait.until(ExpectedConditions.elementToBeClickable(buttonCreate));
@@ -18,3 +18,13 @@ Negacja - element ma być nieaktywny
 log.info("Verify that 'Create' button is now inactive");  
 webDriverWait.until(ExpectedConditions.not(ExpectedConditions.elementToBeClickable(buttonCreate)));
 ```
+
+##### visibilityOfElementLocated
+
+Czy webelement jest: ==obecny w DOM + widoczny na stronie== np.
+```java
+webDriverWait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath(WINDOW_COLOR_SELECTION_XPATH)));
+```
+
+---
+https://www.selenium.dev/selenium/docs/api/java/org/openqa/selenium/support/ui/ExpectedConditions.html
