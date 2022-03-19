@@ -56,4 +56,4 @@ public static int getFactorial(int n) {
 * Schodzi w dół na coraz niższe poziomy snów, aż dociera do poziomu, w którym znajduje kod do sejfu (osiąga warunek kończący) - wtedy przestaje już schodzić niżej
 * Wraca na górę z kodem do sejfu (przekazuje wartość w górę) przez wszystkie poziomy snu, które wcześniej pokonał
 
-**TODO**: wrzucić fotkę z moich notatek w zeszycie
+https://1drv.ms/u/s!Av9xeuCdLNXCg3IHQDeLT2yJDKNk?e=CrX2ow
