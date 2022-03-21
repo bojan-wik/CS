@@ -21,3 +21,15 @@ void scrollDownInnerScrollbarToTheLastGroup() {
     }
 ```
 >https://csnotes.medium.com/web-scraping-infinite-scrolling-with-selenium-97f820d2e506
+
+##### upload a file
+```java
+@FindBy(xpath = "//input[@type='file']")  
+WebElement inputBrowse;
+
+inputBrowse.sendKeys("C:\\snap\\non-image sample file.doc");
+```
+- sendKeys() musi być wykonanane na webelemencie typu input (najbardziej zagnieżdżonym), nie działa na buttonie
+- działa z Windowsowym dialogiem do wyszukiwania plików
+- działa na Virtual Machine (Robot class nie działa na VM)
+>https://sqa.stackexchange.com/questions/12851/how-can-i-work-with-file-uploads-during-a-webdriver-test
