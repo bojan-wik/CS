@@ -2,7 +2,7 @@
 #selenium 
 
 #### attributeContains
-Czy webelement->***atrybut zawiera konkretny string*** np.
+Czy webelement->atrybut ***zawiera konkretny string*** np.
 ```java
 webDriverWait.until(ExpectedConditions.attributeContains(By.xpath(SECTION_TAG_PREVIEW_CONTENT_XPATH), "style", "rgb(109, 139, 184)"));
 ```
