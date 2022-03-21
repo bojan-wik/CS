@@ -1,13 +1,13 @@
 # ExpectedConditions
 #selenium 
 
-##### attributeContains
+#### attributeContains
 Czy webelement->***atrybut zawiera konkretny string*** np.
 ```java
 webDriverWait.until(ExpectedConditions.attributeContains(By.xpath(SECTION_TAG_PREVIEW_CONTENT_XPATH), "style", "rgb(109, 139, 184)"));
 ```
 
-##### elementToBeClickable
+#### elementToBeClickable
 Czy webelement jest 'klikalny'/aktywny tj.: ***obecny w DOM && enabled*** np.
 ```java
 log.info("Verify that the 'Create' button became active");
@@ -24,13 +24,13 @@ log.info("Verify that 'Create' button is now inactive");
 webDriverWait.until(ExpectedConditions.not(ExpectedConditions.elementToBeClickable(buttonCreate)));
 ```
 
-##### visibilityOfElementLocated
+#### visibilityOfElementLocated
 Czy webelement jest: ***obecny w DOM && widoczny na stronie*** np.
 ```java
 webDriverWait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath(WINDOW_COLOR_SELECTION_XPATH)));
 ```
 
-##### invisibilityOfElementLocated
+#### invisibilityOfElementLocated
 Negacja poprzedniego - czy webelement jest: ***nieobecny w DOM || niewidoczny na stronie*** np.
 ```java
 webDriverWait.until(ExpectedConditions.invisibilityOfElementLocated(By.xpath(WINDOW_COLOR_SELECTION_XPATH)));
