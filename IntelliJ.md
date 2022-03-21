@@ -18,3 +18,7 @@ Konfiguracja Git
 Konfiguracja terminala (na BASH)
 >File -> Settings -> Tools -> Terminal
 >Application settings, Shell path: C:\Program Files\Git\bin\bash.exe
+
+Inne przydatne opcje
+>Editor -> General -> Auto import
+>Add unambigous imports on the fly: on
