@@ -1,12 +1,7 @@
 # IntelliJ
 #tools
 
-Zakomentowanie/odkomentowanie bloku kodu
->crtl + shift + /
-
-Wyszukiwanie we wszystkich plikach w projekcie
->ctrl + shift + f
-
+#### Opcje
 Jak wymusić multi-line formatting
 >File -> Settings -> Editor -> General -> Code Folding -> 
 >Java,  One-line methods: off
@@ -22,3 +17,15 @@ Konfiguracja terminala (na BASH)
 Inne przydatne opcje
 >Editor -> General -> Auto import
 >Add unambigous imports on the fly: on
+
+#### Skróty klawiszowe
+
+Zakomentowanie/odkomentowanie bloku kodu
+>crtl + shift + /
+
+Wyszukiwanie we wszystkich plikach w projekcie
+>ctrl + shift + f
+
+Generowanie kodu
+>alt + insert
+
