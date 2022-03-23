@@ -25,6 +25,7 @@ Inne przydatne opcje
 #### Skróty klawiszowe
 
 Zakomentowanie/odkomentowanie bloku kodu
+>ctrl + /
 >crtl + shift + /
 
 Wyszukiwanie we wszystkich plikach w projekcie
@@ -32,4 +33,8 @@ Wyszukiwanie we wszystkich plikach w projekcie
 
 Generowanie kodu
 >alt + insert
+
+
+#### Pluginy
+- Rainbow brackets
 
