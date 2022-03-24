@@ -55,7 +55,7 @@ no i do tego dochodzą czasami specyfine pytania z technologii z CV kandydata cz
 * Zadanie z rekurencji -> [[Recursion]]
 
 ### III. Info od Pawła B.
-1. https://www.jdoodle.com/ia/c9N - zmodyfikować klasy w taki sposób aby nie pojawiay się błędy
+1. https://www.jdoodle.com/ia/c9N - zmodyfikować klasy w taki sposób aby nie pojawiay się błędy - OK
 2. co to jest polimorfizm
 3. co to jest dziedziczenie
 4. co to jest hermetyzacja / enkapsulacja
