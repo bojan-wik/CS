@@ -3,12 +3,24 @@
 
 ##### Na przykładzie budowania domu/budynku.
 
-**Klasa** to w tym przypadku blueprint/plan architektoniczny konkretnegu budynku. Na podstawie takiego planu możemy zbudować wiele 'kopii' tego samego budynku.
+1. **Klasa** to w tym przypadku blueprint/plan architektoniczny konkretnegu budynku. Na podstawie takiego planu możemy zbudować wiele 'kopii' tego samego budynku.
 
-Każdy z tych budynków wybudowanych w ten sposób jest **obiektem** albo **instancją** klasy budynku.
+**Przykład:**
+Moi rodzice zanim wybudowali nasz dom kupili jego plan.
 
-Każdy pojedyńczy budynek ma swój adres - jakąś fizyczną lokalizację np. ul. Poprzeczna 10. Ten adres to **referencja** tego budynku.
+2. Każdy z tych budynków wybudowanych w ten sposób jest **obiektem** albo **instancją** klasy budynku.
 
-Jeżeli chciałbym dać moim trzem przyjaciołom mój adres, wziąłbym trzy kartki i na każdej z nich napisałbym mój adres. Skopiowałbym **referencję**. Mógłbym kopiować ją wiele razy, ale niezależnie od ilości kopii referencji - budynek nie byłby kopiowany. Każda z kopii adresu prowadziłaby cały czas do tego konkretnego fizycznego budynku.
+**Przykład:**
+Moi rodzice na podstawie zakupionego planu wybudowali nasz dom. Nasz dom był jedną z instancji tej samej klasy, czyli planu architektocznicznego. 10 innych osób mogło nabyć ten sam plan i na jego podstawie wybudować swoje 10 domów, czyli 10 osobnych instancji tej samej klasy.
 
-Referencje możemy przekazywać jako parametry do konstruktorów i metod.
+3. dy pojedyńczy budynek ma swój adres - jakąś fizyczną lokalizację. Ten adres to **referencja** tego budynku.
+
+**Przykład:**
+Referencją mojego domu był adres: Poprzeczna.
+
+4. Daną referencję można kopiować, ale każda z tych kopii będzie odnosić się zawsze do tego samego obiektu/instancji.
+
+**Przykład**:
+Organizuję przyjęcie urodzinowe. Chcę zaprosić 3 przyjaciół. Przygotowuję 3 zaproszenia, na każdym z nich wypisuję adres mojego domu. W ten sposób skopiowałem referencję. Niezależnie od ilości takich zaproszeń one zawsze będą kierować do tego samego domu. Dom sam w sobie nie byłby kopiowany.
+
+5. Referencje możemy przekazywać jako parametry do konstruktorów i metod.
