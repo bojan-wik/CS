@@ -37,4 +37,5 @@ Generowanie kodu
 
 #### Pluginy
 - Rainbow brackets
+- Java visualizer
 
