@@ -72,7 +72,7 @@ Klasy i objekty mogą być ze sobą łączone tworząc relacje typu:
 'Car' to parent-klasa, 'Sedan' to child-klasa.
 
 #### Composition and aggregation
-Composition and aggregation opisują relację typu "has-a" np.
+[[Composition]] and aggregation opisują relację typu "has-a" np.
 1. Każdy samochód ma silnik - przykład composition.
 Silnik jest częścią konkretnego samochodu i nie może być jednocześnie częścią innego samochodu, czyli obiekt jest częścią jakiegoś konkretnego obiektu i nie może być jednocześnie częścią innego obiektu tego samego typu.
 
