@@ -9,3 +9,4 @@ np. komputer i obudowa, płyta główna, monitor.
 - computer has-a monitor.
 **but**
 - computer is-not-a case etc.
+

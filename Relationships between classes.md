@@ -79,6 +79,8 @@ Silnik jest częścią konkretnego samochodu i nie może być jednocześnie czę
 2. Każdy samochód może mieć pasażerów - przykład aggregation.
 Fakt, że pasażer A jest w samochodzie, nie znaczy, że nie ma tam też pasażera B i C.
 
+W momencie kiedy zastanawiamy się, czy użyć Inheritance, czy Composition, generalna zasada mówi o tym, żeby w pierwszej kolejności rozpatrywać Composition, która daje więcej elastyczności.
+
 ---
 https://codegym.cc/groups/posts/96-relationships-between-classes-inheritance-composition-and-aggregation
 
