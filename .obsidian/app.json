@@ -2,5 +2,6 @@
   "fileSortOrder": "alphabetical",
   "communityThemeSortOrder": "download",
   "attachmentFolderPath": "attachments",
-  "promptDelete": false
+  "promptDelete": false,
+  "alwaysUpdateLinks": true
 }

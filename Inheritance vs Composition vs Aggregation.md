@@ -1,7 +1,6 @@
-# Relationships between classes
+# Inheritance vs Composition vs Aggregation
 #java 
 
-## Inheritance, composition, aggregation
 Na przykładzie parent-klasy 'Car'
 
 ```java

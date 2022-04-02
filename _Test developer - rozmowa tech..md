@@ -4,7 +4,7 @@
 ##### Programowanie: 
 - paradygmaty obiektowości -> [[Object-oriented programming]]
 - interfejsy vs klasy abstrakcyjne (30) 
-- dziedziczenie vs agregacja vs kompozycja -> [[Relationships between classes]]
+- dziedziczenie vs agregacja vs kompozycja -> [[Inheritance vs Composition vs Aggregation]]
 - wyrażenia lambda (14) 
 - typy generyczne 
 - rodzaje kolekcji + różnice (32) 
