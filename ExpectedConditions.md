@@ -1,7 +1,12 @@
 # ExpectedConditions
 #selenium 
 
-#### attributeContains
+#### attributeToBe / attributeContains
+Czy webelement->atrybut ***to konkretny string*** np.
+```java
+webDriverWait.until(ExpectedConditions.attributeToBe(tabGroupDetails, "aria-selected", "true"));
+```
+
 Czy webelement->atrybut ***zawiera konkretny string*** np.
 ```java
 webDriverWait.until(ExpectedConditions.attributeContains(By.xpath(SECTION_TAG_PREVIEW_CONTENT_XPATH), "style", "rgb(109, 139, 184)"));

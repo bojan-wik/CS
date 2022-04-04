@@ -20,7 +20,7 @@ Wyłączenie spellcheckingu
 
 Inne przydatne opcje
 >Editor -> General -> Auto import
->Add unambigous imports on the fly: on
+>Add unambigous imports on the fly: off
 
 #### Skróty klawiszowe
 
