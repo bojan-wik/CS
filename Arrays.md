@@ -19,6 +19,28 @@ for (int i = 0; i < thirdArr.length; i ++) {
 }
 ```
 
+#### Sorting int array DESC
+```java
+public static int[] sortIntegers(int[] array) {
+        int[] sortedArray = Arrays.copyOf(array, array.length);
+        boolean flag = true;
+        int temp;
+        while (flag) {
+            flag = false;
+            for (int i = 0; i < sortedArray.length - 1; i ++) {
+                if (sortedArray[i] < sortedArray[i+1]) {
+                    temp = sortedArray[i];
+                    sortedArray[i] = sortedArray[i+1];
+                    sortedArray[i+1] = temp;
+                    flag = true;
+                }
+            }
+        }
+        return sortedArray;
+    }
+```
+>https://www.udemy.com/course/java-the-complete-java-developer-course/learn/lecture/3323782#content
+
 #### Concatenating two int arrays
 Nie jest to możliwe za pomocą żadnej wbudowanej metody, ale mogę to zrobić np. w taki sposób:
 ```java
@@ -36,8 +58,8 @@ public static int[] concat(int[] array1, int[] array2) {
         return arrayConcatenated;
     }
 ```
+>https://edabit.com/challenge/E2WdAPmgNJnbL5RvF
+
 Dla Stringów rozwiązanie może wyglądać trochę inaczej:
 https://www.tutorialspoint.com/javaexamples/arrays_merge.htm
 
----
-https://edabit.com/challenge/E2WdAPmgNJnbL5RvF
