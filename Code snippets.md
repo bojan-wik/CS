@@ -1,6 +1,14 @@
 # Code snippets
 #java #selenium 
 
+#### iterate through list of webelements -> find element within element
+```java
+List<WebElement> contentTiles = driver.findElements(By.xpath("//md-card[contains(@class, 'ng-scope')]"));
+for (WebElement groupTile : contentTiles) {
+            System.out.println(groupTile.findElement(By.xpath(".//span[@class='group-name']")).getText());
+        }
+```
+
 #### unfocus input webelement after sendKeys()
 ```java
 JavascriptExecutor jsExec = (JavascriptExecutor) driver;

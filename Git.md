@@ -3,21 +3,22 @@
 
 ## 1. Konfiguracja
 
-Otwarcie config file (global)
+##### Otwarcie config file (global)
 ```
 git config --global -e
 ```
 
-Ustawienie username i email - mogą być global albo repository-specific
+##### Ustawienie username i email - mogą być global albo repository-specific
 > https://support.atlassian.com/bitbucket-cloud/docs/configure-your-dvcs-username-for-commits/
 
-Ustawienie Notepad++ jako defaultowego edytora
+##### Ustawienie Notepad++ jako defaultowego edytora
 ```
 git config --global core.editor "'C:/Program Files/Notepad++/notepad++.exe' -multiInst -notabbar -nosession -noPlugin"
 ```
+potem za każdym razem jak dam komendę `git commit` bez sprecyzowanego message to otworzy mi się Notepad++
 > https://www.theserverside.com/blog/Coffee-Talk-Java-News-Stories-and-Opinions/How-to-set-Notepad-as-the-default-Git-editor-for-commits-instead-of-Vim
 
-Ustawienie jak Git powinien traktować *end of lines* (dla Windows)
+##### Ustawienie jak Git powinien traktować *end of lines* (dla Windows)
 ```
 git config --global core.autocrlf true
 ```
