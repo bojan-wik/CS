@@ -4,6 +4,6 @@
 Ficzer który pozwala na istnienie w obrębie jednej klasy wielu funkcji/metod o tej samej nazwie. 
 
 Jest to możliwe gdy: 
--   typy parametrów są inne 
--   Liczba input parametrów jest inna 
--   Typy i liczba input parametrów jest inna
+-   data typy parametrów są inne,
+-   liczba parametrów jest inna,
+-   data typy i liczba parametrów jest inna.
