@@ -39,6 +39,9 @@ Wyszukiwanie we wszystkich plikach w projekcie
 Generowanie kodu
 >alt + insert
 
+Zaznaczanie poszczególnych słów
+>ctrl+shift+left/right
+
 
 #### Pluginy
 - Rainbow brackets
