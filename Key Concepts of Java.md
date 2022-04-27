@@ -9,19 +9,22 @@ Przykłady:
 boolean case extends
 ```
 
-##### Expressions
-Expressions are essentially building blocks of all Java programs.
+##### Statements & Expressions
+
+**Statement** forms a complete command to be executed and can include one or more expressions e.g.
+```java
+double kilometers = (100 * 1.609344*);
+```
+Statement zawsze kończy się średnikiem (;)
+
+**Expressions** are essentially building blocks of all Java programs.
 Expressions are built with: 
 - variables, 
 - operators, 
 - values, 
 - method calls.
 
-Przykładowo mając taki statement, przeliczający mile na kilometry:
-```java
-double kilometers = (100 * 1.609344*);
-```
-ta część stanowi expression:
+W powyższym przykładzie ta część stanowi expression:
 ```java
 kilometers = (100 * 1.609344*)
 ```
