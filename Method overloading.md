@@ -1,5 +1,5 @@
 # Method overloading
-#java
+#programming #java
 
 Ficzer który pozwala na istnienie w obrębie jednej klasy wielu funkcji/metod o tej samej nazwie. 
 
@@ -39,3 +39,11 @@ Player Wiktor scored 500
 Unnamed Player scored 100
 No player name, no player score
 ```
+
+Często korzystanie z mechanizmu overloadingu jest postrzegane jako **dobra praktyka** np. pisanie metody do sumowania liczb. Tworzę wiele metod o tej samej nazwie sum(), tylko z inną liczbą parametrów, w zależności ile liczb dana metoda będzie sumować.
+
+##### Korzyści:
+1. Poprawia czytelność i re-używalność kodu
+2. Łatwiej jest zapamiętać jedną nazwę metody
+3. Pozwala osiągnąć spójność w nazewnictwie
+4. Daje więcej elastyczności w programowaniu
