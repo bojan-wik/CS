@@ -1,4 +1,4 @@
 # Access modifiers
 #java 
 
-![[Pasted image 20220428121111.png]]
+![[Pasted image 20220428124616.png]]
