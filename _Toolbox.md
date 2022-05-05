@@ -1,14 +1,20 @@
 # Toolbox
 #tools 
 
-##### Chrome extensions
+##### Chrome, extensions
 - Tabs Outliner
 - Environment Marker
 - Google Translate
 - Quick JIRA
 
-##### Notepad++ plugins
+##### Notepad++, plugins
 - Compare
+
+##### Obsidian, plugins
+- Obsidian GIT
+
 ##### WatchMe
+
 ##### CMDER
+
 ##### AutoHotkey
