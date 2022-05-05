@@ -12,5 +12,4 @@
 ## Other
 * [https://przekroj.pl/nauka/fizyk-stworzyl-nowa-teorie-zycia-natalie-wolchover-quanta-magazine](https://przekroj.pl/nauka/fizyk-stworzyl-nowa-teorie-zycia-natalie-wolchover-quanta-magazine)
 * https://medium.com/@elephant.journal/the-most-breathtaking-description-of-death-i-have-ever-heard-3f4173b3d989
-* [Ratunku, kleszcz! Kompletny poradnik, co zrobić po ugryzieniu • swisslab.pl](https://swisslab.pl/warto-wiedziec/borelioza-kleszcze/ratunku-kleszcz-co-zrobic-po-ugryzieniu)
 
