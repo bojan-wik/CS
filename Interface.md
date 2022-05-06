@@ -2,9 +2,9 @@
 #java 
 
 ##### Interface w Java:
-- zestaw metod bez ich implementacji - bez ich body/kodu, który definiowałby ich sposób działania 
+- zestaw metod (sygnatur metod) bez ich implementacji - bez ich body/kodu, który definiowałby ich sposób działania
 - właściwe body metod danego interfejsu znajduje się w klasie implementującej dany interfejs (keyword *implements*) 
-- w jednej klasie możemy zaimplementować więcej niż jeden interfejs 
+- w jednej klasie możemy zaimplementować więcej niż jeden interfejs (*multiple inheritance*)
 - interfejsy, tak jak klasy, definiujemy w osobnych plikach 
 - Interfejsy osiągają 100% poziom abstrakcji 
 
