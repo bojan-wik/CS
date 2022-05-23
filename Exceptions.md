@@ -1,7 +1,11 @@
 # Exceptions
 #programming #java 
 
-W programowaniu istnieją dwa główne podejścia do radzenia sobie z errorami:
+**Exception** (wyjątek) - mechanizm wyjątków służy do obsługi błędów, które mogą wystąpić w czasie przebiegu programu. Wyjątek to odbiegnięcie od standardowego, zaplanowanego przebiegu programu powodując jego 'wywalenie'.
+
+##### Sposoby obsługi wyjątków
+
+W programowaniu istnieją dwa główne podejścia do radzenia sobie z wyjątkami:
 - **LBYL** (Look Before You Leap - rozejrzyj się zanim skoczysz) - częściej używany w Javie
 - **EAFP** (it's Easier to Ask Forgiveness than Permission)
 
