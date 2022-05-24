@@ -65,6 +65,11 @@ xpath dla niego wyglądałby tak:
 //div[@jsmodel='vWNDde']/div/div[1]/div/div[2]/input
 ```
 
+* parent np.
+```
+//input[@id = 'text']//parent::span
+```
+
 
 ### d) identyfikowanie siblingów
 czyli "braci" i "sióstr" danego node
@@ -85,7 +90,7 @@ Takie przechodzenie do tyłu jest możliwe tylko z xPath, nie jest możliwe z CS
 
 | expression | syntax | example |
 | ----------- | ----------- | ----------- |
-| contains | //tagName[contains(@attribute, 'value')] | //input[contains(@id, 'user-')] |
+| contains | //tagName[contains(@attribute, 'value')] | //span[contains(text(),'Add section')] |
 | starts with | //tagName[starts-with(@attribute, 'value')] | //input[starts-with(@name, 'pass')] |
 | ends with | //tagName[ends-with(@attribute, 'value')] | //input[ends-with(@id, 'button')] |
 
