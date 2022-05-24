@@ -28,3 +28,8 @@ W powyższym przykładzie ta część stanowi expression:
 ```java
 kilometers = (100 * 1.609344*)
 ```
+
+##### Stack Trace & Call Stack
+Najlepiej rozkminiać od dołu
+
+![[Pasted image 20220524161052.png]]
