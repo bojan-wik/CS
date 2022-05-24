@@ -47,3 +47,8 @@ Zaznaczanie poszczególnych słów
 - Rainbow brackets
 - Java visualizer
 
+#### Inne
+
+Żeby terminal w IntelliJ zapamiętywał historię trzeba przed zamknięciem samego IntelliJ zamknąć osobno terminal komendą `$ exit`
+>https://intellij-support.jetbrains.com/hc/en-us/community/posts/360002482980/comments/360002321879
+
