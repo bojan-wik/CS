@@ -3,7 +3,7 @@
 
 **Exception** (wyjątek) - mechanizm wyjątków służy do obsługi błędów, które mogą wystąpić w czasie przebiegu programu. Wyjątek to odbiegnięcie od standardowego, zaplanowanego przebiegu programu powodując jego 'wywalenie'.
 
-##### Sposoby obsługi wyjątków
+### Sposoby obsługi wyjątków
 
 W programowaniu istnieją dwa główne podejścia do radzenia sobie z wyjątkami:
 - **LBYL** (Look Before You Leap - rozejrzyj się zanim skoczysz) - częściej używany w Javie
@@ -13,7 +13,7 @@ Try-catch block:
 - **try** - tu ląduje kod, który może powodowować problemy (wywoływać exceptiony) 
 - **catch** - tu definuję exception jaki ma być wyłapywany i sposób w jaki ma być obsłużony
 
-##### Przykład: 
+### Przykład: 
 Dzielenie przez zero jest niedozwolone.
 
 Przy próbie dzielenia przez zero taka metoda:
@@ -45,3 +45,6 @@ private static int divideEAFP(int x, int y) {
         }
     }
 ```
+
+### Inne przykłady: 
+[UdemyJavaMasterclass/src/section14/exceptions at master · bojan-wik/UdemyJavaMasterclass · GitHub](https://github.com/bojan-wik/UdemyJavaMasterclass/tree/master/src/section14/exceptions)
