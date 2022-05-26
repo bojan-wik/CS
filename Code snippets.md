@@ -1,6 +1,15 @@
 # Code snippets
 #java #selenium 
 
+#### dynamic xpath
+```java
+String CR_SECTION_THREE_DOTS_MENU = "//div[contains(text(), '%s')]";
+String sectionName = "section1";
+
+webDriverWait.until(ExpectedConditions.elementToBeClickable
+                        (By.xpath(String.format(CR_SECTION_THREE_DOTS_MENU, sectionName)))).click();
+```
+
 #### iterate through list of webelements -> find element within element
 ```java
 List<WebElement> contentTiles = driver.findElements(By.xpath("//md-card[contains(@class, 'ng-scope')]"));
