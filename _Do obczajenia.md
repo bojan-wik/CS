@@ -15,3 +15,6 @@
 * https://www.decathlon.pl/p/mata-do-jogi-kimjaly-travel-1-5-mm/_/R-p-144715
 * https://lubimyczytac.pl/ksiazka/4892615/koderzy-opowiesc-o-ludziach-ktorzy-zmienili-nasz-swiat
 
+* https://vistula.pl/spodnie-benjamin-vistula-22?gclid=EAIaIQobChMIwtzK3ZuM-AIVwI1oCR1YNgu6EAQYAiABEgLSsPD_BwE&gclsrc=aw.ds
+* https://www.lancerto.com/pl/spodnie-szare-flanelowe-diego-sp001218000002-szary.html?tduid=0b2e3defcfb76117ede36cad5aa218ef&utm_source=tradedoubler&utm_medium=Velkashopping.com%20(PL)
+
