@@ -12,4 +12,16 @@ LinkedList, tak samo jak [[ArrayList]] implementuje intefejs [[List]] dlatego te
 
 * ArrayList - oparta na tablicy, dzięki czemu jest bardziej wydajna.
 
-* LinkedList - oparta na powiązanych między sobą obiektach, przez co jest o wiele mniej wydajna. Dla każdego elementu w liście jest utworzony obiekt Node, który go przechowuje. Wraz ze zwiększeniem liczby elementów w liście znacząco wzrasta też zużycie pamięci.
+![[Pasted image 20220602113049.png]]
+
+* LinkedList - przechowuje elementy w specjalnych kontenerach/nodach. LinkedList ma linka do pierwszego kontenera, pierwszy kontener do drugiego itd. Wraz ze zwiększeniem liczby elementów w liście znacząco wzrasta też zużycie pamięci, przez co lista jest o wiele mniej wydajna.
+
+![[Pasted image 20220602113102.png]]
+
+Większość operacji wykonywanych na listach to dodawanie i odczytywanie. Jeśli chodzi o dodawanie elementów do ArrayList, to jest ono tak samo wydajne jak w LinkedList, gdy dodajemy elementy na końcu listy. Co właściwie ma miejsce w większości przypadków. W uproszczeniu możemy przyjąć, że pod tym względem obie listy są równoważne.
+
+==Generalnie jeśli ma się jakieś wątpliwości jakiej listy używać, można zawsze skorzystać z ArrayList, która sprawdza się w 99,9% przypadków.==
+
+---
+https://nullpointerexception.pl/dlaczego-zawsze-powinienes-uzywac-arraylist-w-javie/#:~:text=G%C5%82%C3%B3wna%20r%C3%B3%C5%BCnic%C4%85%20pomi%C4%99dzy%20tymi%20listami,jest%20o%20wiele%20bardziej%20pami%C4%99cio%C5%BCerna.
+https://www.w3schools.com/java/java_linkedlist.asp
