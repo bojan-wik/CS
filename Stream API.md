@@ -7,7 +7,7 @@
 
 ## Główne założenia:
 
-* Streamy same w sobie nie są [[data structure]] - nie przechowują danych. Przyjmują tylko jako input różne typy kolekcji danych np. [[Collections]], [[Arrays]] itp.
+* Streamy same w sobie nie są [[data structure]] - nie przechowują danych. Przyjmują tylko jako input różne typy kolekcji danych np. [[Collections]], [[Array]] itp.
 * Taki przyjęty przez stream input stanowi jego sekwencję elementów na których potem można wykonywać różne operacje, które potem można pipelinować, żeby otrzymać oczekiwany efekt
 * Streamy nie modyfikują oryginalnego źródła danych (przyjętego jako input)
 
