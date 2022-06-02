@@ -3,7 +3,7 @@
 ### I. Info od Agaty
 ##### Programowanie: 
 - paradygmaty obiektowości -> [[Object-oriented programming]]
-- interfejsy vs klasy abstrakcyjne (30) 
+- interfejsy vs klasy abstrakcyjne (30) -> [[Interface]]
 - dziedziczenie vs agregacja vs kompozycja -> [[Inheritance vs Composition vs Aggregation]]
 - wyrażenia lambda (14) 
 - typy generyczne 
@@ -56,15 +56,15 @@ no i do tego dochodzą czasami specyfine pytania z technologii z CV kandydata cz
 
 ### III. Info od Pawła B.
 1. https://www.jdoodle.com/ia/c9N - zmodyfikować klasy w taki sposób aby nie pojawiay się błędy - OK
-2. co to jest polimorfizm
-3. co to jest dziedziczenie
-4. co to jest hermetyzacja / enkapsulacja
+2. co to jest polimorfizm -> [[Polymorphism]]
+3. co to jest dziedziczenie -> [[Inheritance]]
+4. co to jest hermetyzacja / enkapsulacja -> [[Encapsulation]]
 5. co to jest abstrakcja, w jakich sytuacjach używać
 6. czym różni się maven od gradle
-7. do czego służy garbage collector
+7. do czego służy garbage collector -> [[Garbage Collector]]
 8. rodzaje kolekcji i kilka słów o każdym z nich
 9. zadanie: są 2 duże zbiory danych (każdy ok 100 000 rekordów) i w jaki sposób określić, że wszystkie elementy ze zbioru 1 są zawarte w zbiorze 2
-10. jakie są rodzaje selektorów i których najczęściej używasz
+10. jakie są rodzaje selektorów i których najczęściej używasz -> [[Locators, selectors]]
 11. rodzaje wait'ów w selenium i czym się różnią
 12. zadanie: na stronie http://automationpractice.com/ dodać produkt do kosza, przejść do kosza i odczytać cenę (bez waluty) - napisać na to lokator
 13. jak zorganizować w projekcie stronę, która ma dużo elementów / sekcji
