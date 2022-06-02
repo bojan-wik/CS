@@ -10,3 +10,6 @@ Implementacja ta pozawala dodawać i usuwać elementy w stałym czasie (dodawani
 #### ArrayList vs LinkedList
 LinkedList, tak samo jak [[ArrayList]] implementuje intefejs [[List]] dlatego też dysponuje tym samym zestawem metod. Obie klasy są do siebie podobne i mogą być używane w ten sam sposób, ale zbudowane są inaczej.
 
+* ArrayList - oparta na tablicy, dzięki czemu jest bardziej wydajna.
+
+* LinkedList - oparta na powiązanych między sobą obiektach, przez co jest o wiele mniej wydajna. Dla każdego elementu w liście jest utworzony obiekt Node, który go przechowuje. Wraz ze zwiększeniem liczby elementów w liście znacząco wzrasta też zużycie pamięci.
