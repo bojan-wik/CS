@@ -18,3 +18,5 @@
 * https://vistula.pl/spodnie-benjamin-vistula-22?gclid=EAIaIQobChMIwtzK3ZuM-AIVwI1oCR1YNgu6EAQYAiABEgLSsPD_BwE&gclsrc=aw.ds
 * https://www.lancerto.com/pl/spodnie-szare-flanelowe-diego-sp001218000002-szary.html?tduid=0b2e3defcfb76117ede36cad5aa218ef&utm_source=tradedoubler&utm_medium=Velkashopping.com%20(PL)
 
+https://www.gandalf.com.pl/m/zlote-bloki/?utm_source=ceneo&utm_medium=referral&utm_campaign=ceneo&ceneo_cid=c9715586-8a3c-7a53-0572-d96ccf49dd93
+
