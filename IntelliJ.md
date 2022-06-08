@@ -36,6 +36,13 @@ Zakomentowanie/odkomentowanie bloku kodu
 Wyszukiwanie we wszystkich plikach w projekcie
 >ctrl + shift + f
 
+Szukanie wszędzie
+>shift shift
+
+Przechodzenie po miejscach, które się odwiedzało
+>alt + left
+>alt + right
+
 Generowanie kodu
 >alt + insert
 
