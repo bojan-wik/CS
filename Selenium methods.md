@@ -18,3 +18,9 @@ W tym przypadku robiłem asercję po jakimś atrybucie np.
 ```java
 assertThat(radioButtonGraphicalLogo.getAttribute("aria-checked")).isEqualTo("true");
 ```
+
+#### isEnabled
+Sytuacja taka sama jak wyżej - nie działa dla elementów Angularowych np. `mat-radio-button`, zastąpione asercją:
+```java
+Assert.assertTrue(btn_DIADivision.getAttribute("class").contains("mat-radio-disabled");
+```
