@@ -14,4 +14,5 @@
 * https://yogabazar.pl/product-pol-10-Podrozna-mata-do-jogi-Manduka-eKO-SuperLite-Travel-1-5mm-Midnight.html
 * https://www.decathlon.pl/p/mata-do-jogi-kimjaly-travel-1-5-mm/_/R-p-144715
 * https://lubimyczytac.pl/ksiazka/4892615/koderzy-opowiesc-o-ludziach-ktorzy-zmienili-nasz-swiat
+* https://antyweb.pl/odwiedzilem-slaskie-planetarium
 
