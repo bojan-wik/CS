@@ -26,5 +26,6 @@ Collections: 
     -   can not contain duplicate keys         
     -   implemented by the classes: HashMap, TreeMap, LinkedHashMap etc.         
 
+Hierarchia
+![[Pasted image 20220622160204.png]]
 ---
-[https://www.geeksforgeeks.org/collections-in-java-2/](https://www.geeksforgeeks.org/collections-in-java-2/)
