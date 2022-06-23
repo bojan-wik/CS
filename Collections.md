@@ -28,4 +28,5 @@ Collections: 
 
 Hierarchia
 ![[Pasted image 20220622160204.png]]
----
+
+[[Binary Search]]
