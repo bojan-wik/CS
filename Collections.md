@@ -30,3 +30,29 @@ Hierarchia
 ![[Pasted image 20220622160204.png]]
 
 [[Binary Search]]
+
+### Collections List Methods
+##### Kopiowanie listy
+```java
+List<Theatre.Seat> seatsCopy = new ArrayList<>(theatre.seats);
+```
+w tym przypadku dokonujemy tzw. [[Shallow copy]], czyli:
+- lista sama w sobie jest nowym, osobnym obiektem
+- elementy listy nie są nowymi, osobnymi obiektami - to tylko referencje do tych samych obiektów co w pierwszej liście
+
+![[Pasted image 20220624165756.png]]
+
+Dlatego też jeżeli wpłynę na jakiś element listy poprzez obiekt pierwszej listy (theatre.seats) np. dla elementu seatNumber="A01" ustawię reserved=true to jak wywołam ten element poprzez obiekt drugiej listy to on już będzie miał reserved=true - bo to ten sam obiekt.
+
+##### Sortowanie listy
+Ale dlatego, że to są osobne listy to jak posortuję pierwszą, to nie wpłynie to na drugą
+```java
+(theatre.seats).sort(Collections.reverseOrder());
+// albo
+Collections.reverse(theatre.seats);
+```
+
+##### Shuffle - random order listy
+```java
+Collections.shuffle(theatre.seats);
+```
