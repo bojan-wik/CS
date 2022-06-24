@@ -10,8 +10,13 @@
 ##### Notepad++, plugins
 - Compare
 
+##### IntelliJ
+- Java Visualizer
+- Rainbow Brackets
+
 ##### Obsidian, plugins
 - Obsidian GIT
+- Advanced Tables
 
 ##### WatchMe
 
