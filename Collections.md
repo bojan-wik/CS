@@ -46,13 +46,30 @@ Dlatego też jeżeli wpłynę na jakiś element listy poprzez obiekt pierwszej l
 
 ##### Sortowanie listy
 Ale dlatego, że to są osobne listy to jak posortuję pierwszą, to nie wpłynie to na drugą
+
+reverse order
 ```java
 (theatre.seats).sort(Collections.reverseOrder());
 // albo
 Collections.reverse(theatre.seats);
 ```
 
+normal order
+```java
+Collections.sort(theatre.seats);
+```
+
 ##### Shuffle - random order listy
 ```java
 Collections.shuffle(theatre.seats);
 ```
+
+#### Min and max value
+```java
+Theatre.Seat minSeat = Collections.min(theatre.seats);
+Theatre.Seat maxSeat = Collections.max(theatre.seats);
+
+System.out.printf("theatre.seats Min seat number is %s", minSeat.getSeatNumber()).println();
+System.out.printf("theatre.seats Max seat number is %s", maxSeat.getSeatNumber()).println();
+```
+Poprawnie wyszukuje min i max value nawet dla nieposortowanych list.
