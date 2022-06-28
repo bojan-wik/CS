@@ -7,7 +7,7 @@
 - dziedziczenie vs agregacja vs kompozycja -> [[Inheritance vs Composition vs Aggregation]]
 - wyrażenia lambda (14) 
 - typy generyczne 
-- rodzaje kolekcji + różnice (32) 
+- rodzaje kolekcji + różnice (32) -> [[Collections]]
 - wzorce projektowe 
 - serializacja/deserializacja danych 
 - jak działają adnotację i jak stworzyć własną 
