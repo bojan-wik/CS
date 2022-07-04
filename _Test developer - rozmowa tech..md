@@ -8,7 +8,7 @@
 - wyrażenia lambda (14) 
 - typy generyczne 
 - rodzaje kolekcji + różnice (32) -> [[Collections]]
-- wzorce projektowe 
+- wzorce projektowe -> [[Design Patterns]]
 - serializacja/deserializacja danych 
 - jak działają adnotację i jak stworzyć własną 
  
