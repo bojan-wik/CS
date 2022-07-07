@@ -25,3 +25,8 @@
 - Uławiają komunikację z innymi developerami - prościej jest komuś przekazać nazwę wzorca do zaimplementowania, niż starać się to wyjaśnić opisowo
 - Wspomagają i poprawiają umiejętność programowania obiektowego
 - Ułatwiają późniejszą naukę nowych frameworków, jako że większość z nich opiera się na tych samych wzorcach projektowych
+
+---
+https://www.youtube.com/watch?v=NU_1StN5Tkk
+https://bykowski.pl/wzorce-projektowe/
+https://nullpointerexception.pl/3-najpopularniejsze-wzorce-projektowe/
