@@ -19,6 +19,7 @@
 - strategy
 - visitor
 - observer
+- memento, np. do zaimplementowania ficzera undo
 
 #### Korzyści
 - Uławiają komunikację z innymi developerami - prościej jest komuś przekazać nazwę wzorca do zaimplementowania, niż starać się to wyjaśnić opisowo
