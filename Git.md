@@ -24,6 +24,14 @@ git config --global core.autocrlf true
 ```
 Jest to ważne w przypadku, kiedy nad tym samym kodem pracują ludzie w innych systemach operacyjnych. Windows i MacOS/Linux traktują EOL inaczej, a to ustawienie sprawia, że te różnice są niwelowane
 
+##### Ustawienie credentiali dla Gita w Windowsie (Authentication failed for)
+Control Panel -> Credential Manager -> Windows Credentials -> Generic Credentials
+
+i szukam serwisu, dla którego chcę ustawić/zmienić credentiale.
+W moim przypadku to był bitbucket, gdzie miałem wcześniej pewnie nieaktualne hasło i za każdym razem jak pushowałem zmiany, to dostawałem
+`fatal: Authentication failed for 'https://bitbucket...'`
+>https://stackoverflow.com/a/49125803
+
 ## 2. Workflow
 
 ![[Pasted image 20220121145455.png]]
