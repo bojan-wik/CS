@@ -62,7 +62,7 @@ no i do tego dochodzą czasami specyfine pytania z technologii z CV kandydata cz
 5. co to jest abstrakcja, w jakich sytuacjach używać
 6. czym różni się maven od gradle
 7. do czego służy garbage collector -> [[Garbage Collector]]
-8. rodzaje kolekcji i kilka słów o każdym z nich
+8. rodzaje kolekcji i kilka słów o każdym z nich -> [[Collections]]
 9. zadanie: są 2 duże zbiory danych (każdy ok 100 000 rekordów) i w jaki sposób określić, że wszystkie elementy ze zbioru 1 są zawarte w zbiorze 2
 10. jakie są rodzaje selektorów i których najczęściej używasz -> [[Locators, selectors]]
 11. rodzaje wait'ów w selenium i czym się różnią
