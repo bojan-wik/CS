@@ -14,4 +14,5 @@
 * https://yogabazar.pl/product-pol-10-Podrozna-mata-do-jogi-Manduka-eKO-SuperLite-Travel-1-5mm-Midnight.html
 * https://www.decathlon.pl/p/mata-do-jogi-kimjaly-travel-1-5-mm/_/R-p-144715
 * https://antyweb.pl/odwiedzilem-slaskie-planetarium
+* https://magazyn-kuchnia.pl/magazyn-kuchnia/7,122005,28677906,kuchnia-antyinflacyjna-gotuj-afrykanskie-dania-do-10-zl.html?disableRedirects=true#S.bauer-K.C-B.1-L.2.zw
 
