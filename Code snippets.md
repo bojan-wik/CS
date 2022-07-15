@@ -1,6 +1,13 @@
 # Code snippets
 #java #selenium 
 
+#### extract digit from a string and convert it to int
+```java
+String str = "The price of the book is $49";
+String numberOnly = str.replaceAll("[^0-9]", "");
+int numberOnlyInt = Integer.parseInt(numberOnly);
+```
+
 #### dynamic xpath
 ```java
 String CR_SECTION_THREE_DOTS_MENU = "//div[contains(text(), '%s')]";
