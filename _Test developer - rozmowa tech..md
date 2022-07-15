@@ -6,7 +6,7 @@
 - interfejsy vs klasy abstrakcyjne (30) -> [[Interface]]
 - dziedziczenie vs agregacja vs kompozycja -> [[Inheritance vs Composition vs Aggregation]]
 - wyrażenia lambda (14) 
-- typy generyczne 
+- typy generyczne -> [[Java Generics]]
 - rodzaje kolekcji + różnice (32) -> [[Collections]]
 - wzorce projektowe -> [[Design Patterns]]
 - serializacja/deserializacja danych 
@@ -52,6 +52,7 @@ no i do tego dochodzą czasami specyfine pytania z technologii z CV kandydata cz
 
 ### II. Info od Adama
 ![[Pasted image 20220309142509.png]]
+* static -> [[static vs instance]]
 * Zadanie z rekurencji -> [[Recursion]]
 
 ### III. Info od Pawła B.
