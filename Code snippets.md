@@ -1,6 +1,22 @@
 # Code snippets
 #java #selenium 
 
+#### check if element is present on the DOM
+```java
+    public boolean checkIfElementIsPresentOnTheDOM(By locator) {
+        try {
+            driver.findElement(locator);
+        } catch (NoSuchElementException e) {
+            return false;
+        }
+        return true;
+    }
+```
+Żeby funkcja zadziałała poprawnie tj. poprawnie wyłapała wyjątek i zwróciła false w przypadku braku elementu, trzeba zaimportować
+`NoSuchElementException (org.openqa.selenium)`
+a nie
+`NoSuchElementException (java.util)`
+
 #### extract digit from a string and convert it to int
 ```java
 String str = "The price of the book is $49";
