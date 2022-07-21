@@ -16,7 +16,4 @@
 * https://antyweb.pl/odwiedzilem-slaskie-planetarium
 * https://magazyn-kuchnia.pl/magazyn-kuchnia/7,122005,28677906,kuchnia-antyinflacyjna-gotuj-afrykanskie-dania-do-10-zl.html?disableRedirects=true#S.bauer-K.C-B.1-L.2.zw
 * https://allegro.pl/oferta/magazyn-psx-extreme-nr-0-prezent-przedsprzedaz-12356061988?fbclid=IwAR0HePuYT92VDDbY87bgLyqzCXDojmx-vsMKVL4jYYsO-80Gj1tzLhCNeQo
-* https://www.decathlon.pl/p/krokomierz-akcelerometr-onwalk-500-czarny/_/R-p-104524?mc=8331546
-* https://www.youtube.com/watch?v=8Z93N4mqD8Y
-* https://lubimyczytac.pl/ksiazka/4969515/sex-disco-i-kasety-video-polska-lat-90
 
