@@ -13,8 +13,39 @@ Listy bez sprecyzowanego w parametrze typu danych to tzw. *raw types* - cały cz
 ArrayList itemsOfRawType = new ArrayList();
 ```
 
+Dzięki typom sparametryzowanym możemy walidować rodzaj wprowadzanych danych. Tutaj klasa *Team* jako parametr przyjmuje tylko i wyłącznie klasy, które są sub-klasami dla klasy *Parent*.
+```java
+public class Team<T extends Player> {
+	private ArrayList<T> members = new ArrayList<>();
+}
+```
+
+```java
+public static void main(String[] args) {
+        FootballPlayer footballPlayer1 = new FootballPlayer("Vic");
+
+        Team<FootballPlayer> footballTeam = new Team<>("Football Team");
+        footballTeam.addPlayer(footballPlayer1);
+        // to da errory, jako że ta instancja do klasy 'Team' przyjmuje parametr typu 'FootballPlayer'
+//        footballTeam.addPlayer(baseballPlayer1);
+//        footballTeam.addPlayer(soccerPlayer1);
+}
+```
+
+Jako *type parameter* możemy przekazywać klasy albo interfejsy - zawsze w tej kolejności, najpierw klasa, potem interface.
+```java
+public class Team<T extends Player & Coach & Manager> {
+	private ArrayList<T> members = new ArrayList<>();
+}
+```
+*Coach* i *Manager* w tym przypadku to interfejsy.
+
+
 #### Korzyści
 - możliwość tworzenia bardziej elastycznego i zwięzłego kodu
 - kontrola typów już na etapie pisania kodu (kompilacji/budowania), a nie dopiero w trakcie uruchomienia programu (runtime) - pozwala to znaleźć potencjalne bugi na wczesnym etapie
 - przydatne w implementacji list, wielu algorytmów
 
+---
+- https://www.udemy.com/course/java-the-complete-java-developer-course/learn/lecture/3824746#overview
+- https://github.com/bojan-wik/UdemyJavaMasterclass/tree/master/src/section10/javaGenerics
