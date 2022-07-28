@@ -1,6 +1,11 @@
 # JUnit
 #tools
 
+## Download and Install
+
+#### JAR
+>https://github.com/junit-team/junit4/wiki/Download-and-Install
+
 ## Adnotacje
 
 Żeby @Order działał poprawnie muszę dodatkowo przed klasą testową dodać adnotację @TestMethodOrder np.
