@@ -6,6 +6,7 @@
 - Environment Marker
 - Google Translate
 - Quick JIRA
+- Google Keep
 
 ##### Notepad++, plugins
 - Compare
