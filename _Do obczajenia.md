@@ -15,3 +15,7 @@
 * https://www.decathlon.pl/p/mata-do-jogi-kimjaly-travel-1-5-mm/_/R-p-144715
 * https://magazyn-kuchnia.pl/magazyn-kuchnia/7,122005,28677906,kuchnia-antyinflacyjna-gotuj-afrykanskie-dania-do-10-zl.html?disableRedirects=true#S.bauer-K.C-B.1-L.2.zw
 
+
+https://www.youtube.com/watch?v=ykuHVxSuTjw
+https://www.youtube.com/watch?v=gQ3Bh2FMLoY
+https://www.youtube.com/watch?v=gnObvFdQHlY&list=OLAK5uy_kwfeuTRYHBUMWkOFI-TrcvpMh8dtR8XVY
