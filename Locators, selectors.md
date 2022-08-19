@@ -90,7 +90,7 @@ Takie przechodzenie do tyłu jest możliwe tylko z xPath, nie jest możliwe z CS
 
 | expression | syntax | example |
 | ----------- | ----------- | ----------- |
-| contains | //tagName[contains(@attribute, 'value')] | //span[contains(text(),'Add section')] |
+| contains | //tagName[contains(@attribute, 'value')] | //span[contains(text(),'Add section')] //div[contains(@class, 'mm-document-tile-grid-title')]|
 | starts with | //tagName[starts-with(@attribute, 'value')] | //input[starts-with(@name, 'pass')] |
 | ends with | //tagName[ends-with(@attribute, 'value')] | //input[ends-with(@id, 'button')] |
 
