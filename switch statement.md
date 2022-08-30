@@ -33,7 +33,9 @@ public class BasicCalculator {
                     case 0:  
                         break;  
  					default:  
-                        calculationResult = num1 / num2;  
+                        calculationResult = num1 / num2;
+            default:
+	            throw new IllegalStateException("No such option in switch statement");`  
  	}  
         }  
         return calculationResult;  
