@@ -8,6 +8,7 @@
 
 ## Adnotacje
 
+#### @Order
 Żeby @Order działał poprawnie muszę dodatkowo przed klasą testową dodać adnotację @TestMethodOrder np.
 ```java
 @TestMethodOrder(MethodOrderer.OrderAnnotation.class)
@@ -36,3 +37,12 @@ Chyba tyczy się to sytuacji z JUnit 5 i nowszym
 >https://stackoverflow.com/questions/54947645/junits-testmethodorder-annotation-not-working
 
 @Order - działa już od 0, tak samo jak w TestNG
+
+#### Assercja na to, że rzucony jest Exception
+```java
+@Test(expected = IllegalArgumentException.class)
+    public void test9() {
+        Challenge.returnTheEndOfNumber(0);
+    }
+```
+>https://www.baeldung.com/junit-assert-exception
