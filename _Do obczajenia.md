@@ -4,6 +4,7 @@
 * https://www.stickyminds.com/article/java-qa-automation-engineers-how-learn
 * https://techbeacon.com/app-dev-testing/6-common-test-automation-mistakes-how-avoid-them
 * https://www.faesel.com/blog/why-every-developer-needs-to-use-obsidian
+* https://sii.pl/oferty-pracy/id/18908/software-tester-java-ee/
 
 ## IT-related
 * [The Art of Code - Dylan Beattie](https://www.youtube.com/watch?v=6avJHaC3C2U)

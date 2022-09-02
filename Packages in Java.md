@@ -1,7 +1,19 @@
 # Packages in Java
 #java 
 
-Wildcard (*)
+## Co to jest?
+To sposób na enkapsulację zestawu klas, interfejsów, subpackages. 
+- Keyword 'import' np. import package.className 
+- Niektórych package nie trzeba specjalnie importować - są one ustawione jako defaultowe/globalne I uruchamiane razem z compilerem np. Java.lang 
+- Inne trzeba specjalnie importować, żeby móc z nich korzystać np. Java.util 
+
+## Typy:
+- wbudowane (In-built)
+- stworzone przez usera (User-defined)
+
+Class A can use the Class B directly by creating object if both of them belongs to the same package  
+
+## Wildcardy (*)
 
 Używanie w imporcie gwiazdki np.
 ```java
