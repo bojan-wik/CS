@@ -1,6 +1,13 @@
 # Code snippets
 #java #selenium 
 
+#### extracting last two digits and last digit of the number
+```java
+int number = 111;
+int lastTwoDigits = number % 100;  
+int lastDigit = lastTwoDigits % 10;
+```
+
 #### check if element is present on the DOM
 ```java
     public boolean checkIfElementIsPresentOnTheDOM(By locator) {
