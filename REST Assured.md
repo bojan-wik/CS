@@ -7,7 +7,7 @@
 - wpiera syntax Gherkin (Given, When, Then)
 
 #### [[JsonPath]] i [[GPath]]
-- JsonPath to path expression language dla JSON
+- JsonPath i GPath to path expression languages dla JSON
 - porównywalny do XmlPath dla plików XML, albo XPath dla plików HTML
 - Rest Assured używa GPath notation
 
