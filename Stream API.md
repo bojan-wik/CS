@@ -42,6 +42,16 @@ Rozwiązanie z użyciem stream
 ```Java
 long countNamesStartingWithA = namesList.stream().filter(name -> name.startsWith("A")).count();
 ```
+
+#### string array -> stream -> string array
+```java
+String[] array = {"Arizona", "CA", "NY", "Nevada"};
+Stream<String> streamArray = Arrays.stream(array);
+
+String[] filteredArray = streamArray.filter(element -> element.length() <= 2).toArray(String[]::new);
+
+```
+
 ---
 * https://github.com/bojan-wik/SeleniumWithJavaCourse/tree/master/src/Chapter14_JavaStreams
 * https://geek.justjoin.it/zastosowanie-stream-api-z-java-8-przyklady
