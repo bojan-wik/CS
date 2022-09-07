@@ -20,3 +20,12 @@ groceryList.get(1);
 #### Array vs ArrayList
 
 ![[Pasted image 20220602084020.png]]
+
+#### Convert ArrayList to Array
+```java
+String[] array = {"Arizona", "CA", "NY", "Nevada"};
+ArrayList<String> filteredArrayList = new ArrayList<>();
+
+filteredArrayList.toArray(new String[filteredArrayList.size()])
+```
+>https://www.geeksforgeeks.org/convert-an-arraylist-of-string-to-a-string-array-in-java/
