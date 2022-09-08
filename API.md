@@ -4,12 +4,12 @@
 ## Co to jest?
 
 **API** - Application Programming Interface. 
-One piece of code talking to another piece of code.
+To kontrakt, który umożliwia komunikację pomiędzy jednym serwisem/aplikacją a drugim serwisem/aplikacją
 
 ## API contract
 
 | Request    | ->  | Response |
 | ---------- | --- | -------- |
-| - endpoint |     | - status code         |
+| - endpoint (URL) |     | - status code         |
 | - headers  |     | - headers         |
 | - body           |     | - body         |
