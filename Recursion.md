@@ -38,7 +38,7 @@ public static int getFactorial(int n) {
 1. Warunek kończący - gdy warunek kończący jest spełniony, metoda przestaje wywoływać samą siebie i zaczyna przekazywać wartości 'w górę'. Kiedy nie ma warunku kończącego zachodzi nieskończona pętla, w której metoda będzie wywoływała się do momentu otrzymania [[StackOverflowError]]
 2. Logika, której wymaga sytuacja oraz wywołanie rekursji, ale z inną wartością wejściową
 
-czyli
+czyli:
 ```java
 public static int getFactorial(int n) {
 		// warunek kończący - gdy osiągniemy liczbę 1
