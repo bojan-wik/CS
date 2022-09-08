@@ -1,5 +1,5 @@
 # REST Assured
-#java #tools 
+#java #tools #api 
 
 - biblioteka Java do automatyzowania testów REST API
 - działa w oparciu o JUnit, albo TestNG

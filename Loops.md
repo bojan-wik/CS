@@ -1,5 +1,5 @@
 # Loops
-#java 
+#java #programming 
 
 ## for & for-each loops
 1. Pętli for i for-each używamy w przypadku kiedy wiemy ile razy mamy przeiterować. Przykład for-each loop:
