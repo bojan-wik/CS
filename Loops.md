@@ -29,7 +29,7 @@ public static int countTrue(boolean[] array) {
 ```
 
 ## while and do-while loops
-1. Pętli while używamy, kiedy nie wiemy dokładnie ile ma być iteracji, tylko że pętla ma działać dopóki jakiś warunek jest spełniony (true).
+1. Pętli while używamy, kiedy nie wiemy dokładnie ile ma być iteracji, tylko że pętla ma działać dopóki jakiś warunek jest spełniony (true). Warunek testujemy na początku pętli.
 ```java
 int count = 1;
 while(count != 6) {
@@ -37,7 +37,7 @@ while(count != 6) {
 	count ++;
 }
 ```
-2. Pętli do-while użyjemy kiedy chcemy żeby zdefiniowany kod uruchomił się przynajmniej 1 raz
+2. Pętli do-while użyjemy kiedy chcemy żeby zdefiniowany kod uruchomił się przynajmniej 1 raz. Warunek testujemy na końcu pętli.
 ```java
 int count = 1;
 do {
@@ -45,3 +45,5 @@ do {
     count ++;
 } while(count != 6);
 ```
+
+Zarówno w przypadku pętli *for* jak i *while* możemy używać [[break and continue statemets]]
