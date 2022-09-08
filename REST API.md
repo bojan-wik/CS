@@ -14,6 +14,11 @@ To kontrakt, który umożliwia komunikację pomiędzy jednym serwisem/aplikacją
 | - headers  |     | - headers         |
 | - body           |     | - body         |
 
+### różnica pomiędzy metodami PUT i PATCH
+Obie służą do update'u ale:
+- PUT wymaga, żeby body requestu był kompletne tj. to co zmieniamy + reszta
+- PATCH wystarczy, że w body requestu będzie tylko to co zmieniamy
+
 ## Postman
 
 ### kopiowanie requesta z devtoolsów do Postmana
