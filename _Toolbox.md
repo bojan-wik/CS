@@ -1,21 +1,23 @@
 # Toolbox
 #tools 
 
-##### Chrome, extensions
+##### Chrome and extensions:
 - Tabs Outliner
 - Environment Marker
 - Google Translate
 - Quick JIRA
 - Google Keep
 
-##### Notepad++, plugins
+##### Notepad++ and plugins:
 - Compare
 
-##### IntelliJ
+##### IntelliJ and plugins:
 - Java Visualizer
 - Rainbow Brackets
 
-##### Obsidian, plugins
+##### Postman
+
+##### Obsidian and plugins:
 - Obsidian GIT
 - Advanced Tables
 
