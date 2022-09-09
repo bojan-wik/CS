@@ -20,8 +20,8 @@ Obie służą do update'u ale:
 - PATCH wystarczy, że w body requestu będzie tylko to co zmieniamy
 
 ## POISED - API testing strategy
-Parameters
-Output
+Parameters (request body)
+Output (response body, status code, headers)
 Interop
 Security
 Errors
