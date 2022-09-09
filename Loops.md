@@ -46,4 +46,5 @@ do {
 } while(count != 6);
 ```
 
-Zarówno w przypadku pętli *for* jak i *while* możemy używać [[break and continue statemets]]
+- W odróżnieniu od pętli *for*, w pętli *while* musimy zadeklarować zmienną counter sami, poza pętlą.
+- Zarówno w przypadku pętli *for* jak i *while* możemy używać [[break and continue statemets]]
