@@ -26,6 +26,12 @@
 - Wspomagają i poprawiają umiejętność programowania obiektowego
 - Ułatwiają późniejszą naukę nowych frameworków, jako że większość z nich opiera się na tych samych wzorcach projektowych
 
+#### Najbardziej przydatne w automatyzacji testów
+- page factory
+- builder
+- dependency injection
+- page object pattern
+
 ---
 https://www.youtube.com/watch?v=NU_1StN5Tkk
 https://bykowski.pl/wzorce-projektowe/
