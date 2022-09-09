@@ -19,6 +19,14 @@ Obie służą do update'u ale:
 - PUT wymaga, żeby body requestu był kompletne tj. to co zmieniamy + reszta
 - PATCH wystarczy, że w body requestu będzie tylko to co zmieniamy
 
+## POISED - API testing strategy
+Parameters
+Output
+Interop
+Security
+Errors
+Data
+
 ## Postman
 
 ### kopiowanie requesta z devtoolsów do Postmana
