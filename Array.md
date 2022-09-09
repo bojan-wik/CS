@@ -35,6 +35,30 @@ arr2D[1][0] = 6; 
 arr2D[1][1] = 8;
 ```
 
+## Copying array by range
+```java
+char[] censoredStringArray = {'P', '*', 'k', '*', 'm', '*', 'n'};
+char[] removedVowelsArray = {'o', 'e', 'o'};
+
+for (int i = 0; i < censoredStringArray.length; i ++) {  
+    if (censoredStringArray[i] == '*') {  
+        censoredStringArray[i] = removedVowelsArray[0];  
+        removedVowelsArray = Arrays.copyOfRange(removedVowelsArray, 1, removedVowelsArray.length);  
+    }  
+}
+```
+
+## Converting char array to String
+```java
+char[] censoredStringArray = {'P', 'o', 'k', 'e', 'm', 'o', 'n'};
+
+// 1szy sposób
+return new String(censoredStringArray);
+
+// 2gi sposób
+return String.valueOf(censoredStringArray);
+```
+>https://www.baeldung.com/java-char-array-to-string
 ## Sorting int array DESC
 ```java
 public static int[] sortIntegers(int[] array) {
