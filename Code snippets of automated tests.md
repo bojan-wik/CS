@@ -1,12 +1,5 @@
-# Code snippets
+# Code snippets of automated tests
 #java #selenium 
-
-#### extracting last two digits and last digit of the number
-```java
-int number = 111;
-int lastTwoDigits = number % 100;  
-int lastDigit = lastTwoDigits % 10;
-```
 
 #### check if element is present on the DOM
 ```java
@@ -24,12 +17,7 @@ int lastDigit = lastTwoDigits % 10;
 a nie
 `NoSuchElementException (java.util)`
 
-#### extract digit from a string and convert it to int
-```java
-String str = "The price of the book is $49";
-String numberOnly = str.replaceAll("[^0-9]", "");
-int numberOnlyInt = Integer.parseInt(numberOnly);
-```
+
 
 #### dynamic xpath
 ```java
