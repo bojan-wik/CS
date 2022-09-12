@@ -22,9 +22,9 @@ Obie służą do update'u ale:
 ## POISED - API testing strategy
 Parameters (request body)
 Output (response body, status code, headers)
-Interop
+Interopability
 Security
-Errors
+Errors handling
 Data
 
 ## Postman
