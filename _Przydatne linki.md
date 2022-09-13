@@ -6,7 +6,12 @@
 ##### Ogólne:
 * [https://medium.com/@gregsramblings/how-i-tamed-gmail-at-work-a0bd66a17a63](https://medium.com/@gregsramblings/how-i-tamed-gmail-at-work-a0bd66a17a63) - Gmail poradnik, jak zorganizować sobie skrzynkę 
 * [http://www.pythontutor.com/visualize.html#mode=edit](http://www.pythontutor.com/visualize.html#mode=edit) - wizualizator kodu 
-    
+
+
+##### Selenium:
+- https://www.techbeamers.com/websites-to-practice-selenium-webdriver-online/#1httpsphptravelscomdemo - lista stron do ćwiczeń
+- https://ultimateqa.com/dummy-automation-websites/ - lista stron do ćwiczeń
+
 
 ##### Computer Science:
 * [https://www.youtube.com/playlist?list=PLhQjrBD2T381L3iZyDTxRwOBuUt6m1FnW](https://www.youtube.com/playlist?list=PLhQjrBD2T381L3iZyDTxRwOBuUt6m1FnW) - CS50 filmiki 
@@ -48,3 +53,4 @@
 ##### Różne:
 * [https://www.udemy.com/course/devtools-2017-the-basics-of-chrome-developer-tools/](https://www.udemy.com/course/devtools-2017-the-basics-of-chrome-developer-tools/) - kurs podstaw Chrome devtools  
 * [https://www.youtube.com/watch?v=9-iVt0MIqNY](https://www.youtube.com/watch?v=9-iVt0MIqNY) - kurs XPath
+* http://getistqb.com/ - ISTQB quizy
