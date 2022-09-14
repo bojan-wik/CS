@@ -21,7 +21,7 @@ groceryList.get(1);
 
 ![[Pasted image 20220602084020.png]]
 
-#### Convert ArrayList to Array
+#### Convert `ArrayList<String>` to `String[]`
 ```java
 String[] array = {"Arizona", "CA", "NY", "Nevada"};
 ArrayList<String> filteredArrayList = new ArrayList<>();
@@ -29,3 +29,10 @@ ArrayList<String> filteredArrayList = new ArrayList<>();
 filteredArrayList.toArray(new String[filteredArrayList.size()])
 ```
 >https://www.geeksforgeeks.org/convert-an-arraylist-of-string-to-a-string-array-in-java/
+
+#### Convert `ArrayList<Integer>` to `int[]`
+```java
+ArrayList<Integer> numbersList = new ArrayList<>();  
+int[] array = numbersList.stream().mapToInt(i -> i).toArray();
+```
+>https://stackoverflow.com/a/23688547
