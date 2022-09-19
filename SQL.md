@@ -9,3 +9,9 @@
 - FULL JOIN - zwraca wszystkie rekordy, niezależnie od tego, czy pasujący rekord istnieje w drugiej tabeli.
 
 ![[Pasted image 20220915110439.png]]
+
+```sql
+SELECT up.email, up.fullname, up.function_id, f.name
+FROM user_profile up
+LEFT JOIN function f ON up.function_id = f.id;
+```
