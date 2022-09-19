@@ -6,12 +6,19 @@ Nazwy locators i selectors oznaczają to samo i są wykorzystywane zamiennie.
 ## 1. Typy locatorów
 * ID
 * class name
-* tag name
+* tag/element name
 * link text
 * XPath
 * CSS selector
 
 ## 2. Ogólne tipsy
+
+a) **ID** powinien być unikalny na stronie. Jeżeli dany element ma ID to brać go w pierwszej kolejności.
+
+b) **Atrybut name** jest używany w elementach typu `<input>` np. input, button, text area. Ten atrybut powinien być unikalny, więc można z niego korzystać na równi z ID.
+
+
+
 a) Nie wszystkie elementy mają ID/className/name – dlatego Xpath/CSS selector jest generalnie preferowany
 
 b) Jeżeli nazwa locatora jest:
