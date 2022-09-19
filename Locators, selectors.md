@@ -3,7 +3,7 @@
 
 Nazwy locators i selectors oznaczają to samo i są wykorzystywane zamiennie.
 
-## 1. Typy locatorów
+## Typy locatorów
 * ID
 * class name
 * tag/element name
@@ -11,11 +11,22 @@ Nazwy locators i selectors oznaczają to samo i są wykorzystywane zamiennie.
 * XPath
 * CSS selector
 
-## 2. Ogólne tipsy
+## Ogólne tipsy
 
-a) **ID** powinien być unikalny na stronie. Jeżeli dany element ma ID to brać go w pierwszej kolejności.
+```html
+<button class="btn btn-info" id="submit" name="submit">Button</button>
+```
 
-b) **Atrybut name** jest używany w elementach typu `<input>` np. input, button, text area. Ten atrybut powinien być unikalny, więc można z niego korzystać na równi z ID.
+1. W pierwszej kolejności starać się pisać lokatory w oparciu o ID, atrybut name, class name:
+
+-  **ID** powinien być unikalny na stronie. Jeżeli dany element ma ID to brać go w pierwszej kolejności. W tym przypadku: `By.id("submit")`
+
+- **Atrybut name** jest używany w elementach typu `<input>` np. input, button, text area. Ten atrybut powinien być unikalny, więc można z niego korzystać na równi z ID. W tym przypadku: `By.name("submit")`
+
+- **Class name** służy do stylowania elementów i najczęściej jest współdzielony przez wiele elementów, więc jeżeli chcemy znaleźć listę konkretnych elementów, to Class name może być dobrym wyborem. W tym przypadku: `By.className("btn-info")`
+
+2. W drugiej kolejności pisać lokatory w oparciu o Xpath albo CSS selector:
+
 
 
 
