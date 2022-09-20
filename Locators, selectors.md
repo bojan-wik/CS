@@ -112,7 +112,10 @@ div.nrn-react-div:nth-child(3)
 ```
 
 CSS selector nie może:
-- wyszukiwać po tekście elementu
+- jednoznacznie zidentyfikować dowolnego webelementu
+- wyszukiwać po tekście webelementu
+- traversować po poprzedzających siblingach
+
 
 
 
@@ -179,12 +182,12 @@ xpath dla niego wyglądałby tak:
 ### d) identyfikowanie siblingów
 czyli "braci" i "sióstr" danego node
 
-* following sibiling np.
+* następujący sibiling np.
 ```
 //div[@id='search_block_top']/following-sibling::div
 ```
 
-* preceding sibiling np.
+* poprzedzający sibiling np.
 ```
 //div[@id='search_block_top']/preceding-sibling::div
 ```
