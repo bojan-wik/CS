@@ -92,6 +92,27 @@ szukanie po nazwach atrybutów i po ich wartościach (contains)
 tagName[attributName*='value']
 ```
 
+NOT - zwróć elementy, które nie zawierają...
+```css
+locator:not(locator)
+```
+np.
+```css
+ol.related-searches__list:not(.related-searches__list--first)
+```
+
+szukanie po indeksach elementów:
+```css
+locator:nth-child(n)
+```
+
+np.
+```css
+div.nrn-react-div:nth-child(3)
+```
+
+CSS selector nie może:
+- wyszukiwać po tekście elementu
 
 
 
