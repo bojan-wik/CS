@@ -52,7 +52,7 @@ e) Locator Xpath może być zdefiniowany na wiele różnych sposobów. Raczej un
 
 ## 3. XPath
 ### a) syntax
-```
+```properties
 //tagName[@attribute='value'] 
 //*[@attribute='value']
 ```
@@ -65,7 +65,7 @@ Relative path - ścieżka w której odnoszę się bezpośrednio do danego node, 
 ```
 
 Absolute path - ścieżka w której podaję w jakiej relacji jest dany node np. 
-```
+```properties
 /html/body/div/div[1]/header/div[3]/div/div/div[2]/form/input[4]
 ```
 
