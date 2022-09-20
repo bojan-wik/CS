@@ -28,15 +28,73 @@ Nazwy locators i selectors oznaczają to samo i są wykorzystywane zamiennie.
 2. W drugiej kolejności pisać lokatory w oparciu o Xpath albo CSS selector:
 
 
+
+
 ## CSS Selectors
 
+class name
 ```css
 tagName.className
 ```
 
+id
 ```css
 #id
 ```
+
+pośredni child
+```css
+selector selector
+```
+np.
+```css
+div.et_pb_newsletter_form input.input
+```
+
+bezpośredni child
+```css
+selector > selector
+```
+np.
+```css
+p.et_pb_contact_form_field > input.input
+```
+
+OR
+```css
+selector, selector
+```
+np.
+```css
+ol > li, ul > li
+```
+
+szukanie po nazwach atrybutów
+```css
+tagName[attributeName]
+```
+np.
+```css
+div[style]
+```
+
+szukanie po nazwach atrybutów i po ich wartościach (equals)
+```css
+tagName[attributeName='value']
+```
+np.
+```css
+a[data-zci-link='images']
+```
+
+szukanie po nazwach atrybutów i po ich wartościach (contains)
+```css
+tagName[attributName*='value']
+```
+
+
+
+
 
 a) Nie wszystkie elementy mają ID/className/name – dlatego Xpath/CSS selector jest generalnie preferowany
 
