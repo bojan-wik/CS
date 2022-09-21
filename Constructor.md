@@ -7,8 +7,8 @@
 ## Typy konstruktorów
 [code](https://github.com/bojan-wik/SeleniumWithJavaCourse/blob/master/src/Chapter31_CoreJava2/c_Constructors2.java)
 
-## this()
-- Istnieje możliwość wywołania konstruktora wewn. innego konstruktora - za pomocą metody `this()`
+## this() keyword
+- Istnieje możliwość wywołania konstruktora wewn. innego konstruktora - za pomocą keyworda `this()`
 - **Przykład użycia**: jeżeli user nie poda żadnych wartości i chcemy wywołać konstruktor z pre-definiowanymi wartościami. Wtedy z poziomu *pustego konstruktora* wywołujemy *sparametryzowany konstruktor* z pre-definiowanymi wartościami.
 - `this()` musi być zawsze na samym początku, inaczej nie zadziała
 
