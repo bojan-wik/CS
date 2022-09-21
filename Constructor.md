@@ -27,3 +27,10 @@ public BankAccount(int number, double balance, String customerName, String custo
     System.out.println("Parametrized constructor called");
 }
 ```
+
+## Dobre praktyki
+- this.field = field zamiast używania setterów
+- w przypadku większej ilości konstruktorów - this()
+
+---
+- https://www.udemy.com/course/java-the-complete-java-developer-course/learn/lecture/3133106#overview
