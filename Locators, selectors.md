@@ -164,7 +164,10 @@ contains
 //li[contains(@class, 'zcm__item')]
 ```
 
-
+NOT
+```
+//li[not(contains(@class, 'zcm__item'))]
+```
 
 
 a) Nie wszystkie elementy mają ID/className/name – dlatego Xpath/CSS selector jest generalnie preferowany
