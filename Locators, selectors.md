@@ -154,10 +154,15 @@ AND
 //img[@width<20 and @height<20]
 ```
 
+OR
+```
+//input[@type='text' or name='q']
+```
 
-
-
-
+contains
+```
+//li[contains(@class, 'zcm__item')]
+```
 
 
 
