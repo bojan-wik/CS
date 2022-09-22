@@ -4,30 +4,13 @@
 Nazwy locators i selectors oznaczają to samo i są wykorzystywane zamiennie.
 
 ## Typy locatorów
+* tag/element name
 * ID
 * class name
-* tag/element name
+* atribute name
 * link text
-* XPath
 * CSS selector
-
-## Ogólne tipsy
-
-```html
-<button class="btn btn-info" id="submit" name="submit">Button</button>
-```
-
-1. W pierwszej kolejności starać się pisać lokatory w oparciu o ID, atrybut name, class name:
-
--  **ID** powinien być unikalny na stronie. Jeżeli dany element ma ID to brać go w pierwszej kolejności. W tym przypadku: `By.id("submit")`
-
-- **Atrybut name** jest używany w elementach typu `<input>` np. input, button, text area. Ten atrybut powinien być unikalny, więc można z niego korzystać na równi z ID. W tym przypadku: `By.name("submit")`
-
-- **Class name** służy do stylowania elementów i najczęściej jest współdzielony przez wiele elementów, więc jeżeli chcemy znaleźć listę konkretnych elementów, to Class name może być dobrym wyborem. W tym przypadku: `By.className("btn-info")`
-
-2. W drugiej kolejności pisać lokatory w oparciu o Xpath albo CSS selector:
-
-
+* XPath
 
 
 ## CSS Selector
@@ -170,17 +153,32 @@ NOT
 ```
 
 
-a) Nie wszystkie elementy mają ID/className/name – dlatego Xpath/CSS selector jest generalnie preferowany
 
-b) Jeżeli nazwa locatora jest:
+## Ogólne tipsy
+
+```html
+<button class="btn btn-info" id="submit" name="submit">Button</button>
+```
+
+1. W pierwszej kolejności starać się pisać lokatory w oparciu o ID, atrybut name, class name:
+
+-  **ID** powinien być unikalny na stronie. Jeżeli dany element ma ID to brać go w pierwszej kolejności. W tym przypadku: `By.id("submit")`
+
+- **Atrybut name** jest używany w elementach typu `<input>` np. input, button, text area. Ten atrybut powinien być unikalny, więc można z niego korzystać na równi z ID. W tym przypadku: `By.name("submit")`
+
+- **Class name** służy do stylowania elementów i najczęściej jest współdzielony przez wiele elementów, więc jeżeli chcemy znaleźć listę konkretnych elementów, to Class name może być dobrym wyborem. W tym przypadku: `By.className("btn-info")`
+
+2. W drugiej kolejności pisać lokatory w oparciu o Xpath albo CSS selector:
+
+a) Jeżeli nazwa locatora jest:
 * alphanumeryczna (np. *id="u_0_2"*) - lepiej nie używać go w testach, bo może się ona zmieniać przy przeładowywaniu strony.
 * oparta o tekst – lepiej nie używać, bo ten tekst może się zmieniać np. Button z tekstem 'add to cart', który po kliknięciu zmienia tekst na 'added'
 
-c) Jeżeli na stronie jest kilka elementów z tą samą nazwą locatora (np. *class="is_required"*) to brany jest pod uwagę ten element, który pierwszy występuje w DOMie (od góry).
+b) Jeżeli na stronie jest kilka elementów z tą samą nazwą locatora (np. *class="is_required"*) to brany jest pod uwagę ten element, który pierwszy występuje w DOMie (od góry).
 
-d) Możliwe jest tylko wyszukiwanie po jednej nazwie klasy (np. *class="is_required"*). Użycie więcej niż jednej klasy (np. *class="is_required validate account_input form-control"*) wywali błąd. 
+c) Możliwe jest tylko wyszukiwanie po jednej nazwie klasy (np. *class="is_required"*). Użycie więcej niż jednej klasy (np. *class="is_required validate account_input form-control"*) wywali błąd. 
 
-e) Locator Xpath może być zdefiniowany na wiele różnych sposobów. Raczej unikać używania absolutnego Xpath (zaczynającego się od "/html...") - może być niestabilny.
+d) Locator Xpath może być zdefiniowany na wiele różnych sposobów. Raczej unikać używania absolutnego Xpath (zaczynającego się od "/html...") - może być niestabilny.
 
 ## 3. XPath
 ### a) syntax
