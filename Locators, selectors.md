@@ -30,7 +30,7 @@ Nazwy locators i selectors oznaczają to samo i są wykorzystywane zamiennie.
 
 
 
-## CSS Selectors
+## CSS Selector
 
 class name
 ```css
@@ -115,6 +115,48 @@ CSS selector nie może:
 - jednoznacznie zidentyfikować dowolnego webelementu
 - wyszukiwać po tekście webelementu
 - traversować po poprzedzających siblingach
+
+Xpath może:
+- jednoznacznie zidentyfikować dowolny webelement
+- używany dla dokumentów typu HTML i XML
+- bardziej skomplikowany niż CSS selector
+
+
+## XPath
+
+class name
+```
+//li[@class='zcm__item']
+```
+
+```
+//li[contains(@class, 'zcm__item')]
+```
+
+pośredni child
+```properties
+//a//img
+```
+
+bezpośredni child
+```properties
+//a/img
+```
+
+jakikolwiek element
+```properties
+//div/*
+```
+
+AND
+```
+//img[@width<20][@height<20]
+//img[@width<20 and @height<20]
+```
+
+
+
+
 
 
 
