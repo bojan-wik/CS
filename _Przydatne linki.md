@@ -54,3 +54,5 @@
 * [https://www.udemy.com/course/devtools-2017-the-basics-of-chrome-developer-tools/](https://www.udemy.com/course/devtools-2017-the-basics-of-chrome-developer-tools/) - kurs podstaw Chrome devtools  
 * [https://www.youtube.com/watch?v=9-iVt0MIqNY](https://www.youtube.com/watch?v=9-iVt0MIqNY) - kurs XPath
 * http://getistqb.com/ - ISTQB quizy
+
+https://testautomationu.applitools.com/
