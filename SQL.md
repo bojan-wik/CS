@@ -1,6 +1,21 @@
 # SQL
 #database
 
+##  Query order of execution
+
+Complete SELECT query:
+```sql
+SELECT DISTINCT column, AGG_FUNC(_column_or_expression_), … FROM mytable 
+JOIN another_table ON mytable.column = another_table.column 
+WHERE _constraint_expression_ 
+GROUP BY column HAVING _constraint_expression_ 
+ORDER BY _column_ ASC/DESC 
+LIMIT count OFFSET COUNT;
+```
+
+![[difference between having and where clause5a.png]]
+
+
 ## JOINs
 1. INNER JOIN - zwraca rekordy, które mają pasujące wartości w obu tabelach
 2. OUTER JOINs:
