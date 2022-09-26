@@ -94,13 +94,15 @@ np.
 div.nrn-react-div:nth-child(3)
 ```
 
-CSS selector nie może:
-- jednoznacznie zidentyfikować dowolnego webelementu
-- wyszukiwać po tekście webelementu
-- traversować po poprzedzających siblingach
+CSS selector:
+- nie może jednoznacznie zidentyfikować dowolnego webelementu
+- nie może wyszukiwać po tekście webelementu
+- nie może traversować po poprzedzających siblingach
 
-Xpath może:
-- jednoznacznie zidentyfikować dowolny webelement
+Xpath:
+- może jednoznacznie zidentyfikować dowolny webelement
+- może wyszukiwać po tekście webelementu
+- może traversować po poprzedzających siblingach
 - używany dla dokumentów typu HTML i XML
 - bardziej skomplikowany niż CSS selector
 
