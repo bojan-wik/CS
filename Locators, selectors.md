@@ -162,25 +162,28 @@ NOT
 <button class="btn btn-info" id="submit" name="submit">Button</button>
 ```
 
-1. W pierwszej kolejności starać się pisać lokatory w oparciu o ID, atrybut name, class name:
+### W pierwszej kolejności 
+starać się pisać lokatory w oparciu o ID, atrybut name, class name:
 
--  **ID** powinien być unikalny na stronie. Jeżeli dany element ma ID to brać go w pierwszej kolejności. W tym przypadku: `By.id("submit")`
+1.  **ID** powinien być unikalny na stronie. Jeżeli dany element ma ID to brać go w pierwszej kolejności. W tym przypadku: `By.id("submit")`.  Ale unikać ID, które są alphanumeryczne (np. *id="u_0_2"*), bo ta numeracja może się zmieniać przy przeładowaniu strony.
 
-- **Atrybut name** jest używany w elementach typu `<input>` np. input, button, text area. Ten atrybut powinien być unikalny, więc można z niego korzystać na równi z ID. W tym przypadku: `By.name("submit")`
+2. **Atrybut name** jest używany w elementach typu `<input>` np. input, button, text area. Ten atrybut powinien być unikalny, więc można z niego korzystać na równi z ID. W tym przypadku: `By.name("submit")`
 
-- **Class name** służy do stylowania elementów i najczęściej jest współdzielony przez wiele elementów, więc jeżeli chcemy znaleźć listę konkretnych elementów, to Class name może być dobrym wyborem. W tym przypadku: `By.className("btn-info")`
+3. **Class name** służy do stylowania elementów i najczęściej jest współdzielony przez wiele elementów, więc jeżeli chcemy znaleźć listę konkretnych elementów, to Class name może być dobrym wyborem. W tym przypadku: `By.className("btn-info")`
 
-2. W drugiej kolejności pisać lokatory w oparciu o Xpath albo CSS selector:
+### W drugiej kolejności 
+pisać lokatory w oparciu o Xpath albo CSS selector:
 
-a) Jeżeli nazwa locatora jest:
-* alphanumeryczna (np. *id="u_0_2"*) - lepiej nie używać go w testach, bo może się ona zmieniać przy przeładowywaniu strony.
-* oparta o tekst – lepiej nie używać, bo ten tekst może się zmieniać np. Button z tekstem 'add to cart', który po kliknięciu zmienia tekst na 'added'
+1. Raczej unikać / używać w ostateczności selektorów:
+* opartych o tekst – niestabilny, tekst może się zmieniać np. Button z tekstem 'add to cart', który po kliknięciu zmienia tekst na 'added'
+* opartych o indeksy - niestabilny, podatny na zmiany w DOMie strony
+* absolutnych (zaczynających się od roota strony tj. /html...) - niestabilny
 
-b) Jeżeli na stronie jest kilka elementów z tą samą nazwą locatora (np. *class="is_required"*) to brany jest pod uwagę ten element, który pierwszy występuje w DOMie (od góry).
+2. Jeżeli na stronie jest kilka elementów z tą samą nazwą locatora (np. *class="is_required"*) to brany jest pod uwagę ten element, który pierwszy występuje w DOMie (od góry).
 
-c) Możliwe jest tylko wyszukiwanie po jednej nazwie klasy (np. *class="is_required"*). Użycie więcej niż jednej klasy (np. *class="is_required validate account_input form-control"*) wywali błąd. 
+3. Możliwe jest tylko wyszukiwanie po jednej nazwie klasy (np. *class="is_required"*). Użycie więcej niż jednej klasy (np. *class="is_required validate account_input form-control"*) wywali błąd. 
 
-d) Locator Xpath może być zdefiniowany na wiele różnych sposobów. Raczej unikać używania absolutnego Xpath (zaczynającego się od "/html...") - może być niestabilny.
+
 
 ## 3. XPath
 ### a) syntax
@@ -248,7 +251,7 @@ Takie przechodzenie do tyłu jest możliwe tylko z xPath, nie jest możliwe z CS
 
 | expression | syntax | example |
 | ----------- | ----------- | ----------- |
-| contains | //tagName[contains(@attribute, 'value')] | //span[contains(text(),'Add section')] //div[contains(@class, 'mm-document-tile-grid-title')]|
+| contains | //tagName[contains(@attribute, 'value')] | //span[contains(text(),'Add section')] //span[contains(.,'Add section')] //div[contains(@class, 'mm-document-tile-grid-title')]|
 | starts with | //tagName[starts-with(@attribute, 'value')] | //input[starts-with(@name, 'pass')] |
 | ends with | //tagName[ends-with(@attribute, 'value')] | //input[ends-with(@id, 'button')] |
 
