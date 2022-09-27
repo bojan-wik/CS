@@ -52,6 +52,16 @@ b)  w *staging area* dokonuję review zmian, których dokonałem i jeżeli wszys
 
 ## 3. Komendy
 
+Aktualny status (różnice pomiędzy: working dir <-> staging area <-> local repo <-> remote repo)
+```
+git status
+```
+
+Historia commitów
+```
+git log
+```
+
 Sprawdzenie na którym jestem obecnie branchu
 ```
 git branch
