@@ -102,7 +102,7 @@ CSS selector:
 
 Xpath:
 - bardziej skomplikowany niż CSS selector
-- może jednoznacznie zidentyfikować dowolny webelement
+- może jednoznacznie zidentyfikować dowolny webelement, w tym za pomocą indeksów
 - może wyszukiwać po tekście webelementu
 - może traversować po poprzedzających siblingach
 
