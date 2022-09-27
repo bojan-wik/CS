@@ -95,16 +95,17 @@ div.nrn-react-div:nth-child(3)
 ```
 
 CSS selector:
+- prostszy niż Xpath
 - nie może jednoznacznie zidentyfikować dowolnego webelementu
 - nie może wyszukiwać po tekście webelementu
 - nie może traversować po poprzedzających siblingach
 
 Xpath:
+- bardziej skomplikowany niż CSS selector
 - może jednoznacznie zidentyfikować dowolny webelement
 - może wyszukiwać po tekście webelementu
 - może traversować po poprzedzających siblingach
-- używany dla dokumentów typu HTML i XML
-- bardziej skomplikowany niż CSS selector
+
 
 
 ## XPath
@@ -230,9 +231,12 @@ xpath dla niego wyglądałby tak:
 ```
 //input[@id = 'text']//parent::span
 ```
+albo
+```
+//span[.//input[@id = 'text']]
+```
 
-
-### d) identyfikowanie siblingów
+### d) axes
 czyli "braci" i "sióstr" danego node
 
 * następujący sibiling np.
