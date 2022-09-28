@@ -80,7 +80,7 @@ git pull origin develop
 Cheatsheet
 > https://confluence.atlassian.com/bitbucketserver/basic-git-commands-776639767.html
 
-## 3. Commiting best practices
+## 4. Commiting best practices
 1. Commity powinny być 'w sam raz' - nie za małe, nie za duże tzn. nie ma sensu commitować każdej zmiany, ale też nie ma sensu robić np. tylko jednego commita z wszystkimi zmianami
 2. Commity powinny być czymś na wzór checkpointów w grach - ważnych momentów, do których można wrócić
 3. Każdy commit powinien reprezentować oddzielny zestaw zmian np.: 
