@@ -14,3 +14,4 @@
 * https://superuser.com/questions/1271296/laptop-crashes-when-starting-on-battery-okay-otherwise
 * https://superuser.com/questions/608787/my-laptop-freezes-when-on-battery
 * https://ranking-oczyszczaczy.pl/poradnik-czystego-powietrza/jakie-maski-antysmogowe/#maski-breezy
+* https://wyborcza.pl/TylkoZdrowie/7,137474,26527131,jedni-z-nas-stale-lapia-sezonowe-infekcje-a-inni-wcale-nie.html
