@@ -3,14 +3,60 @@
 
 Nazwy locators i selectors oznaczają to samo i są wykorzystywane zamiennie.
 
-## Typy locatorów
+## I. Typy selektorów
 * tag/element name
 * ID
 * class name
 * atribute name
-* link text
+* link text / partial link text
 * CSS selector
 * XPath
+
+## II. Najlepsze praktyki
+
+```html
+<button class="btn btn-info" id="submit" name="submit">Button</button>
+```
+
+Pisać najprostsze selektory, jak to tylko możliwe
+
+### W pierwszej kolejności 
+starać się pisać lokatory w oparciu o ID, atrybut name, class name:
+
+1.  **ID** powinien być unikalny na stronie. Jeżeli dany element ma ID to brać go w pierwszej kolejności. W tym przypadku: `By.id("submit")`.  Ale unikać ID, które są alphanumeryczne (np. *id="u_0_2"*), bo ta numeracja może się zmieniać przy przeładowaniu strony.
+
+2. **Input name** jest używany w elementach typu `<input>` np. input, button, text area. Ten atrybut powinien być unikalny, więc można z niego korzystać na równi z ID. W tym przypadku: `By.name("submit")`
+
+3. **Class name** służy do stylowania elementów i najczęściej jest współdzielony przez wiele elementów, więc jeżeli chcemy znaleźć listę konkretnych elementów, to Class name może być dobrym wyborem. W tym przypadku: `By.className("btn-info")`
+
+4. Raczej unikać używania selektorów:
+- **link / partial link** np. `By.linkText("Giant Panda")` - niestabilny, tekst może się zmieniać
+- **tag** np. `By.tagName("a")` - są bardzo ogólne
+
+### W drugiej kolejności 
+pisać lokatory w oparciu o Xpath albo CSS selector:
+
+1. Raczej unikać / używać w ostateczności selektorów:
+* opartych o tekst – niestabilny, tekst może się zmieniać np. Button z tekstem 'add to cart', który po kliknięciu zmienia tekst na 'added'
+* opartych o indeksy - niestabilny, podatny na zmiany w DOMie strony
+* absolutnych (zaczynających się od roota strony tj. /html...) - niestabilny
+
+2. Jeżeli na stronie jest kilka elementów z tą samą nazwą locatora (np. *class="is_required"*) to brany jest pod uwagę ten element, który pierwszy występuje w DOMie (od góry).
+
+3. Możliwe jest tylko wyszukiwanie po jednej nazwie klasy (np. *class="is_required"*). Użycie więcej niż jednej klasy (np. *class="is_required validate account_input form-control"*) wywali błąd. 
+
+
+
+### Kolejność 
+
+1. ID (if it's unique)
+2. Input name (if it's unique)
+3. Class name
+4. CSS selector
+5. XPath without text or indexing
+6. Link text / partial link text
+7. Xpath with text or indexing
+
 
 
 ## CSS Selector
@@ -157,32 +203,7 @@ NOT
 
 
 
-## Ogólne tipsy
 
-```html
-<button class="btn btn-info" id="submit" name="submit">Button</button>
-```
-
-### W pierwszej kolejności 
-starać się pisać lokatory w oparciu o ID, atrybut name, class name:
-
-1.  **ID** powinien być unikalny na stronie. Jeżeli dany element ma ID to brać go w pierwszej kolejności. W tym przypadku: `By.id("submit")`.  Ale unikać ID, które są alphanumeryczne (np. *id="u_0_2"*), bo ta numeracja może się zmieniać przy przeładowaniu strony.
-
-2. **Atrybut name** jest używany w elementach typu `<input>` np. input, button, text area. Ten atrybut powinien być unikalny, więc można z niego korzystać na równi z ID. W tym przypadku: `By.name("submit")`
-
-3. **Class name** służy do stylowania elementów i najczęściej jest współdzielony przez wiele elementów, więc jeżeli chcemy znaleźć listę konkretnych elementów, to Class name może być dobrym wyborem. W tym przypadku: `By.className("btn-info")`
-
-### W drugiej kolejności 
-pisać lokatory w oparciu o Xpath albo CSS selector:
-
-1. Raczej unikać / używać w ostateczności selektorów:
-* opartych o tekst – niestabilny, tekst może się zmieniać np. Button z tekstem 'add to cart', który po kliknięciu zmienia tekst na 'added'
-* opartych o indeksy - niestabilny, podatny na zmiany w DOMie strony
-* absolutnych (zaczynających się od roota strony tj. /html...) - niestabilny
-
-2. Jeżeli na stronie jest kilka elementów z tą samą nazwą locatora (np. *class="is_required"*) to brany jest pod uwagę ten element, który pierwszy występuje w DOMie (od góry).
-
-3. Możliwe jest tylko wyszukiwanie po jednej nazwie klasy (np. *class="is_required"*). Użycie więcej niż jednej klasy (np. *class="is_required validate account_input form-control"*) wywali błąd. 
 
 
 
