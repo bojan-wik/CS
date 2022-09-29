@@ -52,29 +52,70 @@ b)  w *staging area* dokonuję review zmian, których dokonałem i jeżeli wszys
 
 ## 3. Komendy
 
-Aktualny status (różnice pomiędzy: working dir <-> staging area <-> local repo <-> remote repo)
+##### Inicjalizowanie repo lub zaciąganie już istniejącego repo
+```
+git init
+git clone <url>
+```
+
+##### Sprawdzenie na którym jestem obecnie branchu
+```
+git branch -vv
+```
+flaga -vv pokazuje dodatkowo z którym branchem w remote repo jest połączony
+
+##### Zmiana brancha 
+np. na 'develop'
+```
+git checkout -develop
+```
+
+##### Zaciągnięcie najświeższych zmian bez auto-merge (remote repo -> local repo)
+```
+git fetch origin develop
+```
+
+#### Mergowanie zmian (local repo -> working dir)
+```
+git merge
+```
+
+##### Zaciągnięcie najświeższych zmian z auto-merge (remote repo -> working dir)
+np. z brancha 'develop'
+```
+git pull origin develop
+```
+pull = fetch + merge
+
+![[fetch merge.png]]
+
+##### Aktualny status (różnice pomiędzy: working dir <-> staging area <-> local repo <-> remote repo)
 ```
 git status
 ```
 
-Historia commitów
+##### Dodanie plików do staging area (working dir -> staging area)
+```
+git add --all
+```
+
+###### Zakomitowanie plików (staging area -> local repo)
+```
+git commit -m "nice commit"
+```
+jeżeli chcę zakomitować z pominięciem staging area (working dir -> local repo) dodaję flagę -a
+```
+git commit -am "nice commit directly to local repo"
+```
+
+##### Wrzucenie zmian (local repo -> remote repo)
+```
+git push origin master
+```
+
+#### Historia commitów
 ```
 git log
-```
-
-Sprawdzenie na którym jestem obecnie branchu
-```
-git branch
-```
-
-Zmiana brancha na 'develop'
-```
-git checkout -b develop
-```
-
-Zaciągnięcie najświeższych zmian z brancha 'develop'
-```
-git pull origin develop
 ```
 
 Cheatsheet
