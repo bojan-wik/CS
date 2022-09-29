@@ -1,6 +1,13 @@
 # ExpectedConditions
 #selenium 
 
+#### titleContains
+Czy tytuł strony **zawiera konkretny string** np.
+```java
+webDriverWait.until(ExpectedConditions.titleContains("giant panda"));
+```
+Tytuł strony to to co znajduje się na tabie w przeglądarce albo w elemencie `<title>` w DOMie
+
 #### attributeToBe / attributeContains
 Czy webelement->atrybut ***to konkretny string*** np.
 ```java
