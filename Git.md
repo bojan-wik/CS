@@ -99,6 +99,20 @@ git status
 git add --all
 ```
 
+##### Dodanie plików do stasha (working dir -> stash list)
+Czyli np. mam jakieś zmiany, potrzebuję zrobić pulla, nie chcę tych zmian commitować, ale też nie chcę ich tracić. Wtedy mogę je zastashować, tak jakby odłożyć na później
+```
+git stash
+```
+Wyprintowanie stash list - ostatni stash trafia na górę listy
+```
+git stash list
+```
+Przywrócenie ostatniego stasha do working dir
+```
+git stash pop
+```
+
 ###### Zakomitowanie plików (staging area -> local repo)
 ```
 git commit -m "nice commit"
@@ -108,14 +122,14 @@ jeżeli chcę zakomitować z pominięciem staging area (working dir -> local rep
 git commit -am "nice commit directly to local repo"
 ```
 
-##### Wrzucenie zmian (local repo -> remote repo)
-```
-git push origin master
-```
-
 #### Historia commitów
 ```
 git log
+```
+
+##### Wrzucenie zmian (local repo -> remote repo)
+```
+git push origin master
 ```
 
 Cheatsheet
