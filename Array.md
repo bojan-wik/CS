@@ -103,3 +103,26 @@ public static int[] concat(int[] array1, int[] array2) {
 Dla Stringów rozwiązanie może wyglądać trochę inaczej:
 https://www.tutorialspoint.com/javaexamples/arrays_merge.htm
 
+
+## Multi-D array: przemnóż wewn. arraye i zsumuj iloczyny
+For instance, `totalVolume([2, 3, 2], [6, 6, 7], [1, 2, 1])` should return `266` since (2 x 3 x 2) + (6 x 6 x 7) + (1 x 2 x 1) = 12 + 252 + 2 = 266
+```java
+public static int totalVolume(int[][] array) {  
+    int total = 0;  
+    for (int i = 0; i < array.length; i ++) {  
+        int product = 0;  
+        for (int j = 0; j < array[i].length; j ++) {  
+            if (j != 0) {  
+                product *= array[i][j];  
+            } else {  
+                product = array[i][j];  
+            }  
+        }  
+        total += product;  
+    }  
+  
+    return total;  
+}
+```
+
+>https://edabit.com/challenge/ibJLbwfkTbP9229Kt
