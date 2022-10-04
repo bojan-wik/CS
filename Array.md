@@ -1,7 +1,7 @@
 # Arrays
 #java 
 
-## Inicjalizowanie - 3 sposoby
+## I. Inicjalizowanie - 3 sposoby
 ```java
 // 1  
 int[] firstArr = new int[3];  
@@ -34,8 +34,18 @@ arr2D[0][1] = 4; 
 arr2D[1][0] = 6; 
 arr2D[1][1] = 8;
 ```
+## II. Printowanie arraya
+1. Za pomocą [[toString() method]]
+```java
+System.out.println(Arrays.toString(firstArr));
+```
 
-## Copy array by range
+2. Za pomocą for-loop
+```java
+//tbd
+```
+
+### Copy array by range
 ```java
 char[] censoredStringArray = {'P', '*', 'k', '*', 'm', '*', 'n'};
 char[] removedVowelsArray = {'o', 'e', 'o'};
@@ -48,7 +58,7 @@ for (int i = 0; i < censoredStringArray.length; i ++) {
 }
 ```
 
-## Convert char array to String
+### Convert char array to String
 ```java
 char[] censoredStringArray = {'P', 'o', 'k', 'e', 'm', 'o', 'n'};
 
@@ -59,7 +69,7 @@ return new String(censoredStringArray);
 return String.valueOf(censoredStringArray);
 ```
 >https://www.baeldung.com/java-char-array-to-string
-## Sort int array DESC
+### Sort int array DESC
 ```java
 public static int[] sortIntegers(int[] array) {
         int[] sortedArray = Arrays.copyOf(array, array.length);
@@ -81,7 +91,7 @@ public static int[] sortIntegers(int[] array) {
 ```
 >https://www.udemy.com/course/java-the-complete-java-developer-course/learn/lecture/3323782#content
 
-## Concatenate two int arrays
+### Concatenate two int arrays
 Nie jest to możliwe za pomocą żadnej wbudowanej metody, ale mogę to zrobić np. w taki sposób:
 ```java
 public static int[] concat(int[] array1, int[] array2) {
@@ -104,7 +114,7 @@ Dla Stringów rozwiązanie może wyglądać trochę inaczej:
 https://www.tutorialspoint.com/javaexamples/arrays_merge.htm
 
 
-## Multi-D array: przemnóż wewn. arraye i zsumuj iloczyny
+### Multi-D array: przemnóż wewn. arraye i zsumuj iloczyny
 For instance, `totalVolume([2, 3, 2], [6, 6, 7], [1, 2, 1])` should return `266` since (2 x 3 x 2) + (6 x 6 x 7) + (1 x 2 x 1) = 12 + 252 + 2 = 266
 ```java
 public static int totalVolume(int[][] array) {  
