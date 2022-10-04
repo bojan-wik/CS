@@ -11,7 +11,7 @@ Moi rodzice zanim wybudowali nasz dom kupili jego plan.
 - Każdy z tych budynków wybudowanych w ten sposób jest **obiektem** albo **instancją** klasy budynku (zainicjalizowanych za pomocą operatora *new*).
 
 **Przykład:**
-Moi rodzice na podstawie zakupionego planu wybudowali nasz dom. Nasz dom był jedną z instancji tej samej klasy, czyli planu architektocznicznego. 10 innych osób na podstawie tego samego planu mogło wybudować swoje 10 domów, czyli 10 osobnych instancji tej samej klasy.
+Moi rodzice na podstawie zakupionego planu wybudowali nasz dom. Nasz dom był jedną z instancji tej samej klasy, czyli planu architektonicznego. 10 innych osób na podstawie tego samego planu mogło wybudować swoje 10 domów, czyli 10 osobnych instancji tej samej klasy.
 
 - Każdy pojedyńczy budynek ma swój adres - jakąś fizyczną lokalizację. Ten adres to **referencja** tego budynku.
 
