@@ -12,15 +12,24 @@ Nazwy locators i selectors oznaczają to samo i są wykorzystywane zamiennie.
 * CSS selector
 * XPath
 
+
 ## II. Najlepsze praktyki
+Pisać najprostsze selektory, jak to tylko możliwe
+
+### 0. Ogólna kolejność tworzenia selektorów
+1. ID (if it's unique)
+2. Input name (if it's unique)
+3. Class name
+4. CSS selector
+5. XPath without text or indexing
+6. Link text / partial link text
+7. Xpath with text or indexing
 
 ```html
 <button class="btn btn-info" id="submit" name="submit">Button</button>
 ```
 
-Pisać najprostsze selektory, jak to tylko możliwe
-
-### W pierwszej kolejności 
+### 1. W pierwszej kolejności 
 starać się pisać lokatory w oparciu o ID, atrybut name, class name:
 
 1.  **ID** powinien być unikalny na stronie. Jeżeli dany element ma ID to brać go w pierwszej kolejności. W tym przypadku: `By.id("submit")`.  Ale unikać ID, które są alphanumeryczne (np. *id="u_0_2"*), bo ta numeracja może się zmieniać przy przeładowaniu strony.
@@ -33,7 +42,7 @@ starać się pisać lokatory w oparciu o ID, atrybut name, class name:
 - **link / partial link** np. `By.linkText("Giant Panda")` - niestabilny, tekst może się zmieniać
 - **tag** np. `By.tagName("a")` - są bardzo ogólne
 
-### W drugiej kolejności 
+### 2. W drugiej kolejności 
 pisać lokatory w oparciu o Xpath albo CSS selector:
 
 1. Raczej unikać / używać w ostateczności selektorów:
@@ -46,20 +55,24 @@ pisać lokatory w oparciu o Xpath albo CSS selector:
 3. Możliwe jest tylko wyszukiwanie po jednej nazwie klasy (np. *class="is_required"*). Użycie więcej niż jednej klasy (np. *class="is_required validate account_input form-control"*) wywali błąd. 
 
 
+## III. CSS Selector & XPath
 
-### Kolejność 
+### 0. Porównanie
 
-1. ID (if it's unique)
-2. Input name (if it's unique)
-3. Class name
-4. CSS selector
-5. XPath without text or indexing
-6. Link text / partial link text
-7. Xpath with text or indexing
+CSS selector:
+- prostszy niż Xpath
+- nie może jednoznacznie zidentyfikować dowolnego webelementu
+- nie może wyszukiwać po tekście webelementu
+- nie może traversować po poprzedzających siblingach
+
+Xpath:
+- bardziej skomplikowany niż CSS selector
+- może jednoznacznie zidentyfikować dowolny webelement, w tym za pomocą indeksów
+- może wyszukiwać po tekście webelementu
+- może traversować po poprzedzających siblingach
 
 
-
-## CSS Selector
+### 1. CSS Selector
 
 class name
 ```css
@@ -140,21 +153,8 @@ np.
 div.nrn-react-div:nth-child(3)
 ```
 
-CSS selector:
-- prostszy niż Xpath
-- nie może jednoznacznie zidentyfikować dowolnego webelementu
-- nie może wyszukiwać po tekście webelementu
-- nie może traversować po poprzedzających siblingach
 
-Xpath:
-- bardziej skomplikowany niż CSS selector
-- może jednoznacznie zidentyfikować dowolny webelement, w tym za pomocą indeksów
-- może wyszukiwać po tekście webelementu
-- może traversować po poprzedzających siblingach
-
-
-
-## XPath
+### 2. XPath
 
 class name
 ```
@@ -166,17 +166,17 @@ class name
 ```
 
 pośredni child
-```properties
+```
 //a//img
 ```
 
 bezpośredni child
-```properties
+```
 //a/img
 ```
 
 jakikolwiek element
-```properties
+```
 //div/*
 ```
 
@@ -202,19 +202,13 @@ NOT
 ```
 
 
-
-
-
-
-
-## 3. XPath
-### a) syntax
-```properties
+#### a) syntax
+```
 //tagName[@attribute='value'] 
 //*[@attribute='value']
 ```
 
-### b) absolute vs relative Xpath
+#### b) absolute vs relative Xpath
 
 Relative path - ścieżka w której odnoszę się bezpośrednio do danego node, bez podawania relacji do jego parenta itp. np.
 ```
@@ -222,11 +216,11 @@ Relative path - ścieżka w której odnoszę się bezpośrednio do danego node, 
 ```
 
 Absolute path - ścieżka w której podaję w jakiej relacji jest dany node np. 
-```properties
+```
 /html/body/div/div[1]/header/div[3]/div/div/div[2]/form/input[4]
 ```
 
-### c) parent-child relationship
+#### c) parent-child relationship
 * metoda, ktróra sprawdza się w przypadku kiedy nie mamy na stronie żadnych elementów, które są albo unikalne, albo statyczne - wtedy opcją jest napisanie xpath właśnie w oparciu o relację parent-child poszczególnych elementów na stronie 
 * wychodzę od zdefiniowania xpath dla parent-elementu I później schodzę po elementach w dół do child-elementu
 * mając taki webelement (zaznaczony na zielono) 
@@ -285,3 +279,4 @@ ends with nie działało mi z xpath, tylko z css selector
 ---
 * https://www.red-gate.com/simple-talk/wp-content/uploads/imported/1269-Locators_table_1_0_2.pdf?file=4937
 * https://exadel.com/news/how-to-choose-selectors-for-automation-to-make-your-life-a-whole-lot-easier
+* https://testautomationu.applitools.com/web-element-locator-strategies/
