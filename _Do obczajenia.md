@@ -13,5 +13,4 @@
 * https://magazyn-kuchnia.pl/magazyn-kuchnia/7,122005,28677906,kuchnia-antyinflacyjna-gotuj-afrykanskie-dania-do-10-zl.html?disableRedirects=true#S.bauer-K.C-B.1-L.2.zw
 * https://superuser.com/questions/1271296/laptop-crashes-when-starting-on-battery-okay-otherwise
 * https://superuser.com/questions/608787/my-laptop-freezes-when-on-battery
-* https://ranking-oczyszczaczy.pl/poradnik-czystego-powietrza/jakie-maski-antysmogowe/#maski-breezy
-* https://wyborcza.pl/TylkoZdrowie/7,137474,26527131,jedni-z-nas-stale-lapia-sezonowe-infekcje-a-inni-wcale-nie.html
+* https://wyborcza.pl/ksiazki/7,154165,28808268,harari-dla-dzieci.html
