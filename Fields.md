@@ -1,4 +1,4 @@
 # Fields
 #programming #java
 
-...to zmienne, które są zdefiniowane wewn. klasy
+...to zmienne, które są zdefiniowane na poziomie klasy
