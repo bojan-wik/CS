@@ -1,38 +1,12 @@
 # Git
 #tools 
 
-## 1. Konfiguracja
+## I. Pojęcia
 
-##### Otwarcie config file (global)
-```
-git config --global -e
-```
+1. Branch - pointer, który wskazuje na ostatni commit z serii commitów
+2. HEAD - plik w folderze .git, który wskazuje który lokalny branch jest w danym momencie active
 
-##### Ustawienie username i email - mogą być global albo repository-specific
-> https://support.atlassian.com/bitbucket-cloud/docs/configure-your-dvcs-username-for-commits/
-
-##### Ustawienie Notepad++ jako defaultowego edytora
-```
-git config --global core.editor "'C:/Program Files/Notepad++/notepad++.exe' -multiInst -notabbar -nosession -noPlugin"
-```
-potem za każdym razem jak dam komendę `git commit` bez sprecyzowanego message to otworzy mi się Notepad++
-> https://www.theserverside.com/blog/Coffee-Talk-Java-News-Stories-and-Opinions/How-to-set-Notepad-as-the-default-Git-editor-for-commits-instead-of-Vim
-
-##### Ustawienie jak Git powinien traktować *end of lines* (dla Windows)
-```
-git config --global core.autocrlf true
-```
-Jest to ważne w przypadku, kiedy nad tym samym kodem pracują ludzie w innych systemach operacyjnych. Windows i MacOS/Linux traktują EOL inaczej, a to ustawienie sprawia, że te różnice są niwelowane
-
-##### Ustawienie credentiali dla Gita w Windowsie (Authentication failed for)
-Control Panel -> Credential Manager -> Windows Credentials -> Generic Credentials
-
-i szukam serwisu, dla którego chcę ustawić/zmienić credentiale.
-W moim przypadku to był bitbucket, gdzie miałem wcześniej pewnie nieaktualne hasło i za każdym razem jak pushowałem zmiany, to dostawałem
-`fatal: Authentication failed for 'https://bitbucket...'`
->https://stackoverflow.com/a/49125803
-
-## 2. Workflow
+## II. Workflow
 
 ![[Pasted image 20220121145455.png]]
 
@@ -50,7 +24,7 @@ b)  w *staging area* dokonuję review zmian, których dokonałem i jeżeli wszys
 4. za pomocą komendy *git push* przesyłam snapshot z *local repository* do *remote repository*
 
 
-## 3. Komendy
+## III. Komendy
 
 ##### Inicjalizowanie repo lub zaciąganie już istniejącego repo
 ```
@@ -64,10 +38,14 @@ git branch -vv
 ```
 flaga -vv pokazuje dodatkowo z którym branchem w remote repo jest połączony
 
-##### Zmiana brancha 
-np. na 'develop'
+##### Utworzenie nowego brancha
 ```
-git checkout -develop
+git branch <branchName>
+```
+
+##### Zmiana brancha 
+```
+git checkout <branchName>
 ```
 
 ##### Zaciągnięcie najświeższych zmian bez auto-merge (remote repo -> local repo)
@@ -135,7 +113,7 @@ git push origin master
 Cheatsheet
 > https://confluence.atlassian.com/bitbucketserver/basic-git-commands-776639767.html
 
-## 4. Commiting best practices
+## IV. Commiting best practices
 1. Commity powinny być 'w sam raz' - nie za małe, nie za duże tzn. nie ma sensu commitować każdej zmiany, ale też nie ma sensu robić np. tylko jednego commita z wszystkimi zmianami
 2. Commity powinny być czymś na wzór checkpointów w grach - ważnych momentów, do których można wrócić
 3. Każdy commit powinien reprezentować oddzielny zestaw zmian np.: 
@@ -143,6 +121,38 @@ a) napisałem metodę-step testowy -> pierwszy commit
 b)  refaktoruję 10 selektorów w innej klasie testowej -> drugi commit
 itd.
 4. Pisanie sensownych commit messages, które odzwierciedlają sedno zmian
+
+## V.. Konfiguracja
+
+##### Otwarcie config file (global)
+```
+git config --global -e
+```
+
+##### Ustawienie username i email - mogą być global albo repository-specific
+> https://support.atlassian.com/bitbucket-cloud/docs/configure-your-dvcs-username-for-commits/
+
+##### Ustawienie Notepad++ jako defaultowego edytora
+```
+git config --global core.editor "'C:/Program Files/Notepad++/notepad++.exe' -multiInst -notabbar -nosession -noPlugin"
+```
+potem za każdym razem jak dam komendę `git commit` bez sprecyzowanego message to otworzy mi się Notepad++
+> https://www.theserverside.com/blog/Coffee-Talk-Java-News-Stories-and-Opinions/How-to-set-Notepad-as-the-default-Git-editor-for-commits-instead-of-Vim
+
+##### Ustawienie jak Git powinien traktować *end of lines* (dla Windows)
+```
+git config --global core.autocrlf true
+```
+Jest to ważne w przypadku, kiedy nad tym samym kodem pracują ludzie w innych systemach operacyjnych. Windows i MacOS/Linux traktują EOL inaczej, a to ustawienie sprawia, że te różnice są niwelowane
+
+##### Ustawienie credentiali dla Gita w Windowsie (Authentication failed for)
+Control Panel -> Credential Manager -> Windows Credentials -> Generic Credentials
+
+i szukam serwisu, dla którego chcę ustawić/zmienić credentiale.
+W moim przypadku to był bitbucket, gdzie miałem wcześniej pewnie nieaktualne hasło i za każdym razem jak pushowałem zmiany, to dostawałem
+`fatal: Authentication failed for 'https://bitbucket...'`
+>https://stackoverflow.com/a/49125803
+
 
 ---
 * https://www.youtube.com/watch?v=8JJ101D3knE (30:30)
