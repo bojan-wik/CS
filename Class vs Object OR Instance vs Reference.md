@@ -76,4 +76,5 @@ ad 4
 - Referencje możemy przekazywać jako parametry do konstruktorów i metod.
 - ==W Javie mamy do czynienia ZAWSZE z referencjami== do obiektów w pamięci, niemożliwe jest dostać się do obiektów bezpośrednio. Wszystkie interakcje odbywają się za pomocą referencji.
 ---
-https://www.udemy.com/course/java-the-complete-java-developer-course/learn/lecture/9331916#overview
+- https://www.udemy.com/course/java-the-complete-java-developer-course/learn/lecture/9331916#overview
+- https://www.udemy.com/course/java-the-complete-java-developer-course/learn/lecture/10576990#overview
