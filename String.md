@@ -19,8 +19,15 @@ String numberOnly = str.replaceAll("[^0-9]", "");
 int numberOnlyInt = Integer.parseInt(numberOnly);
 ```
 
-## Convert `String` to `double`
+## Convert `String` to:
+### `double`
 ```java
 String numberAsString = "69.125";
 double number = Double.parseDouble(numberAsString);
+```
+
+### `int`
+```java
+String numberAsString = "5";
+int number = Integer.parseInt(numberAsString);
 ```
