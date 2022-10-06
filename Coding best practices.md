@@ -1,31 +1,59 @@
 # Coding best practices
 #programming 
 
-## Konwencje nazewnictwa
+## Naming conventions
 
-1. **Klasa** - nazwa zaczynająca się od dużej litery np.
+1. **Package**
+- nazwa zaczynająca się od małej litery,
+- nazwa unikalna
+- z reguły składająca się URLa napisanego od końca np.
+```
+com.roche
+com.timbuchalka.autoboxing
+```
+
+2. **Class**
+- nazwa zaczynająca się od dużej litery,
+- pisana camelCase
+- będąca rzeczownikiem np.
 ```
 Account, Storage, RequestBody, Response
 ```
 
-2. **Funkcja**
-* nazwa zaczynająca się od małej litery
+3. **Interface**
+- nazwa zaczynająca się od dużej litery,
+- pisana camelCase
+
+4. **Method**
+* nazwa zaczynająca się od małej litery,
+* pisana camelCase,
 * z reguły zaczynająca się od czasownika np.
 ```
 getData(), sendData(), fetchUser()
 ```
 
-3. **Boolean**
+5. **Constant** 
+- nazwa powinna być pisana dużymi literami 
+- i z użyciem snake_case np.
+```
+CONNECTION_LIMIT, POOL_SIZE, BATCH_SIZE
+```
+
+6. **Variable**
+- nazwa zaczynająca się od małej litery,
+- pisana camelCase np.
+```
+i, minNumber, arrayOfNames
+```
+
+7. **Boolean**
 * nazwa powinna formułować pytanie
 * zaczynać się od "is" np.
 ```
 isValidUser, isOpen, isClosed
 ```
 
-**Constant** - nazwa powinna być pisana dużymi literami z podkreślnikami np.
-```
-CONNECTION_LIMIT, POOL_SIZE, BATCH_SIZE
-```
+
 
 ## Sposoby zapisu:
 * snake_case
