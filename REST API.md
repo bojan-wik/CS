@@ -14,6 +14,8 @@ To kontrakt, który umożliwia komunikację pomiędzy jednym serwisem/aplikacją
 | - headers  |     | - headers         |
 | - body           |     | - body         |
 
+Generalnie żeby móc zacząć testować API muszę wcześniej otrzymać (najprawdopodobniej od developerów) taki API contract, czyli jaka metoda, na jakim URLu, z jakimi parametrami itd.
+
 ### 2. Różnica pomiędzy metodami PUT i PATCH
 Obie służą do update'u ale:
 - PUT wymaga, żeby body requestu był kompletne tj. to co zmieniamy + reszta
