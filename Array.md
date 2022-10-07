@@ -1,4 +1,4 @@
-# Arrays
+# Array
 #java 
 
 ## I. Inicjalizowanie - 3 sposoby

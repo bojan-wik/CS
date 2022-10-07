@@ -21,6 +21,9 @@ groceryList.get(1);
 
 ![[Pasted image 20220602084020.png]]
 
+Jak wspomniane na grafice wyżej - ArrayList, w odróżnieniu od [[Array]] nie jest w stanie przechowywać [[Primitive Data Types]]. Aby to było możliwe trzeba użyć [[Autoboxing and Unboxing]].
+
+
 #### Convert `ArrayList<String>` to `String[]`
 ```java
 String[] array = {"Arizona", "CA", "NY", "Nevada"};
