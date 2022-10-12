@@ -48,11 +48,11 @@ public class BasicCalculator {
 }
 ```
 
-## switch vs if-else
+## switch vs if-else-if
 
 1. Jakie wyrażenie jest testowane?
-* if-else może testować m.in. zakresy wartości, warunki logiczne
-* switch może testować tylko pojedyncze integery, enumerated values, String objects
+* if-else-if może testować m.in. zakresy wartości, warunki logiczne np. `score > 60`
+* switch może testować tylko pojedyncze integery, Stringi, czy są równe jakiejś wartości np. `case 60`
 2. Switch jest lepszy w przypadku multi-way branching
 
 ---
