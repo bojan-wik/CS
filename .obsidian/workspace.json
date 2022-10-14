@@ -4,33 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "d2ab76916bc687fd",
+        "id": "999a8e4b968d7d92",
         "type": "tabs",
         "children": [
           {
-            "id": "0dc20a5398a2bfcd",
+            "id": "6388c4301cd71ccd",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Locators, selectors.md",
+                "file": "Loops.md",
                 "mode": "preview",
                 "source": false
               }
             }
-          },
-          {
-            "id": "87ac401fa3ca97ae",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.0.0"
-              }
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -59,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "Access",
+                "query": "tag:#programming",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -96,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Locators, selectors.md",
+                "file": "Loops.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -125,17 +114,17 @@
   "ribbon": {
     "mostRecentAction": ""
   },
-  "active": "87ac401fa3ca97ae",
+  "active": "d8aeb5943e2f7a48",
   "lastOpenFiles": [
-    "Access modifiers.md",
+    "Maven.md",
+    "Loops.md",
     "Polymorphism.md",
-    "ExpectedConditions.md",
-    "switch statement.md",
+    "Log4j.md",
+    "Abstract Class.md",
+    "_Toolbox.md",
+    "Abstraction.md",
     "Locators, selectors.md",
-    "SQL.md",
-    "Coding best practices.md",
-    "_Przydatne linki.md",
-    "_Do obczajenia.md",
-    "Git.md"
+    "Access modifiers.md",
+    "ExpectedConditions.md"
   ]
 }
