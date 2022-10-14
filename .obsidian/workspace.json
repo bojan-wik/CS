@@ -1,0 +1,141 @@
+{
+  "main": {
+    "id": "a13eb8875e0898a2",
+    "type": "split",
+    "children": [
+      {
+        "id": "d2ab76916bc687fd",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "0dc20a5398a2bfcd",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Locators, selectors.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "87ac401fa3ca97ae",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.0.0"
+              }
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "fb5516f57bdd1558",
+    "type": "split",
+    "children": [
+      {
+        "id": "7bd0c8782a9f027e",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "4c035fac946162a1",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "0db76b6752fda671",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "Access",
+                "matchingCase": true,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "36022084242f5109",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 287
+  },
+  "right": {
+    "id": "bb1ef8e6224e659a",
+    "type": "split",
+    "children": [
+      {
+        "id": "3bf1f046a983cb41",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "d8aeb5943e2f7a48",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Locators, selectors.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": true,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "c7c53dd96f7ec7c9",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "ribbon": {
+    "mostRecentAction": ""
+  },
+  "active": "87ac401fa3ca97ae",
+  "lastOpenFiles": [
+    "Access modifiers.md",
+    "Polymorphism.md",
+    "ExpectedConditions.md",
+    "switch statement.md",
+    "Locators, selectors.md",
+    "SQL.md",
+    "Coding best practices.md",
+    "_Przydatne linki.md",
+    "_Do obczajenia.md",
+    "Git.md"
+  ]
+}
