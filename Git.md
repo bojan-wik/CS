@@ -1,4 +1,3 @@
-# Git
 #tools 
 
 ## I. Pojęcia
@@ -28,19 +27,26 @@ b)  w *staging area* dokonuję review zmian, których dokonałem i jeżeli wszys
 
 ##### Inicjalizowanie repo lub zaciąganie już istniejącego repo
 ```
-git init
-git clone <url>
+$ git init
+$ git clone <url>
 ```
 
 ##### Sprawdzenie na którym jestem obecnie branchu
 ```
 git branch -vv
+git branch -la
 ```
 flaga -vv pokazuje dodatkowo z którym branchem w remote repo jest połączony
 
 ##### Utworzenie nowego brancha
 ```
-git branch <branchName>
+$ git branch <branchName>
+$ git checkout -b <branchName>
+```
+
+##### Usunięcie brancha
+```
+$ git branch -d <branchName>
 ```
 
 ##### Zmiana brancha 
@@ -67,6 +73,12 @@ pull = fetch + merge
 
 ![[fetch merge.png]]
 
+##### Domergowanie do aktywnego brancha innego brancha (fast forward)
+```
+$ git merge <nazwa brancha którego chcemy domergować>
+```
+![[merge fast-forward.png]]
+
 ##### Aktualny status (różnice pomiędzy: working dir <-> staging area <-> local repo <-> remote repo)
 ```
 git status
@@ -74,7 +86,8 @@ git status
 
 ##### Dodanie plików do staging area (working dir -> staging area)
 ```
-git add --all
+$ git add --all
+$ git add .
 ```
 
 ##### Dodanie plików do stasha (working dir -> stash list)

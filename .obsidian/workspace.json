@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Locators, selectors.md",
+                "file": "Git.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Locators, selectors.md",
+                "file": "Git.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -117,6 +117,7 @@
   "active": "6388c4301cd71ccd",
   "lastOpenFiles": [
     "Test Automation.md",
+    "Locators, selectors.md",
     "Coding best practices.md",
     "Code snippets of automated tests.md",
     "Selenium methods.md",
@@ -124,7 +125,6 @@
     "Access modifiers.md",
     "Loops.md",
     "Maven.md",
-    "Polymorphism.md",
-    "Log4j.md"
+    "Polymorphism.md"
   ]
 }
