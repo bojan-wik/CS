@@ -1,4 +1,3 @@
-# Locators, selectors
 #selenium
 
 Nazwy locators i selectors oznaczają to samo i są wykorzystywane zamiennie.
