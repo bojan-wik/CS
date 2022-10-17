@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Loops.md",
-                "mode": "preview",
+                "file": "Locators, selectors.md",
+                "mode": "source",
                 "source": false
               }
             }
@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#programming",
+                "query": "TestNG",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Loops.md",
+                "file": "Locators, selectors.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,17 +114,17 @@
   "ribbon": {
     "mostRecentAction": ""
   },
-  "active": "d8aeb5943e2f7a48",
+  "active": "6388c4301cd71ccd",
   "lastOpenFiles": [
-    "Maven.md",
-    "Loops.md",
-    "Polymorphism.md",
-    "Log4j.md",
-    "Abstract Class.md",
-    "_Toolbox.md",
-    "Abstraction.md",
-    "Locators, selectors.md",
+    "Test Automation.md",
+    "Coding best practices.md",
+    "Code snippets of automated tests.md",
+    "Selenium methods.md",
+    "TestNG.md",
     "Access modifiers.md",
-    "ExpectedConditions.md"
+    "Loops.md",
+    "Maven.md",
+    "Polymorphism.md",
+    "Log4j.md"
   ]
 }
