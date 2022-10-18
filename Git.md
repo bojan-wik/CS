@@ -83,7 +83,7 @@ pull = fetch + merge
 $ git merge <nazwa brancha którego chcemy domergować>
 ```
 
-Przykład:
+##### Przykład:
 ![[merge fast-forward.png]]
 - w tej sytuacji MyNewBranch wyprzedził mastera
 - chcę domergować MyNewBranch do master
@@ -98,7 +98,7 @@ Przykład:
 $ git rebase <nazwa brancha którego chcemy domergować>
 ```
 
-Przykład,
+##### Przykład,
 przed:
 ![[rebasing before.png]]
 - w tej sytuacji MyNewBranch odbił się od mastera
@@ -110,9 +110,9 @@ przed:
 
 po:
 ![[rebasing after.png]]
-
-
-Pozwala uporządkować historię brancha bez dodawania niepotrzebnych merge commitów
+- w momencie rebasingu Git kopiuje commit E do commit E' i potem stawia commit E' jako ostatni commit mastera
+- dzięki rebase możemy integrować zmiany które zachodzą na branchu master z naszym branchem, a na końcu, gdy praca jest skończona możemy użyć fast-forward merge
+- rebase pozwala uporządkować historię commitów danego brancha bez dodawania niepotrzebnych merge commitów
 
 
 

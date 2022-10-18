@@ -14,7 +14,7 @@
               "type": "markdown",
               "state": {
                 "file": "Git.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": false
               }
             }
@@ -116,15 +116,15 @@
   },
   "active": "6388c4301cd71ccd",
   "lastOpenFiles": [
-    "IntelliJ.md",
+    "Garbage Collector.md",
     "Git.md",
+    "IntelliJ.md",
     "Test Automation.md",
     "Locators, selectors.md",
     "Coding best practices.md",
     "Code snippets of automated tests.md",
     "Selenium methods.md",
     "TestNG.md",
-    "Access modifiers.md",
-    "Loops.md"
+    "Access modifiers.md"
   ]
 }
