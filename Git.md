@@ -73,11 +73,48 @@ pull = fetch + merge
 
 ![[fetch merge.png]]
 
-##### Domergowanie do aktywnego brancha innego brancha (fast forward)
+
+
+### Mergowanie dwóch branchy
+
+#### 1. Merge (fast forward) - w sytuacji kiedy jeden branch tylko 'wyprzedził' drugiego brancha
+
 ```
 $ git merge <nazwa brancha którego chcemy domergować>
 ```
+
+Przykład:
 ![[merge fast-forward.png]]
+- w tej sytuacji MyNewBranch wyprzedził mastera
+- chcę domergować MyNewBranch do master
+- robię `$ git checkout master` 
+- potem `$ git merge MyNewBranch`
+- i pewnie kasuję domergowanego brancha za pomocą `git branch -d MyNewBranch`
+
+
+#### 2. Rebase - w sytuacji kiedy branche się 'rozjechały' i ich ostatnie commity są inne
+
+```
+$ git rebase <nazwa brancha którego chcemy domergować>
+```
+
+Przykład,
+przed:
+![[rebasing before.png]]
+- w tej sytuacji MyNewBranch odbił się od mastera
+- jednocześnie rozwijany był MyNewBranch, jak i master i oba mają inne ostatnie commity
+- wspólnym parent commitem dla obu branchy jest w tym przypadku commit C
+- będąc na MyNewBranch chcę mieć dostęp do najświeższej wersji mastera (commit D)
+- robię `$ git checkout MyNewBranch`
+- potem `$ git rebase master`
+
+po:
+![[rebasing after.png]]
+
+
+Pozwala uporządkować historię brancha bez dodawania niepotrzebnych merge commitów
+
+
 
 ##### Aktualny status (różnice pomiędzy: working dir <-> staging area <-> local repo <-> remote repo)
 ```
