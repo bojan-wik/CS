@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Git.md",
-                "mode": "source",
+                "file": "IntelliJ.md",
+                "mode": "preview",
                 "source": false
               }
             }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Git.md",
+                "file": "IntelliJ.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -116,6 +116,7 @@
   },
   "active": "6388c4301cd71ccd",
   "lastOpenFiles": [
+    "Git.md",
     "Test Automation.md",
     "Locators, selectors.md",
     "Coding best practices.md",
@@ -124,7 +125,6 @@
     "TestNG.md",
     "Access modifiers.md",
     "Loops.md",
-    "Maven.md",
-    "Polymorphism.md"
+    "Maven.md"
   ]
 }
