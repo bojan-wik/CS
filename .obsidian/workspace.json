@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Git.md",
+                "file": "Collections.md",
                 "mode": "source",
                 "source": false
               }
@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "TestNG",
+                "query": "Collections",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Git.md",
+                "file": "Collections.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -116,15 +116,15 @@
   },
   "active": "6388c4301cd71ccd",
   "lastOpenFiles": [
-    "Garbage Collector.md",
+    "Access modifiers.md",
     "Git.md",
+    "Garbage Collector.md",
     "IntelliJ.md",
     "Test Automation.md",
     "Locators, selectors.md",
     "Coding best practices.md",
     "Code snippets of automated tests.md",
     "Selenium methods.md",
-    "TestNG.md",
-    "Access modifiers.md"
+    "TestNG.md"
   ]
 }
