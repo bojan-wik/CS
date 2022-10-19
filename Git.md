@@ -160,6 +160,10 @@ git log
 git push origin master
 ```
 
+```
+$ git push --set-upstream origin <nazwa brancha którego tworzymy na remote repo>
+```
+
 Cheatsheet
 > https://confluence.atlassian.com/bitbucketserver/basic-git-commands-776639767.html
 
