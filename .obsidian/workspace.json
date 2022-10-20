@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "999a8e4b968d7d92",
+        "id": "8617fe1cda6dfcfb",
         "type": "tabs",
         "children": [
           {
-            "id": "6388c4301cd71ccd",
+            "id": "f80902de57a62958",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -104,7 +104,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -114,17 +115,17 @@
   "ribbon": {
     "mostRecentAction": ""
   },
-  "active": "6388c4301cd71ccd",
+  "active": "f80902de57a62958",
   "lastOpenFiles": [
-    "Collections.md",
+    "Loops.md",
     "Map.md",
+    "Maven.md",
+    "Code review.md",
+    "Collections.md",
     "Java Generics.md",
     "ListIterator.md",
     "Binary Search.md",
     "Access modifiers.md",
-    "Git.md",
-    "Garbage Collector.md",
-    "IntelliJ.md",
-    "Test Automation.md"
+    "Git.md"
   ]
 }
