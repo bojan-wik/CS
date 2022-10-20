@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Collections.md",
+                "file": "Map.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Collections.md",
+                "file": "Map.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -116,8 +116,8 @@
   },
   "active": "6388c4301cd71ccd",
   "lastOpenFiles": [
-    "Map.md",
     "Collections.md",
+    "Map.md",
     "Java Generics.md",
     "ListIterator.md",
     "Binary Search.md",
