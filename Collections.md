@@ -46,16 +46,16 @@ Dlatego też jeżeli wpłynę na jakiś element listy poprzez obiekt pierwszej l
 ##### Sortowanie listy
 Ale dlatego, że to są osobne listy to jak posortuję pierwszą, to nie wpłynie to na drugą
 
+normal order
+```java
+Collections.sort(theatre.seats);
+```
+
 reverse order
 ```java
 (theatre.seats).sort(Collections.reverseOrder());
 // albo
 Collections.reverse(theatre.seats);
-```
-
-normal order
-```java
-Collections.sort(theatre.seats);
 ```
 
 ##### Shuffle - random order listy

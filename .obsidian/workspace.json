@@ -116,6 +116,8 @@
   },
   "active": "6388c4301cd71ccd",
   "lastOpenFiles": [
+    "Binary Search.md",
+    "Collections.md",
     "Access modifiers.md",
     "Git.md",
     "Garbage Collector.md",
@@ -123,8 +125,6 @@
     "Test Automation.md",
     "Locators, selectors.md",
     "Coding best practices.md",
-    "Code snippets of automated tests.md",
-    "Selenium methods.md",
-    "TestNG.md"
+    "Code snippets of automated tests.md"
   ]
 }

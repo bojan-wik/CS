@@ -1,4 +1,3 @@
-# Binary Search
 #java #programming 
 
 to ==algorytm do wyszukiwania danych==, oparty na metodzie 'dziel i zwyciężaj'.
