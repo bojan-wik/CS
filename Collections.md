@@ -20,7 +20,7 @@ Collections: 
     -   can not contain duplicate elements - używamy wtedy kiedy chcemy uniknąć przechowywania zduplikowanych elementów         
     -   implemented by the classes: HashSet, LinkedHashSet, TreeSet 
         
-3.  Map (interface)     
+3.  [[Map]] (interface)     
     -   object that maps keys to values         
     -   can not contain duplicate keys         
     -   implemented by the classes: HashMap, TreeMap, LinkedHashMap etc.         

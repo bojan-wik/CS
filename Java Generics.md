@@ -1,4 +1,3 @@
-# Java Generics
 #java 
 
 #### Co to jest?
