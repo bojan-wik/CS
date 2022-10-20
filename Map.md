@@ -5,3 +5,4 @@
 - przechowuje elementy w postaci par klucz-wartość (key-value)
 - do danego klucza może być przypisana tylko jedna wartość
 - klucze są unikalne, nie mogą być zduplikowane tzn. jeśli użyjemy danego klucza ponownie, to jego wartość zostanie nadpisana
+- Map to to samo co Dictionary w Pythonie
