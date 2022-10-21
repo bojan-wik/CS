@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Map.md",
+                "file": "Coding best practices.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Map.md",
+                "file": "Coding best practices.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -117,15 +117,15 @@
   },
   "active": "f80902de57a62958",
   "lastOpenFiles": [
-    "Locators, selectors.md",
     "Map.md",
+    "Git.md",
+    "Locators, selectors.md",
     "Loops.md",
     "Maven.md",
     "Code review.md",
     "Collections.md",
     "Java Generics.md",
     "ListIterator.md",
-    "Binary Search.md",
-    "Access modifiers.md"
+    "Binary Search.md"
   ]
 }

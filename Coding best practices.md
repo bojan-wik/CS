@@ -1,4 +1,3 @@
-# Coding best practices
 #programming 
 
 ## Naming conventions
@@ -32,7 +31,7 @@ Account, Storage, RequestBody, Response
 getData(), sendData(), fetchUser()
 ```
 
-5. **Constant** 
+5. **Constant** (zmienne typu `static final`)
 - nazwa powinna być pisana dużymi literami 
 - i z użyciem snake_case np.
 ```
@@ -52,8 +51,6 @@ i, minNumber, arrayOfNames
 ```
 isValidUser, isOpen, isClosed
 ```
-
-
 
 ## Sposoby zapisu:
 * snake_case
