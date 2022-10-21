@@ -117,15 +117,15 @@
   },
   "active": "f80902de57a62958",
   "lastOpenFiles": [
-    "Loops.md",
+    "Locators, selectors.md",
     "Map.md",
+    "Loops.md",
     "Maven.md",
     "Code review.md",
     "Collections.md",
     "Java Generics.md",
     "ListIterator.md",
     "Binary Search.md",
-    "Access modifiers.md",
-    "Git.md"
+    "Access modifiers.md"
   ]
 }
