@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Coding best practices.md",
+                "file": "Autoboxing and Unboxing.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Coding best practices.md",
+                "file": "Autoboxing and Unboxing.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -118,6 +118,7 @@
   "active": "f80902de57a62958",
   "lastOpenFiles": [
     "Map.md",
+    "Coding best practices.md",
     "Git.md",
     "Locators, selectors.md",
     "Loops.md",
@@ -125,7 +126,6 @@
     "Code review.md",
     "Collections.md",
     "Java Generics.md",
-    "ListIterator.md",
-    "Binary Search.md"
+    "ListIterator.md"
   ]
 }
