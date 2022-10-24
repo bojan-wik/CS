@@ -117,6 +117,8 @@ po:
 
 ### Przepisywanie historii brancha
 
+W obu przypadkach tworzony jest nowy commit z nowym hashem, ale jego timestamp i autor pozostają takie same.
+
 #### 1. Amend - nadpisanie ostatniego commita
 
 ```
@@ -124,7 +126,10 @@ $ git add <new files>
 $ git commit --amend
 ```
 
-Zmienia się tylko hash commita, jego timestamp zostaje taki sam.
+#### 2. Rebase interactive
+
+
+
 
 ##### Aktualny status (różnice pomiędzy: working dir <-> staging area <-> local repo <-> remote repo)
 ```
@@ -162,7 +167,8 @@ git commit -am "nice commit directly to local repo"
 
 #### Historia commitów
 ```
-git log
+$ git log
+$ git log --oneline
 ```
 
 ##### Wrzucenie zmian (local repo -> remote repo)
