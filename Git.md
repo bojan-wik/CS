@@ -119,6 +119,8 @@ po:
 
 W obu przypadkach tworzony jest nowy commit z nowym hashem, ale jego timestamp i autor pozostają takie same.
 
+Złotą zasadą jest żeby przepisywać historię tylko swoich lokalnych branchy, nie robić tego na masterze.
+
 #### 1. Amend - nadpisanie ostatniego commita
 
 ```
@@ -128,7 +130,9 @@ $ git commit --amend
 
 #### 2. Rebase interactive
 
-
+```
+$ git rebase -i HEAD~3
+```
 
 
 ##### Aktualny status (różnice pomiędzy: working dir <-> staging area <-> local repo <-> remote repo)
@@ -178,6 +182,8 @@ git push origin master
 
 ```
 $ git push --set-upstream origin <nazwa brancha którego tworzymy na remote repo>
+albo
+$ git push -u origin <nazwa brancha którego tworzymy na remote repo>
 ```
 
 Cheatsheet
