@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Autoboxing and Unboxing.md",
+                "file": "Git.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Autoboxing and Unboxing.md",
+                "file": "Git.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -117,15 +117,15 @@
   },
   "active": "f80902de57a62958",
   "lastOpenFiles": [
+    "Locators, selectors.md",
     "Map.md",
+    "Autoboxing and Unboxing.md",
     "Coding best practices.md",
     "Git.md",
-    "Locators, selectors.md",
     "Loops.md",
     "Maven.md",
     "Code review.md",
     "Collections.md",
-    "Java Generics.md",
-    "ListIterator.md"
+    "Java Generics.md"
   ]
 }

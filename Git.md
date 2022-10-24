@@ -92,6 +92,7 @@ $ git merge <nazwa brancha którego chcemy domergować>
 - i pewnie kasuję domergowanego brancha za pomocą `git branch -d MyNewBranch`
 
 
+
 #### 2. Rebase - w sytuacji kiedy branche się 'rozjechały' i ich ostatnie commity są inne
 
 ```
@@ -114,7 +115,16 @@ po:
 - dzięki rebase możemy integrować zmiany które zachodzą na branchu master z naszym branchem, a na końcu, gdy praca jest skończona możemy użyć fast-forward merge
 - rebase pozwala uporządkować historię commitów danego brancha bez dodawania niepotrzebnych merge commitów
 
+### Przepisywanie historii brancha
 
+#### 1. Amend - nadpisanie ostatniego commita
+
+```
+$ git add <new files>
+$ git commit --amend
+```
+
+Zmienia się tylko hash commita, jego timestamp zostaje taki sam.
 
 ##### Aktualny status (różnice pomiędzy: working dir <-> staging area <-> local repo <-> remote repo)
 ```
