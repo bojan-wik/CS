@@ -14,7 +14,7 @@
 3. local repository - folder .git wewnątrz working directory
 4. remote repository - projekt w repozytorium online np. GitHub, BitBucket itp.
 
-### 2.1. Przykład użycia
+### Przykład użycia
 1. Pracuję nad taskiem na własnym kompie, w ramach którego modyfikuję 3 pliki
 2. Kończę pracę nad taskiem i chcę go zakomitować do repozytorium. Tworzenie commita to takie jakby robienie snapshota projektu, który prezentuje stan projektu w danym momencie
 a)  za pomocą komendy *git add* dodaję zmodyfikowane pliki do *staging area*
@@ -31,10 +31,87 @@ $ git init
 $ git clone <url>
 ```
 
+### 1) fetch + merge = pull
+
+##### Zaciągnięcie najświeższych zmian bez auto-merge (remote repo -> local repo)
+```
+$ git fetch origin develop
+```
+
+#### Mergowanie zmian (local repo -> working dir)
+```
+$ git merge
+```
+
+##### Zaciągnięcie najświeższych zmian z auto-merge (remote repo -> working dir)
+np. z brancha 'develop'
+```
+$ git pull origin develop
+```
+pull = fetch + merge
+
+![[fetch merge.png]]
+
+### 2) status -> add / stash -> commit
+
+##### Aktualny status (różnice pomiędzy: working dir <-> staging area <-> local repo <-> remote repo)
+```
+$ git status
+```
+
+##### Dodanie plików do staging area (working dir -> staging area)
+```
+$ git add --all
+$ git add .
+```
+
+##### Dodanie plików do stasha (working dir -> stash list)
+Czyli np. mam jakieś zmiany, potrzebuję zrobić pulla, nie chcę tych zmian commitować, ale też nie chcę ich tracić. Wtedy mogę je zastashować, tak jakby odłożyć na później
+```
+$ git stash
+```
+Wyprintowanie stash list - ostatni stash trafia na górę listy
+```
+$ git stash list
+```
+Przywrócenie ostatniego stasha do working dir
+```
+$ git stash pop
+```
+
+##### Zakomitowanie plików (staging area -> local repo)
+```
+$ git commit -m "nice commit"
+$ git commit -am "nice commit directly to local repo"
+```
+jeżeli chcę zakomitować z pominięciem staging area (working dir -> local repo) dodaję flagę -a
+
+##### Historia commitów
+```
+$ git log
+$ git log --oneline
+```
+
+### 3) push
+
+##### Wrzucenie zmian (local repo -> remote repo)
+```
+$ git push origin master
+```
+
+##### Wrzucenie zmian kiedy nie mam jeszcze utworzonego remote repo
+```
+$ git push --set-upstream origin <nazwa brancha którego tworzymy na remote repo>
+albo
+$ git push -u origin <nazwa brancha którego tworzymy na remote repo>
+```
+
+### 4) branch
+
 ##### Sprawdzenie na którym jestem obecnie branchu
 ```
-git branch -vv
-git branch -la
+$ git branch -vv
+$ git branch -la
 ```
 flaga -vv pokazuje dodatkowo z którym branchem w remote repo jest połączony
 
@@ -51,33 +128,12 @@ $ git branch -d <branchName>
 
 ##### Zmiana brancha 
 ```
-git checkout <branchName>
+$ git checkout <branchName>
 ```
 
-##### Zaciągnięcie najświeższych zmian bez auto-merge (remote repo -> local repo)
-```
-git fetch origin develop
-```
+### 4.1) Mergowanie dwóch branchy i rebase
 
-#### Mergowanie zmian (local repo -> working dir)
-```
-git merge
-```
-
-##### Zaciągnięcie najświeższych zmian z auto-merge (remote repo -> working dir)
-np. z brancha 'develop'
-```
-git pull origin develop
-```
-pull = fetch + merge
-
-![[fetch merge.png]]
-
-
-
-### Mergowanie dwóch branchy
-
-#### 1. Merge (fast forward) - w sytuacji kiedy jeden branch tylko 'wyprzedził' drugiego brancha
+#### a) Merge (fast forward) - w sytuacji kiedy jeden branch tylko 'wyprzedził' drugiego brancha
 
 ```
 $ git merge <nazwa brancha którego chcemy domergować>
@@ -92,8 +148,7 @@ $ git merge <nazwa brancha którego chcemy domergować>
 - i pewnie kasuję domergowanego brancha za pomocą `git branch -d MyNewBranch`
 
 
-
-#### 2. Rebase - w sytuacji kiedy branche się 'rozjechały' i ich ostatnie commity są inne
+#### b) Rebase - w sytuacji kiedy branche się 'rozjechały' i ich ostatnie commity są inne
 
 ```
 $ git rebase <nazwa brancha którego chcemy domergować>
@@ -111,85 +166,31 @@ przed:
 
 po:
 ![[rebasing after.png]]
-- w momencie rebasingu Git kopiuje commit E do commit E' i potem stawia commit E' jako ostatni commit mastera
+- w momencie rebasingu Git kopiuje commit E do commit E' i potem stawia commit E' za ostatnim commitem z mastera - ==bazujemy na aktualnym stanie gałęzi master, ale nie na samej gałęzi master==
 - dzięki rebase możemy integrować zmiany które zachodzą na branchu master z naszym branchem, a na końcu, gdy praca jest skończona możemy użyć fast-forward merge
 - rebase pozwala uporządkować historię commitów danego brancha bez dodawania niepotrzebnych merge commitów
 
-### Przepisywanie historii brancha
+### 4.2) Przepisywanie historii brancha
 
-W obu przypadkach tworzony jest nowy commit z nowym hashem, ale jego timestamp i autor pozostają takie same.
+- W obu przypadkach tworzony jest nowy commit z nowym hashem, ale jego timestamp i autor pozostają takie same.
+- Złotą zasadą jest żeby przepisywać historię tylko swoich lokalnych branchy, nie robić tego na masterze.
 
-Złotą zasadą jest żeby przepisywać historię tylko swoich lokalnych branchy, nie robić tego na masterze.
-
-#### 1. Amend - nadpisanie ostatniego commita
+#### a) Amend - nadpisanie ostatniego commita
 
 ```
 $ git add <new files>
 $ git commit --amend
 ```
 
-#### 2. Rebase interactive
+#### b) Rebase interactive
 
 ```
 $ git rebase -i HEAD~3
 ```
+HEAD~3 znaczy kiedy chcę zedytować ostatnie 3 commity
 
+## IV. Commitowanie - najlepsze praktyki
 
-##### Aktualny status (różnice pomiędzy: working dir <-> staging area <-> local repo <-> remote repo)
-```
-git status
-```
-
-##### Dodanie plików do staging area (working dir -> staging area)
-```
-$ git add --all
-$ git add .
-```
-
-##### Dodanie plików do stasha (working dir -> stash list)
-Czyli np. mam jakieś zmiany, potrzebuję zrobić pulla, nie chcę tych zmian commitować, ale też nie chcę ich tracić. Wtedy mogę je zastashować, tak jakby odłożyć na później
-```
-git stash
-```
-Wyprintowanie stash list - ostatni stash trafia na górę listy
-```
-git stash list
-```
-Przywrócenie ostatniego stasha do working dir
-```
-git stash pop
-```
-
-###### Zakomitowanie plików (staging area -> local repo)
-```
-git commit -m "nice commit"
-```
-jeżeli chcę zakomitować z pominięciem staging area (working dir -> local repo) dodaję flagę -a
-```
-git commit -am "nice commit directly to local repo"
-```
-
-#### Historia commitów
-```
-$ git log
-$ git log --oneline
-```
-
-##### Wrzucenie zmian (local repo -> remote repo)
-```
-git push origin master
-```
-
-```
-$ git push --set-upstream origin <nazwa brancha którego tworzymy na remote repo>
-albo
-$ git push -u origin <nazwa brancha którego tworzymy na remote repo>
-```
-
-Cheatsheet
-> https://confluence.atlassian.com/bitbucketserver/basic-git-commands-776639767.html
-
-## IV. Commiting best practices
 1. Commity powinny być 'w sam raz' - nie za małe, nie za duże tzn. nie ma sensu commitować każdej zmiany, ale też nie ma sensu robić np. tylko jednego commita z wszystkimi zmianami
 2. Commity powinny być czymś na wzór checkpointów w grach - ważnych momentów, do których można wrócić
 3. Każdy commit powinien reprezentować oddzielny zestaw zmian np.: 
@@ -198,7 +199,7 @@ b)  refaktoruję 10 selektorów w innej klasie testowej -> drugi commit
 itd.
 4. Pisanie sensownych commit messages, które odzwierciedlają sedno zmian
 
-## V.. Konfiguracja
+## V. Konfiguracja
 
 ##### Otwarcie config file (global)
 ```
