@@ -13,24 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Cucumber.md",
+                "file": "Git.md",
                 "mode": "source",
                 "source": false
               }
             }
-          },
-          {
-            "id": "e04af217e5fdf9d1",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.0.3"
-              }
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -96,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Cucumber.md",
+                "file": "Git.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,8 +112,9 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "e04af217e5fdf9d1",
+  "active": "f80902de57a62958",
   "lastOpenFiles": [
+    "Cucumber.md",
     "Git.md",
     "Locators, selectors.md",
     "Map.md",
@@ -133,7 +123,6 @@
     "Loops.md",
     "Maven.md",
     "Code review.md",
-    "Collections.md",
-    "Java Generics.md"
+    "Collections.md"
   ]
 }
