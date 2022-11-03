@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Map.md",
+                "file": "Immutable Class.md",
                 "mode": "source",
                 "source": false
               }
@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "Map",
+                "query": "Wrapper",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Map.md",
+                "file": "Immutable Class.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -112,17 +112,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "4c035fac946162a1",
+  "active": "f80902de57a62958",
   "lastOpenFiles": [
-    "Collections.md",
-    "Method overloading.md",
-    "Test Automation.md",
-    "Git.md",
-    "Cucumber.md",
-    "Locators, selectors.md",
+    "Wrapper class.md",
+    "Immutable Class.md",
     "Map.md",
     "Autoboxing and Unboxing.md",
-    "Coding best practices.md",
-    "Loops.md"
+    "Primitive Data Types.md",
+    "Scanner class.md",
+    "static vs instance.md",
+    "Collections.md",
+    "Method overloading.md",
+    "Test Automation.md"
   ]
 }
