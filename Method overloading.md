@@ -1,4 +1,3 @@
-# Method overloading
 #programming #java
 
 Ficzer który pozwala na istnienie w obrębie jednej klasy wielu funkcji/metod o tej samej nazwie. 
