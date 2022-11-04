@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_Do obczajenia.md",
+                "file": "Collections.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_Do obczajenia.md",
+                "file": "Collections.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,15 +114,15 @@
   },
   "active": "f80902de57a62958",
   "lastOpenFiles": [
+    "Map.md",
+    "Collections.md",
+    "LinkedList.md",
+    "ArrayList.md",
+    "_Do obczajenia.md",
     "Immutable Class.md",
     "Wrapper class.md",
-    "Map.md",
     "Autoboxing and Unboxing.md",
     "Primitive Data Types.md",
-    "Scanner class.md",
-    "static vs instance.md",
-    "Collections.md",
-    "Method overloading.md",
-    "Test Automation.md"
+    "Scanner class.md"
   ]
 }

@@ -13,7 +13,7 @@ Collections: 
 1.  List (interface) ([code example 1](https://github.com/bojan-wik/SeleniumWithJavaCourse/blob/master/src/Chapter32/ArrayListDemo.java)) 
     -   Ordered collection of objects       
     -   can contain duplicate elements         
-    -   Implemented by the classes: ArrayList, LinkedList, Vector, Stack 
+    -   Implemented by the classes: [[ArrayList]], [[LinkedList]], Vector, Stack 
         
 2.  Set (interface) ([code example 2](https://github.com/bojan-wik/SeleniumWithJavaCourse/blob/master/src/Chapter32/HashSetExample.java))     
     -   unordered collection of objects         
@@ -21,7 +21,8 @@ Collections: 
     -   implemented by the classes: HashSet, LinkedHashSet, TreeSet 
         
 3.  [[Map]] (interface)     
-    -   object that maps keys to values         
+    -   object that maps keys to values
+    -   unordered collection of objects
     -   can not contain duplicate keys         
     -   implemented by the classes: HashMap, TreeMap, LinkedHashMap etc.         
 

@@ -1,4 +1,3 @@
-# ArrayList
 #java 
 
 #### Co to jest?

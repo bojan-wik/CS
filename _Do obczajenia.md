@@ -1,4 +1,3 @@
-# Do obczajenia
 
 ## Work-related:
 * https://www.stickyminds.com/article/java-qa-automation-engineers-how-learn
