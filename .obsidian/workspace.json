@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Immutable Class.md",
+                "file": "_Do obczajenia.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Immutable Class.md",
+                "file": "_Do obczajenia.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,8 +114,8 @@
   },
   "active": "f80902de57a62958",
   "lastOpenFiles": [
-    "Wrapper class.md",
     "Immutable Class.md",
+    "Wrapper class.md",
     "Map.md",
     "Autoboxing and Unboxing.md",
     "Primitive Data Types.md",
