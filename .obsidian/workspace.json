@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Access modifiers.md",
+                "file": "Locators, selectors.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Access modifiers.md",
+                "file": "Locators, selectors.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,15 +114,15 @@
   },
   "active": "f80902de57a62958",
   "lastOpenFiles": [
+    "_Do obczajenia.md",
+    "Locators, selectors.md",
+    "Access modifiers.md",
     "Collections.md",
     "LinkedList.md",
     "List.md",
     "Set.md",
     "Map.md",
     "ArrayList.md",
-    "Cucumber.md",
-    "_Do obczajenia.md",
-    "Immutable Class.md",
-    "Wrapper class.md"
+    "Cucumber.md"
   ]
 }
