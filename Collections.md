@@ -11,20 +11,23 @@ Java Collection framework provides many interfaces (Set, List, Queue, Deque) an
 
 Collections: 
 1.  List (interface) ([code example 1](https://github.com/bojan-wik/SeleniumWithJavaCourse/blob/master/src/Chapter32/ArrayListDemo.java)) 
-    -   Ordered collection of objects       
-    -   can contain duplicate elements         
-    -   Implemented by the classes: [[ArrayList]], [[LinkedList]], Vector, Stack 
+    - Ordered collection of objects       
+    - can contain duplicate elements         
+    - Implemented by the classes: [[ArrayList]], [[LinkedList]], Vector, Stack 
+    - dostajemy się do danego elementu poprzez jego pozycję
         
 2.  Set (interface) ([code example 2](https://github.com/bojan-wik/SeleniumWithJavaCourse/blob/master/src/Chapter32/HashSetExample.java))     
-    -   unordered collection of objects         
-    -   can not contain duplicate elements - używamy wtedy kiedy chcemy uniknąć przechowywania zduplikowanych elementów         
-    -   implemented by the classes: HashSet, LinkedHashSet, TreeSet 
+    - unordered collection of objects         
+    - can not contain duplicate elements - używamy wtedy kiedy chcemy uniknąć przechowywania zduplikowanych elementów         
+    - implemented by the classes: HashSet, LinkedHashSet, TreeSet 
+    - nie możemy dostać się bezpośrednio do żadnego elementu
         
 3.  [[Map]] (interface)     
-    -   object that maps keys to values
-    -   unordered collection of objects
-    -   can not contain duplicate keys         
-    -   implemented by the classes: HashMap, TreeMap, LinkedHashMap etc.         
+    - object that maps keys to values
+    - unordered collection of objects
+    - can not contain duplicate keys         
+    - implemented by the classes: HashMap, TreeMap, LinkedHashMap etc.
+    - dostajemy się do danego elementu poprzez jego key
 
 Hierarchia
 ![[Pasted image 20220622160204.png]]
