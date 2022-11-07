@@ -1,4 +1,3 @@
-# LinkedList
 #java
 
 #### Co to jest?

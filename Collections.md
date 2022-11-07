@@ -16,7 +16,7 @@ Collections: 
     - Implemented by the classes: [[ArrayList]], [[LinkedList]], Vector, Stack 
     - dostajemy się do danego elementu poprzez jego pozycję
         
-2.  Set (interface) ([code example 2](https://github.com/bojan-wik/SeleniumWithJavaCourse/blob/master/src/Chapter32/HashSetExample.java))     
+2.  [[Set]] (interface) ([code example 2](https://github.com/bojan-wik/SeleniumWithJavaCourse/blob/master/src/Chapter32/HashSetExample.java))     
     - unordered collection of objects         
     - can not contain duplicate elements - używamy wtedy kiedy chcemy uniknąć przechowywania zduplikowanych elementów         
     - implemented by the classes: HashSet, LinkedHashSet, TreeSet 

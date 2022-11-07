@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Map.md",
+                "file": "Collections.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Map.md",
+                "file": "Collections.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,15 +114,15 @@
   },
   "active": "f80902de57a62958",
   "lastOpenFiles": [
-    "Collections.md",
-    "ArrayList.md",
-    "Map.md",
-    "Cucumber.md",
     "LinkedList.md",
+    "List.md",
+    "Collections.md",
+    "Set.md",
+    "Map.md",
+    "ArrayList.md",
+    "Cucumber.md",
     "_Do obczajenia.md",
     "Immutable Class.md",
-    "Wrapper class.md",
-    "Autoboxing and Unboxing.md",
-    "Primitive Data Types.md"
+    "Wrapper class.md"
   ]
 }
