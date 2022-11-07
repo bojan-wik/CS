@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Collections.md",
+                "file": "Cucumber.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Collections.md",
+                "file": "Cucumber.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,8 +114,8 @@
   },
   "active": "f80902de57a62958",
   "lastOpenFiles": [
-    "Map.md",
     "Collections.md",
+    "Map.md",
     "LinkedList.md",
     "ArrayList.md",
     "_Do obczajenia.md",
