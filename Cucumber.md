@@ -1,21 +1,39 @@
 #tools 
 
-### I) Understand the importance of Behavior Driven Development 
+**Cucumber** to narzędzie, które wykorzystuje [[Behavior Driven Development]] do pisania testów z wykorzystaniem języka [[Gherkin]].
 
-##### Behavior Driven Development
-to metodologia Agile w której software jest udokumentowany i zaprojektowany wokół zachowań/akcji, jakie user oczekuje doświadczyć w momencie interakcji z softwarem. 
+## I. Step Annotations
 
-##### To podejście zakłada, 
-że zarówno techniczna (IT), jak I nietechnicza (biznes) część zespołu jest zaangażowana w rozwój oprogramowania. Głównym narzędziem, które ma w tym pomóc jest wprowadzenie języka pseudo-kodu, który byłby zrozumiały dla wszystkich (Ubiquitous Language). 
+![[Pasted image 20221107145258.png]]
 
-##### Mamy wtedy np. sytuację, kiedy 
-BA pisze wymaganie odnośnie danej funkcjonalności, potem przejmuje je developer I na jej podstawie pisze kod I implementuje funkcjonalność, a potem tester czyta ten sam pseudo-kod I jest w stanie wywnioskować, co I jak ma działać w jaki sposób to przetestować 
+## II. Feature & .feature file
 
-##### Template: 
-- Given some initial context, 
-- When an event occurs, 
-- Then ensure some outcomes 
+- **Feature** jest definiowany jako funkcjonalność albo moduł aplikacji, której testy piszemy.
+- **.feature** to plik, w którym zapisane są testy Cucumber. Dobrą praktyką jest mieć osobne pliki .feature per feature.
 
-##### Przykład: 
+![[Pasted image 20221107150445.png]]
 
-![[Pasted image 20220729155243.png]] 
+### 1. Scenario
+### 2. Scenario Outline
+pozwala parametryzować testy
+
+![[Pasted image 20221107150817.png]]
+
+### 3. Background
+- Jeżeli mamy step Given wspólny dla więcej niż jednego Scenario, to możemy go wyeksportować do adnotacji Background.
+- Step w Background jest uruchamiany przed każdym Scenario, ale po jakimkolwiek hooku Before.
+
+![[Pasted image 20221107151805.png]]
+
+### 4. Tags
+### 5. Hooks
+11:30
+
+## III. Step definitions
+- to metoda Java z dodaną odpowiednią adnotacją, która prowadzi do konkretnego stepu w Cucumber
+- w momencie wykonywania danego stepu tak naprawdę pod maską wywoływana jest połączona z nią metoda Java
+
+![[Pasted image 20221107153217.png]]
+
+---
+https://testautomationu.applitools.com/cucumber-java-tutorial/
