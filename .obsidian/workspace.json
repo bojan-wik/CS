@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Git.md",
+                "file": "Maven.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Git.md",
+                "file": "Maven.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,12 +114,12 @@
   },
   "active": "f80902de57a62958",
   "lastOpenFiles": [
+    "_Do obczajenia.md",
+    "Git.md",
     "Cucumber.md",
     "Behavior Driven Development.md",
-    "Git.md",
     "Behavior Driver Development.md",
     "Locators, selectors.md",
-    "_Do obczajenia.md",
     "Access modifiers.md",
     "Collections.md",
     "LinkedList.md",
