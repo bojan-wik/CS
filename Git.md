@@ -233,3 +233,7 @@ W moim przypadku to był bitbucket, gdzie miałem wcześniej pewnie nieaktualne 
 
 ---
 * https://www.youtube.com/watch?v=8JJ101D3knE (30:30)
+
+
+---
+https://testautomationu.applitools.com/git-tutorial/
