@@ -27,13 +27,23 @@ pozwala parametryzować testy
 
 ### 4. Tags
 ### 5. Hooks
-11:30
+
+![[Pasted image 20221108100217.png]]
 
 ## III. Step definitions
 - to metoda Java z dodaną odpowiednią adnotacją, która prowadzi do konkretnego stepu w Cucumber
 - w momencie wykonywania danego stepu tak naprawdę pod maską wywoływana jest połączona z nią metoda Java
 
 ![[Pasted image 20221107153217.png]]
+
+## IV. Best practices
+1. Zawsze pisać Scenario z perspektywy endusera
+2. Nie skupiać się za bardzo na UI i jego szczegółach, bardziej na flow endusera
+3. Unikać użuwania technicznych terminów
+4. W danym Scenario powinno być:
+- tylko po jednym stepie Given, When, Then
+- maksymalnie dwa stepy And
+- maks 5 stepów w sumie - jeżeli wychodzi więcej to lepiej jest je rozbić na dwa osobne Scenario
 
 ---
 https://testautomationu.applitools.com/cucumber-java-tutorial/
