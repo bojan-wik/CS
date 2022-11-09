@@ -5,6 +5,13 @@
 1. Branch - pointer, który wskazuje na ostatni commit z serii commitów
 2. HEAD - plik w folderze .git, który wskazuje który lokalny branch jest w danym momencie active
 
+Pliki mogą być w trzech różnych stanach:
+- untracked - nowe plik, które nie zostały jeszcze dodane do drzewa
+- unstaged - pliki, które są już w drzewie, ale zostały w międzyczasie zmodyfikowane
+- staged - pliki gotowe do zacommitowania
+
+![[Pasted image 20221109152946.png]]
+
 ## II. Workflow
 
 ![[Pasted image 20220121145455.png]]
@@ -63,6 +70,11 @@ $ git status
 ```
 $ git add --all
 $ git add .
+```
+
+##### Usuwanie plików ze staging area (working dir -> staging area)
+```
+$ git restore --staged <fileName>
 ```
 
 ##### Dodanie plików do stasha (working dir -> stash list)
@@ -237,3 +249,7 @@ W moim przypadku to był bitbucket, gdzie miałem wcześniej pewnie nieaktualne 
 
 ---
 https://testautomationu.applitools.com/git-tutorial/
+
+---
+https://testautomationu.applitools.com/git-tutorial/
+https://bulldogjob.pl/readme/jak-cofnac-commit-w-git
