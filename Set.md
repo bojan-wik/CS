@@ -26,3 +26,23 @@ Sprawdzenie rozmiaru kolekcji
 ```java
 System.out.println(fruits.size());
 ```
+
+Loopowanie po elementach
+```java
+// looping - iterator  
+  
+Iterator<String> i = fruits.iterator();  
+while (i.hasNext()) {  
+    System.out.println(i.next());  
+}  
+  
+// looping - for each loop  
+  
+for (String fruit : fruits) {  
+    System.out.println(fruit);  
+}  
+  
+// looping - for each method  
+  
+fruits.forEach(fruit -> System.out.println(fruit));
+```

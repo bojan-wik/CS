@@ -37,7 +37,7 @@ Sprawdzanie, czy dany klucz już istnieje
 englishSpanishDict.containsKey("homie");
 ```
 
-Wyprintowanie elementów
+Loopowanie po elementach
 ```java
 for (String key : englishSpanishDict.keySet()) {  
     System.out.println(key + ": " + englishSpanishDict.get(key));  
