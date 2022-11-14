@@ -39,8 +39,23 @@ englishSpanishDict.containsKey("homie");
 
 Loopowanie po elementach
 ```java
+// looping - entrySet()  
+  
+for (Map.Entry<String, String> entry : englishSpanishDict.entrySet()) {  
+    System.out.println(entry.getKey() + ": " + entry.getValue());  
+}
+
+// looping - keySet()
+
 for (String key : englishSpanishDict.keySet()) {  
     System.out.println(key + ": " + englishSpanishDict.get(key));  
 }
+
+// looping - forEach()  
+  
+fruitCalories.forEach(  
+        (key, value) -> System.out.println(key + ": " + value));
 ```
 
+---
+https://testautomationu.applitools.com/java-programming-course/chapter12a.html

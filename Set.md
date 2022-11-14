@@ -42,7 +42,7 @@ for (String fruit : fruits) {
     System.out.println(fruit);  
 }  
   
-// looping - for each method  
+// looping - forEach()
   
 fruits.forEach(fruit -> System.out.println(fruit));
 ```
