@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Git.md",
+                "file": "Coding best practices.md",
                 "mode": "preview",
                 "source": false
               }
@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "Wrapper",
+                "query": "Constant",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -65,7 +65,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -85,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Git.md",
+                "file": "Coding best practices.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,15 +115,15 @@
   },
   "active": "f80902de57a62958",
   "lastOpenFiles": [
-    "ExpectedConditions.md",
-    "Locators, selectors.md",
-    "Git.md",
+    "Array.md",
     "Map.md",
     "Collections.md",
+    "Git.md",
+    "ExpectedConditions.md",
+    "Locators, selectors.md",
     "Set.md",
     "ListIterator.md",
     "List.md",
-    "Iterator.md",
-    "ArrayList.md"
+    "Iterator.md"
   ]
 }
