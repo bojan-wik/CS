@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Coding best practices.md",
-                "mode": "preview",
+                "file": "_Do obczajenia.md",
+                "mode": "source",
                 "source": false
               }
             }
@@ -65,8 +65,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -86,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Coding best practices.md",
+                "file": "_Do obczajenia.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,6 +114,7 @@
   },
   "active": "f80902de57a62958",
   "lastOpenFiles": [
+    "Coding best practices.md",
     "Array.md",
     "Map.md",
     "Collections.md",
@@ -123,7 +123,6 @@
     "Locators, selectors.md",
     "Set.md",
     "ListIterator.md",
-    "List.md",
-    "Iterator.md"
+    "List.md"
   ]
 }
