@@ -1,4 +1,4 @@
-#java #programming 
+#java #programming
 
 ## I. Definicja i rodzaje
 
