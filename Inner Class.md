@@ -1,6 +1,6 @@
 #java #programming 
 
-## Definicja i rodzaje
+## I. Definicja i rodzaje
 
 **Inner class** - klasa utworzona wewnątrz innej klasy/interfejsu.
 
@@ -17,9 +17,11 @@ Gdyby jednak była zadeklarowana jako **public** to wtedy dostęp do niej z pozi
 Gearbox.Gear gear1 = skodaGearbox.new Gear(1, 12.3);
 ```
 
-## Przykłady użycia
+Ważne jest także to, że klasa wewnętrzna ma dostęp do wszystkich atrybutów czy metod klasy zewnętrznej, w której została zdefiniowana.
 
-### Plain Java
+## II. Przykłady użycia
+
+### 1. Plain Java
 
 Skrzynia biegów w samochodzie i poszczególne biegi tej skrzyni.
 1. Skrzynia biegów - modelujemy jako standardową klasę (zewnętrzną)
@@ -89,4 +91,17 @@ public class Gearbox {
 }
 ```
 
-### Testy automatyczne
+### 2. Testy automatyczne
+
+W myśl [[Page Object Pattern]] strona https://the-internet.herokuapp.com/hovers została zamodelowana jako osobna klasa - standardowa klasa zewn.
+
+Na stronie znajdują się 3 obrazki symbolizujące userów. Po najechaniu na każdy z obrazków pojawiają się dodatkowe informacje o userze: name i link view profile.
+
+Te dodatkowe informacje - name i link view profile, zostały zamodelowane jako **inner class**.
+W tym przypadku inner class zadeklarowana jest jako public, ponieważ jest bezpośrednio wykorzystywana testach (w odrębnej klasie testowej).
+
+![[Pasted image 20221117105954.png]]
+
+---
+- https://www.udemy.com/course/java-the-complete-java-developer-course/learn/lecture/3751972#notes
+- https://testautomationu.applitools.com/selenium-webdriver-tutorial-java/chapter5.html
