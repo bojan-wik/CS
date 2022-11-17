@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Array.md",
+                "file": "Inner Class.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Array.md",
+                "file": "Inner Class.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,15 +114,15 @@
   },
   "active": "562685d97c38681e",
   "lastOpenFiles": [
+    "Encapsulation.md",
+    "Inner Class.md",
+    "Array.md",
     "Set.md",
     "ArrayList.md",
-    "Inner Class.md",
     "Class.md",
     "Class vs Object OR Instance vs Reference.md",
-    "Array.md",
     "_Do obczajenia.md",
     "Coding best practices.md",
-    "Map.md",
-    "Collections.md"
+    "Map.md"
   ]
 }

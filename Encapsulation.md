@@ -1,4 +1,3 @@
-# Encapsulation
 #programming #java 
 
 **Enkapsulacja** - mechanizm, który pozwala na ograniczanie dostępu do poszczególnych komponentów w tworzonych obiektach.

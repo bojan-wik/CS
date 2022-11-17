@@ -1,7 +1,92 @@
 #java #programming 
 
+## Definicja i rodzaje
+
 **Inner class** - klasa utworzona wewnątrz innej klasy/interfejsu.
 
-przykład użycia:
-- gearbox
-- test z kursu
+**Rodzaje:**
+- (standard) inner class
+- local inner classes
+- anonymous inner classes
+
+Generalnie *inner class* używa się, aby poprawić [[Encapsulation]] w kodzie. Jeżeli mamy jakąś klasę, która stanowi część innej klasy, wystarczy, że komunikuje się tylko z nią i nie musi być dostępna na zewnątrz, to wtedy warto zastosować *inner class*. Z tego też powodu *inner class* jest najczęściej deklarowana jako **private**.
+
+Gdyby jednak była zadeklarowana jako **public** to wtedy dostęp do niej z poziomu innej klasy wyglądałby tak (na przykładzie kodu z poniżej):
+```java
+// outerClass.innerClass innerClass_instance = outerClass_instance.new innerClass();  
+Gearbox.Gear gear1 = skodaGearbox.new Gear(1, 12.3);
+```
+
+## Przykłady użycia
+
+### Plain Java
+
+Skrzynia biegów w samochodzie i poszczególne biegi tej skrzyni.
+1. Skrzynia biegów - modelujemy jako standardową klasę (zewnętrzną)
+2. Bieg - modelujemy jako klasę wewnętrzną. Generalnie biegi skrzyni rozpatrujemy tylko w kontekście całej skrzyni biegów. W oderwaniu od niej, jako pojedyńcze biegi nie stanowią dla nas żadnej wartości. Dlatego też w tym przypadku warto biegi zamodelować jako inner class.
+
+```java
+// OUTER CLASS
+public class Gearbox {  
+  
+    private ArrayList<Gear> gears;  
+    private int maxGears;  
+    private int currentGear = 0; // skrzynia biegów ustawiona na luz  
+    private boolean clutchIsIn = false;  
+  
+    public Gearbox(int maxGears) {  
+        this.maxGears = maxGears;  
+        gears = new ArrayList<>();  
+  
+        for (int i = 0; i < maxGears; i ++) {  
+            addGear(i, i * 5.3);  
+        }  
+    }  
+   
+    private void addGear(int gearNumber, double ratio) {  
+        if (gearNumber > 0 && gearNumber <= maxGears) {  
+            gears.add(new Gear(gearNumber, ratio));  
+        }  
+    }  
+  
+   public void changeGear(int newGear) {  
+        if (newGear >= 0 && newGear <= gears.size() && clutchIsIn) {  
+            currentGear = newGear;  
+            System.out.println("Gear " + newGear + " selected");  
+        } else {  
+            System.out.println("Grind!");  
+            currentGear = 0;  
+        }  
+   }  
+  
+    public void operateClutch(boolean in) {  
+        clutchIsIn = in;  
+    }  
+  
+   public double getWheelSpeed(int revs) {  
+        if (clutchIsIn) {  
+            System.out.println("The clutch is in and the car is not moving.");  
+            return 0.0;  
+        }  
+        return revs * gears.get(currentGear).getRatio();  
+   }  
+  
+    // INNER CLASS  
+    private class Gear {  
+  
+        private int gearNumber;  
+        private double ratio;  
+  
+        public Gear(int gearNumber, double ratio) {  
+            this.gearNumber = gearNumber;  
+            this.ratio = ratio;  
+        }  
+  
+        public double getRatio() {  
+            return ratio;  
+        }  
+    }  
+}
+```
+
+### Testy automatyczne
