@@ -67,7 +67,7 @@ inputBrowse.sendKeys("C:\\snap\\non-image sample file.doc");
 - działa na Virtual Machine (Robot class nie działa na VM)
 >https://sqa.stackexchange.com/questions/12851/how-can-i-work-with-file-uploads-during-a-webdriver-test
 
-#### scroll down quasi-infinite inner scrollbar to last element
+#### scroll down quasi-infinite inner-scrollbar to the last element
 ```java
 void scrollDownInnerScrollbarToTheLastGroup() {
         log.info("Scroll down page to the last group");

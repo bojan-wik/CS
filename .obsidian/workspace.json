@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ExpectedConditions.md",
+                "file": "Jenkins.md",
                 "mode": "source",
                 "source": false
               }
@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "scroll",
+                "query": "",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "ExpectedConditions.md",
+                "file": "Jenkins.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,15 +114,15 @@
   },
   "active": "11b72439286061b7",
   "lastOpenFiles": [
+    "_Do obczajenia.md",
     "Test Automation.md",
+    "ExpectedConditions.md",
     "Git.md",
     "locators - selectors.md",
     "Selenium Waits.md",
     "Inner Class.md",
     "Selection statements.md",
     "Selenium methods.md",
-    "Scanner class.md",
-    "Jenkins.md",
-    "ExpectedConditions.md"
+    "Scanner class.md"
   ]
 }
