@@ -9,6 +9,8 @@
 - local inner classes
 - anonymous inner classes
 
+## II. (standard) inner class
+
 Generalnie *inner class* używa się, aby poprawić [[Encapsulation]] w kodzie. Jeżeli mamy jakąś klasę, która stanowi część innej klasy, wystarczy, że komunikuje się tylko z nią i nie musi być dostępna na zewnątrz, to wtedy warto zastosować *inner class*. Z tego też powodu *inner class* jest najczęściej deklarowana jako **private**.
 
 Gdyby jednak była zadeklarowana jako **public** to wtedy dostęp do niej z poziomu innej klasy wyglądałby tak (na przykładzie kodu z poniżej):
@@ -19,9 +21,9 @@ Gearbox.Gear gear1 = skodaGearbox.new Gear(1, 12.3);
 
 Ważne jest także to, że klasa wewnętrzna ma dostęp do wszystkich atrybutów czy metod klasy zewnętrznej, w której została zdefiniowana.
 
-## II. Przykłady użycia
+### Przykłady użycia
 
-### 1. Plain Java
+#### Plain Java
 
 Skrzynia biegów w samochodzie i poszczególne biegi tej skrzyni.
 1. Skrzynia biegów - modelujemy jako standardową klasę (zewnętrzną)
@@ -91,7 +93,7 @@ public class Gearbox {
 }
 ```
 
-### 2. Testy automatyczne
+#### Testy automatyczne
 
 W myśl [[Page Object Pattern]] strona https://the-internet.herokuapp.com/hovers została zamodelowana jako osobna klasa - standardowa klasa zewn.
 
@@ -105,3 +107,52 @@ W tym przypadku inner class zadeklarowana jest jako public, ponieważ jest bezpo
 ---
 - https://www.udemy.com/course/java-the-complete-java-developer-course/learn/lecture/3751972#notes
 - https://testautomationu.applitools.com/selenium-webdriver-tutorial-java/chapter5.html
+
+
+## III. local inner class
+
+- Inner class, które definiujemy wewnątrz bloku kodu (wewnątrz metody, bloku if itp.).
+- Nie poprzedzają ich żadne [[Access modifiers]] (public, private, protected)
+- Żadko używane
+
+```java
+public static void main(String[] args) {  
+  
+    // LOCAL INNER CLASS  
+    class ClickListener implements Button.OnClickListener {  
+  
+        public ClickListener() {  
+            System.out.println("Listener connected to the button");  
+        }  
+  
+        @Override  
+        public void onClick(String title) {  
+            System.out.println(title + " button was clicked");  
+        }  
+    }  
+  
+    btnSave.setOnClickListener(new ClickListener());  
+}
+```
+
+## IV. anonymous inner class
+
+- to też local inner class
+- nie mają nazwy
+- deklarujemy klasę i tworzymy jej instancję w tym samym momencie - jest tylko jedna instancja klasy
+- używane częściej niż zwykłe local inner class (np. dla event handlerów przy buttonach w UI), ale i tak pewnie w testach automatycznych praktycznie nie używane
+
+```java
+public static void main(String[] args) {  
+
+    // ANONYMOUS INNER CLASS  
+    btnSave.setOnClickListener(new Button.OnClickListener() {  
+        @Override  
+        public void onClick(String title) {  
+            System.out.println(title + "button was clicked");  
+        }  
+    });
+}
+```
+---
+* https://www.udemy.com/course/java-the-complete-java-developer-course/learn/lecture/3751972#notes
