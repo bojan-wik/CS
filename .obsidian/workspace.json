@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Inner Class.md",
+                "file": "Selenium Waits.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Inner Class.md",
+                "file": "Selenium Waits.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,8 +114,8 @@
   },
   "active": "11b72439286061b7",
   "lastOpenFiles": [
-    "Selenium Waits.md",
     "Inner Class.md",
+    "Selenium Waits.md",
     "Selection statements.md",
     "Selenium methods.md",
     "Test Automation.md",

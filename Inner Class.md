@@ -104,11 +104,6 @@ W tym przypadku inner class zadeklarowana jest jako public, ponieważ jest bezpo
 
 ![[Pasted image 20221117105954.png]]
 
----
-- https://www.udemy.com/course/java-the-complete-java-developer-course/learn/lecture/3751972#notes
-- https://testautomationu.applitools.com/selenium-webdriver-tutorial-java/chapter5.html
-
-
 ## III. local inner class
 
 - Inner class, które definiujemy wewnątrz bloku kodu (wewnątrz metody, bloku if itp.).
@@ -154,5 +149,7 @@ public static void main(String[] args) {
     });
 }
 ```
+
 ---
-* https://www.udemy.com/course/java-the-complete-java-developer-course/learn/lecture/3751972#notes
+- https://www.udemy.com/course/java-the-complete-java-developer-course/learn/lecture/3751972#notes
+- https://testautomationu.applitools.com/selenium-webdriver-tutorial-java/chapter5.html
