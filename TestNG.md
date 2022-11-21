@@ -1,4 +1,3 @@
-# TestNG
 #tools 
 
 TestNG, to obok [[JUnit]] najpopularniejsza biblioteka do automatyzacji testów dla Javy.

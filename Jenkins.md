@@ -18,7 +18,7 @@
 ### Konfiguracja global settings (Manage Jenkins -> Global Tool Configuration) 
 - Lokalna ścieżka do JDK, ta sama, jak dla JAVA_HOME w Environmental Variables w systemie: 
 `C:\Program Files\Java\jdk1.8.0_241`
-- Lokalna ścieżka do Maven – (tu muszę się cofnąć i zrobić rozdział o Maven - zrobione)
+- Lokalna ścieżka do Maven
 
 ### Konfiguracja workspace, zakładanie projektu/joba 
 
