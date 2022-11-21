@@ -87,3 +87,22 @@ void scrollDownInnerScrollbarToTheLastGroup() {
     }
 ```
 >https://csnotes.medium.com/web-scraping-infinite-scrolling-with-selenium-97f820d2e506
+
+##### scroll down infinite scrollbar to the desired element
+```java
+private By paragraph = By.className("jscroll-added");
+
+public void scrollToNthParagraph(int n) {  
+    String script =  "window.scrollTo(0, document.body.scrollHeight)";  
+    JavascriptExecutor jsExecutor =  (JavascriptExecutor)getDriver();  
+  
+    while (getNumberOfParagraphsPresent() < n) {  
+        jsExecutor.executeScript(script);  
+    }  
+}  
+  
+private int getNumberOfParagraphsPresent() {  
+    return getDriver().findElements(paragraph).size();  
+}
+```
+>https://testautomationu.applitools.com/selenium-webdriver-tutorial-java/chapter10.html
