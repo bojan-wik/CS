@@ -8,14 +8,23 @@ webDriverWait.until(ExpectedConditions.titleContains("giant panda"));
 Tytuł strony to to co znajduje się na tabie w przeglądarce albo w elemencie `<title>` w DOMie
 
 #### attributeToBe / attributeContains
-Czy webelement->atrybut ***to konkretny string*** np.
+Czy webelement->atrybut->wartość ***to konkretny string*** np.
 ```java
 webDriverWait.until(ExpectedConditions.attributeToBe(tabGroupDetails, "aria-selected", "true"));
 ```
 
-Czy webelement->atrybut ***zawiera konkretny string*** np.
+Czy webelement->atrybut->wartość ***zawiera konkretny string*** np.
 ```java
 webDriverWait.until(ExpectedConditions.attributeContains(By.xpath(SECTION_TAG_PREVIEW_CONTENT_XPATH), "style", "rgb(109, 139, 184)"));
+```
+
+Powyższe metody nie działają w przypadku kiedy dany webelement->atrybut->wartość to pusty string np.
+```html
+<select id="dropdown" multiple="">
+```
+wtedy użyłem takiego workarounda
+```java
+getWait().until(ExpectedConditions.visibilityOfElementLocated(By.cssSelector("#dropdown[multiple]")));
 ```
 
 #### elementToBeClickable
