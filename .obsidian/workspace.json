@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ExpectedConditions.md",
+                "file": "Test Automation.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "ExpectedConditions.md",
+                "file": "Test Automation.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,15 +114,15 @@
   },
   "active": "11b72439286061b7",
   "lastOpenFiles": [
+    "ExpectedConditions.md",
+    "Array.md",
+    "ArrayList.md",
     "Declaration vs. Initialization.md",
     "Test Automation.md",
     "locators - selectors.md",
     "TestNG.md",
     "Jenkins.md",
     "_Do obczajenia.md",
-    "ExpectedConditions.md",
-    "Git.md",
-    "Selenium Waits.md",
-    "Inner Class.md"
+    "Git.md"
   ]
 }
