@@ -1,4 +1,3 @@
-# Declaration vs. Initialization
 #programming
 
 Deklarowanie (*declaration*) to moment, w którym tworzymy/definujemy zmienną podając jej [[Data type]] i nazwę np.
