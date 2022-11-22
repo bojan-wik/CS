@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_Do obczajenia.md",
-                "mode": "source",
+                "file": "TestNG.md",
+                "mode": "preview",
                 "source": false
               }
             }
@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "Arrays.",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_Do obczajenia.md",
+                "file": "TestNG.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,15 +114,15 @@
   },
   "active": "11b72439286061b7",
   "lastOpenFiles": [
-    "Test Automation.md",
-    "ExpectedConditions.md",
-    "Array.md",
-    "ArrayList.md",
-    "Declaration vs. Initialization.md",
-    "locators - selectors.md",
+    "JUnit.md",
     "TestNG.md",
-    "Jenkins.md",
+    "Binary Search.md",
+    "Array.md",
+    "Scanner class.md",
+    "Stream API.md",
+    "ArrayList.md",
+    "Collections.md",
     "_Do obczajenia.md",
-    "Git.md"
+    "Test Automation.md"
   ]
 }

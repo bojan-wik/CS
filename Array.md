@@ -68,6 +68,11 @@ return new String(censoredStringArray);
 return String.valueOf(censoredStringArray);
 ```
 >https://www.baeldung.com/java-char-array-to-string
+### Sort int array ASC
+```java
+int[] numbers = {5, 13, 48, 5, 37, 12};
+Arrays.sort(numbers);
+```
 ### Sort int array DESC
 ```java
 public static int[] sortIntegers(int[] array) {

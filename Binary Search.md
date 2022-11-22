@@ -6,6 +6,34 @@ Ogólna zasada działania algorytmu polega na „dzieleniu” listy liczb na po�
 
 Algorytm bardziej wydajny od wyszukiwania liniowego (np. for-loop), ale ==wymaga posortowanej listy==.
 
+
+## Array
+
+```java
+// BINARY SEARCH  
+public static boolean isDuplicate1(int[] numbers, int searchedNumber) {  
+    Arrays.sort(numbers);  
+    int index = Arrays.binarySearch(numbers, searchedNumber);  
+    if (index >= 0) {  
+        return true;  
+    } else {  
+        return false;  
+    }  
+}
+
+// LINEAR/SEQUENTIAL SEARCH  
+public static boolean isDuplicate(int[] numbers, int searchedNumber) {  
+    for (int number : numbers) {  
+        if (number == searchedNumber) {  
+            return true;  
+        }  
+    }  
+    return false;  
+}
+```
+
+## Collections
+
 ```java
 public boolean reserveSeat(String seatNumber) {
         // BINARY SEARCH - bardziej wydajne w tym przypadku (posortowana lista)
@@ -36,4 +64,5 @@ public boolean reserveSeat(String seatNumber) {
 ```
 
 ---
-https://github.com/bojan-wik/UdemyJavaMasterclass/tree/master/src/section12
+- https://github.com/bojan-wik/UdemyJavaMasterclass/tree/master/src/section12
+- https://testautomationu.applitools.com/java-programming-course/chapter7b.html
