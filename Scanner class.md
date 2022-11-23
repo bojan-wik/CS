@@ -1,4 +1,3 @@
-# Scanner class
 #java #programming 
 
 Klasa w Javie słuząca do zczytywania inputu od usera.
