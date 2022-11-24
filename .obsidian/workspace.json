@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Array.md",
+                "file": "Interface.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Array.md",
+                "file": "Interface.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,15 +114,15 @@
   },
   "active": "34c8909fa513dd22",
   "lastOpenFiles": [
-    "Scanner class.md",
+    "Access modifiers.md",
+    "Interface.md",
+    "Allure report.md",
     "Array.md",
+    "Scanner class.md",
     "Inner Class.md",
     "TestNG.md",
     "TestNG 1.md",
     "JUnit.md",
-    "Binary Search.md",
-    "Stream API.md",
-    "ArrayList.md",
-    "Collections.md"
+    "Binary Search.md"
   ]
 }
