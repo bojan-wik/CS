@@ -2,7 +2,7 @@
 #java 
 
 *switch statement* to obok [[if statement]] i [[if-else statement]] jeden z typów [[Selection statements]] w Javie. Używamy go w momencie kiedy chcemy porównać jakąś zmienną warunkową ze zdefiniowanymi wartościami i na podstawie takiego porównania wykonać określony blok kodu.
-Możemy używać tu także [[break and continue statemets]]
+Możemy używać tu także [[break and continue statements]]
 
 *switch* działa ze zmiennymi typu:
 * [[int]]
