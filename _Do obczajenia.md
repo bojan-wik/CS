@@ -15,3 +15,4 @@
 * https://warszawa.wyborcza.pl/warszawa/7,54420,29061508,lepiej-czelendzowac-jak-korposzczur-niz-robic-w-januszexie.html?_ga=2.147365623.1773983800.1668584748-1058504827.1668584748#S.editors_pick_hp-K.P-B.1-L.3.zw
 * https://wyborcza.pl/7,179012,29139162,dobrze-ze-nie-zabijamy-nikogo-po-meczu-jak-aztekowie-ale.html#S.lena-K.P-B.1-L.2.zw
 * https://lubimyczytac.pl/ksiazka/4880636/inzynieria-wnetrza-z-joginem-po-radosc-zycia
+* https://lubimyczytac.pl/ksiazka/176409/jak-zostalem-geniuszem-pamieci-o-sztuce-i-technice-zapamietywania
