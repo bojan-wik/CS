@@ -21,10 +21,16 @@ TestNG, to obok [[JUnit]] najpopularniejsza biblioteka do automatyzacji testów 
 - @AfterClass
 - @AfterMethod
 
-### Hierarchia
+### Kolejność wykonywania
+
+#### Top level
 
 ![[Pasted image 20221123093922.png]]
 
----
+#### @Test method level
+
+Standardowo metody z adnotacją @Test wykonywane są w kolejności alfabetycznej.
+
+## Źródła:
 - https://github.com/bojan-wik/SeleniumWithJavaCourse/tree/master/src/Chapter18_TestNG
 - https://testautomationu.applitools.com/introduction-to-testng/chapter3.html
