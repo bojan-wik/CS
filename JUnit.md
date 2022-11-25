@@ -35,7 +35,7 @@ public class FooServiceIT {
 Chyba tyczy się to sytuacji z JUnit 5 i nowszym
 >https://stackoverflow.com/questions/54947645/junits-testmethodorder-annotation-not-working
 
-@Order - działa już od 0, tak samo jak w TestNG
+@Order - działa już od 0, tak samo jak w [[TestNG]]
 
 #### Assercja na to, że rzucony jest Exception
 ```java
