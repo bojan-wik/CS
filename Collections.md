@@ -69,6 +69,7 @@ Collections.sort(theatre.seats, new Comparator<Seat>) {
 	}
 }
 ```
+inny przykład sortowania w [[Lambda Expressions]]
 
 reverse order
 ```java

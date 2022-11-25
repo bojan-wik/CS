@@ -8,19 +8,19 @@
         "type": "tabs",
         "children": [
           {
-            "id": "c1b71b73f22be43d",
+            "id": "e9587ef758a2478e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Behavior Driven Development.md",
-                "mode": "source",
+                "file": "Inner Class.md",
+                "mode": "preview",
                 "source": false
               }
             }
           },
           {
-            "id": "e9587ef758a2478e",
+            "id": "df6f73dcc6029539",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -124,17 +124,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "e9587ef758a2478e",
+  "active": "df6f73dcc6029539",
   "lastOpenFiles": [
-    "Primitive Data Types.md",
-    "IntelliJ.md",
     "gitignore.md",
-    "Git.md",
+    "AutoHotkey.md",
     "bash_profile.md",
-    "_Do obczajenia.md",
-    "_Markdown Cheat Sheet.md",
+    "Lambda Expressions.md",
+    "Inner Class.md",
+    "Collections.md",
+    "Stream API.md",
     "_Przydatne linki.md",
-    "_Test developer - rozmowa tech..md",
-    "_Toolbox.md"
+    "Primitive Data Types.md",
+    "IntelliJ.md"
   ]
 }

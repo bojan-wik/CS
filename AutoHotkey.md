@@ -39,3 +39,4 @@ Return
 ---
 - https://www.autohotkey.com/docs/Tutorial.htm
 - https://medium.com/better-humans/how-to-setup-your-windows-global-hotkeys-in-10-minutes-becc40ff492
+- https://www.itechtics.com/10-tools-to-always-on-top-any-app-in-windows-10/
