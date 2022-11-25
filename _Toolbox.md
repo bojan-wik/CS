@@ -24,4 +24,4 @@
 
 ##### CMDER
 
-##### AutoHotkey
+##### [[AutoHotkey]]

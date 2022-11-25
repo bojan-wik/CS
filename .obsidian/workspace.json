@@ -20,6 +20,30 @@
             }
           },
           {
+            "id": "3208a219ff808320",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "gitignore.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "26b444871fd6b095",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "AutoHotkey.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "c1b71b73f22be43d",
             "type": "leaf",
             "state": {
@@ -31,7 +55,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -81,7 +106,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 248.5
+    "width": 247.5
   },
   "right": {
     "id": "bb1ef8e6224e659a",
@@ -97,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_Toolbox.md",
+                "file": "AutoHotkey.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -116,25 +141,24 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
     "width": 300,
     "collapsed": true
   },
-  "active": "34c8909fa513dd22",
+  "active": "26b444871fd6b095",
   "lastOpenFiles": [
-    "Maven.md",
+    "Autoboxing and Unboxing.md",
+    "AutoHotkey.md",
     "_Toolbox.md",
+    "bash_profile.md",
+    "gitignore.md",
+    "Binary Search.md",
+    "Maven.md",
     "_Test developer - rozmowa tech..md",
     "_Przydatne linki.md",
-    "_Markdown Cheat Sheet.md",
-    "_Do obczajenia.md",
-    "Abstract Class.md",
-    "Collections.md",
-    "Lambda Expressions.md",
-    "double.md"
+    "_Markdown Cheat Sheet.md"
   ]
 }
