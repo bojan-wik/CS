@@ -1,4 +1,4 @@
-#java 
+#programming #java
 
 Java Collections: 
 -   framework that provides an architecture to store and manipulate the group of objects. 
@@ -54,6 +54,21 @@ normal order
 ```java
 Collections.sort(theatre.seats);
 ```
+EDIT: Tak napisany statement działa ponieważ wcześniej wewn. klasy *Theatre* zaimplementowałem osobno metodę *compare()*. Gdybym tego nie zrobił statement musiałby wyglądać mniej więcej tak:
+```java
+Collections.sort(theatre.seats, new Comparator<Seat>) {
+	@Override  
+	public int compare(Seat seat1, Seat seat2) {  
+	    if (seat1.getPrice() < seat2.getPrice()) {  
+	        return -1;  
+	    } else if (seat1.getPrice() > seat2.getPrice()) {  
+	        return 1;  
+	    } else {  
+	        return 0;  
+	    }  
+	}
+}
+```
 
 reverse order
 ```java
@@ -76,3 +91,6 @@ System.out.printf("theatre.seats Min seat number is %s", minSeat.getSeatNumber()
 System.out.printf("theatre.seats Max seat number is %s", maxSeat.getSeatNumber()).println();
 ```
 Poprawnie wyszukuje min i max value nawet dla nieposortowanych list.
+
+---
+- https://github.com/bojan-wik/UdemyJavaMasterclass/tree/master/src/section12

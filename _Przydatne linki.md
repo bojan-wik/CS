@@ -1,5 +1,3 @@
-# Przydatne linki
-
 ##### Księga czarów: 
 [https://docs.google.com/spreadsheets/d/1kQCFC3jK81wdevQDyTsm4662CaDjyHgKzABJP6izpyk/edit#gid=994382463](https://docs.google.com/spreadsheets/d/1kQCFC3jK81wdevQDyTsm4662CaDjyHgKzABJP6izpyk/edit#gid=994382463) 
 
