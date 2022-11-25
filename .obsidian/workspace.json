@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_Do obczajenia.md",
+                "file": "Stream API.md",
                 "mode": "source",
                 "source": false
               }
@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "Arrays.",
+                "query": "stream",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_Do obczajenia.md",
+                "file": "Stream API.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,15 +114,15 @@
   },
   "active": "34c8909fa513dd22",
   "lastOpenFiles": [
+    "_Test developer - rozmowa tech..md",
+    "Stream API.md",
+    "Functional programming.md",
+    "REST Assured.md",
+    "REST API.md",
+    "Jenkins.md",
+    "Design Patterns.md",
     "TestNG.md",
-    "break and continue statements.md",
-    "Interface.md",
-    "Access modifiers.md",
-    "Allure report.md",
-    "Array.md",
-    "Scanner class.md",
-    "Inner Class.md",
-    "TestNG 1.md",
-    "JUnit.md"
+    "JUnit.md",
+    "_Do obczajenia.md"
   ]
 }

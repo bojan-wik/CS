@@ -1,4 +1,3 @@
-# Stream API
 #java 
 
 * feature wprowadzony wraz z Java 8

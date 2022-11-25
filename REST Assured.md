@@ -1,4 +1,3 @@
-# REST Assured
 #java #tools #api 
 
 - biblioteka Java do automatyzowania testów [[REST API]]

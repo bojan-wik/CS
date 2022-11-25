@@ -1,4 +1,3 @@
-# REST API
 #api 
 
 ## I. Co to jest?
