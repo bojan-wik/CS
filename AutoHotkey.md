@@ -13,7 +13,7 @@ return
 ^SPACE:: Winset, AlwaysOnTop, , A
 
 ^2:: ; CTRL+2
-Send, wiktor.bojanowski@contractors.roche.com
+Send, test@test.com
 return
 /*
 #IfWinActive Oracle SQL Developer
