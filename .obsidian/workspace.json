@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Set.md",
+                "file": "Lambda Expressions.md",
                 "mode": "source",
                 "source": false
               }
@@ -43,8 +43,7 @@
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -90,8 +89,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -111,7 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Immutable Class.md",
+                "file": "Lambda Expressions.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -137,17 +135,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "015ee4c5f735a568",
+  "active": "df6f73dcc6029539",
   "lastOpenFiles": [
+    "Stream API.md",
+    "static vs instance.md",
+    "Set.md",
+    "var keyword.md",
+    "Immutable Class.md",
     "Primitive Data Types.md",
     "Wrapper class.md",
     "variable.md",
     "Autoboxing and Unboxing.md",
-    "var keyword.md",
-    "Set.md",
-    "Declaration vs. Initialization.md",
-    "super keyword.md",
-    "Git.md",
-    "Test Automation.md"
+    "Declaration vs. Initialization.md"
   ]
 }
