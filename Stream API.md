@@ -2,6 +2,7 @@
 
 * feature wprowadzony wraz z Java 8
 * upraszcza kod
+* wykorzystuje [[Lambda Expressions]]
 * wykorzystuje/wspiera założenia [[Functional programming]]
 
 ## Główne założenia:
@@ -55,3 +56,4 @@ String[] filteredArray = streamArray.filter(element -> element.length() <= 2).to
 * https://github.com/bojan-wik/SeleniumWithJavaCourse/tree/master/src/Chapter14_JavaStreams
 * https://geek.justjoin.it/zastosowanie-stream-api-z-java-8-przyklady
 * https://www.geeksforgeeks.org/stream-in-java/
+* https://www.udemy.com/course/java-the-complete-java-developer-course/learn/lecture/5723588#notes
