@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "bash_profile.md",
+                "file": "AutoHotkey.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "bash_profile.md",
+                "file": "AutoHotkey.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -126,6 +126,7 @@
   },
   "active": "df6f73dcc6029539",
   "lastOpenFiles": [
+    "bash_profile.md",
     "TestNG.md",
     "Lambda Expressions.md",
     "Object-oriented programming.md",
@@ -134,7 +135,6 @@
     "_Test developer - rozmowa tech..md",
     "Access modifiers.md",
     "Inner Class.md",
-    "Set.md",
-    "Jenkins.md"
+    "Set.md"
   ]
 }
