@@ -75,3 +75,4 @@ public void switchToWindow(String windowTitle) {
     }  
 }
 ```
+> https://testautomationu.applitools.com/selenium-webdriver-tutorial-java/chapter11.html

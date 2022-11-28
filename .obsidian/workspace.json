@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Git.md",
+                "file": "Set.md",
                 "mode": "preview",
                 "source": false
               }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Git.md",
+                "file": "Set.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,6 +114,7 @@
   },
   "active": "df6f73dcc6029539",
   "lastOpenFiles": [
+    "Git.md",
     "Set.md",
     "Test Automation.md",
     "Loops.md",
@@ -122,7 +123,6 @@
     "Functional programming.md",
     "TestNG.md",
     "_Do obczajenia.md",
-    "AutoHotkey.md",
-    "bash_profile.md"
+    "AutoHotkey.md"
   ]
 }
