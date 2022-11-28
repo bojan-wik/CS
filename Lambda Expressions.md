@@ -2,7 +2,7 @@
 
 ## Definicja
 
-Lambdy pozwalają na pisanie kodu w sposób funkcyjny. Sama Java jest językiem obiektowym. Odnosząc lambdy do programowania obiektowego, można o nich myśleć jak o klasach tymczasowych (anonymous [[Inner Class]]) zawierających tylko jedną metodę.
+Lambdy pozwalają na pisanie kodu w sposób funkcyjny ([[Functional programming]]). Sama Java jest językiem obiektowym. Odnosząc lambdy do programowania obiektowego, można o nich myśleć jak o klasach tymczasowych (anonymous [[Inner Class]]) zawierających tylko jedną metodę.
 
 ## Przykład
 

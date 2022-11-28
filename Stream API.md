@@ -1,4 +1,4 @@
-#java 
+#programming #java 
 
 * feature wprowadzony wraz z Java 8
 * upraszcza kod
@@ -51,7 +51,7 @@ String[] filteredArray = streamArray.filter(element -> element.length() <= 2).to
 
 ```
 
----
+## Źródła:
 * https://github.com/bojan-wik/SeleniumWithJavaCourse/tree/master/src/Chapter14_JavaStreams
 * https://geek.justjoin.it/zastosowanie-stream-api-z-java-8-przyklady
 * https://www.geeksforgeeks.org/stream-in-java/
