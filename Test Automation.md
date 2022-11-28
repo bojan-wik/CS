@@ -11,6 +11,8 @@
 
 ## III. Code snippets
 
+#### switch to tab/window with expected title
+[[Set]] -> Przykład użycia w testach automatycznych
 #### check if element is present on the DOM
 ```java
     public boolean checkIfElementIsPresentOnTheDOM(By locator) {
@@ -88,7 +90,7 @@ void scrollDownInnerScrollbarToTheLastGroup() {
 ```
 >https://csnotes.medium.com/web-scraping-infinite-scrolling-with-selenium-97f820d2e506
 
-##### scroll down infinite scrollbar to the desired element
+#### scroll down infinite scrollbar to the desired element
 ```java
 private By paragraph = By.className("jscroll-added");
 

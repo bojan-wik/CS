@@ -46,3 +46,32 @@ for (String fruit : fruits) {
   
 fruits.forEach(fruit -> System.out.println(fruit));
 ```
+
+## Przykład użycia w testach automatycznych
+
+W przypadku kiedy mamy otwartych więcej niż jedno okno/tab przeglądarki i chcemy się po nich poruszać.
+
+```java
+/**
+* Switching to currently opened window or tab 
+* @param windowTitle Expected window or tab title
+*/
+public void switchToWindow(String windowTitle) {  
+    Set<String> windowHandles = driver.getWindowHandles();  
+    System.out.println("Number of opened windows/tabs: " + windowHandles.size());  
+  
+    System.out.println("Window handles: ");  
+    windowHandles.forEach(windowHandle -> System.out.println(windowHandle));  
+  
+    for (String windowHandle : windowHandles) {  
+        System.out.println("Switching to window: " + windowHandle);  
+        driver.switchTo().window(windowHandle);  
+  
+        String currentWindowTitle = driver.getTitle();  
+        System.out.println("Current window title: " + currentWindowTitle);  
+        if (currentWindowTitle.equals(windowTitle)) {  
+            break;  
+        }  
+    }  
+}
+```
