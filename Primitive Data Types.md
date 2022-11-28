@@ -1,5 +1,4 @@
-# Primitive Data Types
-#java 
+ #programming #java 
 
 W Javie mamy 8 primitive data types:
 - [[int]] - liczby całkowite np. `3`

@@ -1,4 +1,3 @@
-# variable
 #java #programming 
 
 W Javie można zadeklarować 3 typy zmiennych
