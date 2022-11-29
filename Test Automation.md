@@ -11,6 +11,15 @@
 
 ## III. Code snippets
 
+#### open link in a new tab
+```java
+public void openLinkInNewTab(String linkText) {  
+    String clickLink = Keys.chord(Keys.CONTROL, Keys.ENTER);  
+    getWait().until(ExpectedConditions.visibilityOfElementLocated(
+    By.linkText(linkText))).sendKeys(clickLink);  
+}
+```
+>https://www.tutorialspoint.com/how-to-open-a-link-in-new-tab-using-selenium-webdriver
 #### switch to tab/window with expected title
 [[Set]] -> Przykład użycia w testach automatycznych
 #### check if element is present on the DOM
