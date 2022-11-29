@@ -32,3 +32,6 @@ b) Build - ustawienia builda przy pomocy Maven
 `mvn test -PRegression`, gdzie 'Regression' to wartość id podana w pliku 'pom.xml')
 
 c) Post-build Actions – tutaj mogę ustawić, jakie akcje mają zostać wykonane po wykonaniu builda np. Wygenerowanie raportu 
+
+## Źródła:
+- https://testautomationu.applitools.com/jenkins-tutorial/

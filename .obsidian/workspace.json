@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Set.md",
-                "mode": "preview",
+                "file": "Jenkins.md",
+                "mode": "source",
                 "source": false
               }
             }
@@ -69,8 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 244.5,
-    "collapsed": true
+    "width": 244.5
   },
   "right": {
     "id": "bb1ef8e6224e659a",
@@ -86,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Set.md",
+                "file": "Jenkins.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,11 +113,11 @@
   },
   "active": "a82d33125d7d3b07",
   "lastOpenFiles": [
+    "Set.md",
     "var keyword.md",
     "Immutable Class.md",
     "switch statement.md",
     "Test Automation.md",
-    "Set.md",
     "String.md",
     "Array.md",
     "Lambda Expressions.md",
