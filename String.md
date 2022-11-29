@@ -1,4 +1,3 @@
-# String
 #java #programming 
 
 ## Iterate over String
