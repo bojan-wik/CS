@@ -43,6 +43,28 @@ Rozwiązanie z użyciem stream
 long countNamesStartingWithA = namesList.stream().filter(name -> name.startsWith("A")).count();
 ```
 
+## Metody
+
+```java
+Stream<String> ioNUmberStream = Stream.of("I26", "I17", "I29", "071");  
+Stream<String> inNumberStream = Stream.of("N40", "N36", "I26", "I17", "I29", "071");
+```
+
+Concat
+```java
+Stream<String> concatStream = Stream.concat(ioNUmberStream, inNumberStream);
+```
+
+Remove duplicates + peek + count
+```java
+System.out.println(concatStream  
+        .distinct()  
+        .peek(System.out::println)  
+        .count());
+```
+
+## Code snippets
+
 #### string array -> stream -> string array
 ```java
 String[] array = {"Arizona", "CA", "NY", "Nevada"};
