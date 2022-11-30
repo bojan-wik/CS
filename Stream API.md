@@ -14,8 +14,8 @@
 ## Sposób działania
 można podzielić na 3 etapy:
 1. Uworzenie streama - przekonwertowanie inputu do streama
-2. Zastosowanie *operacji pośrednich* ([[map()]], [[filter()]] albo [[sorted()]])
-3. Zastosowanie *operacji kończącej* (np. [[forEach()]], [[count()]], [[collect()]], [[reduce()]])
+2. Zastosowanie *operacji pośrednich* ([[map()]], [[filter()]] albo [[sorted()]]), które dalej zwracają stream
+3. Zastosowanie *operacji kończącej* (np. [[forEach()]], [[count()]], [[collect()]], [[reduce()]]), które zwracają void albo obiekt, który nie jest już streamem
 
 ## Zastosowanie
 na przykładzie zadania:

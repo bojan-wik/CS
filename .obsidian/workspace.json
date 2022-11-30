@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "variable.md",
+                "file": "Stream API.md",
                 "mode": "source",
                 "source": false
               }
@@ -65,8 +65,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -86,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "variable.md",
+                "file": "Stream API.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,6 +113,8 @@
   },
   "active": "a82d33125d7d3b07",
   "lastOpenFiles": [
+    "Lambda Expressions.md",
+    "variable.md",
     "Jenkins.md",
     "Set.md",
     "var keyword.md",
@@ -121,8 +122,6 @@
     "switch statement.md",
     "Test Automation.md",
     "String.md",
-    "Array.md",
-    "Lambda Expressions.md",
-    "Stream API.md"
+    "Array.md"
   ]
 }
