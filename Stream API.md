@@ -53,12 +53,14 @@ Stream<String> ioNUmberStream = Stream.of("I26", "I17", "I29", "071");
 Stream<String> inNumberStream = Stream.of("N40", "N36", "I26", "I17", "I29", "071");
 ```
 
-concat() - połączenie kilku streamów w jeden
+#### concat()
+połączenie kilku streamów w jeden
 ```java
 Stream<String> concatStream = Stream.concat(ioNUmberStream, inNumberStream);
 ```
 
-Remove duplicates + peek (podejrzenie, trochę jak print) + count
+#### Remove duplicates + peek 
+(podejrzenie, trochę jak print) + count
 ```java
 System.out.println(concatStream  
         .distinct()  
@@ -66,9 +68,10 @@ System.out.println(concatStream
         .count());
 ```
 
-collect() - pozwala na przypisanie outputu z chaina do osobnej
+#### collect()
+pozwala na przypisanie outputu z chaina do osobnej:
 
-listy
+##### listy
 ```java
 List<String> iNumbersSorted = concatStream  
         .filter(number -> number.startsWith("I"))  
@@ -79,7 +82,7 @@ List<String> iNumbersSorted = concatStream
 // [I17, I26, I29]
 ```
 
-mapy
+##### mapy
 ```java
 Map<Character, List<String>> numbersGroupedByLetter = concatStream  
         .distinct()  
@@ -88,8 +91,10 @@ Map<Character, List<String>> numbersGroupedByLetter = concatStream
 // {0=[071], I=[I26, I17, I29], N=[N40, N36]}
 ```
 
-flatMap() - pozwala na "spłaszczenie" multidimensional arrays do jednego poziomu
-<link do githuba>
+#### flatMap()
+pozwala na "spłaszczenie" multidimensional arrays do jednego poziomu
+
+link do githuba
 
 ## Code snippets
 
