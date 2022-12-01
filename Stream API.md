@@ -40,7 +40,9 @@ int countNamesStartingWithA = 0;
 
 Rozwiązanie z użyciem stream
 ```Java
-long countNamesStartingWithA = namesList.stream().filter(name -> name.startsWith("A")).count();
+long countNamesStartingWithA = namesList.stream()
+	.filter(name -> name.startsWith("A"))
+	.count();
 ```
 
 ## Metody
@@ -51,17 +53,26 @@ Stream<String> ioNUmberStream = Stream.of("I26", "I17", "I29", "071");
 Stream<String> inNumberStream = Stream.of("N40", "N36", "I26", "I17", "I29", "071");
 ```
 
-Concat
+concat() - połączenie kilku streamów w jeden
 ```java
 Stream<String> concatStream = Stream.concat(ioNUmberStream, inNumberStream);
 ```
 
-Remove duplicates + peek + count
+Remove duplicates + peek (podejrzenie, trochę jak print) + count
 ```java
 System.out.println(concatStream  
         .distinct()  
         .peek(System.out::println)  
         .count());
+```
+
+collect() - pozwala na przypisanie outputu z chaina do osobnej listy
+```java
+List<String> iNumbersSorted = concatStream  
+        .filter(number -> number.startsWith("I"))  
+        .distinct()  
+        .sorted().  
+        collect(Collectors.toList());
 ```
 
 ## Code snippets
