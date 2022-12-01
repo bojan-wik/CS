@@ -21,7 +21,7 @@ można podzielić na 3 etapy:
 na przykładzie zadania:
 > Policz ile w danej liście jest imion zaczynających się od litery 'A'
 
-Mając taką listę
+Mając taką listę:
 ```Java
 static List<String> namesList = Arrays.asList("Wiktor", "Adam", "Robert", "Aleks", "Arab");
 ```
@@ -45,6 +45,7 @@ long countNamesStartingWithA = namesList.stream().filter(name -> name.startsWith
 
 ## Metody
 
+Mając takie streamy:
 ```java
 Stream<String> ioNUmberStream = Stream.of("I26", "I17", "I29", "071");  
 Stream<String> inNumberStream = Stream.of("N40", "N36", "I26", "I17", "I29", "071");

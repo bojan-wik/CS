@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_Do obczajenia.md",
+                "file": "Stream API.md",
                 "mode": "source",
                 "source": false
               }
@@ -81,7 +81,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 244.5
+    "width": 244.5,
+    "collapsed": true
   },
   "right": {
     "id": "bb1ef8e6224e659a",
@@ -97,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_Do obczajenia.md",
+                "file": "Stream API.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -125,6 +126,7 @@
   },
   "active": "a82d33125d7d3b07",
   "lastOpenFiles": [
+    "_Do obczajenia.md",
     "Stream API.md",
     "Lambda Expressions.md",
     "variable.md",
@@ -133,7 +135,6 @@
     "var keyword.md",
     "Immutable Class.md",
     "switch statement.md",
-    "Test Automation.md",
-    "String.md"
+    "Test Automation.md"
   ]
 }
