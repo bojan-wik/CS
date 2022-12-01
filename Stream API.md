@@ -75,6 +75,9 @@ List<String> iNumbersSorted = concatStream
         collect(Collectors.toList());
 ```
 
+flatMap() - pozwala na "spłaszczenie" multidimensional arrays do jednego poziomu
+<link do githuba>
+
 ## Code snippets
 
 #### string array -> stream -> string array
