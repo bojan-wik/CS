@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Stream API.md",
+                "file": "_Do obczajenia.md",
                 "mode": "source",
                 "source": false
               }
@@ -81,8 +81,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 244.5,
-    "collapsed": true
+    "width": 244.5
   },
   "right": {
     "id": "bb1ef8e6224e659a",
@@ -98,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Stream API.md",
+                "file": "_Do obczajenia.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -126,8 +125,8 @@
   },
   "active": "a82d33125d7d3b07",
   "lastOpenFiles": [
-    "Lambda Expressions.md",
     "Stream API.md",
+    "Lambda Expressions.md",
     "variable.md",
     "Jenkins.md",
     "Set.md",
