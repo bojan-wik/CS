@@ -1,4 +1,3 @@
-# IntelliJ Debugger + Maven tests
 #tools
 
 ## Problem
@@ -28,6 +27,6 @@ mvnDebug -DforkCount=0 clean install -Dtag=test_wb -Dheadless=N -Djunit.jupiter.
 mvnDebug -DforkCount=0 clean install -Dtest=TestClassName#TestMethodName -Dheadless=N -Djunit.jupiter.execution.parallel.config.fixed.parallelism=1
 ```
 
----
-https://spin.atomicobject.com/2020/08/20/maven-debugging-intellij/
-https://maven.apache.org/surefire/maven-surefire-plugin/examples/debugging.html
+## Źródła:
+- https://spin.atomicobject.com/2020/08/20/maven-debugging-intellij/
+- https://maven.apache.org/surefire/maven-surefire-plugin/examples/debugging.html
