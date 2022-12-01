@@ -66,13 +66,26 @@ System.out.println(concatStream
         .count());
 ```
 
-collect() - pozwala na przypisanie outputu z chaina do osobnej listy
+collect() - pozwala na przypisanie outputu z chaina do osobnej
+
+listy
 ```java
 List<String> iNumbersSorted = concatStream  
         .filter(number -> number.startsWith("I"))  
         .distinct()  
         .sorted().  
         collect(Collectors.toList());
+
+// [I17, I26, I29]
+```
+
+mapy
+```java
+Map<Character, List<String>> numbersGroupedByLetter = concatStream  
+        .distinct()  
+        .collect(Collectors.groupingBy(number -> number.charAt(0)));
+
+// {0=[071], I=[I26, I17, I29], N=[N40, N36]}
 ```
 
 flatMap() - pozwala na "spłaszczenie" multidimensional arrays do jednego poziomu

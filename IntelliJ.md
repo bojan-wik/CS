@@ -1,4 +1,3 @@
-# IntelliJ
 #tools
 
 #### Opcje
@@ -49,6 +48,8 @@ Generowanie kodu
 Zaznaczanie poszczególnych słów
 >ctrl+shift+left/right
 
+Wywołanie podpowiedzi jakie parametry są wymagane w danej funkcji
+> ctrl + p
 
 #### Pluginy
 - Rainbow brackets
