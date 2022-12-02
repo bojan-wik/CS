@@ -36,8 +36,9 @@ c) Post-build Actions – tutaj mogę ustawić, jakie akcje mają zostać wykona
 ### Parametryzowanie joba
 
 ![[Pasted image 20221202093231.png]]
-
 >https://www.youtube.com/watch?v=tReiNH8wtdA
+
+Jak odpalać framework z parametrem w [[IntelliJ]]
 
 ## Źródła:
 - https://testautomationu.applitools.com/jenkins-tutorial/

@@ -26,7 +26,7 @@
               "type": "markdown",
               "state": {
                 "file": "Jenkins.md",
-                "mode": "preview",
+                "mode": "source",
                 "source": false
               }
             }
@@ -152,12 +152,12 @@
   "active": "0786972e24515262",
   "lastOpenFiles": [
     "IntelliJ.md",
+    "Jenkins.md",
     "Stream API.md",
     "_Toolbox.md",
     "IntelliJ Debugger.md",
     "IntelliJ Debugger + Maven tests.md",
     "Maven.md",
-    "Jenkins.md",
     "_Przydatne linki.md",
     "_Do obczajenia.md",
     "Array.md"
