@@ -1,6 +1,6 @@
 #tools
 
-## Opcje
+## I. Opcje
 Jak wymusić multi-line formatting
 >File -> Settings -> Editor -> General -> Code Folding -> 
 >Java,  One-line methods: off
@@ -26,7 +26,7 @@ Ustawienie klawiszy do przełączania się pomiędzy tabami
 >Main Menu -> Window -> Editor Tabs
 >Select next tab, Select previous tab
 
-## Skróty klawiszowe
+## II. Skróty klawiszowe
 
 Zakomentowanie/odkomentowanie bloku kodu
 >ctrl + /
@@ -51,14 +51,17 @@ Zaznaczanie poszczególnych słów
 Wywołanie podpowiedzi jakie parametry są wymagane w danej funkcji
 > ctrl + p
 
-## Inne
+## III. Inne
+
+### 1. Zapamiętywanie historii w terminalu
 
 Żeby terminal w IntelliJ zapamiętywał historię trzeba przed zamknięciem samego IntelliJ zamknąć osobno terminal komendą `$ exit`
 >https://intellij-support.jetbrains.com/hc/en-us/community/posts/360002482980/comments/360002321879
 
-### Odpalanie sparametryzowanych testów
 
-W przypadku kiedy test do poprawnego działania potrzebuje dostać jakiś parametr np.
+### 2. Odpalanie sparametryzowanych testów
+
+W przypadku kiedy framework do poprawnego działania potrzebuje dostać jakiś parametr np.
 ```java
 public WebDriver getWebDriverViaParameter() {  
     String browser = System.getProperty("browser").toLowerCase();  
@@ -68,11 +71,19 @@ public WebDriver getWebDriverViaParameter() {
 ```
 musimy mu go przekazać (w tym przypadku parametr "browser").
 
-Możemy taki test odpalić w terminalu za pomocą komendy maven
+Możemy taki framework odpalić w terminalu za pomocą komendy maven
 ```
 $ mvn test -Dbrowser="chrome"
 ```
 
-albo bezpośrednio w IntelliJ
+albo bezpośrednio w IntelliJ:
+1. Add / edit configuration
+- Jeżeli mam jakieś konfiguracje wynikające z wcześniejszego uruchomienia testów (run configurations) to je usuwam
+2. Edit configuration templates
+3. Z listy wybieram bibliotekę testową którą używam we frameworku
+4. VM options - dodaję odpowiedni wpis
+
+Od teraz wszystkie następne uruchomienia frameworka będą już z tą konfiguracją.
 
 ![[Pasted image 20221202095305.png]]
+> https://testautomationu.applitools.com/intellij/chapter7.3.html
