@@ -1,7 +1,6 @@
-# Inheritance
 #programming #java 
 
-Mechanizm, dzięki któremu jedna klasa może dziedziczyć cechy (Fields) and [[methods]]) innej klasy.
+Mechanizm, dzięki któremu jedna klasa może uzyskać dostęp do memberów (fields and [[methods]]) innej klasy.
 
 field = state
 method = behaviour

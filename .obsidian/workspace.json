@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Scanner class.md",
+                "file": "Inheritance vs Composition vs Aggregation.md",
                 "mode": "source",
                 "source": false
               }
@@ -122,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Scanner class.md",
+                "file": "Inheritance vs Composition vs Aggregation.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -151,15 +151,15 @@
   },
   "active": "19a3b85c8cdd3e9f",
   "lastOpenFiles": [
+    "Inheritance.md",
+    "Object-oriented programming.md",
+    "Lambda Expressions.md",
+    "Scanner class.md",
     "AutoHotkey.md",
     "bash_profile.md",
     "Behavior Driven Development.md",
     "Java Generics.md",
     "Test Automation.md",
-    "Lambda Expressions.md",
-    "var keyword.md",
-    "Stream API.md",
-    "Jenkins.md",
-    "IntelliJ.md"
+    "var keyword.md"
   ]
 }

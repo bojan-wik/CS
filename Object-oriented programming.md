@@ -1,4 +1,4 @@
-# Object-oriented programming
+#programming 
 
 Termin **Object-oriented programming** albo **OOPs** odnosi się do języków, które używają obiektów w programowaniu. Obiekty te mogą zawierać:
 * dane w formie atrybutów/zmiennych (Fields) oraz 
