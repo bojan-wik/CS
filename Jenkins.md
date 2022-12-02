@@ -34,6 +34,9 @@ b) Build - ustawienia builda przy pomocy Maven
 c) Post-build Actions – tutaj mogę ustawić, jakie akcje mają zostać wykonane po wykonaniu builda np. Wygenerowanie raportu 
 
 ### Parametryzowanie joba
+
+![[Pasted image 20221202093231.png]]
+
 >https://www.youtube.com/watch?v=tReiNH8wtdA
 
 ## Źródła:

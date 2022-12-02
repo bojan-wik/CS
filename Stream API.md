@@ -94,7 +94,7 @@ Map<Character, List<String>> numbersGroupedByLetter = concatStream
 #### flatMap()
 pozwala na "spłaszczenie" multidimensional arrays do jednego poziomu
 
-link do githuba
+>https://github.com/bojan-wik/UdemyJavaMasterclass/tree/master/src/section16/streams/flatmap
 
 ## Code snippets
 
