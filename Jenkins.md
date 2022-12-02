@@ -33,5 +33,8 @@ b) Build - ustawienia builda przy pomocy Maven
 
 c) Post-build Actions – tutaj mogę ustawić, jakie akcje mają zostać wykonane po wykonaniu builda np. Wygenerowanie raportu 
 
+### Parametryzowanie joba
+>https://www.youtube.com/watch?v=tReiNH8wtdA
+
 ## Źródła:
 - https://testautomationu.applitools.com/jenkins-tutorial/
