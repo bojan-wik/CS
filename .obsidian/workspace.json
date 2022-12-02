@@ -4,47 +4,23 @@
     "type": "split",
     "children": [
       {
-        "id": "8617fe1cda6dfcfb",
+        "id": "c45e1cc10ceda01d",
         "type": "tabs",
         "children": [
           {
-            "id": "a82d33125d7d3b07",
+            "id": "b2c7dbb838ce81ee",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "IntelliJ.md",
+                "file": "Jenkins.md",
                 "mode": "preview",
                 "source": false
               }
             }
           },
           {
-            "id": "0786972e24515262",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Jenkins.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "3aef492e8faf314e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Lambda Expressions.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "490664b1ff9c44dd",
+            "id": "a83d731769fbdad9",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -54,9 +30,33 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "19a3b85c8cdd3e9f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Scanner class.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "52118d127454484c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "var keyword.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -122,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Jenkins.md",
+                "file": "Scanner class.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -149,17 +149,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "0786972e24515262",
+  "active": "19a3b85c8cdd3e9f",
   "lastOpenFiles": [
-    "IntelliJ.md",
-    "Jenkins.md",
+    "AutoHotkey.md",
+    "bash_profile.md",
+    "Behavior Driven Development.md",
+    "Java Generics.md",
+    "Test Automation.md",
+    "Lambda Expressions.md",
+    "var keyword.md",
     "Stream API.md",
-    "_Toolbox.md",
-    "IntelliJ Debugger.md",
-    "IntelliJ Debugger + Maven tests.md",
-    "Maven.md",
-    "_Przydatne linki.md",
-    "_Do obczajenia.md",
-    "Array.md"
+    "Jenkins.md",
+    "IntelliJ.md"
   ]
 }

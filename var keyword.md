@@ -25,6 +25,7 @@ Typ zmiennej zostanie wywnioskowany na podstawie tego co do niej przypisaliśmy,
 - działa tylko dla zmiennych lokalnych ([[variable]])
 - zmienne muszą być zadeklarowane i od razu zainicjalizowane ([[Declaration vs. Initialization]])
 - nie może być użyte jako parametry metody albo return type
+- obecne także np. w [[Lambda Expressions]]
 
 ## Źródła
 - https://testautomationu.applitools.com/java-programming-course/chapter8a.html

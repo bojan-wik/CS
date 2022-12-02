@@ -17,6 +17,9 @@ można podzielić na 3 etapy:
 2. Zastosowanie *operacji pośrednich* ([[map()]], [[filter()]] albo [[sorted()]]), które dalej zwracają stream
 3. Zastosowanie *operacji kończącej* (np. [[forEach()]], [[count()]], [[collect()]], [[reduce()]]), które zwracają void albo obiekt, który nie jest już streamem
 
+- Intermediate operation są wykonane tylko jeśli jest też terminal operation
+- Jak na danym streamie zostanie wykonana terminal operation to jest on już 'zamknięty' - nie można go re-używać
+
 ## Zastosowanie
 na przykładzie zadania:
 > Policz ile w danej liście jest imion zaczynających się od litery 'A'
