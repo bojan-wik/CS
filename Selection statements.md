@@ -1,5 +1,4 @@
-# Selection statements
-#java
+#programming #java
 
 W Javie występują 3 rodzaje *selection statements*:
 1. [[if statement]]
