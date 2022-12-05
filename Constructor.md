@@ -1,8 +1,9 @@
-# Constructor
 #programming #java 
 
 ## I. Co to jest?
 [code](https://github.com/bojan-wik/SeleniumWithJavaCourse/blob/master/src/Chapter31_CoreJava2/c_Constructors1.java)
+
+- w przypadku relacji superklasa-subklasa, gdy mamy tylko default konstruktory, w momencie utworzenia obiektu subklasy najpierw wywoływany jest konstruktor superklasy
 
 ## II. Typy konstruktorów
 [code](https://github.com/bojan-wik/SeleniumWithJavaCourse/blob/master/src/Chapter31_CoreJava2/c_Constructors2.java)
@@ -71,5 +72,5 @@ public Customer(String name, String email, int age) {
 }
 ```
 
----
+## Źródła:
 - https://www.udemy.com/course/java-the-complete-java-developer-course/learn/lecture/3133106#overview

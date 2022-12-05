@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "gitignore.md",
+                "file": "Constructor.md",
                 "mode": "source",
                 "source": false
               }
@@ -123,7 +123,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "gitignore.md",
+                "file": "Constructor.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -152,6 +152,8 @@
   },
   "active": "f6833b1e6ce837a2",
   "lastOpenFiles": [
+    "super keyword.md",
+    "gitignore.md",
     "Selenium screenshots.md",
     "Test Automation.md",
     "IntelliJ.md",
@@ -159,8 +161,6 @@
     "Selenium methods.md",
     "Selection statements.md",
     "Jenkins.md",
-    "Exceptions.md",
-    "_Do obczajenia.md",
-    "Inheritance vs Composition vs Aggregation.md"
+    "Exceptions.md"
   ]
 }
