@@ -2,9 +2,9 @@
 
 TestNG, to obok [[JUnit]] najpopularniejsza biblioteka do automatyzacji testów dla Javy.
 
-## Annotations
+## I. Annotations
 
-### Rodzaje
+### 1. Rodzaje
 
 #### Pre-Condition(s)
 - @BeforeSuite
@@ -21,7 +21,7 @@ TestNG, to obok [[JUnit]] najpopularniejsza biblioteka do automatyzacji testów 
 - @AfterClass
 - @AfterMethod
 
-### Kolejność wykonywania
+### 2. Kolejność wykonywania
 
 #### Top level
 
@@ -48,6 +48,10 @@ public void searchProduct() {
 }
 ```
 Tak samo jak w [[JUnit]], tutaj też możemy zacząć od *priority = 0*.
+
+## III. Assertions
+- Hard assert - w momencie jak jakaś assercja failuje to skrypt nie idzie dalej
+- Soft assert - nawet jak jakaś asserscja failuje to skrypt jest dalej wykonywany
 
 ## Źródła:
 - https://github.com/bojan-wik/SeleniumWithJavaCourse/tree/master/src/Chapter18_TestNG
