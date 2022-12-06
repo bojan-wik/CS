@@ -14,7 +14,7 @@
               "type": "markdown",
               "state": {
                 "file": "Selenium Waits.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": false
               }
             }
@@ -44,12 +44,12 @@
             }
           },
           {
-            "id": "2a61b1dc03bc532a",
+            "id": "a5cee2cce0278f06",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "IntelliJ.md",
+                "file": "this vs super keywords.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "screenshot",
+                "query": "",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -106,8 +106,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 244.5,
-    "collapsed": true
+    "width": 244.5
   },
   "right": {
     "id": "bb1ef8e6224e659a",
@@ -152,15 +151,15 @@
   },
   "active": "f6833b1e6ce837a2",
   "lastOpenFiles": [
-    "super keyword.md",
-    "gitignore.md",
+    "this vs super keywords.md",
+    "Constructor.md",
     "Selenium screenshots.md",
-    "Test Automation.md",
     "IntelliJ.md",
+    "setters.md",
     "Selenium Waits.md",
+    "gitignore.md",
+    "Test Automation.md",
     "Selenium methods.md",
-    "Selection statements.md",
-    "Jenkins.md",
-    "Exceptions.md"
+    "Selection statements.md"
   ]
 }

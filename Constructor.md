@@ -3,15 +3,17 @@
 ## I. Co to jest?
 [code](https://github.com/bojan-wik/SeleniumWithJavaCourse/blob/master/src/Chapter31_CoreJava2/c_Constructors1.java)
 
-- w przypadku relacji superklasa-subklasa, gdy mamy tylko default konstruktory, w momencie utworzenia obiektu subklasy najpierw wywoływany jest konstruktor superklasy
+- w przypadku relacji superklasa-subklasa, gdy mamy tylko defaultowe konstruktory, w momencie utworzenia obiektu subklasy najpierw wywoływany jest konstruktor superklasy
 
 ## II. Typy konstruktorów
 [code](https://github.com/bojan-wik/SeleniumWithJavaCourse/blob/master/src/Chapter31_CoreJava2/c_Constructors2.java)
 
-## III. this() keyword
-- Istnieje możliwość wywołania konstruktora wewn. innego konstruktora - za pomocą keyworda `this()`
-- **Przykład użycia**: jeżeli user nie poda żadnych wartości i chcemy wywołać konstruktor z pre-definiowanymi wartościami. Wtedy z poziomu *pustego konstruktora* wywołujemy *sparametryzowany konstruktor* z pre-definiowanymi wartościami.
+## III. this() method call
+- `this()` wykorzystuje się w obrębie bieżącej klasy
+- służy do wywołania konstruktora z poziomu innego konstruktora
 - `this()` musi być zawsze na samym początku, inaczej nie zadziała
+
+**Przykład użycia**: jeżeli user nie poda żadnych wartości i chcemy wywołać konstruktor z pre-definiowanymi wartościami. Wtedy z poziomu *pustego konstruktora* wywołujemy *sparametryzowany konstruktor* z pre-definiowanymi wartościami.
 
 ```java
 public BankAccount() {  
@@ -28,6 +30,10 @@ public BankAccount(int number, double balance, String customerName, String custo
     System.out.println("Parametrized constructor called");
 }
 ```
+
+## super() method call
+- `super()` wykorzystuje się w relacji superklasa-subklasa
+- służy do wywołania konstruktora super-klasy z poziomu konstruktora sub-klasy
 
 ## IV. Dobre praktyki
 
@@ -74,3 +80,4 @@ public Customer(String name, String email, int age) {
 
 ## Źródła:
 - https://www.udemy.com/course/java-the-complete-java-developer-course/learn/lecture/3133106#overview
+- https://testautomationu.applitools.com/java-programming-course/chapter9b.html
