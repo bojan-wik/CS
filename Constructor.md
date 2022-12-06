@@ -1,17 +1,19 @@
 #programming #java 
 
-## I. Co to jest?
+## Co to jest?
 [code](https://github.com/bojan-wik/SeleniumWithJavaCourse/blob/master/src/Chapter31_CoreJava2/c_Constructors1.java)
 
-- w przypadku relacji superklasa-subklasa, gdy mamy tylko defaultowe konstruktory, w momencie utworzenia obiektu subklasy najpierw wywoływany jest konstruktor superklasy
-
-## II. Typy konstruktorów
+## Typy konstruktorów
 [code](https://github.com/bojan-wik/SeleniumWithJavaCourse/blob/master/src/Chapter31_CoreJava2/c_Constructors2.java)
 
-## III. this() method call
+## ## this() vs super() method calls
+- zarówno `this()` jak i `super()` muszą być na samym początku, inaczej nie zadziałają
+- nie można jednocześnie wykorzystywać obu
+- to nie to samo co [[this vs super keywords]]
+
+### this() method call
 - `this()` wykorzystuje się w obrębie bieżącej klasy
 - służy do wywołania konstruktora z poziomu innego konstruktora
-- `this()` musi być zawsze na samym początku, inaczej nie zadziała
 
 **Przykład użycia**: jeżeli user nie poda żadnych wartości i chcemy wywołać konstruktor z pre-definiowanymi wartościami. Wtedy z poziomu *pustego konstruktora* wywołujemy *sparametryzowany konstruktor* z pre-definiowanymi wartościami.
 
@@ -31,11 +33,55 @@ public BankAccount(int number, double balance, String customerName, String custo
 }
 ```
 
-## super() method call
-- `super()` wykorzystuje się w relacji superklasa-subklasa
+### super() method call
+- `super()` wykorzystuje się w relacji superklasa - subklasa
 - służy do wywołania konstruktora super-klasy z poziomu konstruktora sub-klasy
 
-## IV. Dobre praktyki
+```java
+class Person {  
+  
+    public Person() {  
+        System.out.println("Person default-constructor called");  
+    }  
+  
+    public Person(String name) {  
+        System.out.println("Person constructor(String name) called");  
+    }  
+}  
+  
+class Employee extends Person {  
+  
+    public Employee() {  
+        System.out.println("Employee default-constructor called");  
+    }  
+  
+    public Employee(String name) {  
+        super(name);  
+        System.out.println("Employee constructor(String name) called");  
+    }  
+}  
+  
+class Main {  
+  
+    public static void main(String[] args) {  
+        Employee employee1 = new Employee();  
+        /* OUTPUT:  
+        Person default-constructor called        
+        Employee default-constructor called 
+        */  
+        Employee employee2 = new Employee("Wiktor");  
+        /* OUTPUT:  
+        Person constructor(String name) called        
+        Employee constructor(String name) called 
+        */    
+    }  
+}
+```
+
+- gdy mamy tylko defaultowe konstruktory, w momencie utworzenia obiektu sub-klasy najpierw wywoływany jest konstruktor super-klasy, a `super()` jest dodany automatycznie 
+- jeżeli super-klasa nie ma defaultowego konstruktora, sub-klasa musi za pomocą `super()` wywołać  jeden z jej sparametryzowanych konstruktorów
+
+## Dobre praktyki
 
 ### 1. Inicjalizować fieldy bezpośrednio w konstruktorze a nie za pomocą setterów 
 Czyli robić tak:
