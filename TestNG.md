@@ -50,8 +50,27 @@ public void searchProduct() {
 Tak samo jak w [[JUnit]], tutaj też możemy zacząć od *priority = 0*.
 
 ## III. Assertions
-- Hard assert - w momencie jak jakaś assercja failuje to skrypt nie idzie dalej i przeskakuje do następnego testu
-- Soft assert - nawet jak jakaś asserscja failuje to skrypt jest dalej wykonywany
+
+1. Hard assert - w momencie jak jakaś asercja failuje to skrypt nie idzie dalej i przeskakuje do następnego testu
+
+```java
+Assert.assertEquals(keyPressesPage.getResult(), "You entered: BACK_SPACE");
+```
+
+2. Soft assert - nawet jak jakaś aserscja failuje to skrypt jest dalej wykonywany
+
+```java
+SoftAssert softAssert = new SoftAssert();  
+  
+softAssert.assertEquals(keyPressesPage.getResult(), "false result");  
+System.out.println("message after failed assertion");  
+  
+softAssert.assertAll();
+```
+
+==Zalecane jest używanie obu typu asercji==, w zależności od sytuacji:
+- Hard assert będzie przydatny tam, gdzie dalsze wykonywanie testu po failu nie ma sensu np. fail logowania do aplikacji
+- Soft assert będzie przydatny tam, gdzie opłaca się wykonywać dalej test, nawet po wcześniejszym failu np. fail jakiejś operacji na home page, gdzie dalej możemy wykonać inną operację
 
 ## Źródła:
 - https://github.com/bojan-wik/SeleniumWithJavaCourse/tree/master/src/Chapter18_TestNG
