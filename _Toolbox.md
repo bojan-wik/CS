@@ -19,6 +19,7 @@
 ##### Obsidian and plugins:
 - Obsidian GIT
 - Advanced Tables
+- auto hide
 
 ##### WatchMe
 

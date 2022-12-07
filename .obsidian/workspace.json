@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Method overloading.md",
+                "file": "Constructor.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,7 +69,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 244.5
+    "width": 244.5,
+    "collapsed": true
   },
   "right": {
     "id": "bb1ef8e6224e659a",
@@ -85,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Method overloading.md",
+                "file": "Constructor.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,15 +115,15 @@
   },
   "active": "aeaba4309ffa5747",
   "lastOpenFiles": [
+    "_Toolbox.md",
     "Constructor.md",
+    "Array.md",
+    "Access modifiers.md",
+    "_Test developer - rozmowa tech..md",
+    "Method overloading.md",
     "Coding best practices.md",
     "TestNG.md",
     "this vs super keywords.md",
-    "_Do obczajenia.md",
-    "Selenium screenshots.md",
-    "Selenium Waits.md",
-    "IntelliJ.md",
-    "setters.md",
-    "gitignore.md"
+    "_Do obczajenia.md"
   ]
 }

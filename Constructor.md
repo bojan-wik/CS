@@ -101,7 +101,7 @@ public Customer(String name, String email) {
 bo może to rodzić problemy, gdy mamy dziedziczenie pomiędzy klasami i settery mogą nie wywoływać się poprawnie.
 
 ### 2. W przypadku większej ilości konstruktorów używać keyworda this()
-Czyli zdefiniować sobie najpierw bazowy, defaultowy konstruktor np:
+Czyli zdefiniować sobie najpierw bazowy konstruktor np:
 ```java
 public Customer(String name, String email, int age) {
 	this.name = name;
@@ -123,6 +123,37 @@ public Customer(String name, String email, int age) {
 	this.age = 18;
 }
 ```
+
+Taka operacja nazywana jest ***constructor chaining***.
+```java
+public class Rectangle {  
+  
+    private int x;  
+    private int y;  
+    private int width;  
+    private int height;  
+  
+    // 1szy konstruktor  
+    public Rectangle() {  
+        this(0, 0); // wywołuje 2gi konstruktor  
+    }  
+  
+    // 2gi konstruktor  
+    public Rectangle(int width, int height) {  
+        this(0, 0, width, height); // wywoułuje 3ci konstruktor  
+    }  
+  
+    // 3ci - bazowy konstruktor  
+    public Rectangle(int x, int y, int width, int height) {  
+        // inicjalizuje fieldy  
+        this.x = x;  
+        this.y = y;  
+        this.width = width;  
+        this.height = height;  
+    }  
+}
+```
+Pozwala to uniknąć duplikowania kodu.
 
 ## Źródła:
 - https://www.udemy.com/course/java-the-complete-java-developer-course/learn/lecture/3133106#overview
