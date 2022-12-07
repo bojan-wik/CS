@@ -50,7 +50,7 @@ public void searchProduct() {
 Tak samo jak w [[JUnit]], tutaj też możemy zacząć od *priority = 0*.
 
 ## III. Assertions
-- Hard assert - w momencie jak jakaś assercja failuje to skrypt nie idzie dalej
+- Hard assert - w momencie jak jakaś assercja failuje to skrypt nie idzie dalej i przeskakuje do następnego testu
 - Soft assert - nawet jak jakaś asserscja failuje to skrypt jest dalej wykonywany
 
 ## Źródła:

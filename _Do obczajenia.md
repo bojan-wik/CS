@@ -14,3 +14,6 @@
 * https://www.youtube.com/watch?v=8JzDpWQWuzU
 * https://warszawa.wyborcza.pl/warszawa/7,54420,29061508,lepiej-czelendzowac-jak-korposzczur-niz-robic-w-januszexie.html?_ga=2.147365623.1773983800.1668584748-1058504827.1668584748#S.editors_pick_hp-K.P-B.1-L.3.zw
 * https://wyborcza.pl/7,179012,29139162,dobrze-ze-nie-zabijamy-nikogo-po-meczu-jak-aztekowie-ale.html#S.lena-K.P-B.1-L.2.zw
+
+- https://allegro.pl/oferta/budzik-kwarcowy-perfect-plynacy-snooze-6122-grafit-9477441811
+- https://allegro.pl/oferta/budzik-kwarcowy-bez-kleszczy-z-oswietleniem-11251065138?fromVariant=11252018417
