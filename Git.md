@@ -201,6 +201,9 @@ $ git rebase -i HEAD~3
 ```
 HEAD~3 znaczy kiedy chcę zedytować ostatnie 3 commity
 
+### 5. Cherry Picking
+https://testautomationu.applitools.com/git-tutorial/chapter5.2.html
+
 ## IV. Commitowanie - najlepsze praktyki
 
 1. Commity powinny być 'w sam raz' - nie za małe, nie za duże tzn. nie ma sensu commitować każdej zmiany, ale też nie ma sensu robić np. tylko jednego commita z wszystkimi zmianami
