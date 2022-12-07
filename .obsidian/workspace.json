@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Constructor.md",
+                "file": "Method overloading.md",
                 "mode": "source",
                 "source": false
               }
@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "constructor",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -65,13 +65,11 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 244.5,
-    "collapsed": true
+    "width": 244.5
   },
   "right": {
     "id": "bb1ef8e6224e659a",
@@ -87,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Constructor.md",
+                "file": "Method overloading.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -116,15 +114,15 @@
   },
   "active": "aeaba4309ffa5747",
   "lastOpenFiles": [
-    "TestNG.md",
     "Constructor.md",
+    "Coding best practices.md",
+    "TestNG.md",
     "this vs super keywords.md",
     "_Do obczajenia.md",
     "Selenium screenshots.md",
     "Selenium Waits.md",
     "IntelliJ.md",
     "setters.md",
-    "gitignore.md",
-    "Test Automation.md"
+    "gitignore.md"
   ]
 }
