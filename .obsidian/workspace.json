@@ -31,7 +31,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -98,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Git.md",
+                "file": "IntelliJ.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -125,8 +126,9 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "aeaba4309ffa5747",
+  "active": "e697595fec5c9202",
   "lastOpenFiles": [
+    "Git.md",
     "Constructor.md",
     "IntelliJ.md",
     "_Toolbox.md",
@@ -135,7 +137,6 @@
     "_Test developer - rozmowa tech..md",
     "Method overloading.md",
     "Coding best practices.md",
-    "TestNG.md",
-    "this vs super keywords.md"
+    "TestNG.md"
   ]
 }
