@@ -206,7 +206,7 @@ HEAD~3 znaczy kiedy chcę zedytować ostatnie 3 commity
 - tworzony jest zupełnie nowy commit z nowym hashem, ale z oryginalnym autorem i datą utworzenia
 
 ```
-$ git cherry-pick <commitHashCode>
+$ git cherry-pick <commitHashCode> <commitHashCode>
 ```
 
 **Przykład**,
@@ -218,6 +218,12 @@ przed:
 
 po:
 ![[Pasted image 20221208090716.png]]
+
+Skąd wziąć hashCode commita?
+- z remote repo - szukam commit, który chcę przekopiować i kopiuję jego hashCode
+- z klietna Gita w IntelliJ
+
+![[Pasted image 20221208093528.png]]
 
 ## IV. Commitowanie - najlepsze praktyki
 
