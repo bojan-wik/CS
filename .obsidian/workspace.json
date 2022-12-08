@@ -25,14 +25,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "IntelliJ.md",
+                "file": "_Toolbox.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -99,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "IntelliJ.md",
+                "file": "Git.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -126,12 +125,12 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "e697595fec5c9202",
+  "active": "aeaba4309ffa5747",
   "lastOpenFiles": [
+    "_Toolbox.md",
+    "IntelliJ.md",
     "Git.md",
     "Constructor.md",
-    "IntelliJ.md",
-    "_Toolbox.md",
     "Array.md",
     "Access modifiers.md",
     "_Test developer - rozmowa tech..md",

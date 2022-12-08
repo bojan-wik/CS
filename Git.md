@@ -6,8 +6,8 @@
 2. HEAD - plik w folderze .git, który wskazuje który lokalny branch jest w danym momencie active
 
 Pliki mogą być w trzech różnych stanach:
-- untracked - nowe plik, które nie zostały jeszcze dodane do drzewa
-- unstaged - pliki, które są już w drzewie, ale zostały w międzyczasie zmodyfikowane
+- untracked - nowe plik, które nie są jeszcze trackowane
+- unstaged - pliki, które są już trackowane, ale zostały w międzyczasie zmodyfikowane
 - staged - pliki gotowe do zacommitowania
 
 ![[Pasted image 20221109152946.png]]
@@ -202,7 +202,22 @@ $ git rebase -i HEAD~3
 HEAD~3 znaczy kiedy chcę zedytować ostatnie 3 commity
 
 ### 5. Cherry Picking
-https://testautomationu.applitools.com/git-tutorial/chapter5.2.html
+- to kopiowanie commita/ów z jednego brancha do drugiego brancha
+- tworzony jest zupełnie nowy commit z nowym hashem, ale z oryginalnym autorem i datą utworzenia
+
+```
+$ git cherry-pick <commitHashCode>
+```
+
+**Przykład**,
+przed:
+![[Pasted image 20221208090314.png]]
+- mamy 3 branche, 'MyNewBranch' jest aktywnym branchem
+- chcemy mieć plik index.html w 'MyNewBranch'
+- robimy `$ git cherry-pick <u2mvqee>`
+
+po:
+![[Pasted image 20221208090716.png]]
 
 ## IV. Commitowanie - najlepsze praktyki
 
