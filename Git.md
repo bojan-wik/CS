@@ -253,6 +253,16 @@ $ git reset --mixed HEAD~1
 $ git reset --hard HEAD~1
 ```
 
+### 7. Reverting
+is used to revert a specific commit by applying a new commit with the opposite changes.
+
+```
+$ git revert <commitHashCode>
+```
+
+**Przykład**
+![[Pasted image 20221213125604.png]]
+
 ## IV. Commitowanie - najlepsze praktyki
 
 1. Commity powinny być 'w sam raz' - nie za małe, nie za duże tzn. nie ma sensu commitować każdej zmiany, ale też nie ma sensu robić np. tylko jednego commita z wszystkimi zmianami
