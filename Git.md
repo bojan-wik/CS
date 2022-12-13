@@ -221,11 +221,37 @@ po:
 
 Skąd wziąć hashCode commita?
 - z remote repo - szukam commit, który chcę przekopiować i kopiuję jego hashCode
-- z klietna Gita w IntelliJ
+- z klienta Gita w IntelliJ
 
 ![[Pasted image 20221208093528.png]]
 
 ### 6. Resetting
+to cofanie commita, które można zastosować dla:
+- local repository  (`--soft`)
+- staging area (`--mixed`)
+- working directory (`--hard`)
+
+#### a) resetting --soft
+
+```
+$ git reset --soft HEAD~1
+```
+
+**Przykład:**
+![[Pasted image 20221213123331.png]]
+~1 oznacza o ile commitów cofnąć - w tym przypadku cofamy o 1 commit
+
+#### b) resetting --mixed
+
+```
+$ git reset --mixed HEAD~1
+```
+
+#### c) resetting --hard
+
+```
+$ git reset --hard HEAD~1
+```
 
 ## IV. Commitowanie - najlepsze praktyki
 
