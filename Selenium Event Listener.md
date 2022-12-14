@@ -17,6 +17,7 @@ public class BaseTest {
     }
 }    
 ```
+>https://github.com/bojan-wik/SeleniumTAU/blob/master/src/test/java/base/BaseTest.java
 
 ## WebDriverEventListner
 to interfejs do zaimplementowania, aby móc nasłuchiwać i wyłapywać eventy/akcje webdrivera, np:
@@ -65,6 +66,8 @@ public class EventListener implements WebDriverEventListener {
     }
 }
 ```
+>https://github.com/bojan-wik/SeleniumTAU/blob/master/src/main/java/utils/EventListener.java
 
 ## Źródła:
 - https://testautomationu.applitools.com/selenium-webdriver-tutorial-java/chapter13.html
+- https://www.toolsqa.com/selenium-webdriver/event-listener/
