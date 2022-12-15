@@ -1,6 +1,6 @@
 #programming #java 
 
-**Polimorfizm** (wielopostaciowość) to zagadnienie ściśle powiązane z dziedziczeniem ([[Inheritance]]). Klasy pochodne mogą dziedziczyć stany (states) i zachowania (behaviours) swoich klas nadrzędnych, ale także mogą je zmieniać za pomocą [[Method overriding]].
+**Polimorfizm** (wielopostaciowość) to zagadnienie ściśle powiązane z dziedziczeniem ([[Inheritance]]). Sub-klasy mogą dziedziczyć stany (states) i zachowania (behaviours) swoich super-klas, ale także mogą je zmieniać za pomocą [[Method overriding]].
 
 ```java
 class Movie {

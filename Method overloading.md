@@ -2,12 +2,12 @@
 
 Ficzer który pozwala na istnienie wielu metod o tej samej nazwie w obrębie:
 - jednej klasy 
-- w obrębie relacji superklasa <-> subklasa
+- relacji super-klasa <-> sub-klasa
 
 Jest to możliwe gdy: 
--   data typy parametrów są inne,
--   liczba parametrów jest inna,
--   data typy i liczba parametrów jest inna.
+- data typy parametrów są inne,
+- liczba parametrów jest inna,
+- data typy i liczba parametrów jest inna.
 
 ```java
 public class Main {
@@ -48,3 +48,6 @@ Często korzystanie z mechanizmu overloadingu jest postrzegane jako **dobra prak
 2. Łatwiej jest zapamiętać jedną nazwę metody
 3. Pozwala osiągnąć spójność w nazewnictwie
 4. Daje więcej elastyczności w programowaniu
+
+## Źródła:
+- https://www.udemy.com/course/java-the-complete-java-developer-course/learn/lecture/10261274#overview
