@@ -3,6 +3,7 @@
 * https://www.stickyminds.com/article/java-qa-automation-engineers-how-learn
 * https://techbeacon.com/app-dev-testing/6-common-test-automation-mistakes-how-avoid-them
 * https://www.faesel.com/blog/why-every-developer-needs-to-use-obsidian
+* https://sii.pl/blog/pierwsze-dni-testera-w-nowym-zespole-o-czym-warto-pamietac/?category=testowanie&tag=poradnik,sciezki-karier,tester#msdynttrid=RohUaIhjUDf4EGPvxL5cbe3t81Vzwwwc91Z2_SU6EXU
 
 ## IT-related:
 
