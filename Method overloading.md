@@ -1,6 +1,8 @@
 #programming #java
 
-Ficzer który pozwala na istnienie w obrębie jednej klasy wielu funkcji/metod o tej samej nazwie. 
+Ficzer który pozwala na istnienie wielu metod o tej samej nazwie w obrębie:
+- jednej klasy 
+- w obrębie relacji superklasa <-> subklasa
 
 Jest to możliwe gdy: 
 -   data typy parametrów są inne,
