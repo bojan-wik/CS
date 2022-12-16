@@ -20,6 +20,18 @@
             }
           },
           {
+            "id": "340b48944d0f0dfa",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Adobe Reader.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "ecdc5d8d9106c3a6",
             "type": "leaf",
             "state": {
@@ -43,7 +55,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -110,7 +123,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_Do obczajenia.md",
+                "file": "Adobe Reader.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -137,14 +150,14 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "2144db14bab35344",
+  "active": "340b48944d0f0dfa",
   "lastOpenFiles": [
+    "_Do obczajenia.md",
     "Polymorphism.md",
     "Method overriding.md",
     "Method overloading.md",
     "this vs super keywords.md",
     "Constructor.md",
-    "_Do obczajenia.md",
     "Selenium Event Listener.md",
     "Git.md",
     "Jenkins.md",
