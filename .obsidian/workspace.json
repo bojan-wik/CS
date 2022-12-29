@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_Test developer - rozmowa tech..md",
+                "file": "_Do obczajenia.md",
                 "mode": "source",
                 "source": false
               }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_Test developer - rozmowa tech..md",
+                "file": "_Do obczajenia.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,6 +115,7 @@
   },
   "active": "2144db14bab35344",
   "lastOpenFiles": [
+    "_Test developer - rozmowa tech..md",
     "Test Automation.md",
     "_Do obczajenia.md",
     "IntelliJ.md",
@@ -123,7 +124,6 @@
     "bash_profile.md",
     "Adobe Reader.md",
     "Polymorphism.md",
-    "Method overriding.md",
-    "Method overloading.md"
+    "Method overriding.md"
   ]
 }
