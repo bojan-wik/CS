@@ -138,6 +138,11 @@ $ git checkout -b <branchName>
 $ git branch -d <branchName>
 ```
 
+##### Zmiana nazwy aktywnego brancha 
+```
+$ git branch -m <newBranchName>
+```
+
 ##### Zmiana brancha 
 ```
 $ git checkout <branchName>

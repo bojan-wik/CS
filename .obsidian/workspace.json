@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_Do obczajenia.md",
+                "file": "Git.md",
                 "mode": "source",
                 "source": false
               }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_Do obczajenia.md",
+                "file": "Git.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,9 +115,9 @@
   },
   "active": "2144db14bab35344",
   "lastOpenFiles": [
+    "_Do obczajenia.md",
     "_Test developer - rozmowa tech..md",
     "Test Automation.md",
-    "_Do obczajenia.md",
     "IntelliJ.md",
     "IntelliJ Debugger.md",
     "IntelliJ Debugger + Maven tests.md",
