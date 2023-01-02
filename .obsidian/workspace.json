@@ -18,19 +18,8 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "66b50b17b902517e",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.1.9"
-              }
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -134,7 +123,7 @@
       "markdown-importer:Open format converter": false
     }
   },
-  "active": "66b50b17b902517e",
+  "active": "2144db14bab35344",
   "lastOpenFiles": [
     "_Do obczajenia.md",
     "_Test developer - rozmowa tech..md",
