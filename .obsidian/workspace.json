@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Git.md",
+                "file": "_Toolbox.md",
                 "mode": "source",
                 "source": false
               }
@@ -65,8 +65,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -86,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Git.md",
+                "file": "_Toolbox.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,8 +122,10 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "0db76b6752fda671",
+  "active": "2144db14bab35344",
   "lastOpenFiles": [
+    "Class.md",
+    "Git.md",
     "_Do obczajenia.md",
     "_Test developer - rozmowa tech..md",
     "Test Automation.md",
@@ -132,8 +133,6 @@
     "IntelliJ Debugger.md",
     "IntelliJ Debugger + Maven tests.md",
     "bash_profile.md",
-    "Adobe Reader.md",
-    "Polymorphism.md",
-    "Method overriding.md"
+    "Adobe Reader.md"
   ]
 }
