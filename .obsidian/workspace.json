@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_Toolbox.md",
-                "mode": "source",
+                "file": "locators - selectors.md",
+                "mode": "preview",
                 "source": false
               }
             }
@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "behaviour",
+                "query": "sibling",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -65,7 +65,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -85,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_Toolbox.md",
+                "file": "locators - selectors.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -124,15 +125,15 @@
   },
   "active": "2144db14bab35344",
   "lastOpenFiles": [
+    "Method overriding.md",
+    "Constructor.md",
+    "Access modifiers.md",
+    "_Toolbox.md",
     "Class.md",
     "Git.md",
     "_Do obczajenia.md",
     "_Test developer - rozmowa tech..md",
     "Test Automation.md",
-    "IntelliJ.md",
-    "IntelliJ Debugger.md",
-    "IntelliJ Debugger + Maven tests.md",
-    "bash_profile.md",
-    "Adobe Reader.md"
+    "IntelliJ.md"
   ]
 }
