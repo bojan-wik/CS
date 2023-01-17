@@ -29,4 +29,4 @@ https://learn.microsoft.com/en-us/java/openjdk/download
 
 ##### CMDER / Windows Terminal
 
-##### [[AutoHotkey]]
+##### [[AutoHotkey]] (v 1.x)
