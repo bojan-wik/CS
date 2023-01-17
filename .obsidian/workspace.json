@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "REST Assured.md",
+                "file": "String.md",
                 "mode": "preview",
                 "source": false
               }
@@ -65,8 +65,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -86,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "REST Assured.md",
+                "file": "String.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -125,6 +124,7 @@
   },
   "active": "2144db14bab35344",
   "lastOpenFiles": [
+    "REST Assured.md",
     "Autoboxing and Unboxing.md",
     "ArrayList.md",
     "List.md",
@@ -133,7 +133,6 @@
     "char.md",
     "Array.md",
     "int.md",
-    "Loops.md",
-    "Test Automation.md"
+    "Loops.md"
   ]
 }
