@@ -1,4 +1,3 @@
-# int
 #java #programming 
 
 ## Extract last two digits and last digit of int

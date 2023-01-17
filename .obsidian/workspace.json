@@ -4,35 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "db7cf4b61e30eaf3",
+        "id": "31a48430352d6d6c",
         "type": "tabs",
         "children": [
           {
-            "id": "260b7bc9f0d53b1a",
+            "id": "c7523fbff6f20611",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Regex in Java.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "c325e892d35373f7",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Windows 10.md",
+                "file": "AutoHotkey.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -99,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Windows 10.md",
+                "file": "AutoHotkey.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -136,17 +123,17 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "c325e892d35373f7",
+  "active": "c7523fbff6f20611",
   "lastOpenFiles": [
+    "int.md",
+    "_Przydatne linki.md",
     "Regex in Java.md",
+    "Windows 10.md",
     "Jenkins.md",
     "String.md",
     "IntelliJ.md",
-    "int.md",
     "variable.md",
     "_Toolbox.md",
-    "Inheritance.md",
-    "Constructors.md",
-    "Constructor.md"
+    "Inheritance.md"
   ]
 }
