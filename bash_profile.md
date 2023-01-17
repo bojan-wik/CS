@@ -25,7 +25,7 @@ alias gzip='gzip -v'
 alias diff='diff --color'
 
 # Pimp my prompt
-PS1="\[\033[0;32m\]\u@\h \[\033[0;33m\]\w\[\033[0m\] $ "
+PS1="\n\[\033[0;32m\]\u@\h \[\033[0;33m\]\w\[\033[0m\]\n$ "
 export PS1
 ```
 

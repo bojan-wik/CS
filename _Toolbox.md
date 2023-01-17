@@ -1,9 +1,10 @@
 #tools 
 
 ##### Chrome and extensions:
+- uBlock Origin
 - Tabs Outliner
-- Environment Marker
 - Google Translate
+- Environment Marker
 - Quick JIRA
 - Google Keep
 
@@ -14,6 +15,9 @@
 - Java Visualizer
 - Rainbow Brackets
 
+##### OpenJDK
+https://learn.microsoft.com/en-us/java/openjdk/download
+
 ##### Postman
 
 ##### Obsidian and plugins:
@@ -23,6 +27,6 @@
 
 ##### WatchMe
 
-##### CMDER
+##### CMDER / Windows Terminal
 
 ##### [[AutoHotkey]]

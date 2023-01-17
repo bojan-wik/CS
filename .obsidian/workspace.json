@@ -8,13 +8,13 @@
         "type": "tabs",
         "children": [
           {
-            "id": "2144db14bab35344",
+            "id": "260b7bc9f0d53b1a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "String.md",
-                "mode": "preview",
+                "file": "Regex in Java.md",
+                "mode": "source",
                 "source": false
               }
             }
@@ -69,7 +69,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 244.5
+    "width": 244.5,
+    "collapsed": true
   },
   "right": {
     "id": "bb1ef8e6224e659a",
@@ -85,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "String.md",
+                "file": "Regex in Java.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -122,17 +123,17 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "2144db14bab35344",
+  "active": "260b7bc9f0d53b1a",
   "lastOpenFiles": [
-    "REST Assured.md",
-    "Autoboxing and Unboxing.md",
-    "ArrayList.md",
-    "List.md",
+    "Jenkins.md",
+    "Regex in Java.md",
     "String.md",
-    "_Przydatne linki.md",
-    "char.md",
-    "Array.md",
+    "IntelliJ.md",
     "int.md",
-    "Loops.md"
+    "variable.md",
+    "_Toolbox.md",
+    "Inheritance.md",
+    "Constructors.md",
+    "Constructor.md"
   ]
 }
