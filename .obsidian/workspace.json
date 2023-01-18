@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Windows 10.md",
+                "file": "Set.md",
                 "mode": "source",
                 "source": false
               }
@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "match",
+                "query": "dupli",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -65,7 +65,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -86,7 +87,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Windows 10.md",
+                "file": "Set.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -125,15 +126,15 @@
   },
   "active": "c7523fbff6f20611",
   "lastOpenFiles": [
+    "Collections.md",
+    "Binary Search.md",
+    "Array.md",
     "int.md",
+    "String.md",
+    "Windows 10.md",
     "AutoHotkey.md",
     "_Toolbox.md",
     "_Przydatne linki.md",
-    "Regex in Java.md",
-    "Windows 10.md",
-    "Jenkins.md",
-    "String.md",
-    "IntelliJ.md",
-    "variable.md"
+    "Regex in Java.md"
   ]
 }
