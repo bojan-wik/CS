@@ -6,10 +6,15 @@
 * https://sii.pl/blog/pierwsze-dni-testera-w-nowym-zespole-o-czym-warto-pamietac/?category=testowanie&tag=poradnik,sciezki-karier,tester#msdynttrid=RohUaIhjUDf4EGPvxL5cbe3t81Vzwwwc91Z2_SU6EXU
 
 ## IT-related:
+- https://podsluchjaksiepatrzy.org/#cta
+
+https://vod.szurek.tv/lesson/3/przegladarka
+
+- https://lista.cert.pl/
+- https://adssettings.google.com/authenticated
+- https://kwestiabezpieczenstwa.pl/dns/
 
 ## Other:
 * [https://przekroj.pl/nauka/fizyk-stworzyl-nowa-teorie-zycia-natalie-wolchover-quanta-magazine](https://przekroj.pl/nauka/fizyk-stworzyl-nowa-teorie-zycia-natalie-wolchover-quanta-magazine)
 * https://medium.com/@elephant.journal/the-most-breathtaking-description-of-death-i-have-ever-heard-3f4173b3d989
 * https://magazyn-kuchnia.pl/magazyn-kuchnia/7,122005,28677906,kuchnia-antyinflacyjna-gotuj-afrykanskie-dania-do-10-zl.html?disableRedirects=true#S.bauer-K.C-B.1-L.2.zw
-* https://podsluchjaksiepatrzy.org/#cta
-* https://adssettings.google.com/authenticated
