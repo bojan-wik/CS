@@ -47,6 +47,8 @@ for (String fruit : fruits) {
 fruits.forEach(fruit -> System.out.println(fruit));
 ```
 
+Kolekcja Set przydaje się także do sprawdzania, czy w danym arrayu nie ma zduplikowanych elementów: [[Array]] -> Find duplicate elements in array
+
 ## Przykład użycia w testach automatycznych
 
 W przypadku kiedy mamy otwartych więcej niż jedno okno/tab przeglądarki i chcemy się po nich poruszać.

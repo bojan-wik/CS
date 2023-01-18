@@ -44,6 +44,27 @@ System.out.println(Arrays.toString(firstArr));
 //tbd
 ```
 
+## III. Code snippets
+
+### Find duplicate elements in array
+Najprościej zrobić to za pomocą kolekcji [[Set]], która nie może zawierać zduplikowanych elementów
+```java
+public static boolean noDuplicateLetters(String phrase) {  
+    for (String word : phrase.toLowerCase().split(" ")) {  
+        Set<Character> duplicationValidationSet = new HashSet<>();  
+        for (char letter : word.toCharArray()) {  
+            if (!duplicationValidationSet.add(letter)) {  
+                return false;  
+            }  
+        }  
+    }  
+  
+    return true;  
+}
+```
+>https://javarevisited.blogspot.com/2015/06/3-ways-to-find-duplicate-elements-in-array-java.html
+>https://edabit.com/challenge/mdJmXLuw8dLxxdGLc
+
 ### Copy array by range
 ```java
 char[] censoredStringArray = {'P', '*', 'k', '*', 'm', '*', 'n'};
@@ -68,6 +89,7 @@ return new String(censoredStringArray);
 return String.valueOf(censoredStringArray);
 ```
 >https://www.baeldung.com/java-char-array-to-string
+
 ### Sort int array ASC
 ```java
 int[] numbers = {5, 13, 48, 5, 37, 12};
