@@ -31,7 +31,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -98,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_Do obczajenia.md",
+                "file": "_Zabezpieczenia.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -135,10 +136,10 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "2fc0492ccfbbe1a4",
+  "active": "cc29b1c7676def0e",
   "lastOpenFiles": [
-    "_Zabezpieczenia.md",
     "_Do obczajenia.md",
+    "_Zabezpieczenia.md",
     "_Markdown Cheat Sheet.md",
     "_Przydatne linki.md",
     "_Test developer - rozmowa tech..md",
