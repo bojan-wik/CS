@@ -27,3 +27,11 @@ public static int sumDigits(int number) {
     return sum;  
 }
 ```
+
+## Convert `int` to:
+### `String`
+```java
+int number = 123;
+String numberAsString = String.valueOf(number);
+```
+>https://www.edureka.co/blog/convert-int-to-string-in-java/#:~:text=Integer%20to%20String%20conversion%20in,toString(int)%20function.
