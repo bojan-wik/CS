@@ -8,3 +8,5 @@ https://hole.cert.pl/domains/domains_adblock.txt
 ```
 
 2. Zmiana DNSa
+
+https://kwestiabezpieczenstwa.pl/dns/#jaki-dns-rekomenduje-jaki-dns-najlepszy
