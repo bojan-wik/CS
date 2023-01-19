@@ -2,6 +2,10 @@
 
 **Polimorfizm** (wielopostaciowość) to zagadnienie ściśle powiązane z dziedziczeniem ([[Inheritance]]). Sub-klasy mogą dziedziczyć stany (states) i zachowania (behaviours) swoich super-klas, ale także mogą je zmieniać za pomocą [[Method overriding]].
 
+Innym sposobem w jaki może objawiać się polimorfizm w Javie jest [[Method overloading]]
+
+## Przykład I
+
 ```java
 class Movie {
     private String name;
@@ -101,4 +105,98 @@ public class Main {
 }
 ```
 
-Innym sposobem w jaki może objawiać się polimorfizm w Javie jest [[Method overloading]]
+## Przykład II
+
+```java
+class Animal {  
+  
+    public void makeSound() {  
+        System.out.println("Unknown animal sound");  
+    }  
+}
+
+class Dog extends Animal {  
+  
+    @Override  
+    public void makeSound() {  
+        System.out.println("woof woof");  
+    }  
+  
+    public void fetch() {  
+        System.out.println("fetch is fun!");  
+    }  
+}
+
+class Cat extends Animal {  
+  
+    @Override  
+    public void makeSound() {  
+        System.out.println("meoooow");  
+    }  
+  
+    public void scratch() {  
+        System.out.println("I an a cat and I can scratch things.");  
+    }  
+}
+
+class Main {  
+  
+    public static void main(String[] args) {  
+        Dog luna = new Dog();  
+        luna.makeSound();       // woof woof 
+        luna.fetch();           // fetch is fun!
+        feed(luna);             // Here's your dog food
+  
+        Animal gacek = new Dog();  
+        gacek.makeSound();      // woof woof
+        feed(gacek);            // Here's your dog food
+  
+        gacek = new Cat();  
+        gacek.makeSound();      // meoooow
+        ((Cat)gacek).scratch(); // I an a cat and I can scratch things.
+        feed(gacek);            // Here's your cat food
+    }  
+  
+    public static void feed(Animal animal) {  
+        if (animal instanceof Dog) {  
+            System.out.println("Here's your dog food");  
+        }  
+        else if (animal instanceof Cat) {  
+            System.out.println("Here's your cat food");  
+        }  
+    }  
+}
+```
+
+## Polymorphism Key Points
+
+1. **Type vs Instance** - obiekt może jednocześnie posiadać typ superklasy i być instancją subklasy, np.:
+```java
+Animal gacek = new Dog();
+```
+
+2. **Access** - obiekty polimorficzne mają dostęp jedynie do memberów swojego typu (nie swojej instancji). Aby obiekt miał dostęp od memberów swojej instancji trzeba zastosować Castowanie ([[Casting]]), np.:
+```java
+gacek = new Cat();
+((Cat)gacek).scratch();   // I an a cat and I can scratch things.
+```
+
+3. **Overridden methods**- jeśli metoda jest nadpisana przez subklasę to obiekt polimorficzny będzie wywoływał tą nadpisaną metodę, np.:
+```java
+gacek.makeSound();      // meoooow
+```
+
+4. **operator *instanceOf*** - odpowiada na pytanie: obiekt polimorficzny jest instancją jakiej klasy? np.:
+```java
+public static void feed(Animal animal) {  
+    if (animal instanceof Dog) {  
+        System.out.println("Here's your dog food");  
+    }  
+    else if (animal instanceof Cat) {  
+        System.out.println("Here's your cat food");  
+    }  
+}
+```
+
+## Źródła:
+- https://testautomationu.applitools.com/java-programming-course/chapter10.html
