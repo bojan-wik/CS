@@ -8,9 +8,6 @@
 ## IT-related:
 - https://podsluchjaksiepatrzy.org/#cta
 
-https://vod.szurek.tv/lesson/3/przegladarka
-
-- https://lista.cert.pl/
 - https://kwestiabezpieczenstwa.pl/dns/
 
 ## Other:
