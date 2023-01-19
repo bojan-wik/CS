@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "int.md",
+                "file": "_Do obczajenia.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "int.md",
+                "file": "_Do obczajenia.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -137,8 +137,8 @@
   },
   "active": "2fc0492ccfbbe1a4",
   "lastOpenFiles": [
-    "String.md",
     "int.md",
+    "String.md",
     "Autoboxing and Unboxing.md",
     "Wrapper class.md",
     "_Do obczajenia.md",

@@ -11,7 +11,6 @@
 https://vod.szurek.tv/lesson/3/przegladarka
 
 - https://lista.cert.pl/
-- https://adssettings.google.com/authenticated
 - https://kwestiabezpieczenstwa.pl/dns/
 
 ## Other:
