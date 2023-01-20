@@ -51,6 +51,8 @@ System.out.println(Arrays.toString(firstArr));
 String[] words = {"Hello", "my", "friend"}
 String sentence = String.join(" ", words);
 ```
+Ten sposób zadziała także dla np. `List<String>`
+
 >https://www.tutorialkart.com/java/how-to-join-elements-of-string-array-with-delimiter-in-java/
 
 ### Find duplicate elements in array

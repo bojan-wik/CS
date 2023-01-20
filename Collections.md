@@ -10,7 +10,7 @@ Java Collection means a single unit of objects. 
 Java Collection framework provides many interfaces (Set, List, Queue, Deque) and classes (ArrayList, Vector, LinkedList, PriorityQueue, HashSet, LinkedHashSet, TreeSet) 
 
 Collections: 
-1.  List (interface) ([code example 1](https://github.com/bojan-wik/SeleniumWithJavaCourse/blob/master/src/Chapter32/ArrayListDemo.java)) 
+1.  [[List]] (interface) ([code example 1](https://github.com/bojan-wik/SeleniumWithJavaCourse/blob/master/src/Chapter32/ArrayListDemo.java)) 
     - Ordered collection of objects       
     - can contain duplicate elements         
     - Implemented by the classes: [[ArrayList]], [[LinkedList]], Vector, Stack 
@@ -34,7 +34,7 @@ Hierarchia
 
 [[Binary Search]]
 
-### Collections List Methods
+## Collections List Methods
 ##### Kopiowanie listy
 ```java
 List<Theatre.Seat> seatsCopy = new ArrayList<>(theatre.seats);
@@ -69,7 +69,6 @@ Collections.sort(theatre.seats, new Comparator<Seat>) {
 	}
 }
 ```
-inny przykład sortowania w [[Lambda Expressions]]
 
 reverse order
 ```java
@@ -93,5 +92,19 @@ System.out.printf("theatre.seats Max seat number is %s", maxSeat.getSeatNumber()
 ```
 Poprawnie wyszukuje min i max value nawet dla nieposortowanych list.
 
----
+## Code snippets
+
+### Sort List of Strings alphabetically ignore-case
+Przykład w [[Lambda Expressions]]
+
+### Sort List of Strings by the length of Strings
+```java
+List<String> words = Arrays.asList("This", "is", "the", "end");
+Collections.sort(words,  
+        (word1, word2) -> Integer.compare(word1.length(), word2.length()));
+```
+>https://edabit.com/challenge/6RStzK9uub9vHDt53
+>https://stackoverflow.com/a/35866306
+
+### Źródła:
 - https://github.com/bojan-wik/UdemyJavaMasterclass/tree/master/src/section12
