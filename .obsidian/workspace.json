@@ -8,18 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "160e223776e7ea8e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Stream API.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "8be5048ae5c2fb86",
             "type": "leaf",
             "state": {
@@ -32,19 +20,30 @@
             }
           },
           {
-            "id": "10a541bc65bfd855",
+            "id": "160e223776e7ea8e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Collections.md",
+                "file": "Stream API.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "cdfebf992590d4d2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Lambda Expressions.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -73,7 +72,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "collection",
+                "query": "concat",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -90,7 +89,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -111,7 +111,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Collections.md",
+                "file": "Array.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -148,17 +148,17 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "10a541bc65bfd855",
+  "active": "8be5048ae5c2fb86",
   "lastOpenFiles": [
-    "Array.md",
-    "Lambda Expressions.md",
     "Stream API.md",
+    "Array.md",
+    "String.md",
+    "Lambda Expressions.md",
     "Collections.md",
     "Binary Search.md",
     "_ENG-PL.md",
     "_Markdown Cheat Sheet.md",
     "_Do obczajenia.md",
-    "_Bookmarks.md",
-    "_Toolbox.md"
+    "_Bookmarks.md"
   ]
 }

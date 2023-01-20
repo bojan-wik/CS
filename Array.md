@@ -46,6 +46,13 @@ System.out.println(Arrays.toString(firstArr));
 
 ## III. Code snippets
 
+### Join/concatenate a String array into single String
+```java
+String[] words = {"Hello", "my", "friend"}
+String sentence = String.join(" ", words);
+```
+>https://www.tutorialkart.com/java/how-to-join-elements-of-string-array-with-delimiter-in-java/
+
 ### Find duplicate elements in array
 Najprościej zrobić to za pomocą kolekcji [[Set]], która nie może zawierać zduplikowanych elementów
 ```java
