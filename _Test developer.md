@@ -1,3 +1,5 @@
+rozmowa tech.
+
 ### I. Info od Agaty
 
 ##### Programowanie: 

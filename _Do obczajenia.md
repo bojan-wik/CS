@@ -7,7 +7,6 @@
 
 ## IT-related:
 - https://podsluchjaksiepatrzy.org/#cta
-
 - https://kwestiabezpieczenstwa.pl/dns/
 
 ## Other:
