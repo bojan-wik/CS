@@ -13,6 +13,8 @@ Konfiguracja terminala (na BASH)
 >File -> Settings -> Tools -> Terminal
 >Application settings, Shell path: C:\Program Files\Git\bin\bash.exe
 
+alternatywnie: `C:/Users/<userName>/AppData/Local/Programs/Git/bin/bash.exe`
+
 Wyłączenie spellcheckingu
 >File -> Settings -> Editor -> Inspections > Proofreading 
 >Typo: off
