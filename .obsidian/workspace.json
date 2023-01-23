@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Playwright.md",
+                "file": "_Do obczajenia.md",
                 "mode": "source",
                 "source": false
               }
@@ -90,8 +90,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -112,7 +111,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Playwright.md",
+                "file": "_Do obczajenia.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -151,6 +150,7 @@
   },
   "active": "2a04f4c8dc9f65f5",
   "lastOpenFiles": [
+    "Playwright.md",
     "Selenium Event Listener.md",
     "_Bookmarks.md",
     "try-with-resources.md",
@@ -159,7 +159,6 @@
     "Collections.md",
     "Lambda Expressions.md",
     "ArrayList.md",
-    "Stream API.md",
-    "List.md"
+    "Stream API.md"
   ]
 }
