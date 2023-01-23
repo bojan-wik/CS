@@ -4,64 +4,28 @@
     "type": "split",
     "children": [
       {
-        "id": "a5903f44accd1c8c",
+        "id": "35f4d4abb003e1af",
         "type": "tabs",
         "children": [
           {
-            "id": "8be5048ae5c2fb86",
+            "id": "d9c6f338be9fa11b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Array.md",
-                "mode": "source",
+                "file": "Exceptions.md",
+                "mode": "preview",
                 "source": false
               }
             }
           },
           {
-            "id": "473cb24c5a3f83d4",
+            "id": "5c21a4fe83187ca1",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Collections.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "cdfebf992590d4d2",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Lambda Expressions.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "b094b754c4ca4999",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "ArrayList.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "160e223776e7ea8e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Stream API.md",
+                "file": "Untitled.md",
                 "mode": "source",
                 "source": false
               }
@@ -97,7 +61,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "aslist",
+                "query": "try",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -114,13 +78,11 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 244.5,
-    "collapsed": true
+    "width": 244.5
   },
   "right": {
     "id": "bb1ef8e6224e659a",
@@ -136,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Collections.md",
+                "file": "Untitled.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -173,17 +135,17 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "473cb24c5a3f83d4",
+  "active": "5c21a4fe83187ca1",
   "lastOpenFiles": [
-    "Lambda Expressions.md",
-    "Collections.md",
-    "ArrayList.md",
+    "Exceptions.md",
     "Array.md",
+    "Collections.md",
+    "Lambda Expressions.md",
+    "ArrayList.md",
     "Stream API.md",
     "List.md",
     "String.md",
     "Binary Search.md",
-    "_ENG-PL.md",
-    "_Markdown Cheat Sheet.md"
+    "_ENG-PL.md"
   ]
 }
