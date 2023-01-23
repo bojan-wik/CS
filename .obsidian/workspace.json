@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Untitled.md",
+                "file": "Selenium Event Listener.md",
                 "mode": "source",
                 "source": false
               }
@@ -61,7 +61,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "try",
+                "query": "selenium",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -78,7 +78,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -98,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Untitled.md",
+                "file": "Selenium Event Listener.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -137,6 +138,8 @@
   },
   "active": "5c21a4fe83187ca1",
   "lastOpenFiles": [
+    "_Bookmarks.md",
+    "try-with-resources.md",
     "Exceptions.md",
     "Array.md",
     "Collections.md",
@@ -144,8 +147,6 @@
     "ArrayList.md",
     "Stream API.md",
     "List.md",
-    "String.md",
-    "Binary Search.md",
-    "_ENG-PL.md"
+    "String.md"
   ]
 }
