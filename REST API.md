@@ -13,6 +13,8 @@ To kontrakt, który umożliwia komunikację pomiędzy jednym serwisem/aplikacją
 | - headers  |     | - headers         |
 | - body           |     | - body         |
 
+![[Pasted image 20230124125521.png]]
+
 Generalnie żeby móc zacząć testować API muszę wcześniej otrzymać (najprawdopodobniej od developerów) taki API contract, czyli jaka metoda, na jakim URLu, z jakimi parametrami itd.
 
 ### 2. Różnica pomiędzy metodami PUT i PATCH

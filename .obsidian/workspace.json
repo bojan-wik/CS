@@ -13,6 +13,18 @@
             "state": {
               "type": "markdown",
               "state": {
+                "file": "REST API.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "3167d5849523505c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
                 "file": "REST Assured.md",
                 "mode": "source",
                 "source": false
@@ -43,8 +55,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -73,7 +84,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "api",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -111,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_Toolbox.md",
+                "file": "REST API.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -148,17 +159,17 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "dff006b195a709a3",
+  "active": "d9c6f338be9fa11b",
   "lastOpenFiles": [
     "REST Assured.md",
+    "REST API.md",
+    "Git.md",
+    "Boilerplate code.md",
+    "_Toolbox.md",
     "try-with-resources.md",
     "Cucumber.md",
     "Exceptions.md",
     "_Do obczajenia.md",
-    "IntelliJ.md",
-    "Playwright.md",
-    "Selenium Event Listener.md",
-    "_Bookmarks.md",
-    "Array.md"
+    "IntelliJ.md"
   ]
 }
