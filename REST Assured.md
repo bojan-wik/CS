@@ -20,6 +20,6 @@
 2. Query parameters - też definiowane w URI, ale ze strukturą *?key=value* np.
 - hatetepees://md5.jsontest.com/?**text**=**banana**
 
----
-https://testautomationu.applitools.com/automating-your-api-tests-with-rest-assured/
+## Źródła:
+- https://testautomationu.applitools.com/automating-your-api-tests-with-rest-assured/
 
