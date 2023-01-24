@@ -20,19 +20,18 @@
             }
           },
           {
-            "id": "174d7b3ddeb08c9e",
+            "id": "981eaa8430a20d51",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "IntelliJ.md",
-                "mode": "preview",
+                "file": "try-with-resources.md",
+                "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -61,7 +60,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "selenium",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -99,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "IntelliJ.md",
+                "file": "Exceptions.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -136,17 +135,17 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "174d7b3ddeb08c9e",
+  "active": "d9c6f338be9fa11b",
   "lastOpenFiles": [
+    "try-with-resources.md",
     "Exceptions.md",
     "_Do obczajenia.md",
+    "IntelliJ.md",
     "Playwright.md",
     "Selenium Event Listener.md",
     "_Bookmarks.md",
-    "try-with-resources.md",
     "Array.md",
     "Collections.md",
-    "Lambda Expressions.md",
-    "ArrayList.md"
+    "Lambda Expressions.md"
   ]
 }

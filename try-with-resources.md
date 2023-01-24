@@ -1,6 +1,6 @@
 #programming #java 
 
-to konkstrukt/blok kodu wewn. którego możemy zadeklarować jakieś obiekty, użyć je, po czym zostaną one automatycznie zamknięte po wykonaniu tego bloku. Nie musimy ich sami zamykać, np.:
+**try-with-resources** to konkstrukt/blok kodu wewn. którego możemy zadeklarować jakieś obiekty, użyć je, po czym zostaną one automatycznie zamknięte po wykonaniu tego bloku. Nie musimy ich sami zamykać, np.:
 
 ```java
 try (PrintWriter writer = new PrintWriter(new File("test.txt"))) {
