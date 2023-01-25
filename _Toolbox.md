@@ -8,8 +8,10 @@
 - Quick JIRA
 - Google Keep
 
-##### Notepad++ and plugins:
-- Compare
+##### Notepad++ and:
+- plugin Compare
+- syntax highlighting dla markdowna w: 
+`C:\Users\<userName>\AppData\Roaming\Notepad++\userDefineLangs\`
 
 ##### IntelliJ and plugins:
 - Java Visualizer
