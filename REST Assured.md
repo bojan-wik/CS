@@ -6,6 +6,8 @@
 - wspiera wszystkie metody HTTP tj. get, post, put itd.
 - wpiera syntax Gherkin (Given, When, Then)
 
+![[Pasted image 20230125125416.png]]
+
 #### [[JsonPath]] i [[GPath]]
 - JsonPath i GPath to path expression languages dla JSON
 - porównywalny do XmlPath dla plików XML, albo XPath dla plików HTML
@@ -23,4 +25,5 @@
 
 ## Źródła:
 - https://testautomationu.applitools.com/automating-your-api-tests-with-rest-assured/
+- https://www.pluralsight.com/courses/rest-assured-fundamentals
 
