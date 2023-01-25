@@ -9,3 +9,9 @@ try (PrintWriter writer = new PrintWriter(new File("test.txt"))) {
 ```
 
 Przydatne dla takich obiektów, jak np: gniazda sieciowe, połączenia z bazami danych, referencje do plików/folderów. Niezamknięcie takich obiektów może spowodować wycieki pamięci, zwiększać niepotrzebnie zużycie CPU/pamięci etc.
+
+
+może zastąpić blok try-catch-finally ([[Exceptions]])
+
+## Źródła:
+- https://www.udemy.com/course/java-the-complete-java-developer-course/learn/lecture/4901460#notes
