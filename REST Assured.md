@@ -1,6 +1,7 @@
 #java #tools #api 
 
 - biblioteka Java do automatyzowania testów [[REST API]]
+- bazuje na [[Domain-specific language]] + Fluent Interface (możliwość stosowania [[Method Chaining]])
 - działa w oparciu o [[JUnit]], albo [[TestNG]]
 - wspiera wszystkie metody HTTP tj. get, post, put itd.
 - wpiera syntax Gherkin (Given, When, Then)
