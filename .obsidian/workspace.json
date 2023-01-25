@@ -55,8 +55,7 @@
               }
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "vertical"
@@ -123,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "try-with-resources.md",
+                "file": "REST API.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -160,13 +159,13 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "981eaa8430a20d51",
+  "active": "d9c6f338be9fa11b",
   "lastOpenFiles": [
-    "Exceptions.md",
     "try-with-resources.md",
-    "_Toolbox.md",
+    "Exceptions.md",
     "REST Assured.md",
     "REST API.md",
+    "_Toolbox.md",
     "Git.md",
     "Boilerplate code.md",
     "Cucumber.md",

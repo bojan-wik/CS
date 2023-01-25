@@ -3,7 +3,9 @@
 ## I. Co to jest?
 
 **API** - Application Programming Interface. 
-To kontrakt, który umożliwia komunikację pomiędzy jednym serwisem/aplikacją a drugim serwisem/aplikacją
+To kontrakt/zestaw reguł, który umożliwia i opisuje jak jeden serwis/aplikacjia może się łączyć i komunikować z innym serwisem/aplikacją.
+
+**REST API** to API zaprojektowane zgodnie z zasadami *representational state transfer* (REST). Ich znajomość nie ma większego znaczenia w kontekście ich testowania. Bardziej przy developowaniu.
 
 ### 1. API contract
 
