@@ -41,11 +41,13 @@ private static int divideEAFP(int x, int y) {
     }
 ```
 
-#### Try-catch-finally block:
+##### Try-catch-finally:
 1. **try** - tu ląduje kod, który może powodowować problemy (wywoływać exceptiony) 
 2. **catch** - tu definuję exception jaki ma być wyłapywany i sposób w jaki ma być obsłużony
 	- wyłapywany jest exception danej klasy i wszystkie jej sub-klasy
-1. **finally** - jeżeli jakiś exception zostanie wyłapany w sekcji *try* to kod z tej sekcji nie jest wykonywany dalej tylko program od razu przeskakuje do sekcji *catch* - w sekcji *finally* ląduje kod, który ma być wykonany po wyłapaniu exceptiona
+	- w obrębie jednego bloku catch można zdefiniować >1 exceptionów, oddzielonych znakiem `|`
+	- może być >1 bloków catch
+3. **finally** - jeżeli jakiś exception zostanie wyłapany w sekcji *try* to kod z tej sekcji nie jest wykonywany dalej tylko program od razu przeskakuje do sekcji *catch* - w sekcji *finally* ląduje kod, który ma być wykonany po wyłapaniu exceptiona **ALE** ten kod będzie wykonany także, gdy żaden exception nie zostanie wyłapany
 
 Sekcje *try* i *finally* są opcjonalne, tzn. musi występować przynajmniej jedna z nich.
 

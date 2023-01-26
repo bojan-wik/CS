@@ -68,7 +68,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -135,7 +135,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Exceptions.md",
+                "file": "try-with-resources.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -172,10 +172,10 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "f82187f651809eea",
+  "active": "cd64d561af1c0f3e",
   "lastOpenFiles": [
-    "try-with-resources.md",
     "Exceptions.md",
+    "try-with-resources.md",
     "Key Concepts of Java.md",
     "_Toolbox.md",
     "REST Assured.md",
