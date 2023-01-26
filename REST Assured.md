@@ -8,6 +8,30 @@
 
 ![[Pasted image 20230125125416.png]]
 
+## Metody
+
+### Metody do debuggowania
+
+#### peek() i prettyPeek()
+służą do wyprintowania response header + body, np.:
+```java
+@Test  
+public void prettyPeek() {  
+    RestAssured.get(BASE_URL)  
+            .prettyPeek();  
+}
+```
+
+#### print() i prettyPrint()
+służą do wyprintowania response body, np.L
+```java
+@Test  
+public void prettyPrint() {  
+    RestAssured.get(BASE_URL)  
+            .prettyPrint();  
+}
+```
+
 #### [[JsonPath]] i [[GPath]]
 - JsonPath i GPath to path expression languages dla JSON
 - porównywalny do XmlPath dla plików XML, albo XPath dla plików HTML

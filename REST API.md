@@ -100,4 +100,5 @@ np.buttona 'Add to Cart', który jest wewn. elementu `<form>`. Element `<form>` 
 czyli w tym przypadku:
 `http://store.demoqa.com/products-page/product-category/accessories/magic-mouse?wpsc_ajax_action=add_to_cart&product_id=40`
 
->https://angiejones.tech/hybrid-tests-automation-pyramid/
+## Źródła:
+- https://angiejones.tech/hybrid-tests-automation-pyramid/
