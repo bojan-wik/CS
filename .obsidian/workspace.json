@@ -62,13 +62,13 @@
               "type": "markdown",
               "state": {
                 "file": "try-with-resources.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -135,7 +135,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "try-with-resources.md",
+                "file": "Key Concepts of Java.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -172,11 +172,11 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "cd64d561af1c0f3e",
+  "active": "981eaa8430a20d51",
   "lastOpenFiles": [
     "Exceptions.md",
-    "Key Concepts of Java.md",
     "try-with-resources.md",
+    "Key Concepts of Java.md",
     "_Toolbox.md",
     "REST Assured.md",
     "Kotlin.md",
