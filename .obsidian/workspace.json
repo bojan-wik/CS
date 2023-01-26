@@ -54,21 +54,9 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "6fe7208c93a799d4",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "_Do obczajenia.md",
-                "mode": "source",
-                "source": false
-              }
-            }
           }
         ],
-        "currentTab": 4
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -135,7 +123,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_Do obczajenia.md",
+                "file": "REST API.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -172,15 +160,15 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "6fe7208c93a799d4",
+  "active": "d9c6f338be9fa11b",
   "lastOpenFiles": [
-    "_Zabezpieczenia.md",
-    "_Do obczajenia.md",
     "REST Assured.md",
     "REST API.md",
-    "Key Concepts of Java.md",
     "try-with-resources.md",
     "Exceptions.md",
+    "_Do obczajenia.md",
+    "_Zabezpieczenia.md",
+    "Key Concepts of Java.md",
     "_Toolbox.md",
     "Kotlin.md",
     "Selenium methods.md"

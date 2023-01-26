@@ -19,6 +19,14 @@ To kontrakt/zestaw reguł, który umożliwia i opisuje jak jeden serwis/aplikacj
 
 Generalnie żeby móc zacząć testować API muszę wcześniej otrzymać (najprawdopodobniej od developerów) taki API contract, czyli jaka metoda, na jakim URLu, z jakimi parametrami itd.
 
+#### 1.1. Rodzaje headerów
+
+- występujące zawsze np. "content-type"
+- standardowe np. "date", "etag"
+- customowe, czyli takie z prefixem "x-" np. "x-frame-options"
+
+![[Pasted image 20230126125702.png]]
+
 ### 2. Różnica pomiędzy metodami PUT i PATCH
 Obie służą do update'u ale:
 - PUT wymaga, żeby body requestu był kompletne tj. to co zmieniamy + reszta
