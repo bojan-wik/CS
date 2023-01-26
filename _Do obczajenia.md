@@ -4,11 +4,9 @@
 * https://techbeacon.com/app-dev-testing/6-common-test-automation-mistakes-how-avoid-them
 * https://www.faesel.com/blog/why-every-developer-needs-to-use-obsidian
 * https://sii.pl/blog/pierwsze-dni-testera-w-nowym-zespole-o-czym-warto-pamietac/?category=testowanie&tag=poradnik,sciezki-karier,tester#msdynttrid=RohUaIhjUDf4EGPvxL5cbe3t81Vzwwwc91Z2_SU6EXU
-* https://www.youtube.com/watch?v=e-Qya7EOz_0
 
 ## IT-related:
 - https://podsluchjaksiepatrzy.org/#cta
-- https://kwestiabezpieczenstwa.pl/dns/
 
 ## Other:
 * [https://przekroj.pl/nauka/fizyk-stworzyl-nowa-teorie-zycia-natalie-wolchover-quanta-magazine](https://przekroj.pl/nauka/fizyk-stworzyl-nowa-teorie-zycia-natalie-wolchover-quanta-magazine)

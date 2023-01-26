@@ -8,6 +8,30 @@
         "type": "tabs",
         "children": [
           {
+            "id": "f82187f651809eea",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Exceptions.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "cd64d561af1c0f3e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "try-with-resources.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "d9c6f338be9fa11b",
             "type": "leaf",
             "state": {
@@ -32,43 +56,19 @@
             }
           },
           {
-            "id": "981eaa8430a20d51",
+            "id": "6fe7208c93a799d4",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Key Concepts of Java.md",
+                "file": "_Do obczajenia.md",
                 "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "f82187f651809eea",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Exceptions.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "cd64d561af1c0f3e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "try-with-resources.md",
-                "mode": "preview",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -135,7 +135,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Exceptions.md",
+                "file": "_Do obczajenia.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -172,17 +172,17 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "f82187f651809eea",
+  "active": "6fe7208c93a799d4",
   "lastOpenFiles": [
-    "Key Concepts of Java.md",
-    "Exceptions.md",
-    "try-with-resources.md",
-    "_Toolbox.md",
+    "_Zabezpieczenia.md",
+    "_Do obczajenia.md",
     "REST Assured.md",
-    "Kotlin.md",
     "REST API.md",
-    "Selenium methods.md",
-    "Playwright.md",
-    "Domain-specific language.md"
+    "Key Concepts of Java.md",
+    "try-with-resources.md",
+    "Exceptions.md",
+    "_Toolbox.md",
+    "Kotlin.md",
+    "Selenium methods.md"
   ]
 }
