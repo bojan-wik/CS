@@ -8,30 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "e4219100a18c46db",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "_Toolbox.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "981eaa8430a20d51",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "try-with-resources.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "d9c6f338be9fa11b",
             "type": "leaf",
             "state": {
@@ -56,12 +32,36 @@
             }
           },
           {
-            "id": "22d63ceab36dd589",
+            "id": "981eaa8430a20d51",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Kotlin.md",
+                "file": "Key Concepts of Java.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "f82187f651809eea",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Exceptions.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "cd64d561af1c0f3e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "try-with-resources.md",
                 "mode": "source",
                 "source": false
               }
@@ -97,7 +97,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "api",
+                "query": "stack trace",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -135,7 +135,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Kotlin.md",
+                "file": "try-with-resources.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -172,17 +172,17 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "22d63ceab36dd589",
+  "active": "cd64d561af1c0f3e",
   "lastOpenFiles": [
-    "REST Assured.md",
-    "REST API.md",
+    "Exceptions.md",
+    "Key Concepts of Java.md",
     "try-with-resources.md",
     "_Toolbox.md",
-    "Exceptions.md",
+    "REST Assured.md",
     "Kotlin.md",
+    "REST API.md",
     "Selenium methods.md",
     "Playwright.md",
-    "Domain-specific language.md",
-    "Git.md"
+    "Domain-specific language.md"
   ]
 }
