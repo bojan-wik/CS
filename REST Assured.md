@@ -8,9 +8,9 @@
 
 ![[Pasted image 20230125125416.png]]
 
-## Metody
+## Methods
 
-### Metody do debuggowania
+### Debugging methods
 
 #### peek() i prettyPeek()
 służą do wyprintowania response header + body, np.:
@@ -31,6 +31,8 @@ public void prettyPrint() {
             .prettyPrint();  
 }
 ```
+
+### Convenience methods
 
 #### [[JsonPath]] i [[GPath]]
 - JsonPath i GPath to path expression languages dla JSON
