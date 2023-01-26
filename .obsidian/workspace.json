@@ -174,9 +174,9 @@
   },
   "active": "f82187f651809eea",
   "lastOpenFiles": [
-    "Key Concepts of Java.md",
-    "Exceptions.md",
     "try-with-resources.md",
+    "Exceptions.md",
+    "Key Concepts of Java.md",
     "_Toolbox.md",
     "REST Assured.md",
     "Kotlin.md",
