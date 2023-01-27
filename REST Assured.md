@@ -131,6 +131,16 @@ public void test() {
 ```
 >https://app.pluralsight.com/course-player?clipId=dd7abb6d-9554-447b-8d2f-c48319825ef6
 
+#### Porównaj ze sobą valuesy dwóch różnych response-header
+```java
+@Test  
+public void test() {  
+    RestAssured.get(BASE_URL).then().assertThat()  
+            .header("x-ratelimit-limit", 
+            response -> greaterThan(response.header("x-ratelimit-remaining")));  
+}
+```
+
 ## Źródła:
 - https://testautomationu.applitools.com/automating-your-api-tests-with-rest-assured/
 - https://www.pluralsight.com/courses/rest-assured-fundamentals
