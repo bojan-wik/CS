@@ -19,7 +19,7 @@ private static int divide(int x, int y) {
 ```
 wywali mi ``ArithmeticException``
 
-#### Podejście LBYL
+### I. Podejście LBYL
 ```java
 private static int divideLBYL(int x, int y) {
         if (y != 0) {
@@ -30,7 +30,7 @@ private static int divideLBYL(int x, int y) {
     }
 ```
 
-#### Podejście EAFP (catching the exception)
+### II. Podejście EAFP (catching the exception)
 ```java
 private static int divideEAFP(int x, int y) {
         try {
@@ -41,7 +41,7 @@ private static int divideEAFP(int x, int y) {
     }
 ```
 
-#### Sposoby łapania wyjątków:
+#### Catching the exception - sposoby:
 
 ##### 1. try-catch-finally:
 - **try** - tu ląduje kod, który może powodowować problemy (wywoływać exceptiony) 
@@ -55,7 +55,24 @@ Sekcje *try* i *finally* są opcjonalne, tzn. musi występować przynajmniej jed
 
 ##### 2. [[try-with-resources]]
 
+### III. Rethrowing the exception
+Poza wyłapywaniem i obsługiwaniem exceptionów możliwe jest też ich ponowne 'wyrzucenie'.
 
+Dodajemy keyword `throws` do headera metody i określamy exception
+```java
+public static void createNewFileRethrow() throws IOException {  
+    file = new File("resources/nonexistent.txt");  
+    file.createNewFile();  
+}
+```
+
+Exception sam w sobie nie jest obsługiwany, tylko jest 'przerzucany wyżej' w call stacku, czyli jak jakaś metoda np. main() wywołuje ww. metodę createNewFileRethrow() to teraz po stronie metody main() leży sposób na poradzenie sobie z przerzuconym na nią wyjątkiem. Może go wyłapać i obsłużyć (try-catch-finally) albo przerzucić go jeszcze wyżej.
+
+```java
+public static void main(String[] args) throws IOException {  
+        createNewFileRethrow();  
+    }
+```
 
 ### Inne przykłady: 
 - [UdemyJavaMasterclass/src/section14/exceptions at master · bojan-wik/UdemyJavaMasterclass · GitHub](https://github.com/bojan-wik/UdemyJavaMasterclass/tree/master/src/section14/exceptions)
