@@ -6,7 +6,7 @@ rozmowa tech.
 - paradygmaty obiektowości -> [[Object-oriented programming]]
 - interfejsy vs klasy abstrakcyjne (30) -> [[Interface]]
 - dziedziczenie vs agregacja vs kompozycja -> [[Inheritance vs Composition vs Aggregation]]
-- wyrażenia lambda (14) 
+- wyrażenia lambda (14) -> [[Lambda Expressions]]
 - typy generyczne -> [[Java Generics]]
 - rodzaje kolekcji + różnice (32) -> [[Collections]]
 - wzorce projektowe -> [[Design Patterns]]
@@ -32,7 +32,7 @@ rozmowa tech.
 - W jaki sposób spiąc testy w narzędziu CI -> [[Jenkins]] 
 - Czasami rzeczy z BDD cucumber jeżeli są wymagane do projektu  -> [[Cucumber]]
 
-##### API 
+##### API -> [[REST API]]
 - rest vs soap 
 - czym jest plik wsdl  -> [[WSDL]]
 - czym jest endpoint 
@@ -67,7 +67,7 @@ no i do tego dochodzą czasami specyfine pytania z technologii z CV kandydata cz
 8. rodzaje kolekcji i kilka słów o każdym z nich -> [[Collections]]
 9. zadanie: są 2 duże zbiory danych (każdy ok 100 000 rekordów) i w jaki sposób określić, że wszystkie elementy ze zbioru 1 są zawarte w zbiorze 2
 10. jakie są rodzaje selektorów i których najczęściej używasz -> [[locators - selectors]]
-11. rodzaje wait'ów w selenium i czym się różnią
+11. rodzaje wait'ów w selenium i czym się różnią -> [[Selenium Waits]]
 12. zadanie: na stronie http://automationpractice.com/ dodać produkt do kosza, przejść do kosza i odczytać cenę (bez waluty) - napisać na to lokator
 13. jak zorganizować w projekcie stronę, która ma dużo elementów / sekcji
 14. do czego służy jenkins

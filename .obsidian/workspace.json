@@ -49,13 +49,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "REST Assured.md",
+                "file": "_Test developer.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -84,7 +85,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "switch",
+                "query": "maven",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -101,13 +102,11 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 244.5,
-    "collapsed": true
+    "width": 244.5
   },
   "right": {
     "id": "bb1ef8e6224e659a",
@@ -123,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Exceptions.md",
+                "file": "_Test developer.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -160,17 +159,17 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "f82187f651809eea",
+  "active": "3167d5849523505c",
   "lastOpenFiles": [
-    "try-with-resources.md",
-    "Exceptions.md",
-    "switch statement.md",
+    "Maven.md",
+    "_Test developer.md",
     "REST Assured.md",
+    "switch statement.md",
     "REST API.md",
+    "Exceptions.md",
+    "try-with-resources.md",
     "_Do obczajenia.md",
     "_Zabezpieczenia.md",
-    "Key Concepts of Java.md",
-    "_Toolbox.md",
-    "Kotlin.md"
+    "Key Concepts of Java.md"
   ]
 }
