@@ -82,6 +82,32 @@ public void getResponseTime() {
 - Rest Assured używa GPath notation
 
 ## Hamcrest matchers
+dają nam więcej możliwości i elastyczności w robieniu asercji.
+
+Przykład z wykorzystaniem podst. *ValidatableResponse*:
+```java
+@Test  
+public void basicValidatableExample() {  
+    RestAssured.get(BASE_URL)  
+            .then().assertThat()  
+                .statusCode(200)  
+                .contentType(ContentType.JSON)  
+                .header("x-ratelimit-limit", "60");  
+}
+```
+
+Przykład z wykorzystaniem *Hamcrest matchers*:
+```java
+@Test  
+public void simpleHamcrestMatchers() {  
+    RestAssured.get(BASE_URL)  
+            .then().assertThat()  
+                .statusCode(Matchers.lessThan(300))  
+                .header("cache-control", Matchers.containsStringIgnoringCase("public"))  
+                .time(Matchers.lessThanOrEqualTo(1L), TimeUnit.SECONDS)  
+                .header("etag", Matchers.notNullValue());  
+}
+```
 
 ## Rodzaje parametrów w RESTful APIs
 1. Path parameters np. 
@@ -90,6 +116,20 @@ public void getResponseTime() {
 
 2. Query parameters - też definiowane w URI, ale ze strukturą *?key=value* np.
 - hatetepees://md5.jsontest.com/?**text**=**banana**
+
+## Code snippets:
+
+#### Sprawdź, czy data z response-header odpowiada aktualnej dacie
+```java
+@Test  
+public void test() {  
+    RestAssured.get(BASE_URL).then().assertThat()  
+            .header("date", 
+            date -> LocalDate.parse(date, DateTimeFormatter.RFC_1123_DATE_TIME),  
+                    OrderingComparison.comparesEqualTo(LocalDate.now()));  
+}
+```
+>https://app.pluralsight.com/course-player?clipId=dd7abb6d-9554-447b-8d2f-c48319825ef6
 
 ## Źródła:
 - https://testautomationu.applitools.com/automating-your-api-tests-with-rest-assured/
