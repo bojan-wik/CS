@@ -6,7 +6,6 @@
 * https://sii.pl/blog/pierwsze-dni-testera-w-nowym-zespole-o-czym-warto-pamietac/?category=testowanie&tag=poradnik,sciezki-karier,tester#msdynttrid=RohUaIhjUDf4EGPvxL5cbe3t81Vzwwwc91Z2_SU6EXU
 
 ## IT-related:
-- https://podsluchjaksiepatrzy.org/#cta
 
 ## Other:
 * [https://przekroj.pl/nauka/fizyk-stworzyl-nowa-teorie-zycia-natalie-wolchover-quanta-magazine](https://przekroj.pl/nauka/fizyk-stworzyl-nowa-teorie-zycia-natalie-wolchover-quanta-magazine)
