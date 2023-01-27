@@ -6,7 +6,7 @@
 
 W programowaniu istnieją dwa główne podejścia do radzenia sobie z wyjątkami:
 - **LBYL** (Look Before You Leap - rozejrzyj się zanim skoczysz) - częściej używany w Javie
-- **EAFP** (it's Easier to Ask Forgiveness than Permission) - tzw. try-catch-finally block
+- **EAFP** (it's Easier to Ask Forgiveness than Permission) - catching the exception
 
 ### Przykład: 
 Dzielenie przez zero jest niedozwolone.
@@ -30,7 +30,7 @@ private static int divideLBYL(int x, int y) {
     }
 ```
 
-#### Podejście EAFP
+#### Podejście EAFP (catching the exception)
 ```java
 private static int divideEAFP(int x, int y) {
         try {
@@ -41,15 +41,21 @@ private static int divideEAFP(int x, int y) {
     }
 ```
 
-##### Try-catch-finally:
-1. **try** - tu ląduje kod, który może powodowować problemy (wywoływać exceptiony) 
-2. **catch** - tu definuję exception jaki ma być wyłapywany i sposób w jaki ma być obsłużony
+#### Sposoby łapania wyjątków:
+
+##### 1. try-catch-finally:
+- **try** - tu ląduje kod, który może powodowować problemy (wywoływać exceptiony) 
+- **catch** - tu definuję exception jaki ma być wyłapywany i sposób w jaki ma być obsłużony
 	- wyłapywany jest exception danej klasy i wszystkie jej sub-klasy
 	- w obrębie jednego bloku catch można zdefiniować >1 exceptionów, oddzielonych znakiem `|`
 	- może być >1 bloków catch
-3. **finally** - jeżeli jakiś exception zostanie wyłapany w sekcji *try* to kod z tej sekcji nie jest wykonywany dalej tylko program od razu przeskakuje do sekcji *catch* - w sekcji *finally* ląduje kod, który ma być wykonany po wyłapaniu exceptiona **ALE** ten kod będzie wykonany także, gdy żaden exception nie zostanie wyłapany
+- **finally** - jeżeli jakiś exception zostanie wyłapany w sekcji *try* to kod z tej sekcji nie jest wykonywany dalej tylko program od razu przeskakuje do sekcji *catch* - w sekcji *finally* ląduje kod, który ma być wykonany po wyłapaniu exceptiona **ALE** ten kod będzie wykonany także, gdy żaden exception nie zostanie wyłapany
 
 Sekcje *try* i *finally* są opcjonalne, tzn. musi występować przynajmniej jedna z nich.
+
+##### 2. [[try-with-resources]]
+
+
 
 ### Inne przykłady: 
 - [UdemyJavaMasterclass/src/section14/exceptions at master · bojan-wik/UdemyJavaMasterclass · GitHub](https://github.com/bojan-wik/UdemyJavaMasterclass/tree/master/src/section14/exceptions)

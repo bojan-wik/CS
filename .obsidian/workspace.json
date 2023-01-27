@@ -55,8 +55,7 @@
               }
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "vertical"
@@ -85,7 +84,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "stack trace",
+                "query": "switch",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -102,7 +101,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -123,7 +123,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "REST Assured.md",
+                "file": "Exceptions.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -160,17 +160,17 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "3167d5849523505c",
+  "active": "f82187f651809eea",
   "lastOpenFiles": [
     "try-with-resources.md",
-    "REST API.md",
-    "REST Assured.md",
     "Exceptions.md",
+    "switch statement.md",
+    "REST Assured.md",
+    "REST API.md",
     "_Do obczajenia.md",
     "_Zabezpieczenia.md",
     "Key Concepts of Java.md",
     "_Toolbox.md",
-    "Kotlin.md",
-    "Selenium methods.md"
+    "Kotlin.md"
   ]
 }
