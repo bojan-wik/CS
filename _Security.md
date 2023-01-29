@@ -9,4 +9,11 @@ https://hole.cert.pl/domains/domains_adblock.txt
 
 2. Zmiana DNSa
 
+- router
 https://kwestiabezpieczenstwa.pl/dns/#jaki-dns-rekomenduje-jaki-dns-najlepszy
+
+- firefox
+https://support.mozilla.org/en-US/kb/firefox-dns-over-https
+
+- smartfon z Androidem
+https://developers.cloudflare.com/1.1.1.1/setup/android/
