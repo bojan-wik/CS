@@ -31,4 +31,6 @@ https://learn.microsoft.com/en-us/java/openjdk/download
 
 ##### CMDER / Windows Terminal
 
+##### Microsoft PowerToys
+
 ##### [[AutoHotkey]] (v 1.x)
