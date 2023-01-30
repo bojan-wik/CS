@@ -15,6 +15,19 @@ Zalety konteneryzacji:
 - uproszczenie procesu dostarczania gotowych aplikacji na docelowe środowiska,
 - możliwość eksperymentowania z różnymi wersjami oprogramowania.
 
+##### The current user is not in the 'docker-users' group. Add yourself to the 'docker-users' group and then log out and back in to Windows.
+
+W przypadku takiego errora:
+1. Uruchomić Command Prompt z uprawnieniami admina
+2. Puścić komendę
+```
+net localgroup docker-users "DOMAIN\your-user-id" /ADD
+```
+
+`your-user-id` to local Windows user name, który można określić patrząc w `C:\Users\`
+
+>https://stackoverflow.com/questions/61530874/docker-how-do-i-add-myself-to-the-docker-users-group-on-windows-10-home
+
 ## Źródła:
 - https://testautomationu.applitools.com/scaling-tests-with-docker/
 - https://www.youtube.com/watch?v=pTFZFxd4hOI

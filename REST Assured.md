@@ -8,7 +8,12 @@
 
 ![[Pasted image 20230125125416.png]]
 
-## Methods
+## JsonPath i GPath
+- JsonPath i GPath to path expression languages dla JSON
+- porównywalny do XmlPath dla plików XML, albo XPath dla plików HTML
+- Rest Assured używa GPath notation
+
+## Methods (Simple Response)
 
 ### Debugging methods
 
@@ -76,10 +81,46 @@ public void getResponseTime() {
 }
 ```
 
-## [[JsonPath]] i [[GPath]]
-- JsonPath i GPath to path expression languages dla JSON
-- porównywalny do XmlPath dla plików XML, albo XPath dla plików HTML
-- Rest Assured używa GPath notation
+
+
+
+## Methods (ValidatableResponse)
+
+### header()
+```java
+@Test  
+public void headerTest() {  
+    RestAssured.get(BASE_URL)  
+            .then().assertThat()  
+            .header("x-ratelimit-limit", stringValue -> Integer.parseInt(stringValue), Matchers.equalTo(60));  
+}
+```
+
+### headers()
+```java
+@Test  
+public void headersTest() {  
+    RestAssured.get(BASE_URL)  
+            .then().assertThat()  
+            .headers("content-encoding", "gzip",  
+                    "access-control-allow-origin", "*");  
+}
+```
+
+To samo z wykorzystaniem zewn. kolekcji Map
+```java
+Map<String, String> expectedHeaders = Map.of(  
+        "content-encoding", "gzip",  
+        "access-control-allow-origin", "*");
+
+@Test  
+public void headersTest() {  
+    RestAssured.get(BASE_URL)  
+            .then().assertThat()  
+            .headers(expectedHeaders);  
+}
+```
+
 
 ## Hamcrest matchers
 dają nam więcej możliwości i elastyczności w robieniu asercji.
