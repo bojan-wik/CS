@@ -28,6 +28,11 @@ net localgroup docker-users "DOMAIN\your-user-id" /ADD
 
 >https://stackoverflow.com/questions/61530874/docker-how-do-i-add-myself-to-the-docker-users-group-on-windows-10-home
 
+
+#### Docker is not starting
+Pomogło zaktualizowanie kernela WSL2 Linux z:
+https://learn.microsoft.com/en-gb/windows/wsl/install-manual#step-4---download-the-linux-kernel-update-package
+
 ## Źródła:
 - https://testautomationu.applitools.com/scaling-tests-with-docker/
 - https://www.youtube.com/watch?v=pTFZFxd4hOI
