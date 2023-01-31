@@ -17,3 +17,6 @@ https://support.mozilla.org/en-US/kb/firefox-dns-over-https
 
 - smartfon z Androidem
 https://developers.cloudflare.com/1.1.1.1/setup/android/
+
+
+https://www.virustotal.com/gui/home/upload
