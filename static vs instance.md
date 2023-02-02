@@ -36,3 +36,4 @@ Keyword *static* to [[non-access modifier]] w Javie, którego możemy używać d
 ## Źródła:
 - https://www.udemy.com/course/java-the-complete-java-developer-course/learn/lecture/10576980#notes
 - https://www.udemy.com/course/java-the-complete-java-developer-course/learn/lecture/10576974#notes
+- https://www.udemy.com/course/java-the-complete-java-developer-course/learn/lecture/4052736#notes
