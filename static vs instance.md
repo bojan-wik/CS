@@ -8,7 +8,7 @@ Keyword *static* to [[non-access modifier]] w Javie, którego możemy używać d
 
 ## I. static vs instance methods
 
-### 1. static methods
+### 1. static (class) methods
 - Static methods nie mają bezpośredniego dostępu ani do instance methods ani do instance variables.
 - W static methods niemożliwe jest używanie keyworda *this*. Dlatego static methods są zazwyczaj używane do operacji, które nie wymagają żadnych danych z instancji klasy.
 - Zazwyczaj, kiedy metoda używa tylko static variables, to ta metoda też powinna być zadeklarowana jako static.
