@@ -3,6 +3,7 @@
 - Generalnie robienie screenshotów ma sens tylko dla testów, które failują.
 - Trzeba pamiętać żeby folder ze screenshotami wyekskludować z Gita - dodać go do pliku [[gitignore]]
 - Poniższe metody opierają się na adnotacjach z [[TestNG]]. Napisanie tego samego w [[JUnit]] jest bardziej skomplikowane
+>https://app.pluralsight.com/course-player?clipId=9294fa05-1c9e-4d01-bbe3-22375c76f333
 
 ## Selenium
 
