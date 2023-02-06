@@ -1,4 +1,3 @@
-# Allure report
 #tools 
 
 Framework, który służy do tworzenia raportów z testów automatycznych.
