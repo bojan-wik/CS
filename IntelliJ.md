@@ -93,4 +93,4 @@ Od teraz wszystkie następne uruchomienia frameworka będą już z tą konfigura
 
 ### 3. New project from existing sources
 
-<notka>
+W przypadku jakby się chciało
