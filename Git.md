@@ -137,6 +137,7 @@ $ git checkout -b <branchName>
 ```
 $ git checkout -b <my_new_branch> <remote>/<branch_name>
 ```
+>https://stackoverflow.com/a/11356470
 
 ##### Usunięcie brancha
 ```
