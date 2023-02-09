@@ -93,4 +93,4 @@ Od teraz wszystkie następne uruchomienia frameworka będą już z tą konfigura
 
 ### 3. New project from existing sources
 
-W przypadku jakby się chciało
+W przypadku jakby się chciało stworzyć taki projekt i dodać do niego Maven to nie jest to takie zbyt intuicyjne. Po stworzeniu projektu trzeba przekopiować do jego roota plik `pom.xml`. Wtedy w IntelliJ wyskoczy dopiero popup, który pozwoli na dodanie Mavena.

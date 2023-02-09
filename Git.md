@@ -315,14 +315,6 @@ W moim przypadku to był bitbucket, gdzie miałem wcześniej pewnie nieaktualne 
 `fatal: Authentication failed for 'https://bitbucket...'`
 >https://stackoverflow.com/a/49125803
 
-
----
+## Źródła:
 * https://www.youtube.com/watch?v=8JJ101D3knE (30:30)
-
-
----
-https://testautomationu.applitools.com/git-tutorial/
-
----
-https://testautomationu.applitools.com/git-tutorial/
-https://bulldogjob.pl/readme/jak-cofnac-commit-w-git
+- https://testautomationu.applitools.com/git-tutorial/
