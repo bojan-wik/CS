@@ -133,6 +133,11 @@ $ git branch <branchName>
 $ git checkout -b <branchName>
 ```
 
+##### Utworzenie nowego lokalnego brancha i zepnięcie go z remote-branchem
+```
+$ git checkout -b <my_new_branch> <remote>/<branch_name>
+```
+
 ##### Usunięcie brancha
 ```
 $ git branch -d <branchName>
