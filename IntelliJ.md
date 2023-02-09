@@ -89,3 +89,8 @@ Od teraz wszystkie następne uruchomienia frameworka będą już z tą konfigura
 
 ![[Pasted image 20221202095305.png]]
 > https://testautomationu.applitools.com/intellij/chapter7.3.html
+
+
+### 3. New project from existing sources
+
+<notka>
