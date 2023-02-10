@@ -77,7 +77,21 @@ class Main {
 - gdy mamy tylko defaultowe konstruktory, w momencie utworzenia obiektu sub-klasy najpierw wywoływany jest konstruktor super-klasy, a `super()` jest dodany automatycznie 
 - jeżeli super-klasa nie ma defaultowego konstruktora, sub-klasa musi za pomocą `super()` wywołać  jeden z jej sparametryzowanych konstruktorów
 
-## IV. Dobre praktyki
+## IV. private conctructor
+
+Jeżeli chcę zablokować możliwość tworzenia instancji danej klasy to konstruktor tej klasy oznaczam jako `private`, np. jest to tak zrobione we wbudowanej klasie `Math`:
+
+```java
+public final class Math {  
+  
+    // Don't let anyone instantiate this class.    
+     private Math() {}  
+  
+     public static final double E = 2.7182818284590452354;
+}
+```
+
+## V. Dobre praktyki
 
 ### 1. Inicjalizować fieldy bezpośrednio w konstruktorze a nie za pomocą setterów 
 Czyli robić tak:
