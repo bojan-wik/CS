@@ -1,5 +1,3 @@
-#agile
-
 Estymacja pracy, wycena tasków
 
 Story points:
