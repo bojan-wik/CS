@@ -4,6 +4,8 @@
 * https://techbeacon.com/app-dev-testing/6-common-test-automation-mistakes-how-avoid-them
 * https://www.faesel.com/blog/why-every-developer-needs-to-use-obsidian
 * https://sii.pl/blog/pierwsze-dni-testera-w-nowym-zespole-o-czym-warto-pamietac/?category=testowanie&tag=poradnik,sciezki-karier,tester#msdynttrid=RohUaIhjUDf4EGPvxL5cbe3t81Vzwwwc91Z2_SU6EXU
+* https://blog.testproject.io/author/capreoara6gmail-com/page/4
+* https://blog.testproject.io/2022/06/21/tips-to-work-if-you-are-the-only-qa-of-the-team/
 
 ## IT-related:
 - https://blogs.microsoft.com/on-the-issues/2023/02/02/responsible-ai-chatgpt-artificial-intelligence/

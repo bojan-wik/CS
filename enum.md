@@ -4,6 +4,8 @@
 
 Enum jest trochę jak [[Array]] z tym że jego elementy są z góry znane, niezmienialne, i do każdego z jego elementów można się odnieść poprzez nazwę zmiennej constant,  a nie poprzez index.
 
+Poza tym enum jest bardzo podobny do zwykłej klasy. Też możemy wewn. enuma zadeklarować zmienne, metody, konstruktory.
+
 **Przykład:**
 ```java
 public enum DayOfTheWeek {
@@ -16,7 +18,8 @@ public enum DayOfTheWeek {
 Z enumami w automatyzacji testów spotkałem się pierwszy raz w projekcie benchowym z Playwrigtha, gdzie stosował je w swoim kodzie Marcin. Do tej pory w żadnych innych frameworkach testowych (Pubcenter, Medcin) nie widziałem wykorzystania enumów.
 
 ### Przykład:
-W formularzu dodawania użytkownika jest dropdown z polem do wyboru kraju.
+
+W formularzu dodawania użytkownika jest dropdown z polem do wyboru kraju. W teście chcę losowo wybierać kraj. Wykorzystany framework testowy to [[Playwright]]
 
 #### moja standardowa metoda
 
@@ -54,3 +57,4 @@ W tym projekcie benczowym Marcin zastosował także [[DTO Pattern in Java]]. W k
 
 ## Źródła:
 - https://www.udemy.com/course/java-the-complete-java-developer-course/learn/lecture/35423818?start=15#notes
+- https://blog.testproject.io/2020/08/04/using-java-enums-in-test-automation/
