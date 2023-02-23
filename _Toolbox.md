@@ -1,6 +1,6 @@
 #tools 
 
-##### Chrome and extensions:
+##### Chrome i dodatki:
 - uBlock Origin
 - Tabs Outliner
 - Google Translate
@@ -8,12 +8,12 @@
 - Quick JIRA
 - Google Keep
 
-##### Notepad++ and:
+##### Notepad++ i:
 - plugin Compare
 - syntax highlighting dla markdowna w: 
 `C:\Users\<userName>\AppData\Roaming\Notepad++\userDefineLangs\`
 
-##### IntelliJ and plugins:
+##### IntelliJ i pluginy:
 - Java Visualizer
 - Rainbow Brackets
 
@@ -22,7 +22,7 @@ https://learn.microsoft.com/en-us/java/openjdk/download
 
 ##### Postman, SoapUI
 
-##### Obsidian and plugins:
+##### Obsidian i pluginy:
 - Obsidian GIT
 - Advanced Tables
 - auto hide
@@ -36,3 +36,5 @@ https://learn.microsoft.com/en-us/java/openjdk/download
 ##### [[AutoHotkey]] (v 1.x)
 
 ##### ShareX
+
+##### VLC player
