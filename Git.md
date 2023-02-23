@@ -265,7 +265,9 @@ $ git reset --hard HEAD~1
 ```
 
 ### 7. Reverting
-is used to revert a specific commit by applying a new commit with the opposite changes.
+Is used to revert a specific commit by applying a new commit with the opposite changes.
+
+Czyli coś jak `$ git reset` z tym że commita nie cofamy, tylko tworzymy nowego commita z cofniętymi zmianami.
 
 ```
 $ git revert <commitHashCode>
@@ -273,6 +275,9 @@ $ git revert <commitHashCode>
 
 **Przykład**
 ![[Pasted image 20221213125604.png]]
+
+Przydatne np. w sytuacji kiedy chcemy =='cofnąć' commit, który został już wypushowany na remote, czyli cofamy commita zarówno na local repo jak i na remote repo==
+>https://www.becomebetterprogrammer.com/git-revert-last-commit/
 
 ## IV. Commitowanie - najlepsze praktyki
 
