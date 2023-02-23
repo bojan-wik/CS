@@ -53,6 +53,9 @@ Zaznaczanie poszczególnych słów
 Wywołanie podpowiedzi jakie parametry są wymagane w danej funkcji
 > ctrl + p
 
+Formatowanie kodu
+> ctrl + alt + l
+
 ## III. Inne
 
 ### 1. Zapamiętywanie historii w terminalu
