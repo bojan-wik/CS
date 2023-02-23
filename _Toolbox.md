@@ -34,3 +34,5 @@ https://learn.microsoft.com/en-us/java/openjdk/download
 ##### Microsoft PowerToys
 
 ##### [[AutoHotkey]] (v 1.x)
+
+##### ShareX
