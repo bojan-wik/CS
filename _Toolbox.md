@@ -10,6 +10,7 @@
 
 ##### Notepad++ i:
 - plugin Compare
+- JSON Viewer
 - syntax highlighting dla markdowna w: 
 `C:\Users\<userName>\AppData\Roaming\Notepad++\userDefineLangs\`
 
