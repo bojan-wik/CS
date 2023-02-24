@@ -31,10 +31,10 @@ https://learn.microsoft.com/en-us/java/openjdk/download
 
 ##### CMDER / Windows Terminal
 
-##### Microsoft PowerToys
-
-##### [[AutoHotkey]] (v 1.x)
+##### Microsoft PowerToys / [[AutoHotkey]] (v 1.x)
 
 ##### ShareX
+ustawienia żeby nagrywał poprawnie i mikrofon i dźwięk z kompa
+>https://superuser.com/a/1629771
 
 ##### VLC player
