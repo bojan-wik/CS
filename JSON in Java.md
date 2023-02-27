@@ -1,6 +1,6 @@
 #java
 
-Na przykładzie takiego pliku `employees.json`
+Na przykładzie pliku `employees.json`
 ```json
 {
 	"firstName": "John",
