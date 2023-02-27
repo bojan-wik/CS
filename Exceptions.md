@@ -47,7 +47,7 @@ private static int divideEAFP(int x, int y) {
 - **try** - tu ląduje kod, który może powodowować problemy (wywoływać exceptiony) 
 - **catch** - tu definuję exception jaki ma być wyłapywany i sposób w jaki ma być obsłużony
 	- wyłapywany jest exception danej klasy i wszystkie jej sub-klasy
-	- w obrębie jednego bloku catch można zdefiniować >1 exceptionów, oddzielonych znakiem `|`
+	- w obrębie jednego bloku catch można zdefiniować >1 exceptionów, oddzielonych znakiem `|`, np. `catch (IOException | ParseException e) {e.printStackTrace();}`
 	- może być >1 bloków catch
 - **finally** - jeżeli jakiś exception zostanie wyłapany w sekcji *try* to kod z tej sekcji nie jest wykonywany dalej tylko program od razu przeskakuje do sekcji *catch* - w sekcji *finally* ląduje kod, który ma być wykonany po wyłapaniu exceptiona **ALE** ten kod będzie wykonany także, gdy żaden exception nie zostanie wyłapany
 
