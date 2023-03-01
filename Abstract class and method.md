@@ -8,18 +8,22 @@ Process of hiding the implementation details from the user, only the functionali
 ## Keyword `abstract`:
 - non-access modifier
 - możliwy do użycia przy klasach i metodach
-- używany gdy chcemy zdefiniować swego rodzaju szablon dla klasy lub metody
+- używany gdy chcemy zdefiniować swego rodzaju szablon dla klasy lub metody, np.
+```java
+public abstract class Shape {
+	
+	abstract double calculateArea();
+}
+```
 
 ## Abstract method
-to metoda bez implementacji/body, tylko z samą sygnaturą, np.
-```java
-//tbd
-```
+to metoda bez implementacji/body, tylko z samą sygnaturą
 
 ## Abstract class
 - może zawierać zarówno standardowe metody (z implementacją/body) jak metody abstrakcyjne
 - z racji tego klasa abstrakcyjna (w odróżnieniu od [[Interface]]) nie może osiągnąć 100% poziomu abstrakcji, tylko częściowy 
-- nie można tworzyć obiektów klasy abstrakcyjnej (cannot be instantiate), ale można po niej dziedziczyć
+- nie można tworzyć obiektów klasy abstrakcyjnej (cannot be instantiate), 
+- ale można po niej dziedziczyć - wtedy sub-klasa jest odpowiedzialna za zaimplementowanie wszystkich metod abstrakcyjnych z super-klasy
 
 **Przykład:**
 - Istnieje Parent Class, która definiuje zasady/metody budowania samolotów. Prawie wszystkie te metody są zaimplementowane (mają body/kod) 
