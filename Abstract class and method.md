@@ -23,7 +23,8 @@ to metoda bez implementacji/body, tylko z samą sygnaturą
 - może zawierać zarówno standardowe metody (z implementacją/body) jak metody abstrakcyjne
 - z racji tego klasa abstrakcyjna (w odróżnieniu od [[Interface]]) nie może osiągnąć 100% poziomu abstrakcji, tylko częściowy 
 - nie można tworzyć obiektów klasy abstrakcyjnej (cannot be instantiate), 
-- ale można po niej dziedziczyć - wtedy sub-klasa jest odpowiedzialna za zaimplementowanie wszystkich metod abstrakcyjnych z super-klasy
+- ale można po niej dziedziczyć - wtedy sub-klasa jest odpowiedzialna za zaimplementowanie wszystkich metod abstrakcyjnych z super-klasy,
+- gdy taka sub-klasa potrzebuje zaimplementować tylko część metod abstrakcyjnych - sama też musi zostać zadeklarowana jako klasa abstrakcyjna
 
 **Przykład:**
 - Istnieje Parent Class, która definiuje zasady/metody budowania samolotów. Prawie wszystkie te metody są zaimplementowane (mają body/kod) 
