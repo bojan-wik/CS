@@ -12,7 +12,7 @@ Process of hiding the implementation details from the user, only the functionali
 ```java
 public abstract class Shape {
 	
-	abstract double calculateArea();
+	public abstract double calculateArea();
 }
 ```
 
@@ -26,7 +26,7 @@ to metoda bez implementacji/body, tylko z samą sygnaturą
 - ale można po niej dziedziczyć - wtedy sub-klasa jest odpowiedzialna za zaimplementowanie wszystkich metod abstrakcyjnych z super-klasy,
 - gdy taka sub-klasa potrzebuje zaimplementować tylko część metod abstrakcyjnych - sama też musi zostać zadeklarowana jako klasa abstrakcyjna
 
-**Przykład:**
+**Przykład (kurs z O'Reilly):**
 - Istnieje Parent Class, która definiuje zasady/metody budowania samolotów. Prawie wszystkie te metody są zaimplementowane (mają body/kod) 
 - Parent Class ma pod sobą różne Child Classes, które odpowiadają firmom tworzącym samoloty. Child Classes/firmy muszą odziedziczyć zasady/metody budowania samolotów i zaaplikować je do własnych konstrukcji. 
 - Ale jest jedna metoda w Parent Class, która nie jest zaimplementowana (nie ma body/kodu), czyli nie narzuca żadnej implementacji i każda z Child Classes może ją sobie zaimplementować indywidualnie np. Metoda dotycząca koloru samolotu, który może być dobrany dowolnie przez każdą z firm 

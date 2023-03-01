@@ -4,7 +4,7 @@ rozmowa tech.
 
 ##### Programowanie: 
 - paradygmaty obiektowości -> [[Object-oriented programming]]
-- interfejsy vs klasy abstrakcyjne (30) -> [[Interface]]
+- interfejsy vs klasy abstrakcyjne (30) -> [[Interface]], [[Abstract class and method]]
 - dziedziczenie vs agregacja vs kompozycja -> [[Inheritance vs Composition vs Aggregation]]
 - wyrażenia lambda (14) -> [[Lambda Expressions]]
 - typy generyczne -> [[Java Generics]]
