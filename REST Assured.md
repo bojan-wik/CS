@@ -160,6 +160,11 @@ public void simpleHamcrestMatchers() {
 
 ## Code snippets:
 
+#### Dokonaj autentykacji sesji
+Dzięki takiej autentykacji nie trzeba potem wykonywać każdorazowo stepów logowania przed każdym testem.
+
+-> ntrs przykład
+
 #### Sprawdź, czy data z response-header odpowiada aktualnej dacie
 ```java
 @Test  
