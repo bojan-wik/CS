@@ -166,6 +166,7 @@ Dzięki takiej autentykacji nie trzeba potem wykonywać każdorazowo stepów log
 ```java
 -> NtrsLoginAuthentication.java
 ```
+>https://stackoverflow.com/questions/51214120/rest-assured-basic-auth-issue
 
 #### Sprawdź, czy data z response-header odpowiada aktualnej dacie
 ```java
