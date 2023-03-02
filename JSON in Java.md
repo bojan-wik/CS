@@ -20,6 +20,8 @@ Na przykładzie pliku `employees.json`
 }
 ```
 
+Korzystając z biblioteki JSON.simple
+
 ## Read JSON from a file
 
 ```java
