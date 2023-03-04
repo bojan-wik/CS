@@ -15,5 +15,3 @@
 * https://medium.com/@elephant.journal/the-most-breathtaking-description-of-death-i-have-ever-heard-3f4173b3d989
 * https://magazyn-kuchnia.pl/magazyn-kuchnia/7,122005,28677906,kuchnia-antyinflacyjna-gotuj-afrykanskie-dania-do-10-zl.html?disableRedirects=true#S.bauer-K.C-B.1-L.2.zw
 * https://krytykapolityczna.pl/swiat/ai-sztuczna-inteligencja-explainer/
-* https://www.youtube.com/watch?v=4hRRzj2g7Q0
-* https://businessinsider.com.pl/poradnik-finansowy/oszczedzanie/oszczedzil-w-ppk-10-tys-zl-moze-je-wyplacic-to-warto-wiedziec/c3skh04
