@@ -160,9 +160,28 @@ public void simpleHamcrestMatchers() {
 
 ## Code snippets:
 
+#### Sprawdź jaki jest size JSON arraya z response
+```java
+public Integer getRestJsonArraySize(String apiBodyService) {
+        Response response = given().spec(specification)
+                .headers(headers)
+                .cookies(cookies)
+                .when()
+                .get(apiBodyService);
+        JsonPath jsonPath = new JsonPath(response.asString());
+        return jsonPath.getInt("data.size()");
+    }
+```
+> https://www.tutorialspoint.com/explain-how-to-get-the-size-of-a-json-array-response-in-rest-assured
+
+**Przykład (z entieres):** 
+- wysyłam request GET na endpoincie, który ma mi zwrócić wszystkich userów w systemie. 
+- Chcę sprawdzić, czy jest dodany chociaż jeden
+- robię w tym przypadku asercję, że status code = 200 i getRestJsonArraySize() > 0
+
 #### Dokonaj autentykacji sesji
 
-Dzięki takiej autentykacji nie trzeba potem wykonywać każdorazowo stepów logowania przed każdym testem.
+Dzięki takiej autentykacji nie trzeba potem wykonywać każdorazowo stepów logowania przed każdym testem (przykład z entieres).
 ```java
 -> NtrsLoginAuthentication.java
 ```
