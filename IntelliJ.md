@@ -28,6 +28,10 @@ Ustawienie klawiszy do przełączania się pomiędzy tabami
 >Main Menu -> Window -> Editor Tabs
 >Select next tab, Select previous tab
 
+TODO comment - usunięcie daty
+> File -> Settings -> Editor -> Live Templates
+> AndroidComments -> todo -> Template text: `// TODO: `
+
 ## II. Skróty klawiszowe
 
 Zakomentowanie/odkomentowanie bloku kodu
