@@ -160,7 +160,29 @@ public void simpleHamcrestMatchers() {
 
 ## Code snippets:
 
-#### Sprawdź jaki jest size JSON arraya z response
+#### dokonaj autentykacji sesji
+
+Dzięki takiej autentykacji nie trzeba potem wykonywać każdorazowo stepów logowania przed każdym testem (przykład z entieres).
+```java
+-> NtrsLoginAuthentication.java
+```
+>https://stackoverflow.com/questions/51214120/rest-assured-basic-auth-issue
+
+### RESPONSE-body
+
+#### sprawdź czy value jednego node zawiera w sobie value innego node
+```java
+@Test
+public void complexBodyExample() {
+    RestAssured.get("https://api.github.com/users/bojan-wik")
+            .then()
+//            .body("url", containsString("bojan-wik"))
+            .body("url", response -> containsString(response.body().jsonPath().get("login")));
+}
+```
+>https://app.pluralsight.com/course-player?clipId=7f2cf58b-3347-4fd8-80e2-2a3c680adb0f
+
+#### sprawdź jaki jest size JSON arraya z response
 ```java
 public Integer getRestJsonArraySize(String apiBodyService) {
         Response response = given().spec(specification)
@@ -179,15 +201,10 @@ public Integer getRestJsonArraySize(String apiBodyService) {
 - Chcę sprawdzić, czy jest dodany chociaż jeden
 - robię w tym przypadku asercję, że status code = 200 i getRestJsonArraySize() > 0
 
-#### Dokonaj autentykacji sesji
 
-Dzięki takiej autentykacji nie trzeba potem wykonywać każdorazowo stepów logowania przed każdym testem (przykład z entieres).
-```java
--> NtrsLoginAuthentication.java
-```
->https://stackoverflow.com/questions/51214120/rest-assured-basic-auth-issue
+### RESPONSE-header
 
-#### Sprawdź, czy data z response-header odpowiada aktualnej dacie
+#### sprawdź, czy data z response-header odpowiada aktualnej dacie
 ```java
 @Test  
 public void test() {  
@@ -199,11 +216,11 @@ public void test() {
 ```
 >https://app.pluralsight.com/course-player?clipId=dd7abb6d-9554-447b-8d2f-c48319825ef6
 
-#### Porównaj ze sobą valuesy dwóch różnych response-header
+#### porównaj ze sobą valuesy dwóch różnych response-header
 ```java
 @Test  
 public void test() {  
-    RestAssured.get(BASE_URL).then().assertThat()  
+    RestAssured.get("https://api.github.com/").then().assertThat()  
             .header("x-ratelimit-limit", 
             response -> greaterThan(response.header("x-ratelimit-remaining")));  
 }
