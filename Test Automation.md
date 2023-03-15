@@ -9,5 +9,12 @@
 >https://angiejones.tech/hybrid-tests-automation-pyramid/
 2. Współpracować z developerami, komunikować im, żeby robili IDki dla webelementów itp.
 
+Zasada FIRST - testy powinny być:
+- fast
+- isolated/independent
+- repeteable
+- self-validating
+- timely (aktualne)
+
 ## Źródła:
 - https://app.pluralsight.com/library/courses/test-automation-java-fundamentals/recommended-courses
