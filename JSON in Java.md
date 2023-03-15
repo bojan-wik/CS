@@ -20,9 +20,8 @@ Na przykładzie pliku `employees.json`
 }
 ```
 
-Korzystając z biblioteki JSON.simple
-
 ## Read JSON from a file
+(korzystając z biblioteki JSON.simple)
 
 ```java
 public void readDataFromJsonFile() {  
@@ -50,6 +49,28 @@ public void readDataFromJsonFile() {
     }  
 }
 ```
+
+## Convert Map to JSONObject
+(korzystając dodatkowo z biblioteki Jackson)
+
+```java
+Map<String, String> requestBody = Map.of(  
+        "firstName": "John",  
+        "lastName": "Kennedy");
+
+public void convertMapToJsonObject() {
+	JSONParser jsonParser = new JSONParser();
+
+	try {
+		String requestBodyAsString = new ObjectMapper().writeValueAsString(requestBody);
+		JSONObject array = (JSONObject) jsonParser.parse(requestBodyAsString);
+	}
+	catch (JsonProcessingException | ParseException exception) {  
+	    exception.printStackTrace();  
+	}
+}
+```
+> https://www.javatpoint.com/how-to-convert-string-to-json-object-in-java
 
 ## Źródła:
 - https://www.youtube.com/watch?v=U-5VHRvOFpA
