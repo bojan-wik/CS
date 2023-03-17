@@ -12,6 +12,9 @@ Testy powinny być:
 - self-validating
 - timely (aktualne)
 
+isolated/independent - czyli testy niezależne od siebie nawzajem
+![[Pasted image 20230317145344.png]]
+
 ## Inne dobre praktyki
 1. Ograniczyć testy UI dzięki używaniu skrótów w aplikacji - wywoływaniu odpowiednich metod+endpointów API na poszczególnych etapach testów
 >https://testautomationu.applitools.com/setting-a-foundation-for-successful-test-automation/chapter3.html
