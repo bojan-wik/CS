@@ -1,4 +1,4 @@
-#programming 
+#programming #java 
 
 ## Naming conventions
 
@@ -12,12 +12,16 @@ com.timbuchalka.autoboxing
 ```
 
 2. **Class**
-- nazwa zaczynająca się od dużej litery,
+- nazwa zaczynająca się od dużej litery
 - pisana camelCase
+- konkretnie opisująca co się w niej zawiera (*specific*)
 - będąca rzeczownikiem np.
 ```
 Account, Storage, RequestBody, Response
 ```
+
+**Tips:** zamiast ogólnej nazwy klasy \*Manager.java można użyć czegoś bardziej konkretnego np.
+`Builder, Writer, Reader, Handler, Container`
 
 3. **Interface**
 - nazwa zaczynająca się od dużej litery,
@@ -60,5 +64,6 @@ isValidUser, isOpen, isClosed
 
 Tylko jeden sposób powinien być używany w całym projekcie. Nie powinno się ich mieszać
 
----
-https://medium.com/@Bigscal-Technologies/a-guide-to-achieve-clean-code-and-best-coding-practices-6b3f0eaa7fa4
+## Źródła:
+* https://medium.com/@Bigscal-Technologies/a-guide-to-achieve-clean-code-and-best-coding-practices-6b3f0eaa7fa4
+* https://app.pluralsight.com/library/courses/java-writing-readable-maintainable-code/table-of-contents

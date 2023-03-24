@@ -1,6 +1,6 @@
 #java 
 
-**Enum**  to typ wyliczeniowy, wyglądający podobnie jak klasa. Pozwala zadeklarować ograniczoną listę zmiennych typu *constant* ([[Coding best practices]]). 
+**Enum**  to typ wyliczeniowy, wyglądający podobnie jak klasa. Pozwala zadeklarować ograniczoną listę zmiennych typu *constant* ([[Java Coding Best Practices]]). 
 
 Enum jest trochę jak [[Array]] z tym że jego elementy są z góry znane, niezmienialne, i do każdego z jego elementów można się odnieść poprzez nazwę zmiennej constant,  a nie poprzez index.
 
