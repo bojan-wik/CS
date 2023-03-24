@@ -2,16 +2,7 @@
 
 ## Naming conventions
 
-1. **Package**
-- nazwa zaczynająca się od małej litery,
-- nazwa unikalna
-- z reguły składająca się URLa napisanego od końca np.
-```
-com.roche
-com.timbuchalka.autoboxing
-```
-
-2. **Class**
+### Class
 - nazwa zaczynająca się od dużej litery
 - pisana camelCase
 - konkretnie opisująca co się w niej zawiera (*specific*)
@@ -23,38 +14,59 @@ Account, Storage, RequestBody, Response
 **Tips:** zamiast ogólnej nazwy klasy \*Manager.java można użyć czegoś bardziej konkretnego np.
 `Builder, Writer, Reader, Handler, Container`
 
-3. **Interface**
-- nazwa zaczynająca się od dużej litery,
-- pisana camelCase
-
-4. **Method**
-* nazwa zaczynająca się od małej litery,
-* pisana camelCase,
-* z reguły zaczynająca się od czasownika np.
+### Variable
+- nazwa zaczynająca się od małej litery
+- konkretna, najlepiej składająca się z max. dwóch słów
+- pisana camelCase np.
 ```
-getData(), sendData(), fetchUser()
+i, minNumber, arrayOfNames
 ```
 
-5. **Constant** (zmienne typu `static final`)
+#### Constant 
+(zmienne typu `static final`)
 - nazwa powinna być pisana dużymi literami 
 - i z użyciem snake_case np.
 ```
 CONNECTION_LIMIT, POOL_SIZE, BATCH_SIZE
 ```
 
-6. **Variable**
-- nazwa zaczynająca się od małej litery,
-- pisana camelCase np.
-```
-i, minNumber, arrayOfNames
-```
-
-7. **Boolean**
+#### Boolean
 * nazwa powinna formułować pytanie
 * zaczynać się od "is" np.
 ```
 isValidUser, isOpen, isClosed
 ```
+
+### Method
+* nazwa zaczynająca się od małej litery,
+* pisana camelCase,
+* z reguły zaczynająca się od czasownika, opisująca co robi dana metoda np.
+```
+getData(), sendData(), fetchUser()
+```
+
+**Naming anti-patterns:**
+- dana metoda robi więcej niż wskazuje jej nazwa
+- nazwy zawierające 'and', 'or', 'if' - wtedy dana metoda powinna zostać rozbita na mniejsze metody np.
+![[Pasted image 20230324150449.png]]
+
+
+1. **Package**
+- nazwa zaczynająca się od małej litery,
+- nazwa unikalna
+- z reguły składająca się URLa napisanego od końca np.
+```
+com.roche
+com.timbuchalka.autoboxing
+```
+
+3. **Interface**
+- nazwa zaczynająca się od dużej litery,
+- pisana camelCase
+
+
+
+
 
 ## Sposoby zapisu:
 * snake_case
