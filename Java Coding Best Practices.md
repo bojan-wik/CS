@@ -2,6 +2,23 @@
 
 ## Naming conventions
 
+**Sposoby zapisu:**
+* snake_case
+* camelCase
+* PascalCase
+* kebab-case
+
+Tylko jeden sposób powinien być używany w całym projekcie. Nie powinno się ich mieszać
+
+### Package
+- nazwa zaczynająca się od małej litery,
+- nazwa unikalna
+- z reguły składająca się URLa napisanego od końca np.
+```
+com.roche
+com.timbuchalka.autoboxing
+```
+
 ### Class
 - nazwa zaczynająca się od dużej litery
 - pisana camelCase
@@ -13,6 +30,10 @@ Account, Storage, RequestBody, Response
 
 **Tips:** zamiast ogólnej nazwy klasy \*Manager.java można użyć czegoś bardziej konkretnego np.
 `Builder, Writer, Reader, Handler, Container`
+
+### Interface
+- nazwa zaczynająca się od dużej litery,
+- pisana camelCase
 
 ### Variable
 - nazwa zaczynająca się od małej litery
@@ -49,32 +70,6 @@ getData(), sendData(), fetchUser()
 - dana metoda robi więcej niż wskazuje jej nazwa
 - nazwy zawierające 'and', 'or', 'if' - wtedy dana metoda powinna zostać rozbita na mniejsze metody np.
 ![[Pasted image 20230324150449.png]]
-
-
-1. **Package**
-- nazwa zaczynająca się od małej litery,
-- nazwa unikalna
-- z reguły składająca się URLa napisanego od końca np.
-```
-com.roche
-com.timbuchalka.autoboxing
-```
-
-3. **Interface**
-- nazwa zaczynająca się od dużej litery,
-- pisana camelCase
-
-
-
-
-
-## Sposoby zapisu:
-* snake_case
-* camelCase
-* PascalCase
-* kebab-case
-
-Tylko jeden sposób powinien być używany w całym projekcie. Nie powinno się ich mieszać
 
 ## Źródła:
 * https://medium.com/@Bigscal-Technologies/a-guide-to-achieve-clean-code-and-best-coding-practices-6b3f0eaa7fa4
