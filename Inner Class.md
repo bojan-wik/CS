@@ -104,6 +104,8 @@ W tym przypadku inner class zadeklarowana jest jako public, ponieważ jest bezpo
 
 ![[Pasted image 20221117105954.png]]
 
+**Inny przykład:** komponent kalendarza, który jest dostępny tylko i wyłącznie z poziomu strony edycji np. usera ([[Playwright]] -> Code Snippets -> select date in calendar/date-picker)
+
 ## III. local inner class
 
 - Inner class, które definiujemy wewnątrz bloku kodu (wewnątrz metody, bloku if itp.).
