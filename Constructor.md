@@ -175,6 +175,9 @@ class Square extends Shape {
 
 Constructor chaining pozwala uniknąć duplikowania kodu.
 
+### 3. Unikać Constructor Telescoping Pattern, preferować zamiast tego Building Pattern
+>https://app.pluralsight.com/course-player?clipId=e885817c-b774-4782-8ebb-115957e01229
+
 ## Źródła:
 - https://www.udemy.com/course/java-the-complete-java-developer-course/learn/lecture/3133106#overview
 - https://testautomationu.applitools.com/java-programming-course/chapter9b.html
