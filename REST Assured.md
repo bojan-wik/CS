@@ -13,11 +13,13 @@
 - porównywalny do XmlPath dla plików XML, albo XPath dla plików HTML
 - Rest Assured używa GPath notation
 
-## Methods (Simple Response)
+## Validating response-header
 
-### Debugging methods
+### with Simple Response
 
-#### peek(), prettyPeek()
+#### Debugging methods
+
+##### peek(), prettyPeek()
 służą do wyprintowania całego response-header + body
 ```java
 @Test  
@@ -27,7 +29,7 @@ public void prettyPeek() {
 }
 ```
 
-#### print(), prettyPrint()
+##### print(), prettyPrint()
 służą do wyprintowania całego response-body
 ```java
 @Test  
@@ -37,9 +39,9 @@ public void prettyPrint() {
 }
 ```
 
-### Convenience methods
+#### Convenience methods
 
-#### getStatusCode(), getContentType()
+##### getStatusCode(), getContentType()
 ```java
 @Test  
 public void convenienceMethods() {  
@@ -49,7 +51,7 @@ public void convenienceMethods() {
 }
 ```
 
-#### getHeaders()
+##### getHeaders()
 zwraca cały response-header
 ```java
 @Test  
@@ -60,7 +62,7 @@ public void getHeaders() {
 }
 ```
 
-#### getHeader(String header)
+##### getHeader(String header)
 zwraca value konkretnego headera
 ```java
 @Test  
@@ -70,7 +72,7 @@ public void genericHeader() {
 }
 ```
 
-#### getTime(), getTimeIn()
+##### getTime(), getTimeIn()
 zwracają response time (czas potrzebny na wysłanie reponsa z servera)
 ```java
 @Test  
@@ -84,9 +86,9 @@ public void getResponseTime() {
 
 
 
-## Methods (ValidatableResponse)
+### with ValidatableResponse
 
-### header()
+#### header()
 ```java
 @Test  
 public void headerTest() {  
@@ -96,7 +98,7 @@ public void headerTest() {
 }
 ```
 
-### headers()
+#### headers()
 ```java
 @Test  
 public void headersTest() {  
@@ -121,6 +123,58 @@ public void headersTest() {
 }
 ```
 
+
+
+## Validating response-body
+
+### with Simple Response
+
+##### JsonPath.
+```java
+@Test  
+public void jsonPathReturnMap() {  
+    Response response = RestAssured.get("https://api.github.com/rate_limit");  
+    JsonPath jsonPath = response.body().jsonPath();  
+  
+    Map<String, Object> fullResponseJson = jsonPath.get();  
+    System.out.println(fullResponseJson.toString());  
+  
+    int resourcesCoreLimit_value = jsonPath.get("resources.core.limit");  
+    Assert.assertEquals(resourcesCoreLimit_value, 60);  
+  
+    int resourcesGraphqlLimit_value = jsonPath.get("resources.graphql.limit");  
+    Assert.assertEquals(resourcesGraphqlLimit_value, 0);  
+}
+```
+
+
+### with ValidatableResponse
+
+##### body()
+```java
+@Test  
+    public void complexBodyExample() {  
+        RestAssured.get(BASE_URL + "https://api.github.com/users/bojan-wik")  
+                .then()  
+//                .body("url", containsString("bojan-wik"))  
+                .body("url", response -> containsString(response.body().jsonPath().get("login")));  
+    }
+```
+
+##### rootPath()
+```java
+@Test  
+public void nestedBodyValidation() {  
+    RestAssured.get("https://api.github.com/rate_limit")  
+            .then()  
+            .rootPath("resources.core")  
+                .body("limit", equalTo(60))  
+                .body("resource", equalTo("core"))  
+            .rootPath("resources.search")  
+                .body("remaining", lessThanOrEqualTo(10))  
+                .body("resource", notNullValue());  
+}
+```
 
 ## Hamcrest matchers
 dają nam więcej możliwości i elastyczności w robieniu asercji.
