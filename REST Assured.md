@@ -129,7 +129,8 @@ public void headersTest() {
 
 ### with Simple Response
 
-##### JsonPath.
+##### JsonPath.get()
+służy do traversowania po jsonie
 ```java
 @Test  
 public void jsonPathReturnMap() {  
@@ -146,7 +147,6 @@ public void jsonPathReturnMap() {
     Assert.assertEquals(resourcesGraphqlLimit_value, 0);  
 }
 ```
-
 
 ### with ValidatableResponse
 
