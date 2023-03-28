@@ -125,7 +125,7 @@ public void headersTest() {
 
 
 
-## Validating response-body
+## Validating response-body (aka payload)
 
 ### with Simple Response
 
