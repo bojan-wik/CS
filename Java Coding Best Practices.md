@@ -80,6 +80,16 @@ czego nie zwracać:
 
 ### Parametry
 
+1. Liczba parametrów - generalna zasada mówi, że:
+- 0-2 parametry - OK
+- 3 - unikać
+- 4 i więcej - refaktorować i zbijać liczbę parametrów np. poprzez podzielenie metody, obudowanie parametrów w jakiś obiekt etc.
+2. Unikać tzw. flag arguments, czyli booleanów jako argumentów
+3. Unikać tzw. magic numbers - przypisywać je do zmiennych i dopiero te zmienne przekazywać jako parametry
+
+
+
 ## Źródła:
 * https://medium.com/@Bigscal-Technologies/a-guide-to-achieve-clean-code-and-best-coding-practices-6b3f0eaa7fa4
 * https://app.pluralsight.com/library/courses/java-writing-readable-maintainable-code/table-of-contents
+* https://martinfowler.com/bliki/FlagArgument.html
