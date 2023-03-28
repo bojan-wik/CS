@@ -1,6 +1,6 @@
 #programming #java 
 
-## Naming conventions
+## I. Nazewnictwo
 
 **Sposoby zapisu:**
 * snake_case
@@ -70,6 +70,15 @@ getData(), sendData(), fetchUser()
 - dana metoda robi więcej niż wskazuje jej nazwa
 - nazwy zawierające 'and', 'or', 'if' - wtedy dana metoda powinna zostać rozbita na mniejsze metody np.
 ![[Pasted image 20230324150449.png]]
+
+## II. Implementowanie metod
+
+### Return type
+czego nie zwracać:
+- wartości null - zamiast tego np. `Collections.emptyList()`
+- tzw. magic numbers, czyli wartości, których znaczenie niekoniecznie będzie znane dla innych np. -1, 0, 1 - zamiast tego np. rzuć konkretnym wyjątkiem
+
+### Parametry
 
 ## Źródła:
 * https://medium.com/@Bigscal-Technologies/a-guide-to-achieve-clean-code-and-best-coding-practices-6b3f0eaa7fa4
