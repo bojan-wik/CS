@@ -212,6 +212,13 @@ public void simpleHamcrestMatchers() {
 2. Query parameters - też definiowane w URI, ale ze strukturą *?key=value* np.
 - hatetepees://md5.jsontest.com/?**text**=**banana**
 
+## Mapowanie response-body/paylod do Java-obiektów
+
+**Marshalling** to proces konwertowania java-obiekt -> XML/JSON.
+**Unmarshalling** działa w drugą stronę: konwersja XML/JSON -> java-obiekt.
+
+To w zasadzie synonimy serializacji/deserializacji danych o których już wcześniej się uczyłem w kursie na TAU.
+
 ## Code snippets:
 
 #### dokonaj autentykacji sesji
