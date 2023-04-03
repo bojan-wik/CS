@@ -133,11 +133,17 @@ $ git branch <branchName>
 $ git checkout -b <branchName>
 ```
 
-##### Utworzenie nowego lokalnego brancha i zepnięcie go z remote-branchem
+##### Utworzenie nowego local-brancha i zepnięcie go z remote-branchem
 ```
-$ git checkout -b <my_new_branch> <remote>/<branch_name>
+$ git checkout -b <my_new_branch> origin/<branch_name>
 ```
 >https://stackoverflow.com/a/11356470
+
+##### Zepnięcie już istniejącego akywnego local-brancha z remote-branchem
+```
+$ git branch -u origin/<branch_name>
+```
+>https://www.git-tower.com/learn/git/faq/track-remote-upstream-branch
 
 ##### Usunięcie brancha
 ```
