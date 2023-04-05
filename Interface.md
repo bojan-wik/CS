@@ -2,10 +2,12 @@
 
 ##### Interface w Java:
 - zestaw metod (sygnatur metod) bez ich implementacji - bez ich body/kodu, który definiowałby ich sposób działania
-- właściwe body metod danego interfejsu znajduje się w klasie implementującej dany interfejs (keyword *implements*) 
+- właściwe body metod danego interfejsu znajduje się w klasie implementującej dany interfejs (keyword *implements*)
+- jeżeli w interfejsie chcemy metodę z implementacją to musimy zadeklarować ją z keywordem `default`
 - w jednej klasie możemy zaimplementować więcej niż jeden interfejs (*multiple inheritance*)
 - interfejsy, tak jak klasy, definiujemy w osobnych plikach 
 - Interfejsy osiągają 100% poziom abstrakcji 
+- nie można tworzyć instancji interfejsu
 
 ##### Przykład: 
 Plik 'CentralTraffic.java' jest plikiem typu interfejs, który definiuje zestaw metod - reguł ruchu drogowego, które muszą być takie same na całym świecie 

@@ -37,10 +37,11 @@ to metoda bez implementacji/body, tylko z samą sygnaturą
 
 |     |                                  | Interface                     | Abstract Class                                 |
 | --- | -------------------------------- | ----------------------------- | ---------------------------------------------- |
-| 1   | Can contain...                   | only abstract methods         | abstract methods, non-abstract methods or both |
+| 1   | Can contain...                   | only abstract methods (or non-abstract methods with keyword `default`)         | abstract methods, non-abstract methods or both |
 | 2   | Access specifiers for methods... | must be public                | Can have any access specifier, except private  |
 | 3   | Variables defined...             | must be `public static final` | can have any access specifiers, except private |
-| 4   | To implement we use...           | 'implement' keyword           | 'extends' keyword                                                |
+| 4   | To implement we use...           | 'implement' keyword           | 'extends' keyword                              |
+| 5   | Cannot be instatiated            | true                          | true                                           | 
 
 ## Źródła:
 - https://github.com/bojan-wik/SeleniumWithJavaCourse/tree/master/src/Chapter30_CoreJava1
