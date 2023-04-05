@@ -39,7 +39,7 @@ to metoda bez implementacji/body, tylko z samą sygnaturą
 | --- | -------------------------------- | ----------------------------- | ---------------------------------------------- |
 | 1   | Can contain...                   | only abstract methods         | abstract methods, non-abstract methods or both |
 | 2   | Access specifiers for methods... | must be public                | Can have any access specifier, except private  |
-| 3   | Variables defined...             | must be public, static, final | can have any access specifiers, except private |
+| 3   | Variables defined...             | must be `public static final` | can have any access specifiers, except private |
 | 4   | To implement we use...           | 'implement' keyword           | 'extends' keyword                                                |
 
 ## Źródła:
