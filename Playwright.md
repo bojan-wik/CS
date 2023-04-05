@@ -8,6 +8,8 @@ i podpięcie go w Intellij
 Tool do debugowania, w zasadzie to prawie do samo co debuggowanie w samym Intellij.
 Żeby z niego korzystać trzeba wykonać podobny myk jak w przypadku [[IntelliJ Debugger + Maven tests]]
 
+![[Pasted image 20230405105848.png]]
+
 >https://playwright.dev/java/docs/debug
 >https://www.udemy.com/course/automation-framework-with-playwright-and-java/learn/lecture/33661948#overview
 
