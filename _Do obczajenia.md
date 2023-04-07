@@ -16,3 +16,4 @@
 * https://magazyn-kuchnia.pl/magazyn-kuchnia/7,122005,28677906,kuchnia-antyinflacyjna-gotuj-afrykanskie-dania-do-10-zl.html?disableRedirects=true#S.bauer-K.C-B.1-L.2.zw
 * https://krytykapolityczna.pl/swiat/ai-sztuczna-inteligencja-explainer/
 * https://app.pluralsight.com/profile/wbojanowski
+* https://zaradnyfinansowo.pl/kalendarz-zakupowy/
