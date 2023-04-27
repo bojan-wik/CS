@@ -5,7 +5,7 @@ analogia do Kickstartera
 
 
 Blockchain, Bitcoin
-Ethereum
+Ethereum (Blockchain framework)
 
 ## Źródła:
 - https://www.youtube.com/watch?v=ZE2HxTmxfrI
