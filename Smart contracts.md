@@ -24,6 +24,8 @@ Thought Machine Vault:
 	- stworzone pod kątem produktów finansowych
 	- poza blockchainem (czyli bez jego problemów)
 	- wysoce konfigurowalne
+	- koncept Smart Contract Hooks (takie API tych kontraktów)
+	- możliwość stawiania środowisk testowych i symulowania zachowań
 
 ## Źródła:
 - https://www.youtube.com/watch?v=ZE2HxTmxfrI
