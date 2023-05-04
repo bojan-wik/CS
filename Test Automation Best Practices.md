@@ -3,7 +3,7 @@
 ![[Pasted image 20220923110742.png]]
 Test Automation pyramid
 
-## Zasada FIRST
+## I. Zasada FIRST
 
 Testy powinny być:
 - **F**ast
@@ -20,16 +20,24 @@ czyli testy niezależne od siebie nawzajem
 i jednocześnie self-contained
 ![[Pasted image 20230321145427.png]]
 
-## Zasada BICEP
+## II. Zasada BICEP
 
-Testy powinny mieć także takie cechy:
-- Boundary conditions
-- Inverse Relationships
-- Cross-checking  using other means
-- Error conditions
-- Performance characteristics
+1. **Boundary conditions** (standardowe wartości brzegowe, edge casy)
 
-## Inne dobre praktyki
+2. **Inverse Relationships**, czyli testowanie jednocześnie:
+	- konkretnego test case np. czy mail zawierający słowo 'reklama' trafił do folderu Spam
+	- i jego odwrotności np. czy mail nie zawierający słowa 'reklama' trafił do folderu Inbox a nie do Spamu
+
+3. **Cross-checking**, czyli np. mam test, gdzie w sklepie internetowym dodaję do koszyka i kupuję jakiś produkt. Potem powinienem to przetestować:
+	- w obrębie tej samej warstwy np. UI, czyli tworzę kolejną instancję browsera i sprawdzam czy ilość produktów została pomniejszona o jeden
+	- w obrębie różnych warstw: UI - API - DB
+
+Ważne żeby testów cross-checkingowych nie robić gdzie tylko się da, bo to wydłuża znacząco testy i sprawia, że są mniej niestabilne. Takie testy powinny raczej stanowić dodatek do test suita.
+
+Error conditions
+Performance characteristics
+
+## III. Inne dobre praktyki
 1. Ograniczyć testy UI dzięki używaniu skrótów w aplikacji - wywoływaniu odpowiednich metod+endpointów API na poszczególnych etapach testów
 >https://testautomationu.applitools.com/setting-a-foundation-for-successful-test-automation/chapter3.html
 >https://angiejones.tech/hybrid-tests-automation-pyramid/
