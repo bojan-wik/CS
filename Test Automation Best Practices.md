@@ -20,6 +20,15 @@ czyli testy niezależne od siebie nawzajem
 i jednocześnie self-contained
 ![[Pasted image 20230321145427.png]]
 
+## Zasada BICEP
+
+Testy powinny mieć także takie cechy:
+- Boundary conditions
+- Inverse Relationships
+- Cross-checking  using other means
+- Error conditions
+- Performance characteristics
+
 ## Inne dobre praktyki
 1. Ograniczyć testy UI dzięki używaniu skrótów w aplikacji - wywoływaniu odpowiednich metod+endpointów API na poszczególnych etapach testów
 >https://testautomationu.applitools.com/setting-a-foundation-for-successful-test-automation/chapter3.html
