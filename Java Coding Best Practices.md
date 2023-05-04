@@ -87,6 +87,8 @@ czego nie zwracać:
 3. Unikać tzw. magic numbers - przypisywać je do zmiennych i dopiero te zmienne przekazywać jako parametry
 4. Zasada 'Fail Fast', czyli wyłapywać błędy z niepoprawnych przekazywanych argumentów najszybciej jak się da ([[Exceptions]] -> Podejście LBYL)
 
+## Zasada DRY
+Don't Repeat Yourself
 
 ## Źródła:
 * https://medium.com/@Bigscal-Technologies/a-guide-to-achieve-clean-code-and-best-coding-practices-6b3f0eaa7fa4
