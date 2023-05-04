@@ -79,14 +79,13 @@ czego nie zwracać:
 - tzw. magic numbers, czyli wartości, których znaczenie niekoniecznie będzie znane dla innych np. -1, 0, 1 - zamiast tego np. rzuć konkretnym wyjątkiem
 
 ### Parametry
-
 1. Liczba parametrów - generalna zasada mówi, że:
 	- 0-2 parametry - OK
 	- 3 - unikać
 	- 4 i więcej - refaktorować i zbijać liczbę parametrów np. poprzez podzielenie metody, obudowanie parametrów w jakiś obiekt etc.
 2. Unikać tzw. flag arguments, czyli booleanów jako argumentów
 3. Unikać tzw. magic numbers - przypisywać je do zmiennych i dopiero te zmienne przekazywać jako parametry
-
+4. Zasada 'Fail Fast', czyli wyłapywać błędy z niepoprawnych przekazywanych argumentów najszybciej jak się da ([[Exceptions]] -> Podejście LBYL)
 
 
 ## Źródła:
