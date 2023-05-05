@@ -55,6 +55,13 @@ Sekcje *try* i *finally* są opcjonalne, tzn. musi występować przynajmniej jed
 
 ##### 2. [[try-with-resources]]
 
+#### Catching the exception - best practices:
+
+##### 1. Starać się zawężać wyłapywane exceptiony
+zamiast wyłapywać zbyt ogólne. Możemy wtedy niezauważyć problemów, których powinniśmy być świadomi
+
+![[Pasted image 20230505120904.png]]
+
 ### III. Rethrowing the exception
 Poza wyłapywaniem i obsługiwaniem exceptionów możliwe jest też ich ponowne 'wyrzucenie'.
 
@@ -80,3 +87,4 @@ public static void main(String[] args) throws IOException {
 ## Źródła:
 - https://www.udemy.com/course/java-the-complete-java-developer-course/learn/lecture/4859500#overview
 - https://testautomationu.applitools.com/java-programming-course/chapter13a.html
+- https://app.pluralsight.com/course-player?clipId=c5890c49-a345-4e45-976d-c28eec44a1f6
