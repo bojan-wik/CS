@@ -62,6 +62,22 @@ zamiast wyłapywać zbyt ogólne. Możemy wtedy niezauważyć problemów, który
 
 ![[Pasted image 20230505120904.png]]
 
+##### 2. catch block
+
+don't:
+```java
+catch {         }
+catch {//comment}
+catch {return null;}
+catch {e.printStackTrace();}
+```
+
+do instead:
+```java
+catch {log.error(e);}
+catch {throw new CustomException(e);}
+```
+
 ### III. Rethrowing the exception
 Poza wyłapywaniem i obsługiwaniem exceptionów możliwe jest też ich ponowne 'wyrzucenie'.
 
