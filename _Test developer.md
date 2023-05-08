@@ -44,11 +44,11 @@ rozmowa tech.
 - podzapytania 
 - różne joiny 
 
-> [08:53] Mateusz Tadla  
+> [08:53] MT
 to tak mniej więcej co jest na rozmowach 
-[08:53] Mateusz Tadla  
+[08:53] MT  
 oczywiście nie zawsze pytam wszystko tylko wybieram, 
-[08:53] Mateusz Tadla  
+[08:53] MT  
 no i do tego dochodzą czasami specyfine pytania z technologii z CV kandydata czy wymaganych pod projekt
 
 ### II. Info od Adama
