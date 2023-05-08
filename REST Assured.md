@@ -219,6 +219,119 @@ public void simpleHamcrestMatchers() {
 
 To w zasadzie synonimy serializacji/deserializacji danych o których już wcześniej się uczyłem w kursie na TAU.
 
+### Przykład
+```java
+@JsonIgnoreProperties(ignoreUnknown = true)  
+public class User {  
+  
+    private String login;  
+    private int id;  
+  
+    @JsonProperty("public_repos")  
+    private int publicRepos;  
+  
+    public String getLogin() {  
+        return login;  
+    }  
+  
+    public int getId() {  
+        return id;  
+    }  
+  
+    public int getPublicRepos() {  
+        return publicRepos;  
+    }  
+}
+```
+
+```java
+public class ObjectMapping {  
+  
+    public static final String BASE_URL = "https://api.github.com/users/bojan-wik";  
+  
+    @Test  
+    public void objectMappingTest1() {  
+        User user = RestAssured.get(BASE_URL)  
+                .as(User.class);  
+  
+        Assert.assertEquals(user.getLogin(), "bojan-wik");  
+        Assert.assertEquals(user.getId(), 23448817);  
+        Assert.assertEquals(user.getPublicRepos(), 17);  
+    }
+}
+```
+
+
+## Metody HEAD, OPTIONS, POST, PATCH, DELETE
+
+##### HEAD, OPTIONS
+
+```java
+public static final String BASE_URL = "https://api.github.com/";  
+  
+@Test  
+public void headTest() {  
+    RestAssured.head(BASE_URL)  
+            .then().assertThat()  
+                .statusCode(200)  
+                .body(Matchers.emptyOrNullString())  
+                .header("Accept-Ranges", "bytes");  
+}  
+  
+@Test  
+public void optionsTest() {  
+    RestAssured.options(BASE_URL)  
+            .then().assertThat()  
+            .statusCode(204)  
+            .header("access-control-allow-methods", Matchers.equalTo("GET, POST, PATCH, PUT, DELETE"))  
+            .body(Matchers.emptyOrNullString());  
+}
+```
+
+##### POST, PATCH, DELETE
+
+```java
+
+public static final String BASE_URL = "https://api.github.com/user/repos";  
+public static final String TOKEN = "123456789";  
+  
+@Test  
+public void postTest() {  
+    RestAssured  
+            .given()  
+                .header("Authorization", "token " + TOKEN)  
+                .body("{\"name\": \"deleteme\"}")  
+            .when()  
+                .post(BASE_URL)  
+            .then()  
+                .statusCode(201);  
+}  
+  
+@Test  
+public void patchTest() {  
+    RestAssured  
+            .given()  
+                .header("Authorization", "token " + TOKEN)  
+                .body("{\"name\": \"deleteme-patched\"}")  
+            .when()  
+                .patch("https://api.github.com/repos/bojan-wik/deleteme")  
+            .then()  
+                .statusCode(200);  
+}  
+  
+@Test  
+public void deleteTest() {  
+    RestAssured  
+            .given()  
+                .header("Authorization", "token " + TOKEN)  
+            .when()  
+                .delete("https://api.github.com/repos/bojan-wik/deleteme-patched")  
+            .then()  
+                .statusCode(204);  
+}
+```
+
+
 ## Code snippets:
 
 #### dokonaj autentykacji sesji
