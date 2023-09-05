@@ -54,7 +54,7 @@ while(count != 6) {
 ### 2. do-while loop
 - tak jak w przypadku while loop - pętla działa dopóki jakiś warunek jest spełniony (condition-controlled)
 - zmienna counter/sentinel definiowana własnoręcznie poza pętlą
-- warunek testujemy na końcu pętli - kod uruchimi się przynajmniej raz
+- warunek testujemy na końcu pętli - kod uruchomi się przynajmniej raz
 - zalecana do używania w sytuacji, kiedy pętla ma być odpalona przynajmniej raz
 ```java
 int count = 1;

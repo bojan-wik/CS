@@ -25,7 +25,7 @@ Keyword *static* to [[non-access modifier]] w Javie, którego możemy używać d
 ## II. static vs instance variables
 
 ### 1. static (class) variables 
-- Każda instancja danej klasy współdzieli te same static variables -> jeśeli taka static variable jest zmieniona, to będzie to miało efekt na każdą instancję klasy
+- Każda instancja danej klasy współdzieli te same static variables -> jeżeli taka static variable jest zmieniona, to będzie to miało efekt na każdą instancję klasy
 - Static variables nie są używane zbyt często, przydatne np. dla referencji do obiektu [[Scanner class]]
 
 #### 2. instance variables
