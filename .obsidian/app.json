@@ -3,5 +3,6 @@
   "communityThemeSortOrder": "download",
   "attachmentFolderPath": "attachments",
   "promptDelete": false,
-  "alwaysUpdateLinks": true
+  "alwaysUpdateLinks": true,
+  "spellcheck": false
 }
