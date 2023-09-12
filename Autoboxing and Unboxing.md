@@ -14,7 +14,7 @@ for (int i = 1; i <= 5; i ++) {
 ```
 
 W tym przypadku `Integer.valueOf(i)` jest przykładem Autoboxingu, czyli:
-- bierzemy zmienną `i`, które jest primitive typem `int`
+- bierzemy zmienną `i`, która jest primitive typem `int`
 - konwertujemy ją do zmiennej typu `Integer` za pomocą [[Wrapper class]]
 
 

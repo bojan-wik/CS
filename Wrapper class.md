@@ -1,5 +1,7 @@
 #programming #java 
 
+**Wrapper class** is an object representation of a primitive data type.
+
 | Primitive Data Type | Wrapper Class |
 | ------------------- | ------------- |
 | byte                | Byte          |

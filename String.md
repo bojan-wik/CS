@@ -1,5 +1,15 @@
 #java #programming 
 
+
+**String** na podstawowym poziomie stanowi ekwiwalent arraya charów
+```java
+String name = "Wiktor";
+
+// ekwiwalent
+
+char[] nameLetters = {'W', 'i', 'k', 't', 'o', 'r'};  
+String name = new String(nameLetters);
+```
 ## Reverse a String
 ```java
 private static String reverseString(String text) {  
