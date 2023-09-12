@@ -33,6 +33,9 @@ private static String addSpaces(String text) {
     return modifiedText.toString();
 }
 ```
+Stringi są [[Immutable Class]] - nie da się ich modyfikować.
+Jeżeli chcemy je zmodyfikować musimy użyć klasy `StringBuilder`
+
 >https://testautomationu.applitools.com/java-programming-course/chapter8b.html
 
 ## Iterate over String
