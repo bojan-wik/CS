@@ -272,9 +272,10 @@ Takie przechodzenie do tyłu jest możliwe tylko z xPath, nie jest możliwe z CS
 | contains    | //tagName[contains(@attribute, 'value')]    | //span[contains(text(),'Add section')] //span[contains(.,'Add section')] //div[contains(@class, 'mm-document-tile-grid-title')] |
 | starts with | //tagName[starts-with(@attribute, 'value')] | //input[starts-with(@name, 'pass')]                                                                                             |
 | ends with   | //tagName[ends-with(@attribute, 'value')]   | //input[ends-with(@id, 'button')]                                                                                               |
-| text equals | //tagName[text() = 'value']                 | //span[text() = '.NET ']                                                                                                                                |
+| text equals | //tagName[text() = 'value']                 | //span[text() = '.NET ']                                                                                                        |
 
 ends with nie działało mi z xpath, tylko z css selector
+contains dla css selektora:  `li[id*='menu-item']`
 
 ## Źródła:
 * https://www.red-gate.com/simple-talk/wp-content/uploads/imported/1269-Locators_table_1_0_2.pdf?file=4937
