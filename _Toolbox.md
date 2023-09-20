@@ -21,7 +21,7 @@
 ##### OpenJDK
 https://learn.microsoft.com/en-us/java/openjdk/download
 
-##### Postman, SoapUI
+##### Postman
 
 ##### Obsidian i pluginy:
 - Obsidian GIT

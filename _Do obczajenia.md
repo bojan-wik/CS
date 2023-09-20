@@ -8,7 +8,6 @@
 * https://blog.testproject.io/2022/06/21/tips-to-work-if-you-are-the-only-qa-of-the-team/
 
 ## IT-related:
-- https://blogs.microsoft.com/on-the-issues/2023/02/02/responsible-ai-chatgpt-artificial-intelligence/
 
 ## Other:
 * [https://przekroj.pl/nauka/fizyk-stworzyl-nowa-teorie-zycia-natalie-wolchover-quanta-magazine](https://przekroj.pl/nauka/fizyk-stworzyl-nowa-teorie-zycia-natalie-wolchover-quanta-magazine)
@@ -17,3 +16,4 @@
 * https://krytykapolityczna.pl/swiat/ai-sztuczna-inteligencja-explainer/
 * https://app.pluralsight.com/profile/wbojanowski
 * https://zaradnyfinansowo.pl/kalendarz-zakupowy/
+* https://allegro.pl/oferta/koszulka-sportowa-adidas-juventus-t-shirt-bawelna-9398270490
