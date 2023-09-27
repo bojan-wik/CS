@@ -101,10 +101,10 @@ var AutoHidePlugin = class extends import_obsidian.Plugin {
   }
   registerEvents() {
     this.registerDomEvent(this.app.workspace.containerEl, "click", (evt) => {
-      if (!evt.path.contains(this.rootSplitEl)) {
+      if (!this.rootSplitEl.contains(evt.target)) {
         return;
       }
-      if (evt.path.some((element) => element.className === "workspace-tab-header-container")) {
+      if (evt.target.closest(".workspace-tab-header-container") !== null) {
         return;
       }
       if (evt.target.classList.contains("cm-hashtag") || evt.target.classList.contains("tag")) {
