@@ -118,6 +118,10 @@ albo
 $ git push -u origin <nazwa brancha którego tworzymy na remote repo>
 ```
 
+##### "Pusty" push żeby przetestować połączenie/uprawnienia
+>
+https://stackoverflow.com/a/73898031
+
 ### 4) branch
 
 ##### Sprawdzenie na którym jestem obecnie branchu
