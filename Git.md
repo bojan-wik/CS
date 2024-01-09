@@ -149,6 +149,13 @@ $ git branch -u origin/<branch_name>
 ```
 >https://www.git-tower.com/learn/git/faq/track-remote-upstream-branch
 
+Czasem zdaża się, że zamiast spiąć z poprawnym remote-branchem spina nam z niepoprawnym np. release albo development. Wtedy najprawdopodobniej musimy zaciągnąć aktualną listę remote-branchy i po puszczeniu tej komendy powinno już poprawnie spinać
+
+```
+$ git remote update
+```
+>https://stackoverflow.com/a/12320286
+
 ##### Usunięcie brancha
 ```
 $ git branch -d <branchName>
