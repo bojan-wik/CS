@@ -59,12 +59,23 @@ pull = fetch + merge
 
 ![[fetch merge.png]]
 
-### 2) status -> add / stash -> commit
+### 2) status -> add / stash / remove -> commit
 
 ##### Aktualny status (różnice pomiędzy: working dir <-> staging area <-> local repo <-> remote repo)
 ```
 $ git status
 ```
+
+##### Usuwanie plików, które są untracked
+```
+$ git clean -df
+```
+
+##### Usuwanie plików, które są unstaged
+```
+$ git checkout -- .
+```
+>https://www.baeldung.com/git-discard-unstaged-changes
 
 ##### Dodanie plików do staging area (working dir -> staging area)
 ```
@@ -161,10 +172,13 @@ $ git remote update
 $ git branch -d <branchName>
 ```
 
-##### Zmiana nazwy aktywnego brancha 
+##### Zmiana nazwy aktywnego local-brancha
 ```
 $ git branch -m <newBranchName>
 ```
+
+##### Zmiana nazwy remote-brancha
+>https://www.ionos.com/digitalguide/websites/web-development/renaming-a-git-branch/
 
 ##### Zmiana brancha 
 ```
@@ -336,6 +350,11 @@ i szukam serwisu, dla którego chcę ustawić/zmienić credentiale.
 W moim przypadku to był bitbucket, gdzie miałem wcześniej pewnie nieaktualne hasło i za każdym razem jak pushowałem zmiany, to dostawałem
 `fatal: Authentication failed for 'https://bitbucket...'`
 >https://stackoverflow.com/a/49125803
+
+## VI. Napotkane problemy
+
+##### "The remote end hung up unexpectedly" podczas git pull
+>https://stackoverflow.com/a/45117156
 
 ## Źródła:
 * https://www.youtube.com/watch?v=8JJ101D3knE (30:30)
