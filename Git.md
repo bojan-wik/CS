@@ -84,6 +84,13 @@ $ git add .
 ```
 
 ##### Usuwanie plików ze staging area (working dir -> staging area)
+
+```
+$ git reset HEAD -- path/to/file
+```
+
+Od git --version v2.24.0
+
 ```
 $ git restore --staged <fileName>
 ```
