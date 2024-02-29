@@ -1,4 +1,3 @@
-# WSDL
 #api
 
 **WSDL** (Web Service Description Language) to język opisujący sposób komunikowania się z webserwisami opartymi na XML

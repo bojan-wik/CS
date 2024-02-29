@@ -29,8 +29,8 @@ Generalnie żeby móc zacząć testować API muszę wcześniej otrzymać (najpra
 
 ### 2. Różnica pomiędzy metodami PUT i PATCH
 Obie służą do update'u ale:
-- PUT wymaga, żeby body requestu był kompletne tj. to co zmieniamy + reszta
-- PATCH wystarczy, że w body requestu będzie tylko to co zmieniamy
+- PUT wymaga, żeby body requestu było kompletne tj. cały obiekt z uwzględnioną zmianą
+- PATCH wystarczy, że w body requestu będzie tylko to co zmieniamy w obiekcie
 
 ## II. POISED - API testing strategy
 - Parameters (request body)
